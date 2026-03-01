@@ -7,3 +7,17 @@
 [![Ollama](https://img.shields.io/badge/Runtime-Ollama-black?logo=ollama&logoColor=white)](https://ollama.com/)
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+---
+
+
+## 🔍 The Problem
+
+Healthcare and pharma professionals increasingly turn to LLMs for drug and clinical questions. But current systems suffer from critical shortcomings that make them **unsafe for regulated use**:
+
+| Gap | Risk |
+|-----|------|
+| **Hallucinations** | LLMs fabricate drug interactions, dosages, or contraindications |
+| **Weak citations** | Answers lack traceable evidence back to authoritative sources |
+| **No governance** | Missing audit logs, monitoring, drift detection, and refusal policies |
+| **Prototype-only research** | Most RAG-in-healthcare papers stop at accuracy — ignoring operational readiness |
