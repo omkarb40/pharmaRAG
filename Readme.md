@@ -21,3 +21,13 @@ Healthcare and pharma professionals increasingly turn to LLMs for drug and clini
 | **Weak citations** | Answers lack traceable evidence back to authoritative sources |
 | **No governance** | Missing audit logs, monitoring, drift detection, and refusal policies |
 | **Prototype-only research** | Most RAG-in-healthcare papers stop at accuracy — ignoring operational readiness |
+
+## 💡 What This Project Does
+
+PharmaRAG is a **prototype drug label & safety QA system** that answers questions about indications, contraindications, warnings, adverse reactions, dosing, and drug interactions — grounded in FDA-approved drug labels.
+
+### Concrete Use Case
+
+A clinician or analyst asks:
+
+> *"What are the contraindications for ocrelizumab in patients with hepatitis B?"*
