@@ -35,11 +35,11 @@ A clinician or analyst asks:
 
 PharmaRAG returns:
 
--
--
--
--
--
+- ✅ A **plain-language answer** grounded in retrieved evidence
+- 📑 **Numbered citations** pointing to specific label sections and text snippets
+- 📊 An **evidence table** with source, section, chunk ID, and retrieval score
+- 🚦 A **confidence decision**: `Answer` · `Answer with Caution` · `Insufficient Evidence (Refused)`
+- 📝 **System logs** for audit: latency, retrieval scores, groundedness signals, refusal reasons
 
 ---
 
