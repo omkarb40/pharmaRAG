@@ -1,0 +1,35 @@
+# Core
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# LLM
+ollama==0.4.7
+
+# Embeddings & Vector Store
+sentence-transformers==3.3.1
+chromadb==0.6.0
+torch==2.5.1
+
+# Keyword Search
+rank-bm25==0.2.2
+
+# Reranking
+transformers==4.47.1
+
+# Data Ingestion
+requests==2.32.3
+lxml==5.3.0
+
+# Monitoring & Logging
+structlog==24.4.0
+
+# Evaluation
+scikit-learn==1.6.1
+numpy==1.26.4
+pandas==2.2.3
+
+# UI (Phase 1.6 optional)
+streamlit==1.41.1
