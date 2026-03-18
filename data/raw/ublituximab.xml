@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4b34fc66-ea84-161b-e063-6294a90ac575"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use BRIUMVI safely and effectively. See full prescribing information for BRIUMVI.
+ <br/>
+      <br/>
+BRIUMVI 
+ <sup>®</sup>(ublituximab-xiiy) injection, for intravenous use
+ <br/>
+Initial U.S. Approval: 2022
+</title>
+   <effectiveTime value="20260219"/>
+   <setId root="3a77cd8c-811b-407c-9140-d0c5c26435c2"/>
+   <versionNumber value="21"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="826061566"/>
+            <name>TG Therapeutics, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="078525133"/>
+                        <name>Packaging Coordinators, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73150-150" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73150-150" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="557810567"/>
+                        <name>Samsung Biologics Co., Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73150-150" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73150-150" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="928861723"/>
+                        <name>Pharma Packaging Solutions, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73150-150" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73150-150" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4b34a689-ed6c-40f1-e063-6394a90aa550"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260219"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="73150-150" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BRIUMVI</name>
+                        <formCode code="C42899" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION, CONCENTRATE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ublituximab</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="150"/>
+                              <denominator unit="mL" value="6"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U59UGK3IPC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>UBLITUXIMAB</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="U59UGK3IPC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>UBLITUXIMAB</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="73150-150-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20221228"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA761238" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20221228"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4b34fc66-ea85-161b-e063-6294a90ac575"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20260219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <table width="100%" styleCode="Noautorules">
+                           <col width="70%" align="left" valign="top"/>
+                           <col width="30%" align="right" valign="top"/>
+                           <tbody>
+                              <tr>
+                                 <td>Dosage and Administration (
+    
+       <linkHtml href="#S2.1">2.1</linkHtml>,
+    
+       <linkHtml href="#S2.2">2.2</linkHtml>)
+   
+      </td>
+                                 <td>8/2025        </td>
+                              </tr>
+                              <tr>
+                                 <td>Warnings and Precautions (
+    
+       <linkHtml href="#S5.2">5.2</linkHtml>)
+   
+      </td>
+                                 <td>1/2026        </td>
+                              </tr>
+                              <tr>
+                                 <td>Warnings and Precautions (
+    
+       <linkHtml href="#S5.3">5.3</linkHtml>,
+    
+       <linkHtml href="#S5.5">5.5</linkHtml>)
+   
+      </td>
+                                 <td>8/2025        </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="4b34fc66-ea86-161b-e063-6294a90ac575"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>BRIUMVI is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults.</paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>BRIUMVI is a CD20-directed cytolytic antibody indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults (
+ 
+    <linkHtml href="#S1">1</linkHtml>,
+ 
+    <linkHtml href="#S14">14</linkHtml>).
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="4b34fc66-ea87-161b-e063-6294a90ac575"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20260219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Before initiating BRIUMVI, screen for Hepatitis B virus (HBV) and obtain serum quantitative immunoglobulins, aminotransferases, alkaline phosphatase, and bilirubin (
+  
+     <linkHtml href="#S2.1">2.1</linkHtml>).
+ 
+    </item>
+                           <item>Pre-medicate with methylprednisolone (or an equivalent corticosteroid) and an antihistamine (e.g., diphenhydramine) prior to each infusion (
+  
+     <linkHtml href="#S2.2">2.2</linkHtml>).
+ 
+    </item>
+                           <item>Administer BRIUMVI by intravenous infusion.
+  
+     <list listType="unordered" styleCode="Circle">
+                                 <item>First Infusion: 150 mg intravenous infusion (
+    
+       <linkHtml href="#S2.3">2.3</linkHtml>)
+   
+      </item>
+                                 <item>Second Infusion: 450 mg intravenous infusion two weeks after the first infusion (
+    
+       <linkHtml href="#S2.3">2.3</linkHtml>)
+   
+      </item>
+                                 <item>Subsequent Infusions: 450 mg intravenous infusion 24 weeks after the first infusion and every 24 weeks thereafter (
+    
+       <linkHtml href="#S2.3">2.3</linkHtml>)
+   
+      </item>
+                              </list>
+                           </item>
+                           <item>Must be diluted in 0.9% Sodium Chloride Injection, USP prior to administration (
+  
+     <linkHtml href="#S2.3">2.3</linkHtml>,
+  
+     <linkHtml href="#S2.6">2.6</linkHtml>).
+ 
+    </item>
+                           <item>Monitor patients closely during and for at least one hour after the completion of the first two infusions. Post-infusion monitoring of subsequent infusions is at physician discretion unless infusion reaction and/or hypersensitivity has been observed (
+  
+     <linkHtml href="#S2.3">2.3</linkHtml>,
+  
+     <linkHtml href="#S5.1">5.1</linkHtml>).
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="4b34fc66-ea88-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Assessments Prior to First Dose of BRIUMVI</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Hepatitis B Virus Screening</content>
+                        </paragraph>
+                        <paragraph>Prior to initiating BRIUMVI, perform Hepatitis B virus (HBV) screening. BRIUMVI is contraindicated in patients with active HBV confirmed by positive results for Hepatitis B surface antigen [HBsAg] and anti-HBV tests. For patients who are negative for HBsAg and positive for Hepatitis B core antibody [HBcAb+] or are carriers of HBV [HBsAg+], consult liver disease experts before starting and during treatment with BRIUMVI
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Serum Immunoglobulins</content>
+                        </paragraph>
+                        <paragraph>Prior to initiating BRIUMVI, perform testing for quantitative serum immunoglobulins
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>].
+ 
+  </content>For patients with low serum immunoglobulins, consult immunology experts before initiating treatment with BRIUMVI.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Vaccinations</content>
+                        </paragraph>
+                        <paragraph>Because vaccination with live-attenuated or live vaccines is not recommended during treatment and after discontinuation until B-cell repletion, administer all immunizations according to immunization guidelines at least 4 weeks prior to initiation of BRIUMVI for live or live-attenuated vaccines and, whenever possible, at least 2 weeks prior to initiation of BRIUMVI for non-live vaccines
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>
+                           </content>and
+ 
+  <content styleCode="italics">
+                              <linkHtml href="#S12.2">Clinical Pharmacology (12.2)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">
+                              <content styleCode="underline">Liver Function Tests</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Prior to initiating BRIUMVI, obtain serum aminotransferases (alanine aminotransferase [ALT] and aspartate aminotransferase [AST]), alkaline phosphatase, and bilirubin levels
+ 
+   <content styleCode="italics">[see
+  
+    <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml>]
+ 
+   </content>.
+
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="4b34fc66-ea89-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Assessment and Premedication Before Every Infusion</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Infection Assessment</content>
+                        </paragraph>
+                        <paragraph>Prior to every infusion of BRIUMVI, determine whether there is an active infection. In case of active infection, delay infusion of BRIUMVI until the infection resolves
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Recommended Premedication</content>
+                        </paragraph>
+                        <paragraph>Pre-medicate with 100 mg of methylprednisolone administered intravenously (or an equivalent oral dosage or equivalent corticosteroid) approximately 30 minutes prior to each BRIUMVI infusion to reduce the frequency and severity of infusion reactions
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+ 
+  </content>. Pre-medicate with an antihistamine (e.g., diphenhydramine) administered orally or intravenously approximately 30-60 minutes prior to each BRIUMVI infusion to further reduce the frequency and severity of infusion reactions.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">The addition of an antipyretic (e.g., acetaminophen) may also be considered.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.3">
+                     <id root="4b34fc66-ea8a-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Recommended Dosage and Dose Administration</title>
+                     <text>
+                        <paragraph>Administer BRIUMVI under the close supervision of an experienced healthcare professional with access to appropriate medical support to manage severe reactions, such as serious infusion reactions.</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>First Infusion: 150 mg intravenous infusion</item>
+                           <item>Second Infusion: 450 mg intravenous infusion administered two weeks after the first infusion</item>
+                           <item>Subsequent Infusions: 450 mg intravenous infusion administered 24 weeks after the first infusion and every 24 weeks thereafter</item>
+                           <item>Observe the patient for at least one hour after the completion of the first two infusions. Post-infusion monitoring of subsequent infusions is at physician discretion unless infusion reaction and/or hypersensitivity has been observed in association with the current or any prior infusion
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>].
+  
+   </content>
+                           </item>
+                        </list>
+                        <table width="80%">
+                           <caption>Table 1: Recommended Dose, Infusion Rate, and Infusion Duration for MS</caption>
+                           <col width="17%" align="center" valign="middle"/>
+                           <col width="17%" align="center" valign="middle"/>
+                           <col width="17%" align="center" valign="middle"/>
+                           <col width="39%" align="left" valign="middle"/>
+                           <col width="10%" align="center" valign="middle"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule"/>
+                                 <th styleCode="Rrule">Dose (mg) and Volume (mL) of BRIUMVI</th>
+                                 <th styleCode="Rrule">Volume (mL) of 0.9% Sodium Chloride Injection, USP
+    
+     <footnote ID="K662">Withdraw and discard the required volume of 0.9% Sodium Chloride Injection, USP from the infusion bag following the preparation instructions in Preparation and Administration (2.6).</footnote>
+                                 </th>
+                                 <th align="center" styleCode="Rrule">Infusion Rate (mL/hour)</th>
+                                 <th styleCode="Rrule">Duration
+    
+     <footnote ID="K671">Infusion duration may take longer if the infusion is interrupted or slowed.</footnote>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">First Infusion</td>
+                                 <td styleCode="Rrule">150 mg 
+     <br/>  (6 mL)
+    </td>
+                                 <td styleCode="Rrule">250 mL</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>Start at 10 mL per hour for the first 30 minutes</item>
+                                       <item>Increase to 20 mL per hour for the next 30 minutes</item>
+                                       <item>Increase to 35 mL per hour for the next hour</item>
+                                       <item>Increase to 100 mL per hour for the remaining 2 hours</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">4 hours</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Second Infusion 
+     <br/>  (2 weeks later)
+    </td>
+                                 <td styleCode="Rrule">450 mg 
+     <br/>  (18 mL)
+    </td>
+                                 <td styleCode="Rrule" valign="top">250 mL</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>Start at 100 mL per hour for the first 30 minutes</item>
+                                       <item>Increase to 400 mL per hour for the remaining 30 minutes</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">1 hour</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">Subsequent Infusions 
+     <br/>  (once every 24 weeks)
+    
+     <footnote ID="K737">Administer the first subsequent infusion 24 weeks after the first infusion.</footnote>
+                                 </td>
+                                 <td styleCode="Rrule">450 mg 
+     <br/>  (18 mL)
+    </td>
+                                 <td styleCode="Rrule" valign="top">250 mL</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>Start at 100 mL per hour for the first 30 minutes</item>
+                                       <item>Increase to 400 mL per hour for the remaining 30 minutes</item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">1 hour</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.4">
+                     <id root="4b34fc66-ea8b-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Delayed or Missed Doses</title>
+                     <text>
+                        <paragraph>If a planned infusion of BRIUMVI is missed, administer BRIUMVI as soon as possible; do not wait until the next scheduled infusion. Reset the infusion schedule to administer the next sequential infusion 24 weeks after the missed infusion is administered. Infusions of BRIUMVI must be separated by at least 5 months.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.5">
+                     <id root="4b34fc66-ea8c-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5 Dosage Modifications Because of Infusion Reactions</title>
+                     <text>
+                        <paragraph>Dose modifications in response to infusion reactions depend on the severity.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Life-Threatening Infusion Reactions</content>
+                        </paragraph>
+                        <paragraph>Immediately stop infusion and permanently discontinue BRIUMVI if there are signs of a life-threatening or disabling infusion reaction
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+ 
+  </content>. Provide appropriate supportive treatment.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Severe Infusion Reactions</content>
+                        </paragraph>
+                        <paragraph>Immediately interrupt the infusion and administer appropriate supportive treatment, as necessary
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+ 
+  </content>. Restart the infusion only after all symptoms have resolved. When restarting, begin at half of the infusion rate at the time of onset of the infusion reaction
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S2.3">Dosage and Administration (2.3)</linkHtml>]
+ 
+  </content>. If this rate is tolerated, increase the rate as described in Table 1. This change in rate will increase the total duration of the infusion but not the total dose.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mild to Moderate Infusion Reactions</content>
+                        </paragraph>
+                        <paragraph>Reduce the infusion rate to half the rate at the onset of the infusion reaction and maintain the reduced rate for at least 30 minutes
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+ 
+  </content>. If the reduced rate is tolerated, increase the rate as described in Table 1. This change in rate will increase the total duration of the infusion but not the total dose.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.6">
+                     <id root="4b34fc66-ea8d-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.6 Preparation and Administration</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Preparation</content>
+                        </paragraph>
+                        <paragraph>Only use 0.9% Sodium Chloride Injection, USP to dilute BRIUMVI.</paragraph>
+                        <paragraph>BRIUMVI must be prepared by a healthcare professional using aseptic technique. Prepare the solution for infusion as follows:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>BRIUMVI should be a clear to opalescent, colorless to slightly yellow solution. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not use the solution if discolored or if the solution contains discrete foreign particulate matter.</item>
+                        </list>
+                        <paragraph>Preparation of Solution for First Infusion:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Prepare infusion bag for First Infusion (150 mg) using one vial (150 mg/6 mL) of BRIUMVI.</item>
+                           <item>Withdraw 6 mL 0.9% Sodium Chloride Injection, USP from the 250 mL infusion bag and discard.</item>
+                           <item>Withdraw 6 mL BRIUMVI solution from the vial.</item>
+                           <item>Add 6 mL (150 mg) BRIUMVI into the infusion bag containing 0.9% Sodium Chloride Injection, USP.</item>
+                        </list>
+                        <paragraph>Preparation of Solution for Second Infusion and Subsequent Infusions:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Prepare infusion bag for Second Infusion (450 mg) and Subsequent Infusions (450 mg) using three vials (150 mg/6 mL) of BRIUMVI.</item>
+                           <item>Withdraw 18 mL 0.9% Sodium Chloride Injection, USP from the 250 mL infusion bag and discard.</item>
+                           <item>Withdraw 18 mL BRIUMVI solution from the vials (6 mL/vial).</item>
+                           <item>Add 18 mL (450 mg) BRIUMVI into the infusion bag containing 0.9% Sodium Chloride Injection, USP.</item>
+                        </list>
+                        <paragraph>Mix diluted solution by gentle inversion. Do not shake.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Administration of Infusion Solution</content>
+                        </paragraph>
+                        <paragraph>Prior to the start of the intravenous infusion, the contents of the infusion bag should be at room temperature
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S2.7">Dosage and Administration (2.7)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>Administer the diluted infusion solution through a dedicated line.</paragraph>
+                        <paragraph>No incompatibilities between BRIUMVI and polyvinyl chloride (PVC) or polyolefin (PO) bags and intravenous (IV) administration sets have been observed.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.7">
+                     <id root="4b34fc66-ea8e-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.7 Storage Instructions for the Prepared Infusion Solution</title>
+                     <text>
+                        <paragraph>Use the prepared infusion solution immediately. If the diluted solution is not administered immediately, store refrigerated at 2°C to 8°C (36°F to 46°F) for up to 24 hours. Do not freeze. If the diluted solution is stored refrigerated, allow it to equilibrate to room temperature prior to administration (approximately 2 hours). The diluted solution can be stored for an additional 8 hours at room temperature up to 25°C (77°F), which includes the equilibration time and infusion time.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="4b34fc66-ea8f-161b-e063-6294a90ac575"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: 150 mg/6 mL (25 mg/mL) clear to opalescent, colorless to slightly yellow solution in a single-dose vial.</paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: 150 mg/6 mL (25 mg/mL) in a single-dose vial (
+ 
+    <linkHtml href="#S3">3</linkHtml>)
+
+   </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="4b34fc66-ea90-161b-e063-6294a90ac575"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>BRIUMVI is contraindicated in patients with:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Active HBV infection
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S2.1">Dosage and Administration (2.1)</linkHtml>and
+   
+    <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+  
+   </content>
+                     </item>
+                     <item>A history of life-threatening infusion reaction to BRIUMVI
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+  
+   </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20260219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Active hepatitis B virus infection (
+  
+     <linkHtml href="#S4">4</linkHtml>)
+ 
+    </item>
+                           <item>History of life-threatening infusion reaction to BRIUMVI (
+  
+     <linkHtml href="#S4">4</linkHtml>)
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="4b34fc66-ea91-161b-e063-6294a90ac575"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20260219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Infusion Reactions</content>: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue BRIUMVI if a life-threatening or disabling infusion reaction occurs (
+  
+     <linkHtml href="#S2.3">2.3</linkHtml>,
+  
+     <linkHtml href="#S5.1">5.1</linkHtml>).
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Infections</content>: Serious, including life-threatening and fatal infections, have occurred. Delay BRIUMVI administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommended during treatment with BRIUMVI and after discontinuation, until B-cell repletion (
+  
+     <linkHtml href="#S5.2">5.2</linkHtml>).
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Reduction in Immunoglobulins</content>: Monitor the level of immunoglobulins at the beginning, during, and after discontinuation of treatment with BRIUMVI, until B-cell repletion, and especially when recurrent serious infections are suspected. Consider discontinuing BRIUMVI in patients with serious opportunistic or recurrent serious infections, and if prolonged hypogammaglobulinemia requires treatment with intravenous immunoglobulins (
+  
+     <linkHtml href="#S2.1">2.1</linkHtml>,
+  
+     <linkHtml href="#S5.4">5.4</linkHtml>).
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Fetal Risk</content>: May cause fetal harm based on animal data. Advise females of reproductive potential of the potential risk to a fetus and to use effective contraception during treatment and for at least 6 months after stopping BRIUMVI (
+  
+     <linkHtml href="#S5.3">5.3</linkHtml>,
+  
+     <linkHtml href="#S8.1">8.1</linkHtml>,
+  
+     <linkHtml href="#S8.3">8.3</linkHtml>).
+ 
+    </item>
+                           <item>
+                              <content styleCode="underline">Liver Injury</content>: Clinically significant liver injury has occurred. Obtain serum aminotransferases, alkaline phosphatase, and bilirubin levels before initiating BRIUMVI, and during treatment as clinically indicated. Discontinue BRIUMVI in patients with evidence of liver injury in the absence of an alternative etiology (
+  
+     <linkHtml href="#S5.5">5.5</linkHtml>).
+ 
+    </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="4b34fc66-ea92-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Infusion Reactions</title>
+                     <text>
+                        <paragraph>BRIUMVI can cause infusion reactions, which can include pyrexia, chills, headache, influenza-like illness, tachycardia, nausea, throat irritation, erythema, and an anaphylactic reaction
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]
+ 
+  </content>. In Studies 1 and 2
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S14">Clinical Studies (14)</linkHtml>]
+ 
+  </content>, patients received methylprednisolone (or an equivalent steroid), an antihistamine, and possibly other pre-medication (i.e., acetaminophen) to reduce the risk of infusion reactions prior to each infusion. The incidence of infusion reactions in Studies 1 and 2 in patients who received treatment with BRIUMVI was 48%, with the highest incidence within 24 hours of the first infusion. In Studies 1 and 2, there were no fatal infusion reactions, but 0.6% of patients treated with BRIUMVI experienced infusion reactions that were serious, some requiring hospitalization.
+
+ </paragraph>
+                        <paragraph>Observe patients treated with BRIUMVI for infusion reactions during the infusion and for at least one hour after the completion of the first two infusions. Post-infusion monitoring of subsequent infusions is at physician discretion unless infusion reaction and/or hypersensitivity has been observed in association with the current or any prior infusion. Inform patients that infusion reactions can occur up to 24 hours after the infusion.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Reducing the Risk of Infusion Reactions and Managing Infusion Reactions</content>
+                        </paragraph>
+                        <paragraph>Administer pre-medication (e.g., methylprednisolone or an equivalent corticosteroid, and an antihistamine) to reduce the frequency and severity of infusion reactions
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>]
+ 
+  </content>. The addition of an antipyretic (e.g., acetaminophen) may also be considered
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>Management recommendations for infusion depend on the type and severity of the reaction. For life-threatening infusion reactions, stop the infusion immediately, permanently discontinue BRIUMVI, and provide appropriate supportive treatment
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S2.5">Dosage and Administration (2.5)</linkHtml>]
+ 
+  </content>. For less severe infusion reactions, management may involve temporarily stopping the infusion, reducing the infusion rate, and/or administering symptomatic treatment.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="4b34fc66-ea93-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Infections</title>
+                     <text>
+                        <paragraph>Serious, including life-threatening or fatal, bacterial and viral infections have been reported in patients receiving BRIUMVI. An increased risk of infections, including serious and fatal bacterial, fungal, and new or reactivated viral infections, has been observed during and following completion of treatment with other anti-CD20 B-cell depleting therapies.</paragraph>
+                        <paragraph>In Studies 1 and 2, the overall rate of infections in MS patients treated with BRIUMVI was 56% compared to 54% in patients who were treated with teriflunomide. The rate of serious infections was higher in patients treated with BRIUMVI compared to patients treated with teriflunomide (5% vs 3%, respectively). There were 3 infection-related deaths that occurred in controlled clinical trials in patients with relapsing forms of multiple sclerosis (RMS), all in patients treated with BRIUMVI; the infections leading to death were post-measles encephalitis, pneumonia, and post-operative salpingitis following an ectopic pregnancy. In Studies 1 and 2, the most common infections reported in patients treated with BRIUMVI included upper respiratory tract infection (45%) and urinary tract infection (10%).</paragraph>
+                        <paragraph>Delay BRIUMVI administration in patients with an active infection until the infection is resolved.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Possible Increased Risk of Immunosuppressant Effects with Other Immunosuppressants</content>
+                        </paragraph>
+                        <paragraph>When initiating BRIUMVI after an immunosuppressive therapy or initiating an immunosuppressive therapy after BRIUMVI, consider the potential for increased immunosuppressive effects
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S7.1">Drug Interactions (7.1)</linkHtml>and
+  
+   <linkHtml href="#S12.2">Clinical Pharmacology (12.2)</linkHtml>]
+ 
+  </content>. BRIUMVI has not been studied in combination with other MS therapies.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hepatitis B Virus (HBV) Reactivation</content>
+                        </paragraph>
+                        <paragraph>HBV reactivation occurred in an MS patient treated with BRIUMVI in clinical trials. Fulminant hepatitis, hepatic failure, and death caused by HBV reactivation have occurred in patients treated with anti-CD20 antibodies.</paragraph>
+                        <paragraph>Perform HBV screening in all patients before initiation of treatment with BRIUMVI. Do not start treatment with BRIUMVI in patients with active HBV confirmed by positive results for HBsAg and anti-HB tests. For patients who are negative for surface antigen [HBsAg] and positive for HB core antibody [HBcAb+] or are carriers of HBV [HBsAg+], consult a liver disease expert before starting and during treatment.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Progressive Multifocal Leukoencephalopathy (PML)</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">PML is an opportunistic viral infection of the brain caused by the JC virus (JCV) that typically only occurs in patients who are immunocompromised, and that usually leads to death or severe disability. JCV infection resulting in PML has been observed in patients treated with anti-CD20 antibodies, including BRIUMVI, and other MS therapies. At the first sign or symptom suggestive of PML, withhold BRIUMVI and perform an appropriate diagnostic evaluation. Typical symptoms associated with PML are diverse, progress over days to weeks, and include progressive weakness on one side of the body or clumsiness of limbs, disturbance of vision, and changes in thinking, memory, and orientation leading to confusion and personality changes.</content>
+                        </paragraph>
+                        <paragraph>Magnetic resonance imaging (MRI) findings may be apparent before clinical signs or symptoms. Cases of PML, diagnosed based on MRI findings and the detection of JCV DNA in the cerebrospinal fluid in the absence of clinical signs or symptoms specific to PML, have been reported in patients treated with other MS medications associated with PML. Many of these patients subsequently became symptomatic with PML. Therefore, monitoring with MRI for signs that may be consistent with PML may be useful, and any suspicious findings should lead to further investigation to allow for an early diagnosis of PML, if present. Following discontinuation of another MS medication associated with PML, lower PML-related mortality and morbidity have been reported in patients who were initially asymptomatic at diagnosis compared to patients who had characteristic clinical signs and symptoms at diagnosis.</paragraph>
+                        <paragraph>It is not known whether these differences are due to early detection and discontinuation of MS treatment or due to differences in disease in these patients.</paragraph>
+                        <paragraph>If PML is confirmed, treatment with BRIUMVI should be discontinued.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Vaccinations</content>
+                        </paragraph>
+                        <paragraph>Administer all immunizations according to immunization guidelines at least 4 weeks prior to initiation of BRIUMVI for live or live-attenuated vaccines and, whenever possible, at least 2 weeks prior to initiation of BRIUMVI for non-live vaccines.</paragraph>
+                        <paragraph>BRIUMVI may interfere with the effectiveness of non-live vaccines.</paragraph>
+                        <paragraph>The safety of immunization with live or live-attenuated vaccines during or following administration of BRIUMVI has not been studied. Vaccination with live virus vaccines is not recommended during treatment with BRIUMVI and until B-cell repletion.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Vaccination of Infants Born to Mothers Treated with BRIUMVI During Pregnancy</content>
+                        </paragraph>
+                        <paragraph>In infants of mothers exposed to BRIUMVI during pregnancy, do not administer live or live-attenuated vaccines before confirming the recovery of B-cell counts as measured by CD19
+ 
+  <sup>+</sup>B-cells. Depletion of B-cells in these infants may increase the risks from live or live-attenuated vaccines.
+
+ </paragraph>
+                        <paragraph>Inactivated or non-live vaccines may be administered as indicated, prior to recovery from B-cell depletion, but an assessment of vaccine immune responses, including consultation with a qualified specialist, should be considered to determine whether a protective immune response was mounted
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="4b34fc66-ea94-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Fetal Risk</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange">Based on data from animal studies, BRIUMVI may cause fetal harm when administered to a pregnant woman. Transient peripheral B-cell depletion and lymphocytopenia have been reported in infants born to mothers exposed to other anti-CD20 B-cell depleting antibodies during pregnancy. Advise females of reproductive potential to use effective contraception during BRIUMVI treatment and for 6 months after the last dose
+ 
+   <content styleCode="italics">[see
+  
+    <linkHtml href="#S8.1">Use in Specific Populations (8.1</linkHtml>,
+  
+    <linkHtml href="#S8.3">8.3)</linkHtml>]
+ 
+   </content>.
+
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.4">
+                     <id root="4b34fc66-ea95-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Reduction in Immunoglobulins</title>
+                     <text>
+                        <paragraph>As expected with any B-cell depleting therapy, decreased immunoglobulin levels were observed with BRIUMVI. Decrease in immunoglobulin M (IgM) was reported in 0.6% of patients treated with BRIUMVI compared to none of the patients treated with teriflunomide in RMS clinical trials
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]
+ 
+  </content>. No decline in immunoglobulin G (IgG) was observed at the end of the studies. Data from clinical studies using other anti-CD20 monoclonal antibody therapies have shown an association between decreased levels of immunoglobulin M (IgM&lt; lower limit of normal [LLN]) and G (IgG&lt;LLN) and increased rates of serious infections. Monitor the levels of quantitative serum immunoglobulins during treatment, especially in patients with opportunistic or recurrent infections, and after discontinuation of therapy until B-cell repletion. Consider discontinuing BRIUMVI therapy if a patient with low immunoglobulins develops a serious opportunistic infection or recurrent infections, or if prolonged hypogammaglobulinemia requires treatment with intravenous immunoglobulins.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.5">
+                     <id root="4b34fc66-ea96-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Liver Injury</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange">Clinically significant liver injury, without findings of viral hepatitis, has been reported in the postmarketing setting in patients treated with anti-CD20 B-cell depleting therapies approved for the treatment of MS, including BRIUMVI. Signs of liver injury, including markedly elevated serum hepatic enzymes with elevated total bilirubin, have occurred from weeks to months after administration.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Patients treated with BRIUMVI found to have an alanine aminotransaminase (ALT) or aspartate aminotransferase (AST) greater than 3× the upper limit of normal (ULN) with serum total bilirubin greater than 2× ULN are potentially at risk for severe drug-induced liver injury.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Obtain liver function tests prior to initiating treatment with BRIUMVI
+ 
+   <content styleCode="italics">[see
+  
+    <linkHtml href="#S2.1">Dosage and Administration (2.1)</linkHtml>]
+ 
+   </content>, and monitor for signs and symptoms of any hepatic injury during treatment. Measure serum aminotransferases, alkaline phosphatase, and bilirubin levels promptly in patients who report symptoms that may indicate liver injury, including new or worsening fatigue, anorexia, nausea, vomiting, right upper abdominal discomfort, dark urine, or jaundice. If liver injury is present and an alternative etiology is not identified, discontinue BRIUMVI.
+
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="4b34fc66-ea97-161b-e063-6294a90ac575"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are discussed in greater detail in other sections of the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Infusion Reactions
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+  
+   </content>
+                     </item>
+                     <item>Infections
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+  
+   </content>
+                     </item>
+                     <item>Reduction in Immunoglobulins
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>]
+  
+   </content>
+                     </item>
+                     <item>Liver Injury
+  
+   <content styleCode="italics">[see
+   
+    <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml>]
+  
+   </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20260219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions (≥10%) were infusion reactions and upper respiratory tract infections (
+ 
+    <linkHtml href="#S6.1">6.1</linkHtml>).
+
+   </paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact TG Therapeutics at 1-877-848-9462 or FDA at 1-800-FDA-1088 or
+  
+     <content styleCode="italics">www.fda.gov/medwatch.</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="4b34fc66-ea98-161b-e063-6294a90ac575"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>In active-controlled clinical trials (Study 1 and Study 2), 545 patients with RMS received BRIUMVI
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S14">Clinical Studies (14)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>The most common adverse reactions in RMS trials (incidence of at least 10%) were infusion reactions and upper respiratory tract infections. Table 2 summarizes the adverse reactions that occurred in RMS trials (Study 1 and Study 2). The most common cause of discontinuation in patients treated with BRIUMVI was infection (1.3%).</paragraph>
+                        <table width="80%">
+                           <caption>Table 2: Adverse Reactions in Adult Patients with RMS with an Incidence of at least 5% for BRIUMVI and Higher than Teriflunomide from Study 1 and Study 2</caption>
+                           <col width="46%" align="left" valign="top"/>
+                           <col width="27%" align="center" valign="top"/>
+                           <col width="27%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule"/>
+                                 <th styleCode="Rrule">BRIUMVI 
+     <br/>  450 mg IV
+    
+     <footnote ID="K1461">The first dose of BRIUMVI was given as an intravenous (IV) infusion of 150 mg. The second dose was given as an IV infusion of 450 mg two weeks after the first infusion.</footnote>
+                                 </th>
+                                 <th styleCode="Rrule">Teriflunomide 
+     <br/>  14 mg PO
+    </th>
+                              </tr>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">Adverse Reactions</th>
+                                 <th styleCode="Rrule">(N=545) 
+     <br/>  %
+    </th>
+                                 <th styleCode="Rrule">(N=548) 
+     <br/>  %
+    </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Infusion reactions</td>
+                                 <td styleCode="Rrule">48</td>
+                                 <td styleCode="Rrule">12</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Upper respiratory tract infections
+    
+     <footnote ID="K1499">Includes the following: nasopharyngitis, upper respiratory tract infection, respiratory tract infection, respiratory tract infection viral, pharyngitis, rhinitis, sinusitis, acute sinusitis, tonsillitis, laryngitis, chronic sinusitis, viral pharyngitis, viral rhinitis, viral upper respiratory tract infection, chronic tonsillitis, pharyngitis streptococcal, sinusitis bacterial, and tonsillitis bacterial.</footnote>
+                                 </td>
+                                 <td styleCode="Rrule">45</td>
+                                 <td styleCode="Rrule">41</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Lower respiratory tract infections
+    
+     <footnote ID="K1512">Includes the following: bronchitis, pneumonia, tracheitis, tracheobronchitis, COVID-19 pneumonia, bronchitis bacterial, and pneumonia viral.</footnote>
+                                 </td>
+                                 <td styleCode="Rrule">9</td>
+                                 <td styleCode="Rrule">7</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Herpes virus-associated infections
+    
+     <footnote ID="K1525">Includes several related terms.</footnote>
+                                 </td>
+                                 <td styleCode="Rrule">6</td>
+                                 <td styleCode="Rrule">5</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Pain in extremity</td>
+                                 <td styleCode="Rrule">6</td>
+                                 <td styleCode="Rrule">4</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Insomnia</td>
+                                 <td styleCode="Rrule">6</td>
+                                 <td styleCode="Rrule">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">Fatigue</td>
+                                 <td styleCode="Rrule">5</td>
+                                 <td styleCode="Rrule">4</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="underline">Infusion Reactions</content>
+                        </paragraph>
+                        <paragraph>The incidence of infusion reactions was highest with the first infusion (43%), decreasing with subsequent infusions (10% with second, 8% with third infusion). Three (0.6%) patients treated with BRIUMVI reported serious infusion reactions. Most frequently reported symptoms (greater than 5%) included pyrexia, chills, headache, and influenza-like illness
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Laboratory Abnormalities</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Decreased Immunoglobulins</content>
+                        </paragraph>
+                        <paragraph>BRIUMVI decreased total immunoglobulins with the greatest decline seen in IgM levels. The proportion of BRIUMVI-treated patients at baseline reporting IgG, IgA, and IgM below the LLN was 6.3%, 0.6%, and 1.1%, respectively. Following treatment, the proportion of BRIUMVI-treated patients reporting IgG, IgA, and IgM below the LLN at 96 weeks was 6.5%, 2.4%, and 20.9%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Decreased Neutrophil Levels</content>
+                        </paragraph>
+                        <paragraph>In Studies 1 and 2, decreased neutrophil counts (&lt;LLN) occurred in 15% of BRIUMVI-treated patients compared to 22% in teriflunomide-treated patients. The majority of decreased neutrophil counts were observed once for a given patient treated with BRIUMVI, and were between 1.0 and 1.5 × 10
+ 
+  <sup>9</sup>/L. In RMS studies, 3% of patients in the BRIUMVI group had neutrophil counts less than 1.0 × 10
+ 
+  <sup>9</sup>/L, compared to 2% of patients in the teriflunomide group. Overall, 1% of patients in the BRIUMVI group had neutrophil counts less than 0.5 × 10
+ 
+  <sup>9</sup>/L, compared to 0% of patients in the teriflunomide group, and these were not associated with an infection.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.2">
+                     <id root="4b34fc66-ea99-161b-e063-6294a90ac575"/>
+                     <code code="90375-7" codeSystem="2.16.840.1.113883.6.1" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during postapproval use of BRIUMVI. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>Hepatobiliary Disorders: Liver injury
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml>]
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>Infections and Infestations: Progressive multifocal leukoencephalopathy
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+ 
+  </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="4b34fc66-ea9a-161b-e063-6294a90ac575"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <section ID="S7.1">
+                     <id root="4b34fc66-ea9b-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Immunosuppressive or Immune-Modulating Therapies</title>
+                     <text>
+                        <paragraph>The concomitant usage of BRIUMVI with other immune-modulating or immunosuppressant drugs, including immunosuppressant doses of corticosteroids, may increase the risk of infection. Consider the risk of additive immune system effects when co-administering immunosuppressive therapies with BRIUMVI.</paragraph>
+                        <paragraph>When switching from therapies with immune effects, the duration and mechanism of action of these therapies should be taken into account because of potential additive immunosuppressive effects when initiating BRIUMVI.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="4b34fc66-ea9c-161b-e063-6294a90ac575"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <section ID="S8.1">
+                     <id root="4b34fc66-ea9d-161b-e063-6294a90ac575"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy Exposure Registry</content>
+                        </paragraph>
+                        <paragraph>There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to BRIUMVI during pregnancy. Eligible patients are women who become pregnant either while taking BRIUMVI or within 6 months following their last dose of BRIUMVI. Physicians are encouraged to register patients and pregnant women are encouraged to register themselves by calling 1-877-411-4546 or visiting www.briumvipregnancyregistry.com.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the developmental risk associated with the use of BRIUMVI in pregnant women. Data from case reports of pregnancies occurring during clinical trials with BRIUMVI are insufficient to identify a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes. Although there are no data on ublituximab-xiiy, monoclonal antibodies can be actively transported across the placenta, and BRIUMVI may cause immunosuppression in the
+ 
+  <content styleCode="italics">in-utero</content>exposed infant
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#ClinicalConsiderations">Clinical Considerations</linkHtml>,
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2</linkHtml>,
+  
+   <linkHtml href="#S5.3">5.3)</linkHtml>, and
+  
+   <linkHtml href="#S12.1">Clinical Pharmacology (12.1</linkHtml>,
+  
+   <linkHtml href="#S12.2">12.2)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>In pregnant transgenic huCD20 mice, a pharmacologically relevant animal model, weekly intravenous administration of ublituximab-xiiy during organogenesis resulted in no adverse pregnancy or embryofetal outcomes
+ 
+  <content styleCode="italics">(see
+  
+   <linkHtml href="#Data">Data</linkHtml>)
+ 
+  </content>.
+
+ </paragraph>
+                        <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Fetal/Neonatal Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Transport of endogenous IgG antibodies across the placenta increases as pregnancy progresses and peaks during the third trimester. There are no data on B-cell levels in human neonates following maternal exposure to BRIUMVI. However, transient peripheral B-cell depletion and lymphocytopenia have been reported in infants born to mothers exposed to other anti-CD20 antibodies during pregnancy. Avoid administering live vaccines to neonates and infants exposed to BRIUMVI
+ 
+  <content styleCode="italics">in utero</content>until B-cell recovery occurs
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>and
+  
+   <linkHtml href="#S12.2">Clinical Pharmacology (12.2)</linkHtml>].
+ 
+  </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Weekly intravenous administration of ublituximab-xiiy (0 or 30 mg/kg) to pregnant monkeys during the first, second, or third trimester of pregnancy produced a severe immunogenic response in dams, resulting in maternal morbidity and death and embryofetal loss. Dosing was terminated in dams after only two doses during the third trimester because of multiple deaths in dams dosed during the first and second trimesters.</paragraph>
+                        <paragraph>External, visceral, and skeletal abnormalities occurred in two infants from dams exposed during the second trimester of pregnancy. Histopathology evaluations revealed minimal to moderate degeneration/necrosis in the brain. Findings in infants included contractures and abnormal flexion of multiple limbs and tail, shortened mandible, elongate calvarium, enlargement of ears, and/or craniomandibular abnormalities which were attributed to brain necrosis. The findings in cynomolgus monkey were considered secondary to an immunogenic reaction and are not considered relevant to humans.</paragraph>
+                        <paragraph>In a subsequent study conducted in pregnant CD20 (huCD20) transgenic mice, a pharmacologically relevant animal model, intravenous administration of ublituximab-xiiy (0, 5, 20, or 50 mg/kg) during organogenesis (gestation day 6 and 12) resulted in no adverse effects on embryofetal development. There was a marked reduction in B-cells in fetal blood at all but the lowest dose tested.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="4b34fc66-ea9e-161b-e063-6294a90ac575"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of ublituximab-xiiy in human milk, the effects on the breastfed infant, or the effects of the drug on milk production. Human IgG is excreted in human milk, and the potential for absorption of ublituximab-xiiy to lead to B-cell depletion in the infant is unknown. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for BRIUMVI and any potential adverse effects on the breastfed infant from BRIUMVI or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="4b34fc66-ea9f-161b-e063-6294a90ac575"/>
+                     <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Contraception</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Females</content>
+                        </paragraph>
+                        <paragraph>Females of reproductive potential should use effective contraception while receiving BRIUMVI and for 6 months after the last dose of BRIUMVI
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>and
+  
+   <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="4b34fc66-eaa0-161b-e063-6294a90ac575"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="4b34fc66-eaa1-161b-e063-6294a90ac575"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of BRIUMVI did not include sufficient numbers of patients 65 years of age and older to determine whether they respond differently from younger adult patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="4b34fc66-eaa2-161b-e063-6294a90ac575"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Ublituximab-xiiy is a recombinant chimeric monoclonal IgG1 antibody with reduced fucose content directed against CD20-expressing B-cells. The molecular weight of the antibody is approximately 147 kDa.</paragraph>
+                  <paragraph>BRIUMVI (ublituximab-xiiy) injection for intravenous infusion is a sterile, clear to opalescent, colorless to slightly yellow, preservative-free solution. Each mL of solution contains 25 mg ublituximab-xiiy, 0.4 mg hydrochloric acid, 0.7 mg polysorbate 80, 9.0 mg sodium chloride, 6.4 mg sodium citrate, and Water for Injection, USP. The pH is 6.5.</paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="4b34fc66-eaa3-161b-e063-6294a90ac575"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="4b34fc66-eaa4-161b-e063-6294a90ac575"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The precise mechanism by which ublituximab-xiiy exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ublituximab-xiiy results in cell lysis through mechanisms including antibody-dependent cellular cytolysis and complement-dependent cytolysis.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.2">
+                     <id root="4b34fc66-eaa5-161b-e063-6294a90ac575"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>For B-cell counts, assays for CD19
+ 
+  <sup>+</sup>B-cells are used because the presence of ublituximab-xiiy interferes with the CD20 assay. Treatment with BRIUMVI reduced CD19
+ 
+  <sup>+</sup>B-cell counts in blood by the first measured timepoint of 24 hours after infusion. In clinical studies (Study 1 and Study 2), B-cell counts rose to above the LLN or above baseline counts between infusions of BRIUMVI at least one time in 30 of 545 (5.5%) of patients. The median time for CD19
+ 
+  <sup>+</sup>B-cell counts to return to either baseline or LLN was 70.3 weeks (range 0.1-75.1 weeks) after the last BRIUMVI infusion. Within 1.5 years after the last infusion, B-cell counts rose to either baseline or LLN in 58% of patients.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="4b34fc66-eaa6-161b-e063-6294a90ac575"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Ublituximab-xiiy exposures increased proportionally over a dose range of 150 mg (0.33 times approved recommended dosage) to 600 mg (1.33 times the approved recommended dosage) in patients with RMS.</paragraph>
+                        <paragraph>Following administration of the approved recommended dosage of BRIUMVI, the geometric mean steady-state AUC was 3000 mcg/mL per day (CV=28%) and the mean maximum concentration was 139 mcg/mL (CV=15%).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>The estimated central volume of distribution of ublituximab-xiiy was 3.18 L.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>The estimated mean terminal half-life of ublituximab-xiiy was 22 days.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Ublituximab-xiiy is a protein for which the expected metabolic pathway is degradation to small peptides and amino acids by ubiquitous proteolytic enzymes.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>There were no clinically meaningful differences in the pharmacokinetics of ublituximab-xiiy based on age, sex, body weight, anti-drug antibodies (ADAs) presence, mild renal impairment, or mild hepatic impairment. The effect of moderate to severe renal impairment or moderate to severe hepatic impairment on the pharmacokinetics of ublituximab-xiiy is unknown.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interaction Studies</content>
+                        </paragraph>
+                        <paragraph>No studies evaluating the drug interaction potential of ublituximab-xiiy have been conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.6">
+                     <id root="4b34fc66-eaa7-161b-e063-6294a90ac575"/>
+                     <code code="88830-5" codeSystem="2.16.840.1.113883.6.1" displayName="IMMUNOGENICITY"/>
+                     <title>12.6 Immunogenicity</title>
+                     <text>
+                        <paragraph>The observed incidence of ADAs is highly dependent on the sensitivity and specificity of the assay. Differences in assay methods preclude meaningful comparisons of the incidence of ADAs in the studies described below with the incidence of ADAs in other studies, including those of ublituximab-xiiy or of other ublituximab products.</paragraph>
+                        <paragraph>In clinical studies (Study 1 and Study 2), serum samples from patients with RMS were tested for antibodies to ublituximab-xiiy during the 96-week treatment period. Of the 534 BRIUMVI-treated patients, 434 (81%) tested positive for ADAs at one or more timepoints, and 34 (6.4%) tested positive for neutralizing antibodies (NAbs). However, the assay used to measure NAbs is subject to interference from serum ublituximab-xiiy, possibly resulting in underestimation of the incidence of NAb formation and limiting the ability to characterize the clinical impact of NAbs.</paragraph>
+                        <paragraph>The presence of ADAs had no observable impact on the safety or efficacy of BRIUMVI.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="4b34fc66-eaa8-161b-e063-6294a90ac575"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="4b34fc66-eaa9-161b-e063-6294a90ac575"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                        </paragraph>
+                        <paragraph>No carcinogenicity studies have been conducted to assess the carcinogenic potential of BRIUMVI.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                        </paragraph>
+                        <paragraph>As an antibody, BRIUMVI is not expected to interact directly with DNA.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>No studies in animals have been conducted to assess the effects of BRIUMVI on male or female fertility. No adverse effects on male or female reproductive organs were observed at the only dose level evaluated (30 mg/kg) in a 26-week intravenous toxicity study in monkeys, which was associated with plasma exposures (C
+ 
+  <sub>ave</sub>) approximately 24 times that in humans at the maximum recommended human dose (450 mg).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="4b34fc66-eaaa-161b-e063-6294a90ac575"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The efficacy of BRIUMVI was demonstrated in two randomized, double-blind, double-dummy, parallel group, active comparator-controlled clinical trials of identical design, in patients with RMS treated for 96 weeks [Study 1 (NCT03277261) and Study 2 (NCT03277248)]. Patients were randomized to receive either BRIUMVI, given as an IV infusion of 150 mg for the first infusion, 450 mg two weeks after the first infusion for the second infusion/second dose, and 450 mg every 24 weeks after the first infusion for subsequent doses (third infusion and beyond) with oral placebo administered daily; or teriflunomide, the active comparator, given orally as a 14 mg daily dose with IV placebo administered on the same schedule as BRIUMVI. Both studies enrolled patients who had experienced at least one relapse in the previous year, two relapses in the previous two years, or had the presence of a T1 gadolinium (Gd)-enhancing lesion in the previous year. Patients were also required to have an Expanded Disability Status Scale (EDSS) score from 0 to 5.5 at baseline. Neurological evaluations were performed at baseline, every 12 weeks, and at the time of a suspected relapse. Brain MRI scans were performed at baseline and at Weeks 12, 24, 48, and 96.</paragraph>
+                  <paragraph>The primary outcome of both Study 1 and Study 2 was the annualized relapse rate (ARR) over the treatment period. Additional outcome measures included: the total number of MRI T1 Gd-enhancing lesions by Week 96, the total number of new or enlarging MRI T2 hyperintense lesions by Week 96, and time to confirmed disability progression for at least 12 weeks. Disability progression was defined as an increase of greater than or equal to 1.0 point from the baseline EDSS score that was attributable to MS when the baseline score was 5.5 or less, and greater than or equal to 0.5 points when the baseline score was above 5.5. Confirmed disability progression was evaluated in a pooled analysis of Studies 1 and 2. Disability progression was considered confirmed when the increase in the EDSS was confirmed at a regularly scheduled visit 12 weeks after the initial documentation of neurological worsening.</paragraph>
+                  <paragraph>In Study 1, 274 patients were randomized to BRIUMVI and 275 to teriflunomide. Of those randomized to BRIUMVI, 88% completed the 96-week treatment period; of those randomized to teriflunomide, 92% completed the 96-week treatment period. The baseline demographic and disease characteristics were balanced between the two treatment groups. At baseline, the mean age was 37 years, 97% were White, and 63% were female.</paragraph>
+                  <paragraph>In Study 2, 272 patients were randomized to BRIUMVI and 273 to teriflunomide. Of those randomized to BRIUMVI, 93% completed the 96-week treatment period; of those randomized to teriflunomide, 88% completed the 96-week treatment period. The baseline demographic and disease characteristics were balanced between the two treatment groups. At baseline, the mean age was 35 years, 99% were White, and 65% were female.</paragraph>
+                  <paragraph>In Study 1 and Study 2, BRIUMVI significantly lowered the ARR compared to teriflunomide. BRIUMVI statistically significantly reduced the number of T1 Gd-enhancing lesions and the number of new or enlarging T2 lesions in both studies compared to teriflunomide. There was no statistically significant difference in disability progression confirmed at 12 weeks between BRIUMVI-treated and teriflunomide-treated patients.</paragraph>
+                  <paragraph>Results for Study 1 and Study 2 are presented in Table 3.</paragraph>
+                  <table width="90%">
+                     <caption>Table 3: Key Clinical and MRI Endpoints in RMS Patients from Study 1 and Study 2</caption>
+                     <col width="7%" align="left" valign="middle"/>
+                     <col width="20%" align="left" valign="middle"/>
+                     <col width="17%" align="center" valign="middle"/>
+                     <col width="19%" align="center" valign="middle"/>
+                     <col width="17%" align="center" valign="middle"/>
+                     <col width="20%" align="center" valign="middle"/>
+                     <thead>
+                        <tr styleCode="Botrule">
+                           <th colspan="2" styleCode="Lrule Rrule"/>
+                           <th colspan="2" styleCode="Rrule">Study 1</th>
+                           <th colspan="2" styleCode="Rrule">Study 2</th>
+                        </tr>
+                        <tr>
+                           <th colspan="2" styleCode="Lrule Rrule" valign="top">Endpoints</th>
+                           <th styleCode="Rrule">BRIUMVI 
+     <br/>  450 mg
+    
+     <footnote ID="f1t3">BRIUMVI dosing by intravenous infusion: first dose of 150 mg, second dose 450 mg two weeks after the first; subsequent doses 450 mg every 24 weeks; teriflunomide dosing: 14 mg by mouth once daily.</footnote>
+                           </th>
+                           <th styleCode="Rrule">Teriflunomide 
+     <br/>  14 mg
+    
+     <footnoteRef IDREF="f1t3"/>
+                           </th>
+                           <th styleCode="Rrule">BRIUMVI 
+     <br/>  450 mg
+    
+     <footnoteRef IDREF="f1t3"/>
+                           </th>
+                           <th styleCode="Rrule">Teriflunomide 
+     <br/>  14 mg
+    
+     <footnoteRef IDREF="f1t3"/>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td colspan="6" styleCode="Lrule Rrule">
+                              <content styleCode="bold">Clinical Endpoints
+     
+      <footnote ID="K2176">Based on Modified Intent-to-Treat (mITT) Population, defined as all randomized patients who received at least one infusion of study medication and had one baseline and post-baseline efficacy assessment. Study 1: BRIUMVI (N=271), teriflunomide (N=274). Study 2: BRIUMVI (N=272), teriflunomide (N=272).</footnote>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Lrule Rrule">Annualized Relapse Rate (Primary Endpoint)</td>
+                           <td styleCode="Rrule Botrule">0.076</td>
+                           <td styleCode="Rrule Botrule">0.188</td>
+                           <td styleCode="Rrule Botrule">0.091</td>
+                           <td styleCode="Rrule Botrule">0.178</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule"/>
+                           <td styleCode="Rrule">Relative Reduction</td>
+                           <td colspan="2" styleCode="Rrule" valign="bottom">59% (p&lt;0.001)</td>
+                           <td colspan="2" styleCode="Rrule" valign="bottom">49% (p = 0.002)</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Lrule Rrule">Proportion of Patients with 12-week Confirmed Disability Progression
+    
+     <footnote ID="K2217">Data prospectively pooled from Study 1 and Study 2: BRIUMVI (N=543), teriflunomide (N=546).</footnote>
+                              <sup>,</sup>
+                              <footnote ID="K2221">Defined as an increase of 1.0 point or more from the baseline EDSS score for patients with baseline score of 5.5 or less, or 0.5 point or more when the baseline score is greater than 5.5, Kaplan-Meier estimates at Week 96.</footnote>
+                           </td>
+                           <td colspan="4" styleCode="Rrule" valign="top">5.2% BRIUMVI vs. 5.9% teriflunomide</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule"/>
+                           <td styleCode="Rrule">Risk Reduction 
+     <br/>  (Pooled Analysis)
+    
+     <footnote ID="K2237">Based on Hazard Ratio.</footnote>
+                           </td>
+                           <td colspan="4" styleCode="Rrule" valign="top">16% (p = 0.510)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="6" styleCode="Lrule Rrule">
+                              <content styleCode="bold">MRI Endpoints
+     
+      <footnote ID="K2252">Based on MRI-mITT population (mITT patients who have baseline and post-baseline MRI). Study 1: BRIUMVI (N=265), teriflunomide (N=270). Study 2: BRIUMVI (N=272), teriflunomide (N=267).</footnote>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Lrule Rrule">Mean number of T1 Gd-enhancing lesions per MRI
+    
+     <footnote ID="f2t3">At Week 96.</footnote>
+                           </td>
+                           <td styleCode="Rrule Botrule" valign="top">0.016</td>
+                           <td styleCode="Rrule Botrule" valign="top">0.491</td>
+                           <td styleCode="Rrule Botrule" valign="top">0.009</td>
+                           <td styleCode="Rrule Botrule" valign="top">0.250</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule"/>
+                           <td styleCode="Rrule">Relative Reduction</td>
+                           <td colspan="2" styleCode="Rrule">97% (p&lt;0.001)</td>
+                           <td colspan="2" styleCode="Rrule">97% (p&lt;0.001)</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Lrule Rrule">Mean number of new or enlarging T2 hyperintense lesions per MRI
+    
+     <footnoteRef IDREF="f2t3"/>
+                           </td>
+                           <td styleCode="Rrule Botrule" valign="top">0.213</td>
+                           <td styleCode="Rrule Botrule" valign="top">2.789</td>
+                           <td styleCode="Rrule Botrule" valign="top">0.282</td>
+                           <td styleCode="Rrule Botrule" valign="top">2.831</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td styleCode="Rrule">Relative Reduction</td>
+                           <td colspan="2" styleCode="Rrule" valign="bottom">92% (p&lt;0.001)</td>
+                           <td colspan="2" styleCode="Rrule" valign="bottom">90% (p&lt;0.001)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In exploratory analyses of Study 1 and Study 2, a similar effect of BRIUMVI on the ARR was observed in subgroups defined by gender, prior non-steroid MS therapy, baseline disability (EDSS 3.5 or lower versus greater than 3.5), the number of relapses in the 2 years prior to study enrollment, and number of Gd-enhancing lesions at baseline.</paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="4b34fc66-eaab-161b-e063-6294a90ac575"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <section ID="S16.1">
+                     <id root="4b34fc66-eaac-161b-e063-6294a90ac575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.1 How Supplied</title>
+                     <text>
+                        <paragraph>BRIUMVI (ublituximab-xiiy) injection is a sterile, clear to opalescent, colorless to slightly yellow, preservative-free solution for intravenous use supplied as a carton containing one 150 mg/6 mL (25 mg/mL) single-dose vial (NDC 73150-150-06).</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S16.2">
+                     <id root="4b34fc66-eaad-161b-e063-6294a90ac575"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>16.2 Storage and Handling</title>
+                     <text>
+                        <paragraph>Store BRIUMVI vials refrigerated at 2°C to 8°C (36°F to 46°F) in the outer carton to protect from light. Do not freeze. Do not shake.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="4b34fc66-eaae-161b-e063-6294a90ac575"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Infusion Reactions</content>
+                  </paragraph>
+                  <paragraph>Inform patients about the signs and symptoms of infusion reactions and that infusion reactions can occur up to 24 hours after infusion. Advise patients to contact their healthcare provider immediately for signs or symptoms of infusion reactions
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Infection</content>
+                  </paragraph>
+                  <paragraph>Advise patients to contact their healthcare provider for any signs of infection during treatment or after the last infusion. Signs can include fever, chills, constant cough, or dysuria
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>Advise patients that BRIUMVI may cause reactivation of hepatitis B infection and that monitoring will be required if they are at risk
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>Advise patients that PML has happened with BRIUMVI. Inform the patient that PML is characterized by a progression of deficits and usually leads to death or severe disability over weeks or months. Instruct the patient of the importance of contacting their doctor if they develop any symptoms suggestive of PML. Inform the patient that typical symptoms associated with PML are diverse, progress over days to weeks, and include progressive weakness on one side of the body or clumsiness of limbs, disturbance of vision, and changes in thinking, memory, and orientation leading to confusion and personality changes
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Vaccination</content>
+                  </paragraph>
+                  <paragraph>Advise patients to complete any required live or live-attenuated vaccinations at least 4 weeks and, whenever possible, non-live vaccinations at least 2 weeks prior to initiation of BRIUMVI. Administration of live-attenuated or live vaccines is not recommended during BRIUMVI treatment and until B-cell recovery
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.2">Warnings and Precaution (5.2)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Fetal Risk</content>
+                  </paragraph>
+                  <paragraph>Advise pregnant women and females of reproductive potential of the potential risk to a fetus. Advise females of reproductive potential to use effective contraception during treatment with BRIUMVI and for 6 months after the last BRIUMVI dose. Advise patients to notify their healthcare provider if they are pregnant or plan to become pregnant during treatment with BRIUMVI
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>and
+  
+   <linkHtml href="#S8.1">Use in Specific Populations (8.1</linkHtml>,
+  
+   <linkHtml href="#S8.3">8.3)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Pregnancy Registry</content>
+                  </paragraph>
+                  <paragraph>Instruct patients that if they are pregnant or plan to become pregnant while taking BRIUMVI they should inform their healthcare provider
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>Encourage patients to enroll in the BRIUMVI Pregnancy Registry if they become pregnant while taking BRIUMVI or within 6 months following the last dose of BRIUMVI
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Liver Injury</content>
+                  </paragraph>
+                  <paragraph>Inform patients that liver injury has been reported with anti-CD20 B-cell depleting therapies, including BRIUMVI. Instruct patients treated with BRIUMVI to promptly report any symptoms that may indicate liver injury, including fatigue, anorexia, nausea, vomiting, right upper abdominal discomfort, dark urine, or jaundice. A blood test should be obtained before patients start therapy, and during treatment as clinically indicated
+ 
+  <content styleCode="italics">[see
+  
+   <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml>]
+ 
+  </content>.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4b34fc66-eaaf-161b-e063-6294a90ac575"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by: 
+  <br/>  TG Therapeutics, Inc. 
+  <br/>  3020 Carrington Mill Blvd 
+  <br/>  Morrisville, NC 27560 
+  <br/>  U.S. License No. 2090
+ </paragraph>
+                  <paragraph>BRIUMVI is a registered trademark of TG Therapeutics, Inc.</paragraph>
+                  <paragraph>
+                     <sup>©</sup>TG Therapeutics, Inc. 2021-2022, 2024. All rights reserved.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4b34fc66-eab0-161b-e063-6294a90ac575"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="19%" align="left" valign="top"/>
+                     <col width="23%" align="left" valign="top"/>
+                     <col width="37%" align="left" valign="top"/>
+                     <col width="19%" align="left" valign="top"/>
+                     <tfoot>
+                        <tr>
+                           <td align="left" colspan="4">This Medication Guide has been approved by the U.S. Food and Drug Administration</td>
+                           <td>Revised: 1/2026</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" align="center" styleCode="Lrule Rrule">
+                              <content styleCode="bold">MEDICATION GUIDE</content>
+                              <br/>  BRIUMVI® (bree-UM-vee) 
+     <br/>  (ublituximab-xiiy) 
+     <br/>  injection, 
+     <br/>  for intravenous use
+   
+    </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What is the most important information I should know about BRIUMVI?</content>
+                              <br/>
+                              <content styleCode="bold">BRIUMVI can cause serious side effects, including:</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">Infusion reactions.</content>Infusion reactions are one of the most common side effects of BRIUMVI. Infusion reactions can be serious and may require you to be hospitalized. You will be monitored during your infusion and may be monitored after each infusion of BRIUMVI for signs and symptoms of an infusion reaction. Tell your healthcare provider if you get any of these symptoms:
+     
+      </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td>
+                              <list listType="unordered" styleCode="Circle">
+                                 <item>fever</item>
+                                 <item>chills</item>
+                                 <item>headache</item>
+                                 <item>flu-like symptoms</item>
+                                 <item>fast heartbeat</item>
+                                 <item>hives</item>
+                              </list>
+                           </td>
+                           <td>
+                              <list listType="unordered" styleCode="Circle">
+                                 <item>itchy skin</item>
+                                 <item>dizziness</item>
+                                 <item>feeling faint</item>
+                                 <item>swelling of tongue or throat</item>
+                                 <item>trouble breathing</item>
+                              </list>
+                           </td>
+                           <td>
+                              <list listType="unordered" styleCode="Circle">
+                                 <item>wheezing</item>
+                                 <item>nausea</item>
+                                 <item>abdominal pain</item>
+                                 <item>throat irritation</item>
+                                 <item>redness of the face or skin</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">These infusion reactions can happen over 24 hours after your infusion.</content>It is important that you call your healthcare provider right away if you get any of the signs or symptoms listed above after each infusion. If you get an infusion reaction, your healthcare provider may need to stop or slow down the rate of your infusion.
+    
+     <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">Infections.</content>Infections are a common side effect, and upper respiratory tract infections are one of the most common side effects of BRIUMVI
+      
+       <content styleCode="bold">.</content>BRIUMVI increases your risk of getting infections caused by bacteria or viruses that may be life-threatening or cause death. Tell your healthcare provider if you have an infection or have any of the following signs of infection including fever, chills, a cough that does not go away, or painful urination. Your healthcare provider should delay your treatment with BRIUMVI until your infection is gone.
+      
+       <list listType="unordered" styleCode="Circle">
+                                       <item>
+                                          <content styleCode="bold">Hepatitis B virus (HBV) reactivation:</content>Before starting treatment with BRIUMVI, your healthcare provider will do blood tests to check for hepatitis B viral infection. If you have ever had hepatitis B virus infection, the hepatitis B virus may become active again during or after treatment with BRIUMVI. Hepatitis B virus becoming active again (called reactivation) may cause serious liver problems including liver failure or death. Your healthcare provider will monitor you if you are at risk for hepatitis B virus reactivation during treatment and after you stop receiving BRIUMVI.
+       
+        </item>
+                                       <item>
+                                          <content styleCode="bold">Weakened immune system:</content>BRIUMVI taken before or after other medicines that weaken the immune system could increase your risk of getting infections.
+       
+        </item>
+                                       <item>
+                                          <content styleCode="bold">Progressive Multifocal Leukoencephalopathy (PML):</content>PML has happened with BRIUMVI. PML is a rare, serious brain infection caused by a virus that may get worse over days or weeks. PML can result in death or severe disability. Tell your healthcare provider right away if you have any new or worsening neurologic signs or symptoms. These symptoms may include weakness on one side of your body, loss of coordination in arms and legs, vision problems, changes in thinking and memory which may lead to confusion, and personality changes.
+       
+        </item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Low immunoglobulins.</content>BRIUMVI may cause a decrease in some types of antibodies. Your healthcare provider will do blood tests to check your blood immunoglobulin levels.
+     
+      </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What is BRIUMVI?</content>
+                              <br/>  BRIUMVI is a prescription medicine used to treat adults with relapsing forms of multiple sclerosis (MS), including:
+    
+     <list listType="unordered" styleCode="Disc">
+                                 <item>clinically isolated syndrome</item>
+                                 <item>relapsing-remitting disease</item>
+                                 <item>active secondary progressive disease</item>
+                              </list>It is not known if BRIUMVI is safe or effective in children.
+   
+    </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">Do not receive BRIUMVI if you:</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have active hepatitis B virus (HBV) infection.</item>
+                                 <item>have had a life-threatening allergic reaction to BRIUMVI. Tell your healthcare provider if you have had an allergic reaction to BRIUMVI. See
+      
+       <content styleCode="bold">"
+       
+        <linkHtml href="#Medf1">What are the ingredients in BRIUMVI?</linkHtml>"
+      
+       </content>for a complete list of ingredients in BRIUMVI.
+     
+      </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">Before receiving BRIUMVI, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have or think you have an infection. See
+      
+       <content styleCode="bold">"
+       
+        <linkHtml href="#Medf2">What is the most important information I should know about BRIUMVI?</linkHtml>"
+      
+       </content>
+                                 </item>
+                                 <item>take or plan to take medicines that affect your immune system. These medicines may increase your risk of getting an infection.</item>
+                                 <item>have ever had hepatitis B or are a carrier of the hepatitis B virus.</item>
+                                 <item>have a history of liver problems.</item>
+                                 <item>have had a recent vaccination or are scheduled to receive any vaccinations.
+      
+       <list listType="unordered" styleCode="Circle">
+                                       <item>
+                                          <content styleCode="bold">You should receive any required 'live' or 'live-attenuated' vaccines at least 4 weeks before you start treatment with BRIUMVI.</content>You
+        
+         <content styleCode="bold">should not receive</content>'live' or 'live-attenuated' vaccines while you are being treated with BRIUMVI and until your healthcare provider tells you that your immune system is no longer weakened.
+       
+        </item>
+                                       <item>
+                                          <content styleCode="bold">When possible, you should receive any 'non-live' vaccines at least 2 weeks before you start treatment with BRIUMVI.</content>If you would like to receive any non-live vaccines while you are being treated with BRIUMVI, talk to your healthcare provider.
+       
+        </item>
+                                       <item>If you have a baby and you received BRIUMVI during your pregnancy, it is important to tell your baby's healthcare provider about receiving BRIUMVI so they can decide when your baby should be vaccinated.</item>
+                                    </list>
+                                 </item>
+                                 <item>are pregnant, think that you might be pregnant, or plan to become pregnant. It is not known if BRIUMVI will harm your unborn baby. You should use birth control (contraception) during treatment with BRIUMVI and for at least 6 months after your last infusion of BRIUMVI. Talk with your healthcare provider about what birth control method is right for you during this time.
+      
+       <list listType="unordered" styleCode="Circle">
+                                       <item>
+                                          <content styleCode="bold">Pregnancy Registry</content>. There is a pregnancy registry for women who take BRIUMVI during pregnancy. If you become pregnant while receiving BRIUMVI or within 6 months following the last dose of BRIUMVI, tell your healthcare provider right away. Talk to your healthcare provider about registering with the BRIUMVI Pregnancy Registry. The purpose of this registry is to collect information about your health and your baby's health. Either you or your healthcare provider can enroll you in this registry by calling 1-877-411-4546 or visiting www.briumvipregnancyregistry.com.
+       
+        </item>
+                                    </list>
+                                 </item>
+                                 <item>are breastfeeding or plan to breastfeed. It is not known if BRIUMVI passes into your breast milk. Talk to your healthcare provider about the best way to feed your baby if you take BRIUMVI.</item>
+                              </list>
+                              <content styleCode="bold">Tell your healthcare provider about all the medicines you take,</content>including prescription and over-the-counter medicines, vitamins, and herbal supplements.
+   
+    </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">How will I receive BRIUMVI?</content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>BRIUMVI is given through a needle placed in your vein (intravenous infusion) in your arm.</item>
+                                 <item>Before treatment with BRIUMVI, you will receive a corticosteroid and an antihistamine medicine to help reduce the risk of infusion reactions by making them less frequent and less severe. You may also receive other medicines to help reduce the risk of an infusion reaction. See
+      
+       <content styleCode="bold">"
+       
+        <linkHtml href="#Medf2">What is the most important information I should know about BRIUMVI?</linkHtml>"
+      
+       </content>
+                                 </item>
+                                 <item>Your first dose of BRIUMVI will last about 4 hours.</item>
+                                 <item>Your second dose of BRIUMVI will be given 2 weeks after your first dose. This infusion will last about 1 hour.</item>
+                                 <item>Your next doses of BRIUMVI will be given as 1 infusion every 24 weeks. These infusions will last about 1 hour.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are the possible side effects of BRIUMVI? 
+      <br/>  BRIUMVI may cause serious side effects, including:
+     </content>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>See
+      
+       <content styleCode="bold">"
+       
+        <linkHtml href="#Medf2">What is the most important information I should know about BRIUMVI?</linkHtml>"
+      
+       </content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Liver damage.</content>BRIUMVI may cause liver damage. Your healthcare provider will do blood tests to check your liver before you start BRIUMVI and while you take BRIUMVI if needed. Tell your healthcare provider right away if you have any symptoms of liver damage, such as:
+      
+       <list listType="unordered" styleCode="Circle">
+                                       <item>yellowing of the skin and eyes (jaundice)</item>
+                                       <item>nausea</item>
+                                       <item>vomiting</item>
+                                       <item>unusual darkening of the urine</item>
+                                       <item>feeling tired or weak</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <content styleCode="bold">The most common side effects of BRIUMVI include:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="4" styleCode="Rrule">
+                              <list listType="unordered" styleCode="Circle">
+                                 <item>Infusion reactions, upper and lower respiratory tract infections, herpes infections, extremity pain, insomnia, and fatigue. See
+      
+       <content styleCode="bold">"
+       
+        <linkHtml href="#Medf2">What is the most important information I should know about BRIUMVI?</linkHtml>"
+      
+       </content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">These are not all the possible side effects of BRIUMVI. Call your doctor for medical advice about side effects. 
+     <br/>  You may report side effects to FDA at 1-800-FDA-1088.
+    </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">General information about the safe and effective use of BRIUMVI.</content>
+                              <br/>  Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. You can ask your pharmacist or healthcare provider for information about BRIUMVI that is written for health professionals.
+   
+    </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are the ingredients in BRIUMVI? 
+      <br/>  Active ingredient:
+     </content>ublituximab-xiiy. 
+     <br/>
+                              <content styleCode="bold">Inactive ingredients:</content>hydrochloric acid, polysorbate 80, sodium chloride, sodium citrate, Water for Injection, USP. 
+     <br/>  BRIUMVI is a registered trademark of TG Therapeutics, Inc. 
+     <br/>
+                              <sup>©</sup>TG Therapeutics, Inc. 2021-2022, 2024. All rights reserved. 
+     <br/>  Manufactured by: TG Therapeutics, Inc., 3020 Carrington Mill Blvd, Morrisville, NC 27560 
+     <br/>  U.S. License No. 2090 
+     <br/>  For more information, go to www.briumvi.com or call 1-877-848-9462
+   
+    </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8dba17e4-cc24-421c-bd4d-75964a951520">
+               <id root="4b34fc66-eab1-161b-e063-6294a90ac575"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 73150-150-06</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Briumvi™</content>
+                  </paragraph>
+                  <paragraph>(ublituximab-xiiy) injection</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">150 mg/6 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(25 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Infusion</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">After Dilution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Discard Unused Portion.</content>
+                  </paragraph>
+                  <paragraph>Attention: Dispense the enclosed Medication 
+  <br/>  Guide to each patient.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Contains one 6 mL</content>
+                     <br/>
+                     <content styleCode="bold">single-dose vial.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TG Therapeutics</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL NDC 73150-150-06 Briumvi™ (ublituximab-xiiy) injection 150 mg/6 mL (25 mg/mL) For Intravenous Infusion After Dilution. Discard Unused Portion. Attention: Dispense the enclose</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="briumvi-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a7cabca5-0dbb-4df5-8e1e-2e1255b08a02">
+               <id root="4b34fc66-eab2-161b-e063-6294a90ac575"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 73150-150-06</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Briumvi™</content>
+                  </paragraph>
+                  <paragraph>(ublituximab-xiiy) injection</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">150 mg/6 mL (25 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Infusion After Dilution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Dose Vial. Discard Unused Portion.</content>
+                  </paragraph>
+                  <paragraph>No preservative. Dosage:</paragraph>
+                  <paragraph>See prescribing information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TG Therapeutics</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL NDC 73150-150-06 Briumvi™ (ublituximab-xiiy) injection Rx only 150 mg/6 mL (25 mg/mL) For Intravenous Infusion After Dilution. Single-Dose Vial. Discard Unused Portion. No pr</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="briumvi-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

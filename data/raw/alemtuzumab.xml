@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="db03295a-9939-43bb-92c5-768721d27a8b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use CAMPATH safely and effectively. See full prescribing information for CAMPATH.<br/>
+      <br/>CAMPATH<sup>®</sup> (alemtuzumab) injection, for intravenous use<br/>Initial U.S. Approval: 2001</title>
+   <effectiveTime value="20251105"/>
+   <setId root="4f5f7255-7abc-4328-bd1a-ceaf139ef3e0"/>
+   <versionNumber value="21"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="025322157" root="1.3.6.1.4.1.519.1"/>
+            <name>Genzyme Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="340700520" root="1.3.6.1.4.1.519.1"/>
+                  <name>Boehringer Ingelheim Pharma GmbH &amp; Co. KG</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="340700520" root="1.3.6.1.4.1.519.1"/>
+                        <name>Boehringer Ingelheim Pharma GmbH &amp; Co. KG</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="58468-0357" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="API MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="58468-0357" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="58468-0357" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="313218430" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sanofi-Aventis Deutschland GmbH</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="58468-0357" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="229522842" root="1.3.6.1.4.1.519.1"/>
+                        <name>HVL Pharma UK Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="58468-0357" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="58468-0357" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="5b83f90b-d1fe-4ff5-b738-cdb12cd83a9f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20251105"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="58468-0357" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Campath</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ALEMTUZUMAB</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3A189DH42V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALEMTUZUMAB</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3A189DH42V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALEMTUZUMAB</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="8" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1.44" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.2" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.2" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4J9FJ0HL51" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MONOBASIC POTASSIUM PHOSPHATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.0187" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-USE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="58468-0357-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20091130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-USE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="58468-0357-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20091130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA103948" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20091130"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="aa53a7ff-73b1-4ea1-8c88-2232c02658ef"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="emphasis">WARNING: CYTOPENIAS, INFUSION-RELATED REACTIONS, AND INFECTIONS</content>
+               </title>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>WARNING: CYTOPENIAS, INFUSION-RELATED REACTIONS, AND INFECTIONS</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Serious, including fatal, cytopenias, infusion-related reactions, and infections can occur (5.1–5.3).</content>
+                        </paragraph>
+                        <list>
+                           <item>
+                              <content styleCode="bold">Limit doses to 30 mg (single) and 90 mg (cumulative weekly); higher doses increase risk of pancytopenia. (<linkHtml href="#S2.1">2.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Escalate dose gradually and monitor patients during infusion. Withhold therapy for Grade 3 or 4 infusion-related reactions. (<linkHtml href="#S5.2">5.2</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Administer prophylaxis against <content styleCode="italics">Pneumocystis jirovecii</content> pneumonia (PCP) and herpes virus infections. (<linkHtml href="#S2.2">2.2</linkHtml>, <linkHtml href="#S5.3">5.3</linkHtml>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section>
+                     <id root="1ea137cb-a6a0-4ffe-b50f-1e6d42f4c945"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="underline">Cytopenias</content>: Serious, including fatal, pancytopenia/marrow hypoplasia, autoimmune idiopathic thrombocytopenia, and autoimmune hemolytic anemia can occur in patients receiving CAMPATH. Single doses of CAMPATH greater than 30 mg or cumulative doses greater than 90 mg per week increase the incidence of pancytopenia <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>
+                              <content styleCode="bold">.</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="58b3f502-4665-42a4-91c0-bf4600662ce7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="underline">Infusion-Related Reactions</content>: CAMPATH administration can result in serious, including fatal, infusion-related reactions. Carefully monitor patients during infusions and withhold CAMPATH for Grade 3 or 4 infusion-related reactions. Gradually escalate CAMPATH to the recommended dose at the initiation of therapy and after interruption of therapy for 7 or more days <content styleCode="italics">[see <linkHtml href="#S2.1">Dosage and Administration (2.1)</linkHtml> and <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ccfb6eea-35ed-4fd9-8844-fc743cc1ede7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="underline">Immunosuppression/Infections</content>: Serious, including fatal, bacterial, viral, fungal, and protozoan infections can occur in patients receiving CAMPATH. Administer prophylaxis against <content styleCode="italics">Pneumocystis jirovecii</content> pneumonia (PCP) and herpes virus infections <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml> and <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="5983f1bd-5e98-404f-b8c7-340c54ed0f6e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>CAMPATH is indicated as a single agent for the treatment of B-cell chronic lymphocytic leukemia (B-CLL).</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>CAMPATH is a CD52-directed cytolytic antibody indicated as a single agent for the treatment of B-cell chronic lymphocytic leukemia (B-CLL). (<linkHtml href="#S1">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="dae1c2f9-73dc-47a4-9ba8-8dd26d8a360d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list>
+                           <item>Administer as an intravenous infusion over 2 hours. (<linkHtml href="#S2.1">2.1</linkHtml>)</item>
+                           <item>Escalate to recommended dose of 30 mg/day three times per week for 12 weeks. (<linkHtml href="#S2.1">2.1</linkHtml>)</item>
+                           <item>Premedicate with oral antihistamine and acetaminophen. (<linkHtml href="#S2.2">2.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="fc24bf0b-3447-4417-a5e4-12f7f8e56149"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1	Dosing Schedule and Administration</title>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Administer as an intravenous infusion over 2 hours. <content styleCode="bold">Do not administer as intravenous push or bolus.</content>
+                           </item>
+                           <item>Recommended Dosing Regimen<list listType="unordered" styleCode="circle">
+                                 <item>Gradually escalate to the maximum recommended single dose of 30 mg. Escalation is required at initiation of dosing or if dosing is held ≥7 days during treatment. Escalation to 30 mg ordinarily can be accomplished in 3 to 7 days.</item>
+                                 <item>Escalation Strategy:<list listType="unordered">
+                                       <item>
+                                          <caption>–</caption>Administer 3 mg daily until infusion-related reactions are ≤ Grade 2 <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>.</item>
+                                       <item>
+                                          <caption>–</caption>Then administer 10 mg daily until infusion-related reactions are ≤ Grade 2.</item>
+                                       <item>
+                                          <caption>–</caption>Then administer 30 mg/day three times per week on alternate days (e.g., Mon-Wed-Fri). The total duration of therapy, including dose escalation, is 12 weeks.</item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Single doses of greater than 30 mg or cumulative doses greater than 90 mg per week increase the incidence of pancytopenia.</content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="61fd1af3-5efe-47db-a8c8-31218a51cbfa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2	Recommended Concomitant Medications  </title>
+                     <text>
+                        <list>
+                           <item>Premedicate with diphenhydramine (50 mg) and acetaminophen (500–1000 mg) 30 minutes prior to first infusion and each dose escalation. Institute appropriate medical management (e.g., glucocorticoids, epinephrine, meperidine) for infusion-related reactions as needed <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml> and <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>.</item>
+                           <item>Administer trimethoprim/sulfamethoxazole double strength (DS) twice daily 3 times per week (or equivalent) as <content styleCode="italics">Pneumocystis jirovecii</content> pneumonia (PCP) prophylaxis.</item>
+                           <item>Administer famciclovir 250 mg BID or equivalent as herpetic prophylaxis.</item>
+                        </list>
+                        <paragraph>Continue PCP and herpes viral prophylaxis for a minimum of 2 months after completion of CAMPATH or until the CD4+ count is ≥200 cells/µL, whichever occurs later <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.3">
+                     <id root="8a4aceb9-6aa4-4a72-8730-bca44f51524a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3	Dosage Modification</title>
+                     <text>
+                        <list>
+                           <item>Withhold CAMPATH during serious infection or other serious adverse reactions until resolution.</item>
+                           <item>Discontinue CAMPATH for autoimmune anemia or autoimmune thrombocytopenia.</item>
+                           <item>There are no dose modifications recommended for lymphopenia.</item>
+                        </list>
+                        <table width="75%">
+                           <caption>Dose Modification for Neutropenia or Thrombocytopenia [see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</caption>
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="50%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule" align="center">Hematologic Values</th>
+                                 <th styleCode="Rrule" align="center">Dosage Modification<footnote>If the delay between dosing is ≥7 days, initiate therapy at CAMPATH 3 mg and escalate to 10 mg and then to 30 mg as tolerated <content styleCode="italics">[see <linkHtml href="#S2.1">Dosage and Administration (2.1)</linkHtml>]</content>.</footnote>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" align="center">ANC &lt;250/μL and/or platelet count ≤25,000/μL </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  For first occurrence:</td>
+                                 <td styleCode="Rrule">Withhold CAMPATH therapy. Resume CAMPATH at 30 mg when ANC ≥500/μL and platelet count ≥50,000/μL.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  For second occurrence:</td>
+                                 <td styleCode="Rrule">Withhold CAMPATH therapy. Resume CAMPATH at 10 mg when ANC ≥500/μL and platelet count ≥50,000/μL.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  For third occurrence:</td>
+                                 <td styleCode="Rrule">Discontinue CAMPATH therapy.</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2" align="center">≥50% decrease from baseline in patients initiating therapy with a baseline ANC ≤250/μL and/or a baseline platelet count ≤25,000/μL</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  For first occurrence:</td>
+                                 <td styleCode="Rrule">Withhold CAMPATH therapy. Resume CAMPATH at 30 mg upon return to baseline value(s).</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">  For second occurrence:</td>
+                                 <td styleCode="Rrule">Withhold CAMPATH therapy. Resume CAMPATH at 10 mg upon return to baseline value(s).</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">  For third occurrence:</td>
+                                 <td styleCode="Rrule">Discontinue CAMPATH therapy.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.4">
+                     <id root="79037c87-2c38-4dd4-abba-380e7f6c26bc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4	Preparation and Administration</title>
+                     <text>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration. If particulate matter is present or the solution is discolored, discard the vial. <content styleCode="bold">DO NOT SHAKE VIAL</content>.</paragraph>
+                        <paragraph>Use aseptic technique during the preparation and administration of CAMPATH. Withdraw the necessary amount of CAMPATH from the vial into a syringe.</paragraph>
+                        <list>
+                           <item>To prepare the 3 mg dose, withdraw 0.1 mL into a 1 mL syringe calibrated in increments of 0.01 mL.</item>
+                           <item>To prepare the 10 mg dose, withdraw 0.33 mL into a 1 mL syringe calibrated in increments of 0.01 mL.</item>
+                           <item>To prepare the 30 mg dose, withdraw 1 mL in either a 1 mL or 3 mL syringe calibrated in 0.1 mL increments.</item>
+                        </list>
+                        <paragraph>Inject syringe contents into 100 mL sterile 0.9% Sodium Chloride USP or 5% Dextrose in Water USP. <content styleCode="bold">
+                              <content styleCode="underline">Gently invert the bag to mix the solution</content>.</content> Discard syringe.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The vial contains no preservatives and is intended for single use only. DISCARD VIAL including any unused portion after withdrawal of dose.</content>
+                        </paragraph>
+                        <paragraph>Use within 8 hours after dilution. Store diluted CAMPATH at room temperature between 15°C to 30°C (59°F to 86°F) or refrigerated at 2°C to 8°C (36°F to 46°F).  Protect from light.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.5">
+                     <id root="ccaa5430-97ed-456f-95d2-98c667cf7769"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5	Incompatibilities</title>
+                     <text>
+                        <paragraph>CAMPATH is compatible with polyvinylchloride (PVC) bags and PVC or polyethylene-lined PVC administration sets. Do not add or simultaneously infuse other drug substances through the same intravenous line.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="89cd50d4-f96b-40a8-8111-dc86c48d25ad"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: 30 mg/1 mL as a clear, colorless solution in single-dose vial</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: 30 mg/1 mL single-dose vial (<linkHtml href="#S3">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="6c4611bb-5b0e-43fa-a11f-3032695e9f0a"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None (<linkHtml href="#S4">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="5f644018-9a68-40a2-a4ee-f31d3e9247b4"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Cytopenias</content>: Obtain complete blood counts (CBC) and platelet counts at weekly intervals during therapy and CD4 counts after therapy until recovery to ≥200 cells/µL. Withhold for severe cytopenias. Discontinue for autoimmune or severe hematologic adverse reactions. (<linkHtml href="#S2.2">2.2</linkHtml>, <linkHtml href="#S5.1">5.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Immunosuppression/Infections</content>: CAMPATH induces severe and prolonged lymphopenia and increases risk of infection. If a serious infection occurs, withhold treatment until infection resolves. (<linkHtml href="#S5.3">5.3</linkHtml>) 									</item>
+                           <item>
+                              <content styleCode="underline">Immunization</content>: Do not administer live viral vaccines to patients who have recently received CAMPATH. (<linkHtml href="#S5.4">5.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="13868d38-3cbc-4e52-a0ee-b3842100f631"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1	Cytopenias</title>
+                     <text>
+                        <paragraph>Severe, including fatal, autoimmune anemia and thrombocytopenia, and prolonged myelosuppression have been reported in patients receiving CAMPATH.</paragraph>
+                        <paragraph>In addition, hemolytic anemia, pure red cell aplasia, bone marrow aplasia, and hypoplasia have been reported after treatment with CAMPATH at the recommended dose. Single doses of CAMPATH greater than 30 mg or cumulative doses greater than 90 mg per week increase the incidence of pancytopenia.</paragraph>
+                        <paragraph>Withhold CAMPATH for severe cytopenias (except lymphopenia). Discontinue for autoimmune cytopenias or recurrent/persistent severe cytopenias (except lymphopenia) <content styleCode="italics">[see <linkHtml href="#S2.3">Dosage and Administration (2.3)</linkHtml>]</content>. No data exist on the safety of CAMPATH resumption in patients with autoimmune cytopenias or marrow aplasia <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Obtain complete blood counts (CBC) at weekly intervals during CAMPATH therapy and more frequently if worsening anemia, neutropenia, or thrombocytopenia occurs. Assess CD4+ counts after treatment until recovery to ≥200 cells/µL <content styleCode="italics">[see <linkHtml href="#S2.3">Dosage and Administration (2.3)</linkHtml> and <linkHtml href="#S6">Adverse Reactions (6)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="28dd8e94-ce8b-46f0-b332-119e62dd003e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2	Infusion-Related Reactions</title>
+                     <text>
+                        <paragraph>Adverse reactions occurring during or shortly after CAMPATH infusion include pyrexia, chills/rigors, nausea, hypotension, urticaria, dyspnea, rash, emesis, and bronchospasm <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>. In clinical trials, the frequency of infusion-related reactions was highest in the first week of treatment. Monitor for the signs and symptoms listed above and withhold infusion for Grade 3 or 4 infusion-related reactions.</paragraph>
+                        <paragraph>The following serious, including fatal, infusion-related reactions have been identified in postmarketing reports: syncope, pulmonary infiltrates, acute respiratory distress syndrome (ARDS), respiratory arrest, cardiac arrhythmias, myocardial infarction, acute cardiac insufficiency, cardiac arrest, angioedema, and anaphylactoid shock.</paragraph>
+                        <paragraph>Initiate CAMPATH according to the recommended dose-escalation scheme <content styleCode="italics">[see <linkHtml href="#S2.1">Dosage and Administration (2.1)</linkHtml>]</content>.  Premedicate patients with an antihistamine and acetaminophen prior to each dose.  Institute appropriate medical management (e.g., glucocorticoids, epinephrine, meperidine) for infusion-related reactions as needed <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>]</content>. If therapy is interrupted for 7 or more days, reinstitute CAMPATH with gradual dose escalation <content styleCode="italics">[see <linkHtml href="#S2.1">Dosage and Administration (2.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="2170bf38-0734-4078-8d02-270928a06831"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3	Immunosuppression/Infections</title>
+                     <text>
+                        <paragraph>CAMPATH treatment results in severe and prolonged lymphopenia with a concomitant increased incidence of opportunistic infections <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>. Administer PCP and herpes viral prophylaxis during treatment with CAMPATH and for a minimum of 2 months after completion of CAMPATH or until the CD4+ count is ≥200 cells/µL, whichever occurs later <content styleCode="italics">[see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>]</content>. Prophylaxis does not eliminate these infections. </paragraph>
+                        <paragraph>Routinely monitor patients for CMV infection during treatment with CAMPATH and for at least 2 months following completion of CAMPATH. Withhold CAMPATH for serious infections and during antiviral treatment for CMV infection or confirmed CMV viremia (defined as polymerase chain reaction [PCR] positive CMV in ≥2 consecutive samples obtained 1 week apart). Initiate therapeutic ganciclovir (or equivalent) for CMV infection or confirmed CMV viremia.</paragraph>
+                        <paragraph>Epstein-Barr virus (EBV) infection, including severe and fatal EBV-associated hepatitis, has been reported in patients who received CAMPATH.</paragraph>
+                        <paragraph>Monitor for sign and symptoms of EBV infections. Withhold CAMPATH for EBV reactivation or severe infection.</paragraph>
+                        <paragraph>Administer only irradiated blood products to avoid transfusion associated Graft versus Host Disease (TAGVHD), unless emergent circumstances dictate immediate transfusion.</paragraph>
+                        <paragraph>In patients who received CAMPATH as initial therapy, recovery of CD4+ counts to ≥200 cells/µL occurred by 6 months following completion of CAMPATH; however, at 2 months post treatment, the median was 183 cells/µL. In previously treated patients who received CAMPATH, the median time to recovery of CD4+ counts to ≥200 cells/µL was 2 months; however, full recovery (to baseline) of CD4+ and CD8+ counts may take more than 12 months <content styleCode="italics">[see <linkHtml href="#S6">Adverse Reactions (6)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.4">
+                     <id root="1d43af15-318d-4d2a-97be-16f369719700"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4	Immunization</title>
+                     <text>
+                        <paragraph>The safety of immunization with live viral vaccines following CAMPATH therapy has not been studied. Do not administer live viral vaccines to patients or infants born to patients receiving CAMPATH. The ability to generate an immune response to any vaccine following CAMPATH therapy has not been studied.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="629b5111-8d7a-473b-a8b5-5798dbcd0896"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are discussed in greater detail in other sections of the label:</paragraph>
+                  <list>
+                     <item>Cytopenias <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>Infusion-Related Reactions <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                     <item>Immunosuppression/Infections <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (≥10%): cytopenias, infusion-related reactions, cytomegalovirus (CMV) and other infections, nausea, emesis, diarrhea, and insomnia. (<linkHtml href="#S6">6</linkHtml>)</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Genzyme Corporation at 1-877-4-CAMPATH (1-877-422-6728) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="eaf506cc-dee7-481c-8c19-14abbad6fb9e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1	Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The data below reflect exposure to CAMPATH in 296 patients with CLL of whom 147 were previously untreated and 149 received at least 2 prior chemotherapy regimens. The median duration of exposure was 11.7 weeks for previously untreated patients and 8 weeks for previously treated patients.</paragraph>
+                        <paragraph>The most common adverse reactions with CAMPATH are: infusion-related reactions (pyrexia, chills, hypotension, urticaria, nausea, rash, tachycardia, dyspnea), cytopenias (neutropenia, lymphopenia, thrombocytopenia, anemia), infections (CMV viremia, CMV infection, other infections), gastrointestinal symptoms (nausea, emesis, abdominal pain), and neurological symptoms (insomnia, anxiety). The most common serious adverse reactions are cytopenias, infusion-related reactions, and immunosuppression/infections.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <section>
+                           <id root="b9145947-9fab-46d2-89b0-7f2eb53940ed"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Lymphopenia</content>
+                              </paragraph>
+                              <paragraph>Severe lymphopenia and a rapid and sustained decrease in lymphocyte subsets occurred in previously untreated and previously treated patients following administration of CAMPATH. In previously untreated patients, the median CD4+ was 0 cells/μL at one month after treatment and 238 cells/μL [25%–75% interquartile range 115 to 418 cells/μL at 6 months post treatment <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="b0746072-1eb2-4c13-b249-3a173f9843f9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Neutropenia</content>
+                              </paragraph>
+                              <paragraph>In previously untreated patients, the incidence of Grade 3 or 4 neutropenia was 42% with a median time to onset of 31 days and a median duration of 37 days. In previously treated patients, the incidence of Grade 3 or 4 neutropenia was 64% with a median duration of 28 days. Ten percent of previously untreated patients and 17% of previously treated patients received granulocyte colony stimulating factors.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="c7e04863-19c8-4aab-a90f-41da011b2d04"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Anemia</content>
+                              </paragraph>
+                              <paragraph>In previously untreated patients, the incidence of Grade 3 or 4 anemia was 12% with a median time to onset of 31 days and a median duration of 8 days. In previously treated patients, the incidence of Grade 3 or 4 anemia was 38%. Seventeen percent of previously untreated patients and 66% of previously treated patients received either erythropoiesis stimulating agents, transfusions or both.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="f9597ae2-4cc7-46ee-8e06-cfcb5e9d654d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Thrombocytopenia</content>
+                              </paragraph>
+                              <paragraph>In previously untreated patients, the incidence of Grade 3 or 4 thrombocytopenia was 14% with a median time to onset of 9 days and a median duration of 14 days. In previously treated patients, the incidence of Grade 3 or 4 thrombocytopenia was 52% with a median duration of 21 days. Autoimmune thrombocytopenia was reported in 2% of previously treated patients with one fatality.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="15db860f-a0c8-4bf1-9ac5-44e805007fc9"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Infusion-Related Reactions</content>
+                              </paragraph>
+                              <paragraph>Infusion-related reactions, which included pyrexia, chills, hypotension, urticaria, and dyspnea, were common. Grade 3 and 4 pyrexia and/or chills occurred in approximately 10% of previously untreated patients and in approximately 35% of previously treated patients. The occurrence of infusion-related reactions was greatest during the initial week of treatment and decreased with subsequent doses of CAMPATH. All patients were pretreated with antipyretics and antihistamines; additionally, 43% of previously untreated patients received glucocorticoid pre-treatment.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e3e0c81c-2654-4464-9f4a-d3e66b5a2142"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Infections</content>
+                              </paragraph>
+                              <paragraph>In the study of previously untreated patients, patients were tested weekly for CMV using a PCR assay from initiation through completion of therapy, and every 2 weeks for the first 2 months following therapy. CMV infection occurred in 16% (23/147) of previously untreated patients; approximately one-third of these infections were serious or life threatening. In studies of previously treated patients in which routine CMV surveillance was not required, CMV infection was documented in 6% (9/149) of patients; nearly all of these infections were serious or life threatening.</paragraph>
+                              <paragraph>Other infections were reported in approximately 50% of patients across all studies. Grade 3 to 5 sepsis ranged from 3% to 10% across studies and was higher in previously treated patients. Grade 3 to 4 febrile neutropenia ranged from 5% to 10% across studies and was higher in previously treated patients. Infection-related fatalities occurred in 2% of previously untreated patients and 16% of previously treated patients. There were 198 episodes of other infection in 109 previously untreated patients; 16% were bacterial, 7% were fungal, 4% were other viral, and in 73% the organism was not identified.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="b2ba24b3-8f7e-404e-af3a-9f2ce341cf72"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Cardiac</content>
+                              </paragraph>
+                              <paragraph>Cardiac dysrhythmias occurred in approximately 14% of previously untreated patients. The majority were tachycardias and were temporally associated with infusion; dysrhythmias were Grade 3 or 4 in 1% of patients.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="09150fc4-b9f1-4604-b544-a67f8ef8f644"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Previously Untreated Patients</content>
+                              </paragraph>
+                              <paragraph>Table 1 contains selected adverse reactions observed in 294 patients randomized (1:1) to receive CAMPATH or chlorambucil as first line therapy for B-CLL. CAMPATH was administered at a dose of 30 mg intravenously three times weekly for up to 12 weeks. The median duration of therapy was 11.7 weeks with a median weekly dose of 82 mg (25%–75% interquartile range: 69–90 mg).</paragraph>
+                              <table width="75%">
+                                 <caption>Table 1: Per Patient Incidence of Selected<footnote>Adverse reactions occurring at a higher relative frequency in the CAMPATH arm</footnote> Adverse Reactions in Treatment Naive B-CLL Patients</caption>
+                                 <col width="25%" align="left" valign="top"/>
+                                 <col width="25%" align="left" valign="middle"/>
+                                 <col width="12%" align="center" valign="middle"/>
+                                 <col width="13%" align="center" valign="middle"/>
+                                 <col width="12%" align="center" valign="middle"/>
+                                 <col width="13%" align="center" valign="middle"/>
+                                 <thead>
+                                    <tr>
+                                       <th styleCode="Lrule"/>
+                                       <th styleCode="Rrule"/>
+                                       <th styleCode="Rrule Botrule" colspan="2">CAMPATH (n=147)</th>
+                                       <th styleCode="Rrule Botrule" colspan="2">Chlorambucil (n=147)</th>
+                                    </tr>
+                                    <tr>
+                                       <th styleCode="Lrule"/>
+                                       <th styleCode="Rrule"/>
+                                       <th styleCode="Rrule">All Grades<footnote>NCI CTC version 2.0 for adverse reactions; NCI CTCAE version 3.0 for laboratory values</footnote>
+                                          <br/>%</th>
+                                       <th styleCode="Rrule">Grades 3–4<br/>%</th>
+                                       <th styleCode="Rrule">All Grades<br/>%</th>
+                                       <th styleCode="Rrule">Grades 3–4<br/>%</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" rowspan="4">Blood and Lymphatic System Disorders</td>
+                                       <td styleCode="Rrule">Lymphopenia</td>
+                                       <td styleCode="Rrule">97</td>
+                                       <td styleCode="Rrule">97</td>
+                                       <td styleCode="Rrule">9</td>
+                                       <td styleCode="Rrule">1</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Neutropenia</td>
+                                       <td styleCode="Rrule" align="center">77</td>
+                                       <td styleCode="Rrule">42</td>
+                                       <td styleCode="Rrule">51</td>
+                                       <td styleCode="Rrule">26</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Anemia</td>
+                                       <td styleCode="Rrule" align="center">76</td>
+                                       <td styleCode="Rrule">13</td>
+                                       <td styleCode="Rrule">54</td>
+                                       <td styleCode="Rrule">18</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Thrombocytopenia</td>
+                                       <td styleCode="Rrule" align="center">71</td>
+                                       <td styleCode="Rrule">13</td>
+                                       <td styleCode="Rrule">70</td>
+                                       <td styleCode="Rrule">14</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" rowspan="2">General Disorders and Administration Site Conditions</td>
+                                       <td styleCode="Rrule">Pyrexia</td>
+                                       <td styleCode="Rrule">69</td>
+                                       <td styleCode="Rrule">10</td>
+                                       <td styleCode="Rrule">11</td>
+                                       <td styleCode="Rrule">1</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Chills</td>
+                                       <td styleCode="Rrule" align="center">53</td>
+                                       <td styleCode="Rrule">3</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" rowspan="3">Infections and Infestations</td>
+                                       <td styleCode="Rrule">CMV viremia<footnote>CMV viremia (without evidence of symptoms) includes both cases of single PCR positive test results and of confirmed CMV viremia (≥2 occasions in consecutive samples 1 week apart). For the latter, ganciclovir (or equivalent) was initiated per protocol.</footnote>
+                                       </td>
+                                       <td styleCode="Rrule">55</td>
+                                       <td styleCode="Rrule">4</td>
+                                       <td styleCode="Rrule">8</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">CMV infection</td>
+                                       <td styleCode="Rrule" align="center">16</td>
+                                       <td styleCode="Rrule">5</td>
+                                       <td styleCode="Rrule">0</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Other infections</td>
+                                       <td styleCode="Rrule" align="center">74</td>
+                                       <td styleCode="Rrule">21</td>
+                                       <td styleCode="Rrule">65</td>
+                                       <td styleCode="Rrule">10</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" rowspan="3">Skin and Subcutaneous Tissue Disorders</td>
+                                       <td styleCode="Rrule">Urticaria</td>
+                                       <td styleCode="Rrule">16</td>
+                                       <td styleCode="Rrule">2</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Rash</td>
+                                       <td styleCode="Rrule" align="center">13</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">4</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Erythema</td>
+                                       <td styleCode="Rrule" align="center">4</td>
+                                       <td styleCode="Rrule">0</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" rowspan="2">Vascular Disorders</td>
+                                       <td styleCode="Rrule">Hypotension</td>
+                                       <td styleCode="Rrule">16</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">0</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Hypertension</td>
+                                       <td styleCode="Rrule" align="center">14</td>
+                                       <td styleCode="Rrule">5</td>
+                                       <td styleCode="Rrule">2</td>
+                                       <td styleCode="Rrule">1</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" rowspan="2">Nervous System Disorders	</td>
+                                       <td styleCode="Rrule">Headache</td>
+                                       <td styleCode="Rrule">14</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">8</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Tremor</td>
+                                       <td styleCode="Rrule" align="center">3</td>
+                                       <td styleCode="Rrule">0</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Respiratory, Thoracic and Mediastinal Disorders</td>
+                                       <td styleCode="Rrule">Dyspnea</td>
+                                       <td styleCode="Rrule">14</td>
+                                       <td styleCode="Rrule">4</td>
+                                       <td styleCode="Rrule">7</td>
+                                       <td styleCode="Rrule">3</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Gastrointestinal Disorders</td>
+                                       <td styleCode="Rrule">Diarrhea</td>
+                                       <td styleCode="Rrule">10</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">4</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" rowspan="2">Psychiatric Disorders</td>
+                                       <td styleCode="Rrule">Insomnia</td>
+                                       <td styleCode="Rrule">10</td>
+                                       <td styleCode="Rrule">0</td>
+                                       <td styleCode="Rrule">3</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Anxiety</td>
+                                       <td styleCode="Rrule" align="center">8</td>
+                                       <td styleCode="Rrule">0</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">Cardiac Disorders</td>
+                                       <td styleCode="Rrule">Tachycardia</td>
+                                       <td styleCode="Rrule">10</td>
+                                       <td styleCode="Rrule">0</td>
+                                       <td styleCode="Rrule">1</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="6d2630f4-5f28-427a-a077-3094dcbfec83"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Previously Treated Patients</content>
+                              </paragraph>
+                              <paragraph>Additional safety information was obtained from 3 single arm studies of 149 previously treated patients with CLL administered 30 mg CAMPATH intravenously three times weekly for 4 to 12 weeks (median cumulative dose 673 mg [range 2–1106 mg]; median duration of therapy 8.0 weeks). Adverse reactions in these studies not listed in Table 1 that occurred at an incidence rate of &gt;5% were fatigue, nausea, emesis, musculoskeletal pain, anorexia, dysesthesia, mucositis, and bronchospasm.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.2">
+                     <id root="3bd42fa7-0f4c-4947-adf4-c290bccaa9bb"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2	Immunogenicity</title>
+                     <text>
+                        <paragraph>As with all therapeutic proteins, there is potential for immunogenicity. The incidence of antibody formation is highly dependent on the sensitivity and specificity of the assay. Additionally, the observed incidence of antibody (including neutralizing antibody) positivity in an assay may be influenced by several factors including assay methodology, sample handling, timing of sample collection, concomitant medications, and underlying disease. For these reasons, comparison of the incidence of antibodies with the incidence of antibodies to other alemtuzumab products may be misleading.</paragraph>
+                        <paragraph>Using an ELISA assay, anti-human antibodies (HAHA) were detected in 11 of 133 (8.3%) previously untreated patients. In addition, two patients were weakly positive for neutralizing activity. Limited data suggest that the anti-CAMPATH antibodies did not adversely affect tumor response. Four of 211 (1.9%) previously treated patients were found to have antibodies to CAMPATH following treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.3">
+                     <id root="0ba2dbc4-b657-486f-8c6b-4346773c5311"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.3	Postmarketing Experience</title>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <section>
+                           <id root="6725b018-799d-492e-9632-e702212148bd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">CAMPATH</content>
+                              </paragraph>
+                              <paragraph>The following adverse reactions have been identified during postapproval use of CAMPATH. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">General Disorders and Administration Site Conditions:</content> Fatal infusion-related reactions.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cardiovascular Disorders:</content> Congestive heart failure, cardiomyopathy, decreased ejection fraction (some patients had been previously treated with cardiotoxic agents).</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cerebrovascular Disorders:</content> Cervicocephalic arterial dissection, stroke, including hemorrhagic and ischemic stroke.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Gastrointestinal Disorders:</content> Acute acalculous cholecystitis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Immune System Disorders:</content> Goodpasture's syndrome, Graves' disease, aplastic anemia, Guillain-Barré syndrome, chronic inflammatory demyelinating polyradiculoneuropathy, serum sickness, fatal transfusion associated graft versus host disease, hemophagocytic lymphohistiocytosis (HLH).</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Infections:</content> Epstein-Barr virus (EBV) infection, progressive multifocal leukoencephalopathy (PML), reactivation of latent viruses.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolism and Nutrition Disorders:</content> Tumor lysis syndrome.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Neoplasms:</content> EBV-associated lymphoproliferative disorder.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Nervous System Disorders:</content> Optic neuropathy.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Renal and Urinary Disorders:</content> Glomerular nephropathies.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="2e0a04ec-ef4b-4b14-a63f-d5ac16501290"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Other Alemtuzumab Products</content>
+                              </paragraph>
+                              <paragraph>The following adverse reactions have been identified during postapproval use of another alemtuzumab product. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Endocrine Disorders:</content> Hypothyroidism, hyperthyroidism, and thyroiditis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Nervous System Disorders</content>: Autoimmune encephalitis.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="28ecc6d9-b88a-425c-8c85-73a4c83ecaac"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>No formal drug interaction studies have been performed with CAMPATH.</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="f4df8069-e8a6-4891-b005-689260fc6190"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20230401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Pregnancy</content>: May cause fetal harm. (<linkHtml href="#S8.1">8.1</linkHtml>)</item>
+                           <item>
+                              <content styleCode="underline">Lactation</content>: Advise not to breastfeed. (<linkHtml href="#S8.2">8.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="e051eb41-abaa-4cf1-aefa-3c563c63dbc3"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <section>
+                           <id root="9b13165b-ca59-45c1-b576-ba7fbc107f4d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Based on findings from animal studies, CAMPATH may cause fetal harm when administered to a pregnant woman. Available data from published cohort studies in pregnant women are insufficient to establish a CAMPATH-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. Alemtuzumab was embryolethal in pregnant huCD52 transgenic mice when administered during organogenesis <content styleCode="italics">(see <linkHtml href="#Data">Data</linkHtml>)</content>. Human IgG antibodies are known to cross the placental barrier; therefore, CAMPATH may be transmitted from the mother to the developing fetus. Advise women of the potential risk to the fetus. Infants born to pregnant women treated with CAMPATH may be at increased risk of infection <content styleCode="italics">(see <linkHtml href="#Clinical">Clinical Considerations</linkHtml>)</content>.</paragraph>
+                              <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Clinical">
+                           <id root="b5131070-20ab-4032-8a32-828d871c57aa"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Clinical Considerations</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                           <component>
+                              <section>
+                                 <id root="05d21bd6-4783-4818-940d-eeea810b3e55"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Fetal/Neonatal adverse reactions</paragraph>
+                                    <paragraph>Monoclonal antibodies are transported across the placenta as pregnancy progresses, with the largest amount transferred during the third trimester.  Consider the risks and benefits of administering live or live-attenuated vaccines to infants exposed to CAMPATH <content styleCode="italics">in utero </content>
+                                       <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3</linkHtml>, <linkHtml href="#S5.4">5.4)</linkHtml>]</content>. 												</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230401"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Data">
+                           <id root="605da0fa-5a4b-4055-a804-523077e560ec"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                           <component>
+                              <section>
+                                 <id root="bb6d8eee-968c-4ad4-9f9e-17101418868a"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Animal data</paragraph>
+                                    <paragraph>When alemtuzumab was administered to pregnant huCD52 transgenic mice during organogenesis (gestation days [GD] 6–10 or GD 11–15) at intravenous doses of 3 or 10 mg/kg, no teratogenic effects were observed. However, there was an increase in embryolethality (increased postimplantation loss and the number of dams with all fetuses dead or resorbed) in pregnant animals dosed during GD 11–15. In a separate study in pregnant huCD52 transgenic mice, administration of alemtuzumab during organogenesis (GD 6–10 or GD 11–15) at intravenous doses of 3 or 10 mg/kg, decreases in B-lymphocyte and T-lymphocyte populations were observed in the offspring at both doses tested.</paragraph>
+                                    <paragraph>In pregnant huCD52 transgenic mice administered alemtuzumab at intravenous doses of 3 or 10 mg/kg/day throughout gestation and lactation, there was an increase in pup deaths during the lactation period at 10 mg/kg. Decreases in T-lymphocyte and B-lymphocyte populations and in antibody response were observed in offspring at both doses tested.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230401"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="e9127b53-5371-4ef2-becb-bccb4f5ce8db"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2	Lactation</title>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <section>
+                           <id root="51029185-c30e-4bfb-992d-68704fb3e87e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no data on the presence of alemtuzumab in human milk, effects on milk production, or the breastfed child. The effects of local gastrointestinal exposure and limited systemic exposure in the breastfed infant to alemtuzumab are unknown. Alemtuzumab was detected in the milk of lactating huCD52 transgenic mice administered alemtuzumab <content styleCode="italics">(see <linkHtml href="#Data2">Data</linkHtml>)</content>. Maternal IgG is known to be present in human milk and when a drug is present in animal milk, it is likely that the drug will be present in human milk.</paragraph>
+                              <paragraph>Because of the potential for serious adverse reactions from CAMPATH in a breastfed child, including reduced lymphocyte counts, advise lactating women not to breastfeed during treatment with CAMPATH and for at least 3 months following the last dose.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Data2">
+                           <id root="33218bd7-70af-4bb0-b5a0-ce75504cec3a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                              <paragraph>Alemtuzumab was detected in the milk of lactating huCD52 transgenic mice following intravenous administration of alemtuzumab at a dose of 10 mg/kg on postpartum days 8–12. Serum levels of alemtuzumab were similar in lactating mice and offspring on postpartum day 13 and were associated with evidence of pharmacological activity (decrease in lymphocyte counts) in the offspring.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="61146968-0c7f-40f3-8506-9de11ead795e"/>
+                     <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+                     <title>8.3	Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>CAMPATH may cause embryo-fetal harm when administered to pregnant women <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <section>
+                           <id root="3063eb5e-2e2f-4cbd-9e85-3382e26f801f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Pregnancy Testing</content>
+                              </paragraph>
+                              <paragraph>Pregnancy testing is recommended for females of reproductive potential prior to initiating CAMPATH therapy. 										</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="742d02bf-7af7-4a32-858a-d18f4b4657a8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Contraception</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                           <component>
+                              <section>
+                                 <id root="0f5ff111-0e2c-48b8-bf7c-08d227da7ecf"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>Females</paragraph>
+                                    <paragraph>Advise female patients of reproductive potential to use effective contraception during treatment with CAMPATH and for at least 3 months after the last dose.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20230401"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="a2ba157d-c9fd-48a8-a347-667b5bb72ee3"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Infertility</content>
+                              </paragraph>
+                              <paragraph>Based on findings from animal studies, alemtuzumab may impair fertility in females and males of reproductive potential <content styleCode="italics">[see <linkHtml href="#S13.1">Nonclinical Toxicology (13.1)</linkHtml>].</content>  The reversibility of the effect on fertility is unknown.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="c2feb257-6b35-4430-a550-5129980961c9"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of CAMPATH have not been established in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="1bf67664-d027-4ef0-823e-33837aceb2a0"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of 147 previously untreated B-CLL patients treated with CAMPATH, 35% were ≥ age 65 and 4% were ≥ age 75. Of 149 previously treated patients with B-CLL, 44% were ≥65 years of age and 10% were ≥75 years of age. Clinical studies of CAMPATH did not include sufficient number of subjects age 65 and over to determine whether they respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="f6179f01-9879-4245-bb4c-9caeabb5ee00"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Across all clinical experience, the reported maximum single dose received was 90 mg. Bone marrow aplasia, infections, or severe infusion-related reactions occurred in patients who received a dose higher than recommended.</paragraph>
+                  <paragraph>One patient who received an 80 mg dose intravenously experienced acute bronchospasm, cough, and dyspnea, followed by anuria and death. Another patient received two 90 mg doses intravenously one day apart during the second week of treatment and experienced a rapid onset of bone marrow aplasia.</paragraph>
+                  <paragraph>There is no known specific antidote for CAMPATH overdosage. Discontinue CAMPATH and provide supportive therapy.</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="8c7062c5-2f4d-4b84-8163-5865759ce7b8"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Alemtuzumab, a CD52-directed cytolytic antibody, is a recombinant DNA-derived humanized monoclonal antibody (CAMPATH-1H). CAMPATH-1H is an IgG1 kappa antibody with human variable framework and constant regions, and complementarity-determining regions from a murine (rat) monoclonal antibody (CAMPATH-1G). The CAMPATH-1H antibody has an approximate molecular weight of 150 kD. CAMPATH is produced in mammalian cell (Chinese hamster ovary) suspension culture in a medium containing neomycin. Neomycin is not detectable in the final product.</paragraph>
+                  <paragraph>CAMPATH (alemtuzumab) injection is a sterile, clear, colorless, isotonic solution (pH 6.8–7.4) in a single-dose vial for intravenous use. Each single-dose vial of CAMPATH contains 30 mg alemtuzumab, 8.0 mg sodium chloride, 1.44 mg dibasic sodium phosphate, 0.2 mg potassium chloride, 0.2 mg monobasic potassium phosphate, 0.1 mg polysorbate 80, and 0.0187 mg disodium edetate dihydrate. No preservatives are added.</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="e5d67cca-1640-4998-a7b2-6cce296c3819"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20230401"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="ad3a451b-724d-4dd1-a2af-e5df712e8b35"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>CAMPATH binds to CD52, an antigen present on the surface of B and T lymphocytes, a majority of monocytes, macrophages, NK cells, and a subpopulation of granulocytes. A proportion of bone marrow cells, including some CD34+ cells, express variable levels of CD52. The proposed mechanism of action is antibody-dependent cellular-mediated lysis following cell surface binding of CAMPATH to the leukemic cells.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.2">
+                     <id root="4e5c3405-cb28-4123-81e7-6582d8f00afd"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <section>
+                           <id root="ef296b84-0d6d-43d9-866f-c896b6f45d63"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Cardiac Electrophysiology</content>
+                              </paragraph>
+                              <paragraph>The effect of multiple doses of alemtuzumab (12 mg/day for 5 days) on the QTc interval was evaluated in a single-arm study in 53 patients without malignancy. No large changes in the mean QTc interval (i.e., &gt;20 ms) were detected in the study. A mean increase in heart rate of 22 to 26 beats/min was observed for at least 2 hours following the initial infusion of alemtuzumab. This increase in heart rate was not observed with subsequent doses.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="31815e0b-900e-4202-a0af-e6192cf595fe"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>CAMPATH pharmacokinetics were characterized in a study of 30 previously treated B-CLL patients in whom CAMPATH was administered at the recommended dose and schedule. After 12 weeks of dosing, patients exhibited a 7-fold increase in mean AUC.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <section>
+                           <id root="6e3d6aee-4d77-4bbd-be8f-da76f14cbfbd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Distribution</content>
+                              </paragraph>
+                              <paragraph>After the last 30 mg dose, the mean volume of distribution at steady-state was 0.18 L/kg (range 0.1 to 0.4 L/kg).</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="a71b1421-b7f2-4e2a-83cb-5d6c6f09634a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Elimination</content>
+                              </paragraph>
+                              <paragraph>CAMPATH pharmacokinetics displayed nonlinear elimination kinetics. Systemic clearance decreased with repeated administration due to decreased receptor-mediated clearance (i.e., loss of CD52 receptors in the periphery). Mean half-life was 11 hours (range 2 to 32 hours) after the first 30 mg dose and was 6 days (range 1 to 14 days) after the last 30 mg dose.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="5442ca9a-9465-4c8e-8d55-64b0020a6dd7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Specific Populations</content>
+                              </paragraph>
+                              <paragraph>The effects of renal or hepatic impairment on the pharmacokinetics of CAMPATH have not been studied.</paragraph>
+                           </text>
+                           <effectiveTime value="20230401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="3883f31a-2760-4f26-930a-3212fa5dddda"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20230401"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="87b80ef4-15a3-4c06-9ac8-da11fca4af43"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Studies to assess the carcinogenic or genotoxic potential of CAMPATH have not been conducted.</paragraph>
+                        <paragraph>In fertility studies, alemtuzumab (3 or 10 mg/kg intravenously) was administered to huCD52 transgenic male mice on 5 consecutive days prior to cohabitation with untreated wild-type females. No effect on fertility or reproductive performance was observed. However, adverse effects on sperm parameters (including abnormal morphology [detached/no head] and reduced total count and motility) were observed at both doses tested.</paragraph>
+                        <paragraph>When alemtuzumab (3 or 10 mg/kg intravenously) was administered to huCD52 transgenic female mice for 5 consecutive days prior to cohabitation with untreated wild-type males, there was a decrease in the average number of corpora lutea and implantation sites and an increase in postimplantation loss, resulting in fewer viable embryos at the higher dose tested. 								</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="92aeaa9f-95ae-439f-a988-6b34ab004741"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20230401"/>
+               <component>
+                  <section ID="S14.1">
+                     <id root="c4ec8452-7ee4-4908-9063-209db90fe121"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1	Previously Untreated B-CLL Patients</title>
+                     <text>
+                        <paragraph>CAMPATH was evaluated in an open-label, randomized (1:1) active-controlled study in previously untreated patients with B-CLL, Rai Stage I–IV, with evidence of progressive disease requiring therapy. Patients received either CAMPATH 30 mg intravenously 3 times per week for a maximum of 12 weeks or chlorambucil 40 mg/m<sup>2</sup> orally once every 28 days for a maximum of 12 cycles.</paragraph>
+                        <paragraph>Of the 297 patients randomized, the median age was 60 years, 72% were male, 99% were Caucasian, 96% had a WHO performance status 0–1, 23% had maximum lymph node diameter  ≥5 cm, 34% were Rai Stage III/IV, and 8% were treated in the U.S.</paragraph>
+                        <paragraph>Patients randomized to receive CAMPATH experienced longer progression free survival (PFS) compared to those randomized to receive chlorambucil (median PFS 14.6 months vs. 11.7 months, respectively). The overall response rates were 83% and 55% (p &lt;0.0001) and the complete response rates were 24% and 2% (p &lt;0.0001) for CAMPATH and chlorambucil arms, respectively. The Kaplan-Meier curve for PFS is shown in Figure 1.</paragraph>
+                        <table width="100%" styleCode="Noautorules">
+                           <col width="100%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th>Figure 1: Progression Free Survival in Previously Untreated B-CLL Patients<footnote>Log-rank test adjusted for Rai Stage (I–II vs. III–IV).</footnote>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM1"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                     <component>
+                        <observationMedia ID="MM1">
+                           <text>Figure 1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="campath-01.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.2">
+                     <id root="8c5517b1-dc95-4a2c-bfd1-84aa28c5c531"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2	Previously Treated B-CLL Patients</title>
+                     <text>
+                        <paragraph>CAMPATH was evaluated in three multicenter, open-label, single-arm studies of 149 patients with B-CLL previously treated with alkylating agents, fludarabine, or other chemotherapies. Patients were treated with the recommended dose of CAMPATH 30 mg intravenously 3 times per week for up to 12 weeks. Partial response rates of 21% to 31% and complete response rates of 0% to 2% were observed.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="acc612cc-4605-432f-b983-c25d72e8297e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>CAMPATH (alemtuzumab) is supplied in clear glass single-dose vial containing 30 mg of alemtuzumab in 1 mL of solution. Each carton contains three CAMPATH vials (NDC 58468-0357-3) or one CAMPATH vial (NDC 58468-0357-1).</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+               <component>
+                  <section>
+                     <id root="081cedf4-544a-4e47-bcc1-35b54de90e44"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store CAMPATH at 2°C to 8°C (36°F to 46°F). Do not freeze. If accidentally frozen, thaw at 2°C to 8°C before administration. Protect from direct sunlight.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="6f404d83-3508-45b5-9424-880de9b48d48"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <effectiveTime value="20230401"/>
+               <component>
+                  <section>
+                     <id root="b4fbecc3-aa39-4a61-a0ce-b1c4ffb7237e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Cytopenias</content>
+                        </paragraph>
+                        <paragraph>Advise patients to report any signs or symptoms such as bleeding, easy bruising, petechiae or purpura, pallor, weakness or fatigue <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>
+                           </content> and <content styleCode="italics">
+                              <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="71a68194-eaf1-4045-9c39-12bf773ac95a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Infusion-Related Reactions</content>
+                        </paragraph>
+                        <paragraph>Advise patients of the signs and symptoms of infusion-related reactions and of the need to take premedications as prescribed <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml> and <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b559945a-e36c-454a-9a4c-cf6c8a562e3d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Immunosuppression/Infections</content>
+                        </paragraph>
+                        <paragraph>Advise patients to immediately report symptoms of infection (e.g., pyrexia) and to take prophylactic anti-infectives for PCP (trimethoprim/sulfamethoxazole DS or equivalent) and for herpes virus (famciclovir or equivalent) as prescribed <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml> and <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Advise patients that irradiation of blood products is required <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>. 								</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="7be0a0bb-10b8-43dd-9034-b72b8676dbf6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Immunization</content>
+                        </paragraph>
+                        <paragraph>Advise patients that they should not be immunized with live viral vaccines if they have recently been treated with CAMPATH. Advise females with infants exposed to CAMPATH in utero to inform the pediatrician of the exposure <content styleCode="italics">[see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="134a79f5-c796-4c75-9332-6f2d5c658ff9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Embryo-Fetal Toxicity</content>
+                        </paragraph>
+                        <paragraph>Advise pregnant women and females of reproductive potential of the potential risk to a fetus.     Advise females to inform their healthcare provider of a known or suspected pregnancy <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1</linkHtml>, <linkHtml href="#S8.3">8.3)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Advise female patients of reproductive potential to use effective contraception during treatment with CAMPATH and for 3 months after the final dose <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1</linkHtml>, <linkHtml href="#S8.3">8.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="86b59d0f-8229-4dda-87f8-2c25859ed550"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Lactation</content>
+                        </paragraph>
+                        <paragraph>Advise females not to breastfeed during treatment with CAMPATH and for 3 months after the final dose <content styleCode="italics">[see <linkHtml href="#S8.2">Use in Specific Populations (8.2)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="58cd53ac-2e1f-4980-a077-0d513f625550"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Infertility</content>
+                        </paragraph>
+                        <paragraph>Advise females and males of reproductive potential that CAMPATH may impair fertility <content styleCode="italics">[see <linkHtml href="#S8.3">Use in Specific Populations (8.3)</linkHtml> and <linkHtml href="#S13.1">Nonclinical Toxicology (13.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6ae632ff-b1ed-4da8-b8ba-122041c5721c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Glomerular Nephropathies</content>
+                        </paragraph>
+                        <paragraph>Advise patients on signs and symptoms of glomerular nephropathies that may occur months to years after receiving CAMPATH <content styleCode="italics">[see <linkHtml href="#S6.2">Adverse Reactions (6.2)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c38b5bab-a098-40f1-9314-27b9a44b32b7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured and distributed by:<br/>Genzyme Corporation, Cambridge, MA 02141<br/>A SANOFI COMPANY<br/> US License Number: 1596</paragraph>
+                  <paragraph>CAMPATH is a registered trademark of Genzyme Corporation.</paragraph>
+                  <paragraph>©2023 Genzyme Corporation.</paragraph>
+               </text>
+               <effectiveTime value="20230401"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5402dbc1-2b76-43da-b972-3b21e2718b37"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1 Vial Carton</title>
+               <text>
+                  <paragraph>NDC 58468-0357-1<br/> Rx only</paragraph>
+                  <paragraph>Campath<sup>®</sup>
+                     <br/> alemtuzumab<br/> Injection</paragraph>
+                  <paragraph>30 mg/mL</paragraph>
+                  <paragraph>For Intravenous Infusion After Dilution</paragraph>
+                  <paragraph>Sterile – No U.S. Standard of Potency</paragraph>
+                  <paragraph>One single-dose vial<br/> Discard unused portion</paragraph>
+                  <paragraph>sanofi</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20230401"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 1 Vial Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="campath-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="93071a31-3acc-40ea-82a5-ea24ff3ea314"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 3 Vial Carton</title>
+               <text>
+                  <paragraph>NDC 58468-0357-3<br/>Rx only</paragraph>
+                  <paragraph>Campath<sup>®</sup>
+                     <br/> alemtuzumab<br/> Injection</paragraph>
+                  <paragraph>30 mg/mL</paragraph>
+                  <paragraph>For Intravenous Infusion After Dilution</paragraph>
+                  <paragraph>Sterile – No U.S. Standard of Potency</paragraph>
+                  <paragraph>Three single-dose vials<br/> Discard unused portion</paragraph>
+                  <paragraph>sanofi</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20230401"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 3 Vial Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="campath-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,2173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9ebcd7d7-1863-47e9-9c0d-2637d7f4f5af"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use BAFIERTAM safely and effectively. See full prescribing information for BAFIERTAM. <br/>BAFIERTAM<sup>®</sup> (monomethyl fumarate) delayed-release capsules, for oral use <br/>Initial U.S. Approval:  2013
+</title>
+   <effectiveTime value="20250905"/>
+   <setId root="a161f9d4-70f1-4097-957a-eafb35d3274f"/>
+   <versionNumber value="10"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079579273" root="1.3.6.1.4.1.519.1"/>
+            <name>Banner Life Sciences LLC
+</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="002193829" root="1.3.6.1.4.1.519.1"/>
+                        <name>Patheon Softgels Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69387-001" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="dbf32749-37dc-4288-b836-4b82c7117a73"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250905"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69387-001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BAFIERTAM
+</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>monomethyl fumarate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="95" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="45IUB1PX8R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MONOMETHYL FUMARATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="45IUB1PX8R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MONOMETHYL FUMARATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="G7515SW10N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL CAPRYLATE/CAPRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U72Q2I8C85" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL MONO- AND DICAPRYLOCAPRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7YC686GQ8F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYOXYL 40 HYDROGENATED CASTOR OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Lactic Acid, Unspecified Form</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>gelatin, unspecified</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Titanium Dioxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0WZ8WG20P6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hypromellose 2910 (6 MPA.S)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B697894SGQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>polyethylene glycol 400</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="532B59J990" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Polyvinyl Alcohol, Unspecified</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>talc</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Lauryl Sulfate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6O92ICV9RU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sorbitan</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sorbitol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Shellac</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Isopropyl Alcohol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Ferrosoferric Oxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8PJ61P6TS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Butyl Alcohol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Propylene glycol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NX76LV5T8J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Methacrylic Acid - Ethyl Acrylate Copolymer (1:1) Type A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8Z96QXD6UM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Triethyl Citrate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8MDF5V39QO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BICARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="120" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69387-001-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200428"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white">
+                              <originalText>WHITE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL">
+                              <originalText>OVAL</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="13" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">95
+</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200428"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA210296" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="f476233c-381f-4c86-994f-4b25fc1ee3a3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1  INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults.
+</paragraph>
+               </text>
+               <effectiveTime value="20250625"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (<linkHtml href="#s2">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="2bed2464-2469-4c3b-8686-9681acbf616b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2  DOSAGE AND ADMINISTRATION
+</title>
+               <effectiveTime value="20231220"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Blood tests are required prior to initiation of BAFIERTAM. (<linkHtml href="#s4">2.1</linkHtml>)
+</item>
+                           <item>Starting dose: 95 mg twice a day, orally, for 7 days (<linkHtml href="#s5">2.2</linkHtml>)
+</item>
+                           <item>Maintenance dose after 7 days: 190 mg (administered as two 95 mg capsules) twice a day, orally (<linkHtml href="#s5">2.2</linkHtml>)
+</item>
+                           <item>Swallow BAFIERTAM capsules whole and intact. Do not crush, chew, or mix contents with food. (<linkHtml href="#s6">2.3</linkHtml>)
+</item>
+                           <item>Take BAFIERTAM with or without food. (<linkHtml href="#s6">2.3</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s4">
+                     <id root="9de5fed5-0f11-40ba-ba35-0a744e82bc50"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1  Blood Tests Prior to Initiation of BAFIERTAM
+</title>
+                     <text>
+                        <paragraph>Obtain the following prior to treatment with BAFIERTAM:
+</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>A complete blood cell count (CBC), including lymphocyte count <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s14">5.4</linkHtml>)]</content>.
+</item>
+                           <item>Serum aminotransferase, alkaline phosphatase, and total bilirubin levels <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.5</linkHtml>)]</content>.
+</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5">
+                     <id root="2d803919-7844-45cf-870e-698932fa9d54"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2  Dosing Information
+</title>
+                     <text>
+                        <paragraph>The starting dosage for BAFIERTAM is 95 mg twice a day orally for 7 days. After 7 days, the dosage should be increased to the maintenance dosage of 190 mg (administered as two 95 mg capsules) twice a day orally. Temporary dosage reductions to 95 mg twice a day may be considered for individuals who do not tolerate the maintenance dosage. Within 4 weeks, the recommended dosage of 190 mg twice a day should be resumed. Discontinuation of BAFIERTAM should be considered for patients unable to tolerate return to the maintenance dosage.  Administration of non-enteric coated aspirin (up to a dose of 325 mg) 30 minutes prior to BAFIERTAM dosing may reduce the incidence or severity of flushing <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#s44">12.3</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="f4870b2a-db7c-4931-9997-52e1ab37a29f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3  Administration Instructions
+</title>
+                     <text>
+                        <paragraph>Swallow BAFIERTAM capsules whole and intact. Do not crush, chew, or mix the contents with food. BAFIERTAM can be taken with or without food.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7">
+                     <id root="7edd337a-c15c-4317-ba2b-78e03c278cec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4  Blood Tests to Assess Safety After Initiation of BAFIERTAM
+</title>
+                     <text>
+                        <paragraph>Obtain a complete blood cell count (CBC), including lymphocyte count, 6 months after initiation of BAFIERTAM and then every 6 to 12 months thereafter, as clinically indicated <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s13">5.3</linkHtml>)]</content>.
+</paragraph>
+                        <paragraph>Obtain serum aminotransferase, alkaline phosphatase, and total bilirubin levels during treatment with BAFIERTAM, as clinically indicated <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s14">5.4</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="2c5e9b6f-bcdb-4188-9b71-6fe4e6a74974"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3  DOSAGE FORMS AND STRENGTHS
+</title>
+               <text>
+                  <paragraph>BAFIERTAM is available as soft gelatin delayed-release capsules containing 95 mg of monomethyl fumarate. The 95 mg capsule is white, opaque, oval, coated, and printed with “95” in black ink on the body.
+</paragraph>
+               </text>
+               <effectiveTime value="20231220"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Delayed-release capsules: 95 mg (<linkHtml href="#s8">3</linkHtml>)
+</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="ae60c6e3-38fc-436e-9a06-7bb2c566a0ed"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4  CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>BAFIERTAM is contraindicated in patients:
+</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>with known hypersensitivity to monomethyl fumarate, dimethyl fumarate, diroximel fumarate, or to any of the excipients of BAFIERTAM. Reactions may include anaphylaxis or angioedema <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s11">5.1</linkHtml>)].</content>
+                     </item>
+                     <item>taking dimethyl fumarate or diroximel fumarate <content styleCode="italics">[see Drug Interactions (<linkHtml href="#s27">7.1</linkHtml>)].</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20231220"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Known hypersensitivity to monomethyl fumarate, dimethyl fumarate, diroximel fumarate, or any of the excipients of BAFIERTAM
+</item>
+                           <item>Co-administration with dimethyl fumarate or diroximel fumarate (<linkHtml href="#s9">4</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="e0664ab6-f1ee-417d-bbd0-93e48e8dacbb"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5  WARNINGS AND PRECAUTIONS
+</title>
+               <effectiveTime value="20250611"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Anaphylaxis and Angioedema: Discontinue and do not restart BAFIERTAM if these occur. (<linkHtml href="#s11">5.1</linkHtml>)
+</item>
+                           <item>Progressive Multifocal Leukoencephalopathy (PML): Withhold BAFIERTAM at the first sign or symptom suggestive of PML. (<linkHtml href="#s12">5.2</linkHtml>)
+</item>
+                           <item>Herpes Zoster and Other Serious Opportunistic Infections: Consider withholding BAFIERTAM in cases of serious infection until the infection has resolved. (<linkHtml href="#s13">5.3</linkHtml>)
+</item>
+                           <item>Lymphopenia: Obtain a CBC including lymphocyte count before initiating BAFIERTAM, after 6 months, and every 6 to 12 months thereafter. Consider interruption of BAFIERTAM if lymphocyte counts &lt;0.5 x 10<sup>9</sup>/L persist for more than six months. (<linkHtml href="#s14">5.4</linkHtml>)
+</item>
+                           <item>Liver Injury: Obtain serum aminotransferase, alkaline phosphatase, and total bilirubin levels before initiating BAFIERTAM and during treatment, as clinically indicated. Discontinue BAFIERTAM if clinically significant liver injury induced by BAFIERTAM is suspected. (<linkHtml href="#s15">5.5</linkHtml>)
+</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s11">
+                     <id root="0ecc57ba-ce7a-431f-8f22-e11d9ed13e74"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1   Anaphylaxis and Angioedema
+</title>
+                     <text>
+                        <paragraph>BAFIERTAM can cause anaphylaxis and angioedema after the first dose or at any time during treatment. Signs and symptoms in patients taking dimethyl fumarate (the prodrug of BAFIERTAM) have included difficulty breathing, urticaria, and swelling of the throat and tongue. Patients should be instructed to discontinue BAFIERTAM and seek immediate medical care should they experience signs and symptoms of anaphylaxis or angioedema.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="05eed9c4-e36f-448b-a8b1-bad09fecf8e6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2   Progressive Multifocal Leukoencephalopathy
+</title>
+                     <text>
+                        <paragraph>Progressive multifocal leukoencephalopathy (PML) has occurred in patients with MS treated with dimethyl fumarate (the prodrug of BAFIERTAM). PML is an opportunistic viral infection of the brain caused by the JC virus (JCV) that typically only occurs in patients who are immunocompromised, and that usually leads to death or severe disability. A fatal case of PML occurred in a patient who received dimethyl fumarate for 4 years while enrolled in a clinical trial. During the clinical trial, the patient experienced prolonged lymphopenia (lymphocyte counts predominantly &lt;0.5x10<sup>9</sup>/L for 3.5 years) while taking dimethyl fumarate <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s14">5.4</linkHtml>)]</content>. The patient had no other identified systemic medical conditions resulting in compromised immune system function and had not previously been treated with natalizumab, which has a known association with PML. The patient was also not taking any immunosuppressive or immunomodulatory medications concomitantly.
+</paragraph>
+                        <paragraph>PML has also occurred in patients taking dimethyl fumarate in the postmarketing setting in the presence of lymphopenia (&lt;0.9x10<sup>9</sup>/L). While the role of lymphopenia in these cases is uncertain, the PML cases have occurred predominantly in patients with lymphocyte counts &lt;0.8x10<sup>9</sup>/L persisting for more than 6 months.
+</paragraph>
+                        <paragraph>At the first sign or symptom suggestive of PML, withhold BAFIERTAM and perform an appropriate diagnostic evaluation. Typical symptoms associated with PML are diverse, progress over days to weeks, and include progressive weakness on one side of the body or clumsiness of limbs, disturbance of vision, and changes in thinking, memory, and orientation leading to confusion and personality changes.
+</paragraph>
+                        <paragraph>Magnetic resonance imaging (MRI) findings may be apparent before clinical signs or symptoms. Cases of PML, diagnosed based on MRI findings and the detection of JCV DNA in the cerebrospinal fluid in the absence of clinical signs or symptoms specific to PML, have been reported in patients treated with other MS medications associated with PML. Many of these patients subsequently became symptomatic with PML. Therefore, monitoring with MRI for signs that may be consistent with PML may be useful, and any suspicious findings should lead to further investigation to allow for an early diagnosis of PML, if present. Lower PML-related mortality and morbidity have been reported following discontinuation of another MS medication associated with PML in patients with PML who were initially asymptomatic compared to patients with PML who had characteristic clinical signs and symptoms at diagnosis. It is not known whether these differences are due to early detection and discontinuation of MS treatment or due to differences in disease in these patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="41a10795-f4a8-4bd6-bb72-99bd29880dd4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3   Herpes Zoster and Other Serious Opportunistic Infections
+</title>
+                     <text>
+                        <paragraph>Serious cases of herpes zoster have occurred with dimethyl fumarate (the prodrug of BAFIERTAM), including disseminated herpes zoster, herpes zoster ophthalmicus, herpes zoster meningoencephalitis, and herpes zoster meningomyelitis. These events may occur at any time during treatment. Monitor patients on BAFIERTAM for signs and symptoms of herpes zoster.  If herpes zoster occurs, appropriate treatment for herpes zoster should be administered.
+</paragraph>
+                        <paragraph>Other serious opportunistic infections have occurred with dimethyl fumarate, including cases of serious viral (herpes simplex virus, West Nile virus, cytomegalovirus), fungal (Candida and Aspergillus), and bacterial (Nocardia, Listeria monocytogenes, Mycobacterium tuberculosis) infections. These infections have been reported in patients with reduced absolute lymphocyte counts (ALC) as well as in patients with normal ALC. These infections have affected the brain, meninges, spinal cord, gastrointestinal tract, lungs, skin, eye, and ear. Patients with symptoms and signs consistent with any of these infections should undergo prompt diagnostic evaluation and receive appropriate treatment.
+</paragraph>
+                        <paragraph>Consider withholding BAFIERTAM treatment in patients with herpes zoster or other serious infections until the infection has resolved <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s25">6.2</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="19d56d02-477c-49bf-acec-a0498997f34a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4    Lymphopenia
+</title>
+                     <text>
+                        <paragraph>BAFIERTAM may decrease lymphocyte counts. In the MS placebo-controlled trials with dimethyl fumarate (the prodrug of BAFIERTAM), mean lymphocyte counts decreased by approximately 30% during the first year of treatment with dimethyl fumarate and then remained stable. Four weeks after stopping dimethyl fumarate, mean lymphocyte counts increased, but did not return to baseline. Six percent (6%) of dimethyl fumarate patients and &lt;1% of placebo patients experienced lymphocyte counts &lt;0.5x10<sup>9</sup>/L (lower limit of normal 0.91x10<sup>9</sup>/L). The incidence of infections (60% vs 58%) and serious infections (2% vs 2%) was similar in patients treated with dimethyl fumarate or placebo, respectively. There was no increased incidence of serious infections observed in patients with lymphocyte counts &lt;0.8x10<sup>9</sup>/L or ≤0.5x10<sup>9</sup>/L in controlled trials, although one patient in an extension study developed PML in the setting of prolonged lymphopenia (lymphocyte counts predominantly &lt;0.5x10<sup>9</sup>/L for 3.5 years) <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s12">5.2</linkHtml>)]</content>.</paragraph>
+                        <paragraph>In controlled and uncontrolled clinical trials with dimethyl fumarate, 2% of patients experienced prolonged, severe lymphopenia (defined as lymphocyte counts &lt;0.5x10<sup>9</sup>/L for at least six months); in this group of patients, the majority of lymphocyte counts remained &lt;0.5x10<sup>9</sup>/L with continued therapy. In these patients with prolonged, severe lymphopenia, the median time for lymphocyte counts to return to normal after discontinuing dimethyl fumarate was 96.0 weeks.</paragraph>
+                        <paragraph>In these controlled and uncontrolled clinical studies, among patients who did not experience prolonged, severe lymphopenia during treatment, the median times for lymphocyte counts to return to normal after discontinuing dimethyl fumarate were as follows:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>4.3 weeks in patients with mild lymphopenia (lymphocyte count ≥0.8x10<sup>9</sup>/L) at discontinuation,</item>
+                           <item>10.0 weeks in patients with moderate lymphopenia (lymphocyte count 0.5 to &lt;0.8x10<sup>9</sup>/L) at discontinuation, and</item>
+                           <item>16.7 weeks in patients with severe lymphopenia (lymphocyte count &lt;0.5x10<sup>9</sup>/L) at discontinuation.</item>
+                        </list>
+                        <paragraph>Neither BAFIERTAM nor dimethyl fumarate have been studied in patients with preexisting low lymphocyte counts.</paragraph>
+                        <paragraph>Obtain a CBC, including lymphocyte count, before initiating treatment with BAFIERTAM, 6 months after starting treatment, and then every 6 to 12 months thereafter, and as clinically indicated. Consider interruption of BAFIERTAM in patients with lymphocyte counts less than 0.5x10<sup>9</sup>/L persisting for more than six months. Given the potential for delayed recovery of lymphocyte counts, continue to obtain lymphocyte counts until their recovery if BAFIERTAM is discontinued or interrupted because of lymphopenia. Consider withholding treatment from patients with serious infections until resolution. Decisions about whether or not to restart BAFIERTAM should be individualized based on clinical circumstances.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="fde08089-f0ff-4300-8939-d7f993a6578d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5   Liver Injury
+</title>
+                     <text>
+                        <paragraph>Clinically significant cases of liver injury have been reported in patients treated with dimethyl fumarate (the prodrug of BAFIERTAM) in the postmarketing setting. The onset has ranged from a few days to several months after initiation of treatment with dimethyl fumarate. Signs and symptoms of liver injury, including elevation of serum aminotransferases to greater than 5-fold the upper limit of normal and elevation of total bilirubin to greater than 2-fold the upper limit of normal have been observed. These abnormalities resolved upon treatment discontinuation. Some cases required hospitalization. None of the reported cases resulted in liver failure, liver transplant, or death. However, the combination of new serum aminotransferase elevations with increased levels of bilirubin caused by drug-induced hepatocellular injury is an important predictor of serious liver injury that may lead to acute liver failure, liver transplant, or death in some patients.
+</paragraph>
+                        <paragraph>Elevations of hepatic transaminases (most no greater than 3 times the upper limit of normal) were observed during controlled trials with dimethyl fumarate <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s19">6.1</linkHtml>)]</content>.
+</paragraph>
+                        <paragraph>Obtain serum aminotransferase, alkaline phosphatase (ALP), and total bilirubin levels prior to treatment with BAFIERTAM and during treatment, as clinically indicated. Discontinue BAFIERTAM if clinically significant liver injury induced by BAFIERTAM is suspected.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="e7162b76-ec2b-401d-ac41-72d3abca98dc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6   Flushing
+</title>
+                     <text>
+                        <paragraph>BAFIERTAM may cause flushing (e.g., warmth, redness, itching, and/or burning sensation). In clinical trials of dimethyl fumarate (the prodrug of BAFIERTAM), 40% of dimethyl fumarate treated patients experienced flushing. Flushing symptoms generally began soon after initiating dimethyl fumarate and usually improved or resolved over time. In the majority of patients who experienced flushing, it was mild or moderate in severity. Three percent (3%) of patients discontinued dimethyl fumarate for flushing, and &lt;1% had serious flushing symptoms that were not life-threatening but led to hospitalization. Studies with dimethyl fumarate show that administration of non-enteric coated aspirin (up to a dose of 325 mg) 30 minutes prior to dosing may reduce the incidence or severity of flushing <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#s44">12.3</linkHtml>)]</content>. In the BAFIERTAM studies, the presence of food did not impact the incidence of flushing.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="8ab0a9ff-9a45-458f-9b99-74f47c3e3ad8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="xmChange"/>5.7   Serious Gastrointestinal Reactions
+</title>
+                     <text>
+                        <paragraph>Serious gastrointestinal reactions, including perforation, ulceration, hemorrhage, and obstruction, some with fatal outcomes, have been reported in the postmarketing setting with the use of fumaric acid esters, including dimethyl fumarate, with or without concomitant aspirin use. The majority of these events have occurred within 6 months of fumaric acid ester treatment initiation. In controlled clinical trials, the incidence of serious gastrointestinal adverse events was 1% in patients treated with dimethyl fumarate; these events, none of which were fatal, included vomiting (0.3%) and abdominal pain (0.3%) <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s19">6.1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Monitor patients, promptly evaluate, and discontinue BAFIERTAM for new or worsening severe gastrointestinal signs and symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="64b58fe4-ac49-4c48-99ad-ba78a6c51f41"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6  ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Anaphylaxis and Angioedema <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s11">5.1</linkHtml>)]</content>
+                     </item>
+                     <item>Progressive Multifocal Leukoencephalopathy <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s12">5.2</linkHtml>
+                        </content>)<content styleCode="italics">]</content>
+                     </item>
+                     <item>Herpes Zoster and Other Serious Opportunistic Infections<content styleCode="italics"> [see Warnings and Precautions (<linkHtml href="#s13">5.3</linkHtml>
+                        </content>)<content styleCode="italics">]</content>
+                     </item>
+                     <item>Lymphopenia <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s14">5.4</linkHtml>)]</content>
+                     </item>
+                     <item>Liver Injury <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.5</linkHtml>)]</content>
+                     </item>
+                     <item>Flushing <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s16">5.6</linkHtml>)]</content>
+                     </item>
+                     <item>Serious Gastrointestinal Reactions <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.7</linkHtml>)]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250611"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (incidence for dimethyl fumarate [the prodrug of BAFIERTAM] ≥10% and ≥2% more than placebo) were flushing, abdominal pain, diarrhea, and nausea. (<linkHtml href="#s19">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Banner Life Sciences at toll-free phone: 1-866-MMF- 95MG or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s19">
+                     <id root="0475bf72-5977-4058-a558-1564ec425196"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1  Clinical Trials Experience
+</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.
+</paragraph>
+                        <paragraph>The data described in the following sections were obtained using dimethyl fumarate delayed-release capsules (the prodrug of BAFIERTAM).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                     <component>
+                        <section ID="s20">
+                           <id root="f86dd0f1-f262-4b64-a77e-9ce06180d8df"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Adverse Reactions in Placebo-Controlled Trials with Dimethyl Fumarate</content>
+                              </paragraph>
+                              <paragraph>In the two well-controlled studies demonstrating effectiveness, 1529 patients received dimethyl fumarate with an overall exposure of 2244 person-years <content styleCode="italics">[see Clinical Studies (<linkHtml href="#s59">14</linkHtml>)]. </content>
+                                 <content>The adverse reactions presented in </content>
+                                 <linkHtml href="#t1">Table 1</linkHtml>
+                                 <content> below are based on safety information from 769 patients treated with dimethyl fumarate 240 mg twice a day and 771 placebo-treated patients. The most common adverse reactions (incidence ≥10% and ≥2% more than placebo) for dimethyl fumarate were flushing, abdominal pain, diarrhea, and nausea.</content>
+                              </paragraph>
+                              <table ID="t1" width="100%">
+                                 <caption>Table 1: Adverse Reactions in Study 1 and 2 Reported for Dimethyl Fumarate at ≥ 2% Higher Incidence than Placebo </caption>
+                                 <colgroup>
+                                    <col width="55.100%" align="left"/>
+                                    <col width="30.200%" align="left"/>
+                                    <col width="14.700%" align="left"/>
+                                 </colgroup>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode="Botrule Toprule" align="left" valign="top">
+                                          <content styleCode="bold">Adverse Reaction</content>
+                                       </td>
+                                       <td styleCode="Botrule Toprule" align="center" valign="top">
+                                          <content styleCode="bold">Dimethyl Fumarate</content>
+                                          <br/>
+                                          <content styleCode="bold">240 mg Twice Daily</content>
+                                          <br/>
+                                          <content styleCode="bold">N=769</content>
+                                          <br/>%</td>
+                                       <td styleCode="Botrule Toprule" align="center" valign="top">
+                                          <content styleCode="bold">Placebo</content>
+                                          <br/>
+                                          <content styleCode="bold">N=771</content>
+                                          <br/>%</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="top">Flushing</td>
+                                       <td styleCode="Rrule" align="center" valign="top">40</td>
+                                       <td align="center" valign="top">6</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Abdominal pain</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">18</td>
+                                       <td align="center" valign="middle">10</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Diarrhea</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">14</td>
+                                       <td align="center" valign="middle">11</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Nausea</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">12</td>
+                                       <td align="center" valign="middle">9</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Vomiting</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">9</td>
+                                       <td align="center" valign="middle">5</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Pruritus</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">8</td>
+                                       <td align="center" valign="middle">4</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Rash</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">8</td>
+                                       <td align="center" valign="middle">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Albumin urine present</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">6</td>
+                                       <td align="center" valign="middle">4</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Erythema</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">5</td>
+                                       <td align="center" valign="middle">1</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Dyspepsia</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">5</td>
+                                       <td align="center" valign="middle">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Rrule" align="left" valign="middle">Aspartate aminotransferase increased</td>
+                                       <td styleCode="Rrule" align="center" valign="middle">4</td>
+                                       <td align="center" valign="middle">2</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule Rrule" align="left" valign="top">Lymphopenia</td>
+                                       <td styleCode="Botrule Rrule" align="center" valign="top">2</td>
+                                       <td styleCode="Botrule" align="center" valign="top">&lt;1</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph/>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s21">
+                           <id root="59811815-a991-43ea-9cd8-ba354449fff8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Gastrointestinal</content>
+                              </paragraph>
+                              <paragraph>Dimethyl fumarate caused GI events (e.g., nausea, vomiting, diarrhea, abdominal pain, and dyspepsia). In clinical trials, the incidence of GI events was higher early in the course of treatment (primarily during the first month) and usually decreased over time in patients treated with dimethyl fumarate compared with placebo. Four percent (4%) of patients treated with dimethyl fumarate and less than 1% of patients on placebo discontinued due to gastrointestinal events. The incidence of serious GI events was 1% in clinical trial patients treated with dimethyl fumarate; these events, none of which were fatal, included vomiting (0.3%) and abdominal pain (0.3%).</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s22">
+                           <id root="aa90497c-01e3-45b0-a326-9356a38e2316"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Hepatic Transaminases</content>
+                              </paragraph>
+                              <paragraph>An increased incidence of elevations of hepatic transaminases in patients treated with dimethyl fumarate in clinical trials was seen primarily during the first six months of treatment, and most patients with elevations had levels &lt; 3 times the upper limit of normal (ULN). Elevations of alanine aminotransferase and aspartate aminotransferase to ≥ 3 times the ULN occurred in a small number of patients treated with both dimethyl fumarate and in patients on placebo, and were balanced between the groups. There were no elevations in transaminases ≥ 3 times the ULN with concomitant elevations in total bilirubin &gt; 2 times the ULN. Discontinuations due to elevated hepatic transaminases were &lt; 1%, and were similar in patients treated with dimethyl fumarate or placebo.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s23">
+                           <id root="05f957d1-be66-4bb5-ade8-685c5ce07de7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Eosinophilia</content>
+                              </paragraph>
+                              <paragraph>A transient increase in mean eosinophil counts was seen during the first 2 months of therapy with dimethyl fumarate.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s24">
+                           <id root="511472fc-0eb8-47e3-8c37-ece93551e46a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Adverse Reactions in Studies with BAFIERTAM (Monomethyl Fumarate)</content>
+                              </paragraph>
+                              <paragraph>In clinical studies, a total of 178 healthy subjects have received single doses of BAFIERTAM. The adverse reaction profile of BAFIERTAM was consistent with the experience in the placebo-controlled clinical trials with dimethyl fumarate. Taking BAFIERTAM without food may reduce the incidence of GI events.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="4ed981a2-4e31-48af-b488-2da16aa760a5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2  Postmarketing Experience
+</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post approval use of dimethyl fumarate (the prodrug of BAFIERTAM). Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>Gastrointestinal Disorders: Acute pancreatitis; Gastrointestinal perforation, ulceration, obstruction, and hemorrhage <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.7</linkHtml>)]</content>
+                        </paragraph>
+                        <paragraph>Hepatobiliary Disorders: Liver function abnormalities (elevations in transaminases ≥ 3 times</paragraph>
+                        <paragraph>ULN with concomitant elevations in total bilirubin &gt; 2 times ULN) <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.5</linkHtml>)]</content>
+                        </paragraph>
+                        <paragraph>Infections and Infestations: Herpes zoster infection and other serious opportunistic infections <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s13">5.3</linkHtml>)]</content>
+                        </paragraph>
+                        <paragraph>Respiratory, Thoracic, and Mediastinal Disorders: Rhinorrhea</paragraph>
+                        <paragraph>Skin and Subcutaneous: Alopecia</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s26">
+               <id root="87f4161a-ddc6-4cd1-a0fb-7f389c9a0054"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title> 7 DRUG INTERACTIONS
+</title>
+               <effectiveTime value="20250611"/>
+               <component>
+                  <section ID="s27">
+                     <id root="e8d284e7-8448-44b9-b84f-0dacbe703c58"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Concomitant Dimethyl Fumarate or Diroximel Fumarates</title>
+                     <text>
+                        <paragraph>Both dimethyl fumarate and diroximel fumarate are metabolized to monomethyl fumarate. Therefore, BAFIERTAM is contraindicated in patients currently taking dimethyl fumarate or diroximel fumarate. BAFIERTAM may be initiated the day following discontinuation of either of these drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s28">
+               <id root="38f20226-364c-4dac-a65c-908ebd2d7da3"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8  USE IN SPECIFIC POPULATIONS
+</title>
+               <effectiveTime value="20250611"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Pregnancy: Based on animal data, may cause fetal harm. (<linkHtml href="#s29">8.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s29">
+                     <id root="ba6f502b-9952-43d0-b1f3-ea7d0ed963b3"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1  Pregnancy
+</title>
+                     <effectiveTime value="20250611"/>
+                     <component>
+                        <section ID="s30">
+                           <id root="487c27d6-19b5-411c-9ea1-895832ec6a29"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Pregnancy Exposure Registry</paragraph>
+                              <paragraph>There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to BAFIERTAM during pregnancy. Pregnant women exposed to BAFIERTAM and healthcare providers are encouraged to contact Banner Life Sciences at 1-866-MMF-95MG (1-866-663-9564).</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s31">
+                           <id root="f550cabb-8739-49f8-bc6e-c6017c3217aa"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no adequate data on the developmental risk associated with the use of BAFIERTAM in pregnant women.<br/>Available data from a pregnancy registry for dimethyl fumarate (the prodrug of BAFIERTAM), observational studies, and pharmacovigilance with dimethyl fumarate use in pregnant women have not indicated an increased risk of major birth defects, miscarriage, or other adverse maternal or fetal outcomes. Most of the reported exposures to dimethyl fumarate occurred during the first trimester of pregnancy (<content styleCode="italics">see <linkHtml href="#s32">Data</linkHtml>
+                                 </content>).<br/>In animals, adverse effects on offspring survival, growth, sexual maturation, and neurobehavioral function were observed when dimethyl fumarate (DMF) was administered during pregnancy and lactation at clinically relevant doses (<content styleCode="italics">see <linkHtml href="#s32">Data</linkHtml>)</content>.</paragraph>
+                              <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s32">
+                           <id root="79743dd5-4523-44be-ad9b-b6cf988bef0e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="d33">
+                           <id root="7665c5f6-68cb-43d1-a8a7-e8f14ac2da8a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Human Data</content>
+                              </paragraph>
+                              <paragraph>In a prospective observational pregnancy registry for dimethyl fumarate (2013-2022), the rate of major birth defects among 362 live births and stillbirths from women who were exposed to dimethyl fumarate during pregnancy was 3.6% (95% CI: 1.9-6.1). No specific pattern of major birth defects was identified. Important potential study limitations include exposure misclassification, no adjustment for confounders, and lack of an internal comparator cohort.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s33">
+                           <id root="225d493c-7255-4c9f-a57d-1662735bf2c1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Animal data</content>
+                              </paragraph>
+                              <paragraph>In rats administered DMF orally (0, 25, 100, and 250 mg/kg/day) throughout organogenesis, embryofetal toxicity (reduced fetal body weight and delayed ossification) were observed at the highest dose tested. This dose also produced evidence of maternal toxicity (reduced body weight). Plasma exposure (AUC) for monomethyl fumarate (MMF), the major circulating metabolite, at the no-effect dose is approximately three times that in humans at the recommended human dose (RHD) of MMF (380 mg/day). In rabbits administered DMF orally (0, 25, 75, and 150 mg/kg/day) throughout organogenesis, embryolethality and decreased maternal body weight were observed at the highest dose tested. The plasma AUC for MMF at the no-effect dose is approximately 5 times that in humans at the RHD of MMF.</paragraph>
+                              <paragraph>Oral administration of DMF (0, 25, 100, and 250 mg/kg/day) to rats throughout organogenesis and lactation resulted in increased lethality, persistent reductions in body weight, delayed sexual maturation (male and female pups), and reduced testicular weight at the highest dose tested. Neurobehavioral impairment was observed at all doses. A no-effect dose for developmental toxicity was not identified. The lowest dose tested was associated with plasma AUC for MMF lower than that in humans at the RHD of MMF.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="9192adb6-b055-4a18-b112-ecb90f1e59a8"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2  Lactation
+</title>
+                     <effectiveTime value="20250611"/>
+                     <component>
+                        <section ID="s35">
+                           <id root="5dc5d8ce-43d8-471f-9c3e-d1513dbd246b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no data on the presence of DMF or MMF in human milk. The effects on the breastfed infant and on milk production are unknown.</paragraph>
+                              <paragraph>The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for BAFIERTAM and any potential adverse effects on the breastfed infant from the drug or from the underlying maternal condition.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s36">
+                     <id root="537cc7a3-0882-49a4-93b1-ed5437edff10"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4  Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                     <component>
+                        <section ID="s37">
+                           <id root="82d7dbea-6cb8-4a35-9122-e699ed006b6c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Juvenile Animal Toxicity Data</content>
+                              </paragraph>
+                              <paragraph>Oral administration of monomethyl fumarate (MMF) (0, 40, 100, or 250 mg/kg/day) to juvenile rats from postnatal day 28 to 70 resulted in reduced body weight and bone growth, delayed sexual maturation in females, and renal tubular (exfoliated cells or degeneration) and gastrointestinal (nonglandular stomach hyperkeratosis or hyperplasia) effects at all but the lowest dose tested. No adverse effects were observed on neurobehavioral development.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s38">
+                     <id root="7071d903-b45b-4d3b-ba57-a92125275079"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5  Geriatric Use
+</title>
+                     <text>
+                        <paragraph>Clinical studies of dimethyl fumarate (the prodrug of BAFIERTAM) and of BAFIERTAM did not include sufficient numbers of patients aged 65 and over to determine whether they respond differently from younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s39">
+               <id root="10da0e07-7ce0-47a2-a260-8675c204e93b"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11  DESCRIPTION
+</title>
+               <text>
+                  <paragraph>BAFIERTAM contains the active ingredient monomethyl fumarate, which is an unsaturated monomethyl ester. It is also known by its chemical name, fumaric acid monomethyl ester, (C<sub>5</sub>H<sub>6</sub>O<sub>4</sub>). It has the following structure:</paragraph>
+                  <renderMultiMedia referencedObject="mm01"/>
+                  <paragraph>Monomethyl fumarate is a white to off-white powder that is highly soluble in water with a molecular mass of 130.10.</paragraph>
+                  <paragraph>BAFIERTAM is provided as soft gelatin delayed-release capsules for oral administration, containing 95 mg of monomethyl fumarate consisting of the following inactive ingredients:</paragraph>
+                  <paragraph>Glyceryl caprylate/caprate, lactic acid, polyoxyl 40 hydrogenated castor oil and povidone K30. The capsule shell, printed with black ink, contains the following inactive ingredients: ammonium hydroxide, butyl alcohol, ferrosoferric oxide, isopropyl alcohol, gelatin, propylene glycol, shellac, solution of sorbitans and sorbitol and titanium dioxide. The coating system includes the following inactive ingredients: colloidal anhydrous silica, GMCC Type 1 mono and di-glycerides, hypromellose type 2910, methacrylic acid and ethyl acrylate copolymer, polyethylene glycol (MW=400), polyvinyl alcohol part hydrolyzed, sodium bicarbonate, sodium lauryl sulfate, talc, titanium dioxide and triethyl citrate.</paragraph>
+               </text>
+               <effectiveTime value="20250624"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>structural formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="baf01-0000-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s40">
+               <id root="2a466917-691e-4d91-ac55-89423a536d7a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12  CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20250624"/>
+               <component>
+                  <section ID="s41">
+                     <id root="d9dd48a2-bb73-4575-bb12-8ef50ba0ea62"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1  Mechanism of Action
+</title>
+                     <text>
+                        <paragraph>The mechanism by which monomethyl fumarate (MMF) exerts its therapeutic effect in multiple sclerosis is unknown. MMF has been shown to activate the Nuclear factor (erythroid-derived 2) like 2 (Nrf2) pathway <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> in animals and humans. The Nrf2 pathway is involved in the cellular response to oxidative stress. MMF has been identified as a nicotinic acid receptor agonist <content styleCode="italics">in vitro</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s42">
+                     <id root="5e8b69fe-3fc1-4490-a208-f9eba312af73"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics
+</title>
+                     <effectiveTime value="20231220"/>
+                     <component>
+                        <section ID="s43">
+                           <id root="775013f9-9aee-473c-b931-0411ecf8a67f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Potential to prolong the QT interval</content>
+                              </paragraph>
+                              <paragraph>In a placebo controlled thorough QT study performed in healthy subjects with dimethyl fumarate [the prodrug of BAFIERTAM], there was no evidence that dimethyl fumarate caused QT interval prolongation of clinical significance (i.e., the upper bound of the 90% confidence interval for the largest placebo-adjusted, baseline-corrected QTc was below 10 ms).
+</paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s44">
+                     <id root="d74338cd-9e69-4cb4-b917-f538c85e9fe7"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3  Pharmacokinetics
+</title>
+                     <text>
+                        <paragraph>Pharmacokinetics of monomethyl fumarate have previously been characterized after oral administration of its prodrug, dimethyl fumarate, as delayed-release capsules, in healthy subjects and subjects with multiple sclerosis. After oral administration, dimethyl fumarate undergoes rapid presystemic hydrolysis by esterases and is converted to its active metabolite, monomethyl fumarate (MMF).  Additional pharmacokinetic data of monomethyl fumarate were obtained after oral administration of BAFIERTAM, the monomethyl fumarate delayed-release capsules, in healthy subjects.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                     <component>
+                        <section ID="s45">
+                           <id root="4dc0927c-8630-4f69-bca5-e1f76d93a5c0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Absorption</content>
+                              </paragraph>
+                              <paragraph>Following oral administration of BAFIERTAM 190 mg (two 95 mg monomethyl fumarate delayed-release capsules) under fasting conditions, the median T<sub>max</sub> of MMF is 4.03 hours; and the peak plasma concentration (C<sub>max</sub>) and overall exposure (AUC) of monomethyl fumarate are bioequivalent to those after oral administration of 240 mg dimethyl fumarate delayed-release capsule.</paragraph>
+                              <paragraph>A high-fat, high-calorie meal did not significantly affect the overall monomethyl fumarate plasma exposure (AUC), but decreased the C<sub>max</sub> of MMF by 20%, with prolonged absorption. The median T<sub>max</sub> of MMF was delayed from approximately 4.0 hours to 11 hours by a high fat meal.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s46">
+                           <id root="2e87cbb6-ec4b-4d18-9c4d-8036687e275b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Distribution</content>
+                              </paragraph>
+                              <paragraph>From studies with dimethyl fumarate (the prodrug of BAFIERTAM), it is shown that the apparent volume of distribution of MMF varies between 53 and 73 L in healthy subjects. Human plasma protein binding of MMF is 27-45% and independent of concentration.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s47">
+                           <id root="c98bd95d-00c1-43ca-8b98-bfac66571f53"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Elimination</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s48">
+                           <id root="6a2fb661-167d-4e0f-b034-daf986c28485"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolism</content>
+                              </paragraph>
+                              <paragraph>In humans, metabolism of MMF occurs through the tricarboxylic acid (TCA) cycle, with no involvement of the cytochrome P450 (CYP450) system. MMF, fumaric and citric acid, and glucose are the major metabolites of MMF in plasma.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s49">
+                           <id root="dfbafb47-30f8-4c02-83ff-d769fbd278a5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Excretion</content>
+                              </paragraph>
+                              <paragraph>From studies with dimethyl fumarate (the prodrug of BAFIERTAM), exhalation of CO<sub>2</sub> is the primary route of elimination, accounting for approximately 60% of the dimethyl fumarate dose. Renal and fecal elimination are minor routes of elimination for MMF, accounting for 16% and 1% of the dimethyl fumarate dose, respectively. Trace amounts of unchanged MMF were present in urine.</paragraph>
+                              <paragraph>The plasma half-life of MMF is approximately 0.5 hour and no circulating MMF is present at 24 hours in the majority of individuals following oral administration of BAFIERTAM 190 mg (two 95 mg monomethyl fumarate delayed-release capsules) under fasting conditions. Accumulation of MMF does not occur with multiple doses of dimethyl fumarate.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s50">
+                           <id root="5a7decec-fb52-455d-98ed-ce7553780bf0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Specific Populations</content>
+                              </paragraph>
+                              <paragraph>Body weight, gender, and age differences do not require dosage adjustment.</paragraph>
+                              <paragraph>No studies have been conducted in subjects with hepatic or renal impairment. However, neither condition would be expected to affect plasma exposure to MMF and therefore, no dosage adjustment is necessary.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s51">
+                           <id root="ea08df93-6416-4d0e-b247-53c89ac5927e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interaction Studies</content>
+                              </paragraph>
+                              <paragraph>No potential drug interactions with dimethyl fumarate or MMF were identified in in vitro CYP inhibition and induction studies, or in P-glycoprotein studies. Single doses of interferon beta-1a or glatiramer acetate did not alter the pharmacokinetics of MMF. Aspirin, when administered approximately 30 minutes before dimethyl fumarate, did not alter the pharmacokinetics of MMF.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s52">
+                           <id root="a1531e36-3f34-4a9d-87dd-2674e7f79193"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Oral Contraceptives</content>
+                              </paragraph>
+                              <paragraph>The coadministration of the prodrug of BAFIERTAM, dimethyl fumarate, with a combined oral contraceptive (norelgestromin and ethinyl estradiol) did not elicit any relevant effects in oral contraceptives exposure. No interaction studies have been performed with oral contraceptives containing other progestogens.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s53">
+               <id root="7d45101e-12b6-4e06-9dcf-c23a8e92a5af"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13  NONCLINICAL TOXICOLOGY
+</title>
+               <effectiveTime value="20231220"/>
+               <component>
+                  <section ID="s54">
+                     <id root="8c9b978f-9def-4fa2-b81b-8d6e2c120263"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1  Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <effectiveTime value="20231220"/>
+                     <component>
+                        <section ID="s55">
+                           <id root="2c7a81e1-02da-4d61-b701-73c6fe46896c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Carcinogenesis</content>
+                              </paragraph>
+                              <paragraph>Carcinogenicity studies of dimethyl fumarate (DMF) were conducted in mice and rats. In mice, oral administration of DMF (0, 25, 75, 200, and 400 mg/kg/day) for up to two years resulted in an increase in nonglandular stomach (forestomach) and kidney tumors: squamous cell carcinomas and papillomas of the forestomach in males and females at 200 and 400 mg/kg/day; leiomyosarcomas of the forestomach at 400 mg/kg/day in males and females; renal tubular adenomas and carcinomas at 200 and 400 mg/kg/day in males; and renal tubule adenomas at 400 mg/kg/day in females. Plasma MMF exposure (AUC) at the highest dose not associated with tumors in mice (75 mg/kg/day) was similar to that in humans at the recommended human dose (RHD) of MMF (380 mg/day).
+</paragraph>
+                              <paragraph>In rats, oral administration of DMF (0, 25, 50, 100, and 150 mg/kg/day) for up to two years resulted in increases in squamous cell carcinomas and papillomas of the forestomach at all doses tested in males and females, and in testicular interstitial (Leydig) cell adenomas at 100 and 150 mg/kg/day. Plasma MMF AUC at the lowest dose tested was lower than that in humans at the RHD of MMF.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s56">
+                           <id root="5991c2da-4bb7-4f7e-bc6f-b4317ca013ab"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Mutagenesis</content>
+                              </paragraph>
+                              <paragraph>Monomethyl fumarate (MMF) was not mutagenic in the <content styleCode="italics">in vitro</content> bacterial reverse mutation (Ames) assay. MMF was clastogenic in the <content styleCode="italics">in vitro</content> chromosomal aberration assay in human peripheral blood lymphocytes in the absence of metabolic activation. DMF was not clastogenic in the <content styleCode="italics">in vivo</content> micronucleus assay in the rat.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s57">
+                           <id root="2b5b9d63-b153-44bb-b1db-e0f8dc7d9006"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Impairment of Fertility</content>
+                              </paragraph>
+                              <paragraph>In male rats, oral administration of DMF (0, 75, 250, and 375 mg/kg/day) prior to and throughout the mating period had no effect on fertility; however, increases in non-motile sperm were observed at the mid and high doses. The no-effect dose for adverse effects on sperm is similar to the recommended human dose (RHD) of DMF (480 mg/day) on a body surface area (mg/m<sup>2</sup>) basis. MMF (380 mg/day) is bioequivalent to DMF (480 mg/day).
+</paragraph>
+                              <paragraph>In female rats, oral administration of DMF (0, 20, 100, and 250 mg/kg/day) prior to and during mating and continuing to gestation day 7 caused disruption of the estrous cycle and increases in embryolethality at the highest dose tested. The highest dose not associated with adverse effects (100 mg/kg/day) is twice the RHD for DMF on a mg/m<sup>2</sup> basis. MMF (380 mg/day) is bioequivalent to DMF (480 mg/day).
+</paragraph>
+                              <paragraph>Testicular toxicity (germinal epithelial degeneration, atrophy, hypospermia, and/or hyperplasia) was observed at clinically relevant doses in mice, rats, and dogs in subchronic and chronic oral toxicity studies of DMF, and in a chronic oral toxicity study evaluating a combination of four fumaric acid esters (including DMF) in rats.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20231220"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s58">
+                     <id root="98c67144-2701-46fd-9e28-23cc35bae53d"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>13.2  Animal Toxicology and/or Pharmacology
+</title>
+                     <text>
+                        <paragraph>Kidney toxicity was observed after repeated oral administration of dimethyl fumarate (DMF) in mice, rats, dogs, and monkeys. Renal tubule epithelia regeneration, suggestive of tubule epithelial injury, was observed in all species. Renal tubular hyperplasia was observed in rats with dosing for up to two years. Cortical atrophy and interstitial fibrosis were observed in dogs and monkeys at doses above 5 mg/kg/day. In monkeys, the highest dose tested (75 mg/kg/day) was associated with single cell necrosis and multifocal and diffuse interstitial fibrosis, indicating irreversible loss of renal tissue and function. In dogs and monkeys, the 5 mg/kg/day dose was associated with plasma MMF exposures less than or similar to that in humans at the recommended human dose (RHD) of MMF (380 mg/day).
+</paragraph>
+                        <paragraph>A dose-related increase in incidence and severity of retinal degeneration was observed in mice following oral administration of DMF for up to two years at doses above 75 mg/kg/day, a dose associated with plasma MMF exposure (AUC) similar to that in humans at the RHD of MMF (380 mg/day).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s59">
+               <id root="aab53af7-ffb3-4c0b-aeca-ba0e3b882e31"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14  CLINICAL STUDIES
+</title>
+               <text>
+                  <paragraph>The efficacy of BAFIERTAM is based upon bioavailability studies in healthy subjects comparing oral dimethyl fumarate delayed-release capsules to BAFIERTAM delayed-release capsules <content styleCode="italics">[see Clinical Pharmacology (<linkHtml href="#s44">12.3</linkHtml>)].</content>
+                  </paragraph>
+                  <paragraph>The clinical studies described below were conducted using dimethyl fumarate.
+</paragraph>
+                  <paragraph>The efficacy and safety of dimethyl fumarate were demonstrated in two studies (Studies 1 and 2) that evaluated dimethyl fumarate taken either twice or three times a day in patients with relapsing-remitting multiple sclerosis (RRMS). The starting dose for dimethyl fumarate was 120 mg twice or three times a day for the first 7 days, followed by an increase to 240 mg twice or three times a day. Both studies included patients who had experienced at least 1 relapse over the year preceding the trial or had a brain Magnetic Resonance Imaging (MRI) scan demonstrating at least one gadolinium-enhancing (Gd+) lesion within 6 weeks of randomization. The Expanded Disability Status Scale (EDSS) was also assessed and patients could have scores ranging from 0 to 5. Neurological evaluations were performed at baseline, every 3 months, and at the time of suspected relapse. MRI evaluations were performed at baseline, month 6, and year 1 and 2 in a subset of patients (44% in Study 1 and 48% in Study 2).
+</paragraph>
+               </text>
+               <effectiveTime value="20250611"/>
+               <component>
+                  <section ID="s60">
+                     <id root="799087ab-325a-4e1f-9188-ff0b985a2f85"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Study 1: Placebo-Controlled Trial in RRMS</content>
+                        </paragraph>
+                        <paragraph>Study 1 was a 2-year randomized, double-blind, placebo-controlled study in 1234 patients with RRMS. The primary endpoint was the proportion of patients relapsed at 2 years. Additional endpoints at 2 years included the number of new or newly enlarging T2 hyperintense lesions, number of new T1 hypointense lesions, number of Gd+ lesions, annualized relapse rate (ARR), and time to confirmed disability progression. Confirmed disability progression was defined as at least a 1 point increase from baseline EDSS (1.5 point increase for patients with baseline EDSS of 0) sustained for 12 weeks.</paragraph>
+                        <paragraph>Patients were randomized to receive dimethyl fumarate 240 mg twice a day (n=410), dimethyl fumarate 240 mg three times a day (n=416), or placebo (n=408) for up to 2 years. The median age was 39 years, median time since diagnosis was 4 years, and median EDSS score at baseline was 2. The median time on study drug for all treatment arms was 96 weeks. The percentages of patients who completed 96 weeks on study drug per treatment group were 69% for patients assigned to dimethyl fumarate 240 mg twice a day, 69% for patients assigned to dimethyl fumarate 240 mg three times a day, and 65% for patients assigned to placebo groups.</paragraph>
+                        <paragraph>Dimethyl fumarate had a statistically significant effect on all of the endpoints described above and the 240 mg three times daily dose showed no additional benefit over the dimethyl fumarate 240 mg twice daily dose. The results for this study (240 mg twice a day vs. placebo) are shown in <linkHtml href="#t2">Table 2</linkHtml> and <linkHtml href="#f02">Figure 1</linkHtml>.</paragraph>
+                        <table ID="t2" width="100%">
+                           <caption> Table 2: Clinical and MRI Results of Study 1 </caption>
+                           <colgroup>
+                              <col width="55.775%" align="left"/>
+                              <col width="21.300%" align="left"/>
+                              <col width="12.750%" align="left"/>
+                              <col width="10.175%" align="left"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Dimethyl</content>
+                                    <br/>
+                                    <content styleCode="bold">Fumarate</content>
+                                    <br/>
+                                    <content styleCode="bold">240 mg BID</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                                    <br/>
+                                    <content styleCode="bold">Placebo</content>
+                                 </td>
+                                 <td styleCode="Botrule Toprule" align="center" valign="bottom">
+                                    <br/>
+                                    <content styleCode="bold">P-value</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold">Clinical Endpoints</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold">N=410</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold">N=408</content>
+                                 </td>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">    Proportion relapsing (primary endpoint)<br/>         Relative risk reduction</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">27%<br/>49%</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">
+                                    <paragraph>46%</paragraph>
+                                    <paragraph/>
+                                 </td>
+                                 <td styleCode="Botrule" align="justify" valign="bottom">
+                                    <paragraph>&lt;0.0001</paragraph>
+                                    <paragraph/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Annualized relapse rate</td>
+                                 <td styleCode="Rrule" align="center" valign="top">0.172</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.364</td>
+                                 <td align="justify" valign="bottom">&lt;0.0001</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">         Relative reduction</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">53 %</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Proportion with disability progression</td>
+                                 <td styleCode="Rrule" align="center" valign="top">16%</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">27%</td>
+                                 <td align="left" valign="bottom">0.0050</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">         Relative risk reduction</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">38%</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold">MRI Endpoints</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold">N=152</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold">N=165</content>
+                                 </td>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Mean number of new or newly enlarging</td>
+                                 <td styleCode="Rrule" align="center" valign="top">2.6</td>
+                                 <td styleCode="Rrule" align="center" valign="top">17</td>
+                                 <td align="left" valign="top">&lt;0.0001</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">    T2 lesions over 2 years<br/>    Percentage of subjects with no new or newly enlarging lesions</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">45%</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">27%</td>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Number of Gd+ lesions at 2 years</td>
+                                 <td styleCode="Rrule" align="center" valign="top">0.1 (0)</td>
+                                 <td styleCode="Rrule" align="center" valign="top">1.8 (0)</td>
+                                 <td align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">         Mean (median)<br/>         Percentage of subjects with<br/>              0 lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <br/>
+                                    <br/>93%</td>
+                                 <td styleCode="Rrule" align="center" valign="top">
+                                    <br/>
+                                    <br/>62%</td>
+                                 <td align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              1 lesion</td>
+                                 <td styleCode="Rrule" align="center" valign="top">5%</td>
+                                 <td styleCode="Rrule" align="center" valign="top">10%</td>
+                                 <td align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              2 lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                                 <td styleCode="Rrule" align="center" valign="top">8%</td>
+                                 <td align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              3 to 4 lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="top">0</td>
+                                 <td styleCode="Rrule" align="center" valign="top">9%</td>
+                                 <td align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              5 or more lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="top">&lt;1%</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">11%</td>
+                                 <td align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="middle">         Relative odds reduction<br/>          (percentage)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">90 %</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="left" valign="bottom">&lt;0.0001</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">     Mean number of new T1 hypointense lesions over 2 years</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">1.5</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">5.6</td>
+                                 <td styleCode="Botrule" align="justify" valign="top">&lt;0.0001</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">Figure 1: Time to 12-Week Confirmed Progression of Disability (Study 1)</content>
+                        </paragraph>
+                        <renderMultiMedia referencedObject="mm02"/>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Figure 1
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="baf01-0000-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <section ID="s61">
+                     <id root="225306d1-4e85-4dad-a88e-28a237116dec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Study 2: Placebo-Controlled Trial in RRMS</content>
+                        </paragraph>
+                        <paragraph>Study 2 was a 2-year multicenter, randomized, double-blind, placebo-controlled study that also included an open-label comparator arm in patients with RRMS. The primary endpoint was the annualized relapse rate at 2 years. Additional endpoints at 2 years included the number of new or newly enlarging T2 hyperintense lesions, number of T1 hypointense lesions, number of Gd+ lesions, proportion of patients relapsed, and time to confirmed disability progression as defined in Study 1.</paragraph>
+                        <paragraph>Patients were randomized to receive dimethyl fumarate 240 mg twice a day (n=359), dimethyl fumarate 240 mg three times a day (n=345), an open-label comparator (n=350), or placebo (n=363) for up to 2 years. The median age was 37 years, median time since diagnosis was 3 years, and median EDSS score at baseline was 2.5. The median time on study drug for all treatment arms was 96 weeks. The percentages of patients who completed 96 weeks on study drug per treatment group were 70% for patients assigned to dimethyl fumarate 240 mg twice a day, 72% for patients assigned to dimethyl fumarate 240 mg three times a day, and 64% for patients assigned to placebo groups.</paragraph>
+                        <paragraph>Dimethyl fumarate had a statistically significant effect on the relapse and MRI endpoints described above. There was no statistically significant effect on disability progression. The dimethyl fumarate 240 mg three times daily dose resulted in no additional benefit over the dimethyl fumarate 240 mg twice daily dose. The results for this study (240 mg twice a day vs. placebo) are shown in <linkHtml href="#t3">Table 3</linkHtml>.</paragraph>
+                        <table ID="t3" width="100%">
+                           <caption>Table 3: Clinical and MRI Results of Study 2 </caption>
+                           <colgroup>
+                              <col width="52.675%" align="left"/>
+                              <col width="25.600%" align="left"/>
+                              <col width="11.125%" align="left"/>
+                              <col width="10.600%" align="left"/>
+                           </colgroup>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Rrule Toprule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                                    <content styleCode="bold">Dimethyl Fumarate 240 mg BID</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="top">
+                                    <br/>
+                                    <content styleCode="bold">Placebo</content>
+                                 </td>
+                                 <td styleCode="Botrule Toprule" align="center" valign="bottom">
+                                    <br/>
+                                    <content styleCode="bold">P-value</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold">Clinical Endpoints</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold">N=359</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold">N=363</content>
+                                 </td>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Annualized relapse rate</td>
+                                 <td styleCode="Rrule" align="center" valign="top">0.224</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">0.401</td>
+                                 <td align="center" valign="bottom">&lt;0.0001</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">         Relative reduction</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">44%</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Proportion relapsing</td>
+                                 <td styleCode="Rrule" align="center" valign="top">29%</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">41%</td>
+                                 <td align="center" valign="bottom">0.0020</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">         Relative risk reduction</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">34%</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Proportion with disability progression</td>
+                                 <td styleCode="Rrule" align="center" valign="top">13%</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">17%</td>
+                                 <td align="center" valign="bottom">0.25</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">         Relative risk reduction</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">21%</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold">MRI Endpoints</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">
+                                    <content styleCode="bold">N=147</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">
+                                    <content styleCode="bold">N=144</content>
+                                 </td>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">    Mean number of new or newly enlarging</td>
+                                 <td styleCode="Rrule" align="center" valign="top">5.1</td>
+                                 <td styleCode="Rrule" align="center" valign="top">17.4</td>
+                                 <td align="center" valign="top">&lt;0.0001</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">    T2 lesions over 2 years<br/>    Percentage of subjects with no new or newly enlarging lesions</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">27 %</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">12 %</td>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">    Number of Gd+ lesions at 2 years<br/>         Mean (median)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="middle">0.5 (0.0)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="middle">2.0 (0.0)</td>
+                                 <td styleCode="Botrule" align="center" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">         Percentage of subjects with<br/>              0 lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">80%</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">61%</td>
+                                 <td align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              1 lesion</td>
+                                 <td styleCode="Rrule" align="center" valign="top">11%</td>
+                                 <td styleCode="Rrule" align="center" valign="top">17%</td>
+                                 <td align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              2 lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="top">3%</td>
+                                 <td styleCode="Rrule" align="center" valign="top">6%</td>
+                                 <td align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              3 to 4 lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="top">3%</td>
+                                 <td styleCode="Rrule" align="center" valign="top">2%</td>
+                                 <td align="center" valign="bottom"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule" align="left" valign="top">              5 or more lesions</td>
+                                 <td styleCode="Rrule" align="center" valign="top">3%</td>
+                                 <td styleCode="Rrule" align="center" valign="bottom">14%</td>
+                                 <td align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="middle">          Relative odds reduction<br/>          (percentage)</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom">74 %</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="bottom"/>
+                                 <td styleCode="Botrule" align="center" valign="bottom">&lt;0.0001</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top"/>
+                                 <td styleCode="Botrule" align="left" valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Rrule" align="left" valign="top">    Mean number of new T1 hypointense lesions over 2 years</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">3.0</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">7.0</td>
+                                 <td styleCode="Botrule" align="center" valign="top">&lt;0.0001</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s62">
+               <id root="bfd084ae-8dc4-452d-9a5c-2e124679edc7"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16  HOW SUPPLIED/STORAGE AND HANDLING
+</title>
+               <effectiveTime value="20250611"/>
+               <component>
+                  <section ID="s63">
+                     <id root="3dbbcf68-9936-46f0-9727-7852967a26cf"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title> 16.1 How Supplied
+</title>
+                     <text>
+                        <paragraph>BAFIERTAM is available as soft gelatin delayed-release capsules containing 95 mg of monomethyl fumarate. The 95 mg capsules are white, opaque, oval, and coated with “95” printed in black ink on the body. BAFIERTAM is available as follows:</paragraph>
+                        <paragraph>95 mg capsules: bottle of 120 capsules (NDC 69387-001-01).</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s64">
+                     <id root="0f702474-631e-45e4-9055-9e787e7a11e7"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title> 16.2 Storage and Handling
+</title>
+                     <effectiveTime value="20250611"/>
+                     <component>
+                        <section ID="s65">
+                           <id root="6f821fe0-74c8-44be-8441-e47ad78b8a00"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Unopened Bottle</content>
+                              </paragraph>
+                              <paragraph>Store unopened bottles in refrigerator at 2°C to 8°C (35°F to 46°F). Do not freeze. Under these conditions, BAFIERTAM is stable until the expiration date indicated on the package.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s66">
+                           <id root="dff1c1e7-bd27-4471-86a3-c6eedd15c564"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Opened Bottle</content>
+                              </paragraph>
+                              <paragraph>Opened bottles may be stored at 20°C to 25°C (68°F to 77°F); excursions between 15°C and 30°C (59°F and 86°F) permitted [see USP Controlled Room Temperature]. Protect the capsules from light. Store in original container. Under these conditions, BAFIERTAM is stable for 3 months.</paragraph>
+                              <paragraph>Capsules may become deformed if kept at high temperatures.</paragraph>
+                           </text>
+                           <effectiveTime value="20250611"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s67">
+               <id root="4ef09d32-e90a-4fba-aa49-f232fa0e6f9e"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17  PATIENT COUNSELING INFORMATION
+</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information).
+</paragraph>
+               </text>
+               <effectiveTime value="20250625"/>
+               <component>
+                  <section ID="s68">
+                     <id root="da056ef3-d4ce-4fce-9ecd-76c415748f89"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Dosage</content>
+                        </paragraph>
+                        <paragraph>Inform patients that they will be provided one strength of BAFIERTAM when starting treatment: take one capsule for the 7 day starter dose and two capsules for the maintenance dose, both to be taken twice daily. Inform patients to swallow BAFIERTAM capsules whole and intact. Inform patients to not crush, chew, or mix capsule contents with food. Inform patients that BAFIERTAM can be taken with or without food <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#s5">2.2</linkHtml>, <linkHtml href="#s6">2.3</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250625"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s69">
+                     <id root="26164420-2964-4dc3-9506-191252d590a0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Anaphylaxis and Angioedema</content>
+                        </paragraph>
+                        <paragraph>Advise patients to discontinue BAFIERTAM and seek medical care if they develop signs and symptoms of anaphylaxis or angioedema <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s11">5.1</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s70">
+                     <id root="35fd05b9-358f-445d-8e9a-5eb59a89e497"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Progressive Multifocal Leukoencephalopathy</content>
+                        </paragraph>
+                        <paragraph>Inform patients that progressive multifocal leukoencephalopathy (PML) has occurred in patients who received dimethyl fumarate (the prodrug of monomethyl fumarate). Inform the patient that PML is characterized by a progression of deficits and usually leads to death or severe disability over weeks or months. Instruct the patient of the importance of contacting their healthcare provider if they develop any symptoms suggestive of PML. Inform the patient that typical symptoms associated with PML are diverse, progress over days to weeks, and include progressive weakness on one side of the body or clumsiness of limbs, disturbance of vision, and changes in thinking, memory, and orientation leading to confusion and personality changes <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s12">5.2</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s71">
+                     <id root="08d9ef30-5878-4364-bab7-f876fcd5a6fe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Herpes Zoster and Other Serious Opportunistic Infections</content>
+                        </paragraph>
+                        <paragraph>Inform patients that herpes zoster and other serious opportunistic infections have occurred in patients who received dimethyl fumarate. Instruct the patient of the importance of contacting their healthcare provider if they develop any signs or symptoms associated with herpes zoster or other serious opportunistic infections <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s13">5.3</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s72">
+                     <id root="3b5021b4-c8b5-45eb-b1e6-4b051ce821f3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Lymphocyte Counts</content>
+                        </paragraph>
+                        <paragraph>Inform patients that BAFIERTAM may decrease lymphocyte counts. A blood test should be obtained before they start therapy. Blood tests are also recommended after 6 months of treatment, every 6 to 12 months thereafter, and as clinically indicated <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s14">5.4</linkHtml>), Adverse Reactions (<linkHtml href="#s19">6.1</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s73">
+                     <id root="3b9d20fa-0dbb-4803-ae10-f8c5ec044c9e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Liver Injury</content>
+                        </paragraph>
+                        <paragraph>Inform patients that BAFIERTAM may cause liver injury. Instruct patients treated with BAFIERTAM to report promptly to their healthcare provider any symptoms that may indicate liver injury, including fatigue, anorexia, right upper abdominal discomfort, dark urine, or jaundice. A blood test should be obtained before patients start therapy and during treatment, as clinically indicated <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s15">5.5</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s74">
+                     <id root="793afcf4-7179-425d-99af-e43d2f27f013"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Flushing</content>
+                        </paragraph>
+                        <paragraph>Inform patients that flushing is one of the most common reactions, especially at the initiation of therapy, and may decrease over time. Advise patients to contact their healthcare provider if they experience persistent and/or severe flushing. Advise patients experiencing flushing that taking a non-enteric coated aspirin prior to taking BAFIERTAM may help <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s19">6.1</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s75">
+                     <id root="0e7caa2e-8083-46be-9d87-11d43d7c0d4d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Gastrointestinal (GI) Reactions</content>
+                        </paragraph>
+                        <paragraph>Inform patients that GI events (abdominal pain, diarrhea, and nausea) are some of the most common adverse reactions, especially at the initiation of therapy, and may decrease over time. Some patients may experience more severe GI events. Advise patients to immediately contact their healthcare provider and discontinue BAFIERTAM if they experience gastrointestinal bleeding (e.g., rectal bleeding, bloody diarrhea, hematemesis) or other serious gastrointestinal adverse events (e.g., severe abdominal pain, severe vomiting and/or diarrhea) <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s17">5.7</linkHtml>)]</content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20231220"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s76">
+                     <id root="1e21a18c-5218-43f0-868f-7733e0afbd20"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy and Pregnancy Registry</content>
+                        </paragraph>
+                        <paragraph>Instruct patients that if they are pregnant or plan to become pregnant while taking BAFIERTAM they should inform their healthcare provider. Advise patients that there is a pregnancy registry that monitors pregnancy outcomes in women exposed to BAFIERTAM during pregnancy, and they can be enrolled by calling 1-866-MMF-95MG (1-866-663-9564) <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#s29">8.1</linkHtml>)].</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Manufactured by: </content>
+                        </paragraph>
+                        <paragraph>Banner Life Sciences LLC, High Point, NC 27265</paragraph>
+                        <paragraph>BAFIERTAM is a registered trademark of Banner Life Sciences LLC.</paragraph>
+                        <paragraph>© Banner Life Sciences 2024</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Marketed by:</content>
+                           <br/>Cycle Pharmaceuticals Ltd<br/>The Broers Building<br/>21 JJ Thomson Ave<br/>Cambridge, CB3 0FA, United Kingdom</paragraph>
+                        <paragraph>Patented: see www.cyclepharma.com/product-patent-information</paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="Ld86852d8-65be-4582-9a6a-029af2914823"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250625"/>
+                     <component>
+                        <observationMedia ID="Ld86852d8-65be-4582-9a6a-029af2914823">
+                           <text>image description</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="cyclelogo.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s77">
+               <id root="0d0b31d9-4a5e-464a-899c-b13c9dd6b456"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title/>
+               <text>
+                  <table width="100%">
+                     <colgroup>
+                        <col width="51.250%" align="left"/>
+                        <col width="48.750%" align="left"/>
+                     </colgroup>
+                     <tfoot>
+                        <tr styleCode="First Last">
+                           <td styleCode="Botrule Lrule Toprule" align="center" valign="bottom"/>
+                           <td styleCode="Botrule Rrule Toprule" align="center" valign="bottom"/>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="center" valign="bottom">
+                              <content styleCode="bold">Patient Information</content>
+                              <br/>
+                              <content styleCode="bold">BAFIERTAM®</content>
+                              <br/>
+                              <content styleCode="bold">(bah”feer'tam)</content>
+                              <br/>
+                              <content styleCode="bold">(monomethyl fumarate)</content>
+                              <br/>
+                              <content styleCode="bold">delayed-release capsules, for oral use</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">What is BAFIERTAM?</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>BAFIERTAM is a prescription medicine used to treat relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults.</item>
+                                 <item>It is not known if BAFIERTAM is safe and effective in children.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">Do not take BAFIERTAM if you:</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have had an allergic reaction (such as welts, hives, swelling of the face, lips, mouth or tongue, or difficulty breathing) to monomethyl fumarate, dimethyl fumarate, diroximel fumarate, or any of the ingredients in BAFIERTAM. See “WHAT ARE THE INGREDIENTS IN BAFIERTAM?” for a complete list of ingredients.</item>
+                                 <item>are taking dimethyl fumarate or diroximel fumarate.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">Before taking and while you take BAFIERTAM, tell your doctor about all of your medical conditions, including if you:</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have liver problems</item>
+                                 <item>have or have had low white blood cell counts or an infection</item>
+                                 <item>are pregnant or plan to become pregnant. It is not known if BAFIERTAM will harm your unborn baby. You and your doctor will have to decide if you should take BAFIERTAM while you are pregnant or if you plan to become pregnant.<list listType="unordered" styleCode="Circle">
+                                       <item>Pregnancy Registry: There is a pregnancy registry for women who take BAFIERTAM during pregnancy. If you become pregnant while taking BAFIERTAM, talk to your doctor about enrolling in the pregnancy registry. You can enroll or your healthcare provider can enroll you by calling 1-866-663-95MG (1-866-663-9564). The purpose of this registry is to collect information about the health of you and your baby.</item>
+                                    </list>
+                                 </item>
+                                 <item>are breastfeeding or plan to breastfeed. It is not known if BAFIERTAM passes into your breast milk. Talk to your healthcare provider about the best way to feed your baby while using BAFIERTAM.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">Tell your doctor about all the medicines you take</content> including prescription and over-the-counter medicines, vitamins, and herbal supplements.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">How should I take BAFIERTAM?</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Take BAFIERTAM exactly as your doctor tells you to take it.</item>
+                                 <item>You will be given 1 strength of BAFIERTAM when starting your treatment.</item>
+                                 <item>The recommended starting dose is one 95 mg capsule taken by mouth 2 times a day for 7 days.</item>
+                                 <item>The recommended dose after 7 days is two 95 mg capsules taken by mouth 2 times a day.</item>
+                                 <item>BAFIERTAM can be taken with or without food.</item>
+                                 <item>Swallow BAFIERTAM capsules whole and intact. Do not crush, chew, or mix the contents with food.</item>
+                                 <item>If you take too much BAFIERTAM, call your doctor or go to the nearest hospital emergency room right away.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">What are the possible side effects of BAFIERTAM?</content>
+                              <br/>
+                              <content styleCode="bold">BAFIERTAM may cause serious side effects including:</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">allergic reaction</content> (such as welts, hives, swelling of the face, lips, mouth or tongue, or difficulty breathing).</item>
+                                 <item>Stop taking BAFIERTAM and get emergency medical help right away if you get any of these symptoms.</item>
+                                 <item>
+                                    <content styleCode="bold">PML (progressive multifocal leukoencephalopathy),</content> a rare brain infection that usually leads to death or severe disability over a period of weeks or months. Tell your doctor right away if you get any of these symptoms of PML:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" align="left" valign="top">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>weakness on one side of the body that gets worse</item>
+                                 <item>vision problems</item>
+                                 <item>confusion</item>
+                              </list>
+                           </td>
+                           <td styleCode="Botrule Rrule" align="left" valign="top">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>clumsiness in your arms or legs</item>
+                                 <item>changes in thinking and memory</item>
+                                 <item>personality changes</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="top">
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">herpes zoster infections (shingles),</content> including central nervous system infections</item>
+                                 <item>
+                                    <content styleCode="bold">other serious infections</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">decreases in your white blood cell count:</content> Your doctor should do a blood test to check your white blood cell count before you start treatment with BAFIERTAM and while you are on therapy. You should have blood tests after 6 months of treatment and every 6 to 12 months after that.</item>
+                                 <item>
+                                    <content styleCode="bold">liver problems: </content>Your doctor should do blood tests to check your liver function before you start taking BAFIERTAM and during treatment if needed. Tell your doctor right away if you get any of these symptoms of a liver problem during treatment:<list listType="unordered" styleCode="Disc">
+                                       <item>severe tiredness</item>
+                                       <item>loss of appetite</item>
+                                       <item>pain on the right side of your stomach</item>
+                                       <item>have dark or brown (tea color) urine</item>
+                                       <item>yellowing of your skin or the white part of your eyes</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">serious gastrointestinal problems, </content>including bleeding, ulcers, blockage, and tears (perforation) of the stomach or intestines. Tell your healthcare provider right away if you have any of these symptoms during treatment:<list listType="unordered" styleCode="Disc">
+                                       <item>Stomach-area pain that does not go away</item>
+                                       <item>Bright red or black stools (that look like tar)</item>
+                                       <item>Severe vomiting</item>
+                                       <item>Severe diarrhea</item>
+                                       <item>Coughing up blood or blood clots</item>
+                                       <item>Vomiting blood or your vomit looks like “coffee grounds”</item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="top">
+                              <content styleCode="bold">The most common side effects of BAFIERTAM include:</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>flushing, redness, itching, or rash</item>
+                                 <item>nausea, vomiting, diarrhea, stomach pain, or indigestion. These events can be serious in some patients (see “BAFIERTAM may cause serious side effects including,” above).</item>
+                                 <item>Flushing and stomach problems are the most common reactions, especially at the start of treatment, and may decrease over time. Call your doctor if you have any of these symptoms and they bother you or do not go away. Speak to your doctor about taking aspirin to reduce flushing symptoms, as this has been reported to help.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">These are not all the possible side effects of BAFIERTAM. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.<br/>
+                              <content styleCode="bold">For more information go to dailymed.nlm.nih.gov.</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">How should I store BAFIERTAM?</content>
+                              <br/>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Store BAFIERTAM in the original container.</item>
+                                 <item>Protect the capsules from light.</item>
+                                 <item>Store unopened bottles of BAFIERTAM in the refrigerator between 35°F to 46°F (2°C to 8°C).</item>
+                                 <item>Store opened bottles of BAFIERTAM at room temperature between 68°F to 77°F (20°C to 25°C). BAFIERTAM capsules are good for 3 months after the bottle is opened. Throw away BAFIERTAM capsules if the bottle has been opened for more than 3 months.</item>
+                                 <item>Capsules may become deformed if kept at high temperatures.</item>
+                                 <item>
+                                    <content styleCode="bold">Keep BAFIERTAM and all medicines out of the reach of children.</content>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">General Information about the safe and effective use of BAFIERTAM</content>
+                              <br/>Medicines are sometimes prescribed for purposes other than those listed in this Patient Information. Do not use BAFIERTAM for a condition for which it was not prescribed. Do not give BAFIERTAM to other people, even if they have the same symptoms that you have. It may harm them.<br/>If you would like more information, talk to your doctor or pharmacist. You can ask your pharmacist or doctor for information about BAFIERTAM that is written for health professionals.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left" valign="bottom">
+                              <content styleCode="bold">What are the ingredients in BAFIERTAM?</content>
+                              <br/>
+                              <content styleCode="bold">Active ingredient:</content> monomethyl fumarate<br/>
+                              <content styleCode="bold">Inactive ingredients:</content> Glyceryl caprylate/caprate, lactic acid, polyoxyl 40 hydrogenated castor oil and povidone K30. The capsule shell, printed with black ink, contains the following inactive ingredients: ammonium hydroxide, butyl alcohol, ferrosoferric oxide, isopropyl alcohol, gelatin, propylene glycol, shellac, solution of sorbitans and sorbitol and titanium dioxide. The coating system includes the following inactive ingredients: colloidal anhydrous silica, GMCC Type 1 mono and di-glycerides, hypromellose type 2910, methacrylic acid and ethyl acrylate copolymer, polyethylene glycol (MW=400), polyvinyl alcohol part hydrolyzed, sodium bicarbonate, sodium lauryl sulfate, talc, titanium dioxide and triethyl citrate.<br/>Manufactured by: Banner Life Sciences LLC, High Point, NC 27265, www.BAFIERTAM.com or call 1-866-MMF-95MG.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" colspan="2" align="left" valign="top"> This Patient Information has been approved by the U.S. Food and Drug Administration.                                                      Revised: 12/2023</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250625"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s78">
+               <id root="1144ab15-5ab4-4f83-900a-567006d4fc5c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Principal Display Panel – Bottle Label</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">69387-001-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">120 capsules</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Bafiertam<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>(monomethyl fumarate)</paragraph>
+                  <paragraph>Delayed-release capsules</paragraph>
+                  <paragraph>95 mg</paragraph>
+                  <paragraph>Dispense in Original Package.</paragraph>
+                  <paragraph>Swallow capsules whole.</paragraph>
+                  <renderMultiMedia referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20250624"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel – Bottle Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="baf01-0000-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
