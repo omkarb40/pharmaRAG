@@ -1,0 +1,29 @@
+drug_name,generic_name,dailymed_setid,category
+Ocrevus,ocrelizumab,,disease_modifying
+Tysabri,natalizumab,,disease_modifying
+Tecfidera,dimethyl fumarate,,disease_modifying
+Gilenya,fingolimod,,disease_modifying
+Aubagio,teriflunomide,,disease_modifying
+Copaxone,glatiramer acetate,,disease_modifying
+Rebif,interferon beta-1a,,disease_modifying
+Avonex,interferon beta-1a,,disease_modifying
+Betaseron,interferon beta-1b,,disease_modifying
+Plegridy,peginterferon beta-1a,,disease_modifying
+Lemtrada,alemtuzumab,,disease_modifying
+Mavenclad,cladribine,,disease_modifying
+Kesimpta,ofatumumab,,disease_modifying
+Ponvory,ponesimod,,disease_modifying
+Zeposia,ozanimod,,disease_modifying
+Mayzent,siponimod,,disease_modifying
+Vumerity,diroximel fumarate,,disease_modifying
+Bafiertam,monomethyl fumarate,,disease_modifying
+Briumvi,ublituximab,,disease_modifying
+Tyruko,natalizumab-sztn,,biosimilar
+Ampyra,dalfampridine,,symptomatic
+Zanaflex,tizanidine,,symptomatic
+Baclofen,baclofen,,symptomatic
+Gabapentin,gabapentin,,symptomatic
+Modafinil,modafinil,,symptomatic
+Solu-Medrol,methylprednisolone,,acute_relapse
+Acthar Gel,corticotropin,,acute_relapse
+Mitoxantrone,mitoxantrone,,chemotherapy
