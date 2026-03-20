@@ -1,0 +1,29 @@
+"""
+PharmaRAG — FastAPI application entry point.
+"""
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+from app.routers import ask
+
+app = FastAPI(
+    title="PharmaRAG",
+    description="RAG Reliability & Governance Framework for Drug Safety QA",
+    version="0.1.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(ask.router, prefix="/api", tags=["QA"])
+
+
+@app.get("/health")
+def health_check():
+    return {"status": "healthy", "service": "pharma-rag"}

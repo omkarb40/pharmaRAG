@@ -1,55 +1,36 @@
-# Virtual Environment
-venv/
-env/
-ENV/
-.venv
-
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+dist/
+build/
+.eggs/
 
-# IDEs
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-.DS_Store
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
-
-# Environment variables
+# Environment
 .env
-.env.local
+
+# Data (keep structure, ignore large files)
+data/raw/*.json
+data/processed/*.jsonl
+data/index/
+
+# Logs
+logs/*.jsonl
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Project specific
-*.csv
-*.log
+# Model cache
 .cache/
