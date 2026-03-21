@@ -162,3 +162,45 @@ Every request generates a structured audit log:
 - **Ablation study**: Metrics with and without agentic checks to quantify their impact
  
 ---
+
+# 🛠 Tech Stack
+ 
+| Component | Technology |
+|-----------|-----------|
+| **LLM (Primary)** | Gemma 3 12B Instruct via Ollama |
+| **LLM (Fallback)** | Gemma 3 4B Instruct / Llama 3.2 3B |
+| **Embeddings** | Sentence Transformers (all-MiniLM or domain-specific) |
+| **Vector Store** | ChromaDB / FAISS |
+| **Keyword Search** | BM25 (rank-bm25) |
+| **Reranking** | Cross-encoder reranker |
+| **Orchestration** | LangChain / custom pipeline |
+| **Frontend** | Streamlit |
+| **Backend** | FastAPI (optional) |
+| **Monitoring** | Custom logging + JSON audit trail |
+| **Language** | Python 3.10+ |
+ 
+---
+ 
+## 📂 Data Sources
+ 
+| Source | Role | Format |
+|--------|------|--------|
+| [**FDA DailyMed**](https://dailymed.nlm.nih.gov/) | Primary evidence — Structured Product Labels (SPL) | XML/API |
+| [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/) | Secondary — supporting abstracts for context | API |
+| [**ClinicalTrials.gov**](https://clinicaltrials.gov/) | Tertiary — trial-level summaries | API |
+ 
+### Scope
+ 
+Initial focus: **25–50 drugs** in a single therapeutic area (e.g., Multiple Sclerosis, Oncology, or Immunology) with potential expansion to a generalized top-50 drug set.
+ 
+### Data Pipeline
+ 
+```
+FDA DailyMed API  →  Pull relevant SPLs  →  Parse XML sections  →  Chunk by section
+                                                                          │
+PubMed API        →  Curated abstracts   →  Parse & clean       →        ▼
+                                                                   Hybrid Index
+ClinicalTrials    →  Trial summaries     →  Parse & clean       →  (BM25 + Vector)
+```
+ 
+---
