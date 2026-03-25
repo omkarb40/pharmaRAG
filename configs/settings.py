@@ -6,51 +6,46 @@ from pydantic_settings import BaseSettings
 from pathlib import Path
 
 
-class Settings(BaseSettings):
-    # === Project Paths ===
-    project_root: Path = Path(__file__).parent.parent
-    data_dir: Path = project_root / "data"
-    raw_dir: Path = data_dir / "raw"
-    processed_dir: Path = data_dir / "processed"
-    index_dir: Path = data_dir / "index"
-    logs_dir: Path = project_root / "logs"
+class Settings:
+    """All project settings in one place."""
 
-    # === LLM Configuration ===
-    ollama_base_url: str = "http://localhost:11434"
-    llm_model: str = "gemma3:12b"
-    llm_temperature: float = 0.1
-    llm_max_tokens: int = 1024
+    def __init__(self):
+        # === Paths ===
+        self.project_root = Path(__file__).parent.parent
+        self.data_dir = self.project_root / "data"
+        self.raw_dir = self.data_dir / "raw"
+        self.processed_dir = self.data_dir / "processed"
+        self.index_dir = self.data_dir / "index"
+        self.logs_dir = self.project_root / "logs"
+        self.chunks_file = self.processed_dir / "chunks.jsonl"
 
-    # === Embedding Configuration ===
-    embedding_model: str = "neuml/pubmedbert-base-embeddings"
-    embedding_dimension: int = 768
+        # === LLM ===
+        self.ollama_base_url = "http://localhost:11434"
+        self.llm_model = "gemma3:12b"
+        self.llm_temperature = 0.1
+        self.llm_max_tokens = 1024
 
-    # === ChromaDB ===
-    chroma_collection_name: str = "pharma_rag_chunks"
+        # === Embeddings ===
+        self.embedding_model = "neuml/pubmedbert-base-embeddings"
+        self.embedding_dimension = 768
 
-    # === Retrieval Configuration ===
-    top_k_retrieval: int = 10
-    top_k_final: int = 5
-    bm25_weight: float = 0.4
-    semantic_weight: float = 0.6
+        # === ChromaDB ===
+        self.chroma_dir = self.index_dir / "chromadb"
+        self.chroma_collection_name = "pharma_rag_chunks"
 
-    # === Chunking Configuration ===
-    chunk_size: int = 512
-    chunk_overlap: int = 64
+        # === BM25 ===
+        self.bm25_dir = self.index_dir / "bm25"
 
-    # === Agent Thresholds ===
-    refusal_confidence_threshold: float = 0.4
-    evidence_support_threshold: float = 0.5
+        # === Retrieval ===
+        self.semantic_weight = 0.6
+        self.bm25_weight = 0.4
+        self.rrf_k = 60
+        self.top_k_retrieval = 20
+        self.top_k_final = 5
 
-    # === DailyMed API ===
-    dailymed_base_url: str = "https://dailymed.nlm.nih.gov/dailymed/services/v2"
-
-    # === Monitoring ===
-    enable_audit_logging: bool = True
-
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
+        # === Monitoring ===
+        self.enable_audit_logging = True
 
 
+# Singleton instance — import this everywhere
 settings = Settings()
