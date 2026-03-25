@@ -10,29 +10,36 @@ from configs.settings import settings
 
 
 class PubMedEmbedder:
-    """
-    Generates embeddings using neuml/pubmedbert-base-embeddings.
-    768-dim vectors optimized for medical/pharma text.
-    """
+    """Generates embeddings using neuml/pubmedbert-base-embeddings."""
 
-    def __init__(self, model_name: str = settings.embedding_model):
-        print(f"[Embedder] Loading model: {model_name}")
-        self.model = SentenceTransformer(model_name)
+    _instance = None  # Singleton — model loads once, reused everywhere
+
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+            cls._instance._initialized = False
+        return cls._instance
+
+    def __init__(self):
+        if self._initialized:
+            return
+        print(f"[Embedder] Loading model: {settings.embedding_model}")
+        self.model = SentenceTransformer(settings.embedding_model)
         self.dimension = settings.embedding_dimension
-        print(f"[Embedder] Model loaded. Dimension: {self.dimension}")
+        self._initialized = True
+        print(f"[Embedder] Ready. Dimension: {self.dimension}")
 
     def embed_texts(self, texts: list[str], batch_size: int = 32) -> np.ndarray:
-        """Embed a list of texts, return numpy array of shape (n, 768)."""
-        embeddings = self.model.encode(
+        """Embed a list of texts, return (n, 768) numpy array."""
+        return self.model.encode(
             texts,
             batch_size=batch_size,
-            show_progress_bar=True,
+            show_progress_bar=len(texts) > 50,
             normalize_embeddings=True,
         )
-        return embeddings
 
     def embed_query(self, query: str) -> np.ndarray:
-        """Embed a single query string."""
+        """Embed a single query string, return (768,) numpy array."""
         return self.model.encode(
             [query],
             normalize_embeddings=True,

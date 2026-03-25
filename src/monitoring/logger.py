@@ -13,15 +13,16 @@ from configs.settings import settings
 
 
 class AuditLogger:
-    """Append-only JSONL audit logger for pharma RAG requests."""
+    """Append-only JSONL audit logger."""
 
     def __init__(self):
         self.log_dir = settings.logs_dir
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.log_file = self.log_dir / f"audit_{datetime.now().strftime('%Y%m%d')}.jsonl"
+        print(f"[AuditLogger] Logging to {self.log_file}")
 
     def create_request_context(self) -> dict:
-        """Create a new request context with unique ID and timing."""
+        """Create a new request context with unique ID."""
         return {
             "request_id": str(uuid.uuid4())[:8],
             "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -33,21 +34,19 @@ class AuditLogger:
         self,
         context: dict,
         query: str,
-        routed_sections: list[str],
         retrieval_results: list[dict],
         generation_result: dict,
-        validation_report: dict,
-        refusal_decision: dict,
-    ):
-        """Write a complete audit log entry for one request."""
+    ) -> dict:
+        """Write a complete audit log entry."""
         total_time = time.time() - context.pop("_start", time.time())
 
         entry = {
             "request_id": context["request_id"],
             "timestamp": context["timestamp"],
             "query": query,
-            "routed_sections": routed_sections,
-            "retrieved_chunk_ids": [r.get("chunk_id") for r in retrieval_results],
+            "retrieved_chunk_ids": [
+                r.get("chunk_id") for r in retrieval_results
+            ],
             "top_k_scores": [
                 round(r.get("fused_score", 0), 6) for r in retrieval_results
             ],
@@ -55,14 +54,13 @@ class AuditLogger:
                 **{k: round(v, 1) for k, v in context.get("timings", {}).items()},
                 "total": round(total_time * 1000, 1),
             },
-            "groundedness_score": validation_report.get("groundedness_score"),
-            "confidence_decision": refusal_decision.get("decision"),
-            "confidence_score": refusal_decision.get("confidence_score"),
-            "refusal": refusal_decision.get("decision") == "INSUFFICIENT_EVIDENCE",
-            "refusal_reasons": refusal_decision.get("reasons", []),
+            "model": generation_result.get("model", ""),
+            "generation_time_ms": generation_result.get("generation_time_ms", 0),
+            "num_evidence_chunks": generation_result.get("num_evidence_chunks", 0),
         }
 
-        with open(self.log_file, "a") as f:
-            f.write(json.dumps(entry) + "\n")
+        if settings.enable_audit_logging:
+            with open(self.log_file, "a") as f:
+                f.write(json.dumps(entry) + "\n")
 
         return entry
