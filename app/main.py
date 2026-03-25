@@ -10,7 +10,7 @@ from app.routers import ask
 app = FastAPI(
     title="PharmaRAG",
     description="RAG Reliability & Governance Framework for Drug Safety QA",
-    version="0.1.0",
+    version="1.0.0",
 )
 
 app.add_middleware(
