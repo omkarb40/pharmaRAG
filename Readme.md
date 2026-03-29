@@ -204,3 +204,33 @@ ClinicalTrials    →  Trial summaries     →  Parse & clean       →  (BM25 +
 ```
  
 ---
+
+## 🚀 Getting Started
+ 
+### Prerequisites
+ 
+- Python 3.10+
+- [Ollama](https://ollama.com/) installed and running
+- 16GB+ RAM recommended (for 12B model)
+ 
+### Installation
+ 
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/pharma-rag.git
+cd pharma-rag
+ 
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+ 
+# Install dependencies
+pip install -r requirements.txt
+ 
+# Pull the LLM model
+ollama pull gemma3:12b
+ 
+# (Optional) Pull fallback models
+ollama pull gemma3:4b
+ollama pull llama3.2:3b
+```
