@@ -234,3 +234,13 @@ ollama pull gemma3:12b
 ollama pull gemma3:4b
 ollama pull llama3.2:3b
 ```
+
+## 💬 Usage
+ 
+### Example Queries
+ 
+**Patient-style:**
+> "Can I take Tecfidera if I have a low white blood cell count?"
+ 
+**HCP / Analyst-style:**
+> "Summarize the black box warnings and contraindications for natalizumab, citing the relevant label sections."
