@@ -2,8 +2,11 @@
 PharmaRAG — FastAPI application entry point.
 """
 
+from pathlib import Path
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
 
 from app.routers import ask
 
@@ -25,5 +28,12 @@ app.include_router(ask.router, prefix="/api", tags=["QA"])
 
 
 @app.get("/health")
-def health_check():
+def health():
     return {"status": "healthy", "service": "pharma-rag"}
+
+
+@app.get("/", response_class=HTMLResponse)
+def chat_page():
+    """Serve the chat interface."""
+    html_path = Path(__file__).parent / "chat.html"
+    return HTMLResponse(content=html_path.read_text(), status_code=200)
