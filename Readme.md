@@ -320,3 +320,19 @@ pharma-rag/
 ├── docker-compose.yml
 └── README.md
 ```
+## 🗺 Roadmap
+ 
+- [x] Project design & framework specification
+- [ ] Data ingestion pipeline (DailyMed SPL)
+- [ ] Section-aware chunking & hybrid indexing
+- [ ] Query router agent
+- [ ] Base RAG generation with citations
+- [ ] Evidence validator agent
+- [ ] Refusal guard agent
+- [ ] Monitoring & audit logging
+- [ ] Evaluation framework & test set
+- [ ] Streamlit UI
+- [ ] Evaluation report & ablation study
+- [ ] Demo video & documentation
+ 
+---
