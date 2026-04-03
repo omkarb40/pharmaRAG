@@ -244,3 +244,79 @@ ollama pull llama3.2:3b
  
 **HCP / Analyst-style:**
 > "Summarize the black box warnings and contraindications for natalizumab, citing the relevant label sections."
+
+### Sample Output
+ 
+```
+📋 Answer:
+Natalizumab carries a black box warning for progressive multifocal
+leukoencephalopathy (PML), a serious brain infection [1][2]. It is
+contraindicated in patients who have or have had PML and in patients
+with hypersensitivity to natalizumab [3].
+ 
+📑 Citations:
+[1] DailyMed — Natalizumab — Section: BOXED WARNING — Chunk ID: nat_bw_001
+[2] DailyMed — Natalizumab — Section: WARNINGS AND PRECAUTIONS — Chunk ID: nat_wp_012
+[3] DailyMed — Natalizumab — Section: CONTRAINDICATIONS — Chunk ID: nat_ci_003
+ 
+🚦 Confidence: ██████████ ANSWER (Groundedness: 0.94)
+```
+ 
+---
+ 
+## 📁 Project Structure
+ 
+```
+pharma-rag/
+├── app/
+│   ├── main.py                 # Streamlit UI entry point
+│   ├── api.py                  # FastAPI backend (optional)
+│   └── components/             # UI components
+├── src/
+│   ├── ingestion/
+│   │   ├── dailymed.py         # DailyMed SPL fetcher & parser
+│   │   ├── pubmed.py           # PubMed abstract fetcher
+│   │   └── clinical_trials.py  # ClinicalTrials.gov fetcher
+│   ├── indexing/
+│   │   ├── chunker.py          # Section-aware chunking
+│   │   ├── embedder.py         # Embedding generation
+│   │   └── index_builder.py    # Hybrid index (BM25 + vector)
+│   ├── retrieval/
+│   │   ├── query_router.py     # Agent 1: Query → section classifier
+│   │   ├── hybrid_search.py    # BM25 + semantic fusion
+│   │   └── reranker.py         # Cross-encoder reranking
+│   ├── generation/
+│   │   ├── generator.py        # LLM answer generation
+│   │   ├── evidence_validator.py  # Agent 2: Citation grounding check
+│   │   └── refusal_guard.py    # Agent 3: Confidence-based refusal
+│   ├── monitoring/
+│   │   ├── logger.py           # Structured audit logging
+│   │   ├── metrics.py          # Latency & score tracking
+│   │   └── dashboard.py        # Monitoring dashboard
+│   └── evaluation/
+│       ├── test_set.py         # Test query management
+│       ├── retrieval_eval.py   # Recall@k, nDCG@k scoring
+│       ├── grounding_eval.py   # Groundedness & hallucination scoring
+│       └── report_generator.py # Evaluation report + charts
+├── data/
+│   ├── raw/                    # Raw SPL XML, abstracts
+│   ├── processed/              # Parsed & chunked documents
+│   └── index/                  # Vector store & BM25 index
+├── configs/
+│   ├── model_config.yaml       # LLM and embedding settings
+│   ├── retrieval_config.yaml   # Search weights, top-k, thresholds
+│   └── monitoring_config.yaml  # Logging and alerting settings
+├── evaluation/
+│   ├── test_queries.json       # 75–150 evaluation queries
+│   ├── ground_truth.json       # Expected answers & sections
+│   └── results/                # Evaluation outputs & charts
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_retrieval_analysis.ipynb
+│   └── 03_evaluation_report.ipynb
+├── tests/
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
+```
