@@ -346,16 +346,3 @@ This is a Masters capstone project. Feedback, suggestions, and issues are welcom
 3. Commit your changes (`git commit -m 'Add improvement'`)
 4. Push to branch (`git push origin feature/improvement`)
 5. Open a Pull Request
-
----
-
-Results
-
-1.
-2.
-3.
-4.
-5.
-6.
-
-
