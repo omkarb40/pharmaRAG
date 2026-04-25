@@ -10,7 +10,6 @@ Pipeline:
   6. Audit Logging → record everything
   7. Structured Response → answer + citations + evidence + confidence
 """
-
 import time
 from pydantic import BaseModel
 
@@ -51,7 +50,6 @@ class AskRequest(BaseModel):
             "examples": [
                 {"query": "What are the contraindications for natalizumab?"},
                 {"query": "Can I take fingolimod if I have liver problems?"},
-                {"query": "What are the pregnancy risks for teriflunomide?"},
             ]
         }
 
@@ -154,24 +152,19 @@ def ask_question(req: AskRequest):
     ctx["timings"]["routing_ms"] = (time.time() - t0) * 1000
     print(f"  [Router] Query: '{req.query[:50]}...' → {routed_sections}")
 
-    # ── Hybrid Retrieval (with section filter from router) ──
+    # ── Hybrid Retrieval ──
     t0 = time.time()
     primary_section = routed_sections[0] if routed_sections else None
-
-    # First try filtered retrieval
     retrieval_results = retriever.search(
         query=req.query,
         top_k=req.top_k,
         section_filter=primary_section,
     )
-
-    # If too few results with filter, fallback to unfiltered
     if len(retrieval_results) < req.top_k:
         retrieval_results = retriever.search(
             query=req.query,
             top_k=req.top_k,
         )
-
     ctx["timings"]["retrieval_ms"] = (time.time() - t0) * 1000
 
     # ── LLM Generation ──
@@ -204,12 +197,15 @@ def ask_question(req: AskRequest):
             f"Reasons: {'; '.join(refusal['reasons'])}"
         )
 
-    # ── Audit Log ──
+    # ── Audit Log (now captures all agent outputs) ──
     log_entry = audit_logger.log_request(
         context=ctx,
         query=req.query,
+        routed_sections=routed_sections,
         retrieval_results=retrieval_results,
         generation_result=gen_result,
+        validation_report=validation,
+        refusal_decision=refusal,
     )
 
     # ── Build Response ──
@@ -229,7 +225,6 @@ def ask_question(req: AskRequest):
             snippet=chunk.get("text", "")[:200],
         ))
 
-    # Build sentence validation list for response
     sentence_validations = []
     for sd in validation.get("sentence_details", []):
         sentence_validations.append(SentenceValidation(
