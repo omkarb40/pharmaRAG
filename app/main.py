@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 
 from app.routers import ask
+from app.routers import monitoring
 
 app = FastAPI(
     title="PharmaRAG",
@@ -25,6 +26,7 @@ app.add_middleware(
 )
 
 app.include_router(ask.router, prefix="/api", tags=["QA"])
+app.include_router(monitoring.router, prefix="/api", tags=["Monitoring"])
 
 
 @app.get("/health")
