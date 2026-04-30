@@ -331,9 +331,8 @@ pharma-rag/
 - [ ] Refusal guard agent
 - [ ] Monitoring & audit logging
 - [ ] Evaluation framework & test set
-- [ ] Streamlit UI
+- [ ] Chatbot
 - [ ] Evaluation report & ablation study
-- [ ] Demo video & documentation
  
 ---
 
