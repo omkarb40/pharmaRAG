@@ -347,11 +347,3 @@ This is a Masters capstone project. Feedback, suggestions, and issues are welcom
 5. Open a Pull Request
 
 ---
-
-Results 
-
----
-
-Future Scope -
-
-
