@@ -1,0 +1,434 @@
+[
+  {
+    "id": "CI-001",
+    "query": "What are the contraindications for natalizumab?",
+    "expected_drug": "Tysabri",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "easy"
+  },
+  {
+    "id": "CI-002",
+    "query": "When should ocrelizumab not be used?",
+    "expected_drug": "Ocrevus",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "medium"
+  },
+  {
+    "id": "CI-003",
+    "query": "Who should not take fingolimod?",
+    "expected_drug": "Gilenya",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "medium"
+  },
+  {
+    "id": "CI-004",
+    "query": "Is teriflunomide contraindicated in liver disease?",
+    "expected_drug": "Aubagio",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "medium"
+  },
+  {
+    "id": "CI-005",
+    "query": "What are the contraindications for alemtuzumab?",
+    "expected_drug": "Lemtrada",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "easy"
+  },
+  {
+    "id": "CI-006",
+    "query": "When should dimethyl fumarate not be prescribed?",
+    "expected_drug": "Tecfidera",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "medium"
+  },
+  {
+    "id": "CI-007",
+    "query": "Are there any contraindications for siponimod?",
+    "expected_drug": "Mayzent",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "easy"
+  },
+  {
+    "id": "CI-008",
+    "query": "Who should avoid taking ozanimod?",
+    "expected_drug": "Zeposia",
+    "expected_section": "contraindications",
+    "category": "contraindications",
+    "difficulty": "medium"
+  },
+  {
+    "id": "AE-001",
+    "query": "What are the side effects of fingolimod?",
+    "expected_drug": "Gilenya",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": "AE-002",
+    "query": "What adverse reactions have been reported with natalizumab?",
+    "expected_drug": "Tysabri",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": "AE-003",
+    "query": "Does ocrelizumab cause infusion reactions?",
+    "expected_drug": "Ocrevus",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": "AE-004",
+    "query": "What are the common side effects of teriflunomide?",
+    "expected_drug": "Aubagio",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": "AE-005",
+    "query": "What side effects does dimethyl fumarate cause?",
+    "expected_drug": "Tecfidera",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": "AE-006",
+    "query": "Are there cardiac side effects with siponimod?",
+    "expected_drug": "Mayzent",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "hard"
+  },
+  {
+    "id": "AE-007",
+    "query": "What adverse events occur with glatiramer acetate?",
+    "expected_drug": "Copaxone",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": "AE-008",
+    "query": "Does cladribine cause lymphopenia?",
+    "expected_drug": "Mavenclad",
+    "expected_section": "adverse_reactions",
+    "category": "adverse_reactions",
+    "difficulty": "hard"
+  },
+  {
+    "id": "WP-001",
+    "query": "What are the serious infection risks with ocrelizumab?",
+    "expected_drug": "Ocrevus",
+    "expected_section": "warnings_and_precautions",
+    "category": "warnings",
+    "difficulty": "medium"
+  },
+  {
+    "id": "WP-002",
+    "query": "What is the black box warning for natalizumab?",
+    "expected_drug": "Tysabri",
+    "expected_section": "boxed_warning",
+    "category": "warnings",
+    "difficulty": "easy"
+  },
+  {
+    "id": "WP-003",
+    "query": "What are the cardiac risks of fingolimod?",
+    "expected_drug": "Gilenya",
+    "expected_section": "warnings_and_precautions",
+    "category": "warnings",
+    "difficulty": "medium"
+  },
+  {
+    "id": "WP-004",
+    "query": "Does teriflunomide carry a risk of hepatotoxicity?",
+    "expected_drug": "Aubagio",
+    "expected_section": "warnings_and_precautions",
+    "category": "warnings",
+    "difficulty": "medium"
+  },
+  {
+    "id": "WP-005",
+    "query": "What warnings exist for PML with natalizumab?",
+    "expected_drug": "Tysabri",
+    "expected_section": "warnings_and_precautions",
+    "category": "warnings",
+    "difficulty": "medium"
+  },
+  {
+    "id": "WP-006",
+    "query": "What are the macular edema risks with fingolimod?",
+    "expected_drug": "Gilenya",
+    "expected_section": "warnings_and_precautions",
+    "category": "warnings",
+    "difficulty": "hard"
+  },
+  {
+    "id": "WP-007",
+    "query": "Are there cancer risks with alemtuzumab?",
+    "expected_drug": "Lemtrada",
+    "expected_section": "warnings_and_precautions",
+    "category": "warnings",
+    "difficulty": "hard"
+  },
+  {
+    "id": "WP-008",
+    "query": "What are the warnings for ublituximab?",
+    "expected_drug": "Briumvi",
+    "expected_section": "warnings_and_precautions",
+    "category": "warnings",
+    "difficulty": "easy"
+  },
+  {
+    "id": "DA-001",
+    "query": "What is the recommended dose for ocrelizumab?",
+    "expected_drug": "Ocrevus",
+    "expected_section": "dosage_and_administration",
+    "category": "dosing",
+    "difficulty": "easy"
+  },
+  {
+    "id": "DA-002",
+    "query": "How is natalizumab administered?",
+    "expected_drug": "Tysabri",
+    "expected_section": "dosage_and_administration",
+    "category": "dosing",
+    "difficulty": "easy"
+  },
+  {
+    "id": "DA-003",
+    "query": "What is the dosing schedule for alemtuzumab?",
+    "expected_drug": "Lemtrada",
+    "expected_section": "dosage_and_administration",
+    "category": "dosing",
+    "difficulty": "easy"
+  },
+  {
+    "id": "DA-004",
+    "query": "How should fingolimod be initiated?",
+    "expected_drug": "Gilenya",
+    "expected_section": "dosage_and_administration",
+    "category": "dosing",
+    "difficulty": "medium"
+  },
+  {
+    "id": "DA-005",
+    "query": "What is the titration schedule for ponesimod?",
+    "expected_drug": "Ponvory",
+    "expected_section": "dosage_and_administration",
+    "category": "dosing",
+    "difficulty": "hard"
+  },
+  {
+    "id": "DA-006",
+    "query": "What dose of modafinil is recommended for fatigue?",
+    "expected_drug": "Modafinil",
+    "expected_section": "dosage_and_administration",
+    "category": "dosing",
+    "difficulty": "medium"
+  },
+  {
+    "id": "DI-001",
+    "query": "Does fingolimod interact with beta blockers?",
+    "expected_drug": "Gilenya",
+    "expected_section": "drug_interactions",
+    "category": "interactions",
+    "difficulty": "hard"
+  },
+  {
+    "id": "DI-002",
+    "query": "What drugs interact with teriflunomide?",
+    "expected_drug": "Aubagio",
+    "expected_section": "drug_interactions",
+    "category": "interactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": "DI-003",
+    "query": "Are there drug interactions with siponimod?",
+    "expected_drug": "Mayzent",
+    "expected_section": "drug_interactions",
+    "category": "interactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": "DI-004",
+    "query": "Can tizanidine be taken with CYP1A2 inhibitors?",
+    "expected_drug": "Zanaflex",
+    "expected_section": "drug_interactions",
+    "category": "interactions",
+    "difficulty": "hard"
+  },
+  {
+    "id": "SP-001",
+    "query": "Is teriflunomide safe during pregnancy?",
+    "expected_drug": "Aubagio",
+    "expected_section": "use_in_specific_populations",
+    "category": "populations",
+    "difficulty": "easy"
+  },
+  {
+    "id": "SP-002",
+    "query": "Can fingolimod be used in pediatric patients?",
+    "expected_drug": "Gilenya",
+    "expected_section": "use_in_specific_populations",
+    "category": "populations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "SP-003",
+    "query": "What are the pregnancy warnings for natalizumab?",
+    "expected_drug": "Tysabri",
+    "expected_section": "use_in_specific_populations",
+    "category": "populations",
+    "difficulty": "easy"
+  },
+  {
+    "id": "SP-004",
+    "query": "Is ocrelizumab safe for breastfeeding mothers?",
+    "expected_drug": "Ocrevus",
+    "expected_section": "use_in_specific_populations",
+    "category": "populations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "SP-005",
+    "query": "Can elderly patients take siponimod?",
+    "expected_drug": "Mayzent",
+    "expected_section": "use_in_specific_populations",
+    "category": "populations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "SP-006",
+    "query": "What about using gabapentin in renal impairment?",
+    "expected_drug": "Gabapentin",
+    "expected_section": "use_in_specific_populations",
+    "category": "populations",
+    "difficulty": "medium"
+  },
+  {
+    "id": "IU-001",
+    "query": "What is ocrelizumab approved to treat?",
+    "expected_drug": "Ocrevus",
+    "expected_section": "indications_and_usage",
+    "category": "indications",
+    "difficulty": "easy"
+  },
+  {
+    "id": "IU-002",
+    "query": "What type of MS is natalizumab used for?",
+    "expected_drug": "Tysabri",
+    "expected_section": "indications_and_usage",
+    "category": "indications",
+    "difficulty": "easy"
+  },
+  {
+    "id": "IU-003",
+    "query": "What is dalfampridine indicated for?",
+    "expected_drug": "Ampyra",
+    "expected_section": "indications_and_usage",
+    "category": "indications",
+    "difficulty": "easy"
+  },
+  {
+    "id": "IU-004",
+    "query": "What does ofatumumab treat?",
+    "expected_drug": "Kesimpta",
+    "expected_section": "indications_and_usage",
+    "category": "indications",
+    "difficulty": "easy"
+  },
+  {
+    "id": "PT-001",
+    "query": "Can I take this drug if I have liver problems?",
+    "expected_drug": null,
+    "expected_section": "contraindications",
+    "category": "patient_style",
+    "difficulty": "medium"
+  },
+  {
+    "id": "PT-002",
+    "query": "What happens if I miss a dose of my MS medication?",
+    "expected_drug": null,
+    "expected_section": "dosage_and_administration",
+    "category": "patient_style",
+    "difficulty": "hard"
+  },
+  {
+    "id": "PT-003",
+    "query": "Will this medicine make me tired?",
+    "expected_drug": null,
+    "expected_section": "adverse_reactions",
+    "category": "patient_style",
+    "difficulty": "hard"
+  },
+  {
+    "id": "PT-004",
+    "query": "Is it safe to get vaccinated while on my treatment?",
+    "expected_drug": null,
+    "expected_section": "warnings_and_precautions",
+    "category": "patient_style",
+    "difficulty": "hard"
+  },
+  {
+    "id": "PT-005",
+    "query": "Can I drink alcohol with my MS medication?",
+    "expected_drug": null,
+    "expected_section": "drug_interactions",
+    "category": "patient_style",
+    "difficulty": "hard"
+  },
+  {
+    "id": "OOS-001",
+    "query": "What is the best treatment for type 2 diabetes?",
+    "expected_drug": null,
+    "expected_section": null,
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-002",
+    "query": "How does metformin work?",
+    "expected_drug": null,
+    "expected_section": null,
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-003",
+    "query": "What are the side effects of ibuprofen?",
+    "expected_drug": null,
+    "expected_section": null,
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-004",
+    "query": "Should I take aspirin for heart disease prevention?",
+    "expected_drug": null,
+    "expected_section": null,
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": "OOS-005",
+    "query": "What antibiotics treat strep throat?",
+    "expected_drug": null,
+    "expected_section": null,
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  }
+]
