@@ -1,0 +1,1541 @@
+[
+  {
+    "query_id": "CI-001",
+    "query": "What are the contraindications for natalizumab?",
+    "category": "contraindications",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.8508,
+    "answer": "Natalizumab (Tysabri and Tyruko) is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [2, 3] and those who have had a hypersensitivity reaction to natalizumab products or any of its ingredients [2, 3]. Hypersensitivity reactions can range from urticari",
+    "groundedness_score": 0.5,
+    "total_sentences": 2,
+    "supported_sentences": 1,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.6691,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 629.0,
+      "retrieval": 22.3,
+      "generation": 5474.4,
+      "validation": 772.9
+    }
+  },
+  {
+    "query_id": "CI-002",
+    "query": "When should ocrelizumab not be used?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.8508,
+    "answer": "Ocrevus is contraindicated in patients with active HBV infection [2] and a history of life-threatening infusion reaction to ocrelizumab [2].",
+    "groundedness_score": 1.0,
+    "total_sentences": 1,
+    "supported_sentences": 1,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8723,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1886.8,
+      "retrieval": 56.2,
+      "generation": 3018.1,
+      "validation": 330.9
+    }
+  },
+  {
+    "query_id": "CI-003",
+    "query": "Who should not take fingolimod?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7522,
+    "answer": "Fingolimod is contraindicated in patients who have had a hypersensitivity reaction to fingolimod or any of the excipients in fingolimod [5].",
+    "groundedness_score": 1.0,
+    "total_sentences": 1,
+    "supported_sentences": 1,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8723,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1713.6,
+      "retrieval": 51.9,
+      "generation": 4958.4,
+      "validation": 331.3
+    }
+  },
+  {
+    "query_id": "CI-004",
+    "query": "Is teriflunomide contraindicated in liver disease?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Aubagio",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.5325,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2234.5,
+      "retrieval": 70.4,
+      "generation": 3879.4,
+      "validation": 241.6
+    }
+  },
+  {
+    "query_id": "CI-005",
+    "query": "What are the contraindications for alemtuzumab?",
+    "category": "contraindications",
+    "difficulty": "easy",
+    "expected_drug": "Lemtrada",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4583,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2018.1,
+      "retrieval": 54.8,
+      "generation": 3198.5,
+      "validation": 203.1
+    }
+  },
+  {
+    "query_id": "CI-006",
+    "query": "When should dimethyl fumarate not be prescribed?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Tecfidera",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Dimethyl fumarate should not be prescribed to patients with a known hypersensitivity to dimethyl fumarate or any of its excipients [1]. Additionally, Vumerity is contraindicated in patients with known hypersensitivity to diroximel fumarate, dimethyl fumarate, or any of its excipients [2]. Bafiertam ",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8972,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1980.5,
+      "retrieval": 86.5,
+      "generation": 6847.2,
+      "validation": 588.4
+    }
+  },
+  {
+    "query_id": "CI-007",
+    "query": "Are there any contraindications for siponimod?",
+    "category": "contraindications",
+    "difficulty": "easy",
+    "expected_drug": "Mayzent",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.5469,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1980.6,
+      "retrieval": 150.3,
+      "generation": 3249.3,
+      "validation": 173.6
+    }
+  },
+  {
+    "query_id": "CI-008",
+    "query": "Who should avoid taking ozanimod?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Zeposia",
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "contraindications"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1886.9,
+      "retrieval": 44.8,
+      "generation": 2929.4,
+      "validation": 189.1
+    }
+  },
+  {
+    "query_id": "AE-001",
+    "query": "What are the side effects of fingolimod?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Gilenya",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Serious adverse reactions associated with fingolimod (Gilenya) include bradyarrhythmia and atrioventricular blocks [1], infections [1], progressive multifocal leukoencephalopathy [1], macular edema [1], liver injury [1], posterior reversible encephalopathy syndrome [1], respiratory effects [1], and ",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8723,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2092.1,
+      "retrieval": 88.2,
+      "generation": 18596.7,
+      "validation": 462.8
+    }
+  },
+  {
+    "query_id": "AE-002",
+    "query": "What adverse reactions have been reported with natalizumab?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9323,
+    "answer": "Adverse reactions reported with natalizumab include headache, fatigue, arthralgia, urinary tract infection, lower respiratory tract infection, gastroenteritis, vaginitis, depression, pain in extremity, abdominal discomfort, diarrhea, and rash [1, 2, 3, 4]. Postmarketing experience has identified blo",
+    "groundedness_score": 0.5,
+    "total_sentences": 4,
+    "supported_sentences": 2,
+    "unsupported_sentences": 2,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.6473,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2206.9,
+      "retrieval": 89.9,
+      "generation": 13807.5,
+      "validation": 674.9
+    }
+  },
+  {
+    "query_id": "AE-003",
+    "query": "Does ocrelizumab cause infusion reactions?",
+    "category": "adverse_reactions",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "adverse_reactions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Yes, ocrelizumab (Ocrevus) can cause infusion reactions, which can include pruritus, rash, urticaria, erythema, bronchospasm, throat irritation, oropharyngeal pain, dyspnea, pharyngeal or laryngeal edema, flushing, hypotension, pyrexia, fatigue, headache, dizziness, nausea, tachycardia, and anaphyla",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9996,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2242.3,
+      "retrieval": 65.1,
+      "generation": 14140.2,
+      "validation": 449.8
+    }
+  },
+  {
+    "query_id": "AE-004",
+    "query": "What are the common side effects of teriflunomide?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Aubagio",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "adverse_reactions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.5111,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1953.1,
+      "retrieval": 68.2,
+      "generation": 11913.8,
+      "validation": 477.8
+    }
+  },
+  {
+    "query_id": "AE-005",
+    "query": "What side effects does dimethyl fumarate cause?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Tecfidera",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7522,
+    "answer": "The most common adverse reactions for dimethyl fumarate are flushing, abdominal pain, diarrhea, and nausea [1, 2, 3, 4, 5]. Other reported adverse reactions include vomiting, pruritus, rash, albuminuria, erythema, dyspepsia, increased aspartate aminotransferase, and lymphopenia [1, 3, 5].",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9212,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2040.9,
+      "retrieval": 176.9,
+      "generation": 12716.2,
+      "validation": 577.6
+    }
+  },
+  {
+    "query_id": "AE-006",
+    "query": "Are there cardiac side effects with siponimod?",
+    "category": "adverse_reactions",
+    "difficulty": "hard",
+    "expected_drug": "Mayzent",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "adverse_reactions",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Mayzent (siponimod) can cause AV block (1st and 2nd degree) [1]. Vascular events, including ischemic strokes, pulmonary embolisms, and myocardial infarctions, were reported in 3.0% of MAYZENT-treated patients compared to 2.6% of patients receiving placebo [1].",
+    "groundedness_score": 0.5,
+    "total_sentences": 2,
+    "supported_sentences": 1,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.6473,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2369.2,
+      "retrieval": 98.8,
+      "generation": 13075.2,
+      "validation": 488.8
+    }
+  },
+  {
+    "query_id": "AE-007",
+    "query": "What adverse events occur with glatiramer acetate?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Copaxone",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Adverse reactions associated with glatiramer acetate include injection site erythema (22% vs 2% with placebo), injection site pain (10% vs 2% with placebo), injection site mass (6% vs 0% with placebo), injection site pruritus (6% vs 0% with placebo), injection site edema (6% vs 0% with placebo), pyr",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 1.0,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1999.8,
+      "retrieval": 75.6,
+      "generation": 18604.2,
+      "validation": 444.6
+    }
+  },
+  {
+    "query_id": "AE-008",
+    "query": "Does cladribine cause lymphopenia?",
+    "category": "adverse_reactions",
+    "difficulty": "hard",
+    "expected_drug": "Mavenclad",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "adverse_reactions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2249.9,
+      "retrieval": 72.1,
+      "generation": 9125.0,
+      "validation": 438.2
+    }
+  },
+  {
+    "query_id": "WP-001",
+    "query": "What are the serious infection risks with ocrelizumab?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning",
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9214,
+    "answer": "Serious, including life-threatening, infections have occurred with ocrelizumab [1]. Vaccination with live-attenuated or live vaccines is not recommended during treatment and until B-cell repletion [1]. Cases of progressive multifocal leukoencephalopathy (PML), an opportunistic viral infection, have ",
+    "groundedness_score": 0.6667,
+    "total_sentences": 3,
+    "supported_sentences": 2,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8489,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2384.4,
+      "retrieval": 88.4,
+      "generation": 12639.5,
+      "validation": 516.3
+    }
+  },
+  {
+    "query_id": "WP-002",
+    "query": "What is the black box warning for natalizumab?",
+    "category": "warnings",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "boxed_warning",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8855,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2237.1,
+      "retrieval": 221.7,
+      "generation": 8910.8,
+      "validation": 399.5
+    }
+  },
+  {
+    "query_id": "WP-003",
+    "query": "What are the cardiac risks of fingolimod?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning",
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Fingolimod can cause cardiac risks including symptomatic bradycardia, AV blocks, and transient AV conduction delays [1, 3]. Patients with certain pre-existing conditions (e.g., ischemic heart disease, history of myocardial infarction, congestive heart failure, history of cardiac arrest, cerebrovascu",
+    "groundedness_score": 0.4,
+    "total_sentences": 5,
+    "supported_sentences": 2,
+    "unsupported_sentences": 3,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.6459,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2437.0,
+      "retrieval": 78.6,
+      "generation": 16577.1,
+      "validation": 449.6
+    }
+  },
+  {
+    "query_id": "WP-004",
+    "query": "Does teriflunomide carry a risk of hepatotoxicity?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Aubagio",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning",
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Yes, teriflunomide carries a risk of hepatotoxicity [1]. If liver injury is suspected, teriflunomide should be discontinued and an accelerated elimination procedure started, with weekly monitoring of liver tests until normalized [1].",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8972,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2501.3,
+      "retrieval": 97.1,
+      "generation": 10182.3,
+      "validation": 558.7
+    }
+  },
+  {
+    "query_id": "WP-005",
+    "query": "What warnings exist for PML with natalizumab?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Tysabri",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Natalizumab carries a risk of Progressive Multifocal Leukoencephalopathy (PML), which usually leads to death or severe disability over weeks or months [1, 2]. Withhold natalizumab dosing and perform a diagnostic evaluation at the first sign or symptom suggestive of PML [1, 2]. MRI findings may prece",
+    "groundedness_score": 0.5,
+    "total_sentences": 6,
+    "supported_sentences": 3,
+    "unsupported_sentences": 3,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.7491,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2323.6,
+      "retrieval": 74.6,
+      "generation": 14411.1,
+      "validation": 673.4
+    }
+  },
+  {
+    "query_id": "WP-006",
+    "query": "What are the macular edema risks with fingolimod?",
+    "category": "warnings",
+    "difficulty": "hard",
+    "expected_drug": "Gilenya",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9131,
+    "answer": "Fingolimod increases the risk of macular edema [1, 4]. A baseline evaluation of the fundus, including the macula, should be obtained near the start of treatment, and examinations should be performed 3 to 4 months after starting treatment, periodically while on therapy, and any time there is a change",
+    "groundedness_score": 1.0,
+    "total_sentences": 5,
+    "supported_sentences": 5,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 1.0,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2372.7,
+      "retrieval": 96.9,
+      "generation": 17650.6,
+      "validation": 397.4
+    }
+  },
+  {
+    "query_id": "WP-007",
+    "query": "Are there cancer risks with alemtuzumab?",
+    "category": "warnings",
+    "difficulty": "hard",
+    "expected_drug": "Lemtrada",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning",
+      "adverse_reactions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2436.6,
+      "retrieval": 94.8,
+      "generation": 6683.8,
+      "validation": 345.4
+    }
+  },
+  {
+    "query_id": "WP-008",
+    "query": "What are the warnings for ublituximab?",
+    "category": "warnings",
+    "difficulty": "easy",
+    "expected_drug": "Briumvi",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "boxed_warning"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.8508,
+    "answer": "Briumvi (ublituximab) can cause infusion reactions, which can include pyrexia, chills, headache, influenza-like illness, tachycardia, nausea, throat irritation, erythema, and an anaphylactic reaction [2]. Serious infections have occurred, and vaccination with live-attenuated or live vaccines is not ",
+    "groundedness_score": 0.2,
+    "total_sentences": 5,
+    "supported_sentences": 1,
+    "unsupported_sentences": 4,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.5372,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2250.2,
+      "retrieval": 65.9,
+      "generation": 15904.1,
+      "validation": 457.6
+    }
+  },
+  {
+    "query_id": "DA-001",
+    "query": "What is the recommended dose for ocrelizumab?",
+    "category": "dosing",
+    "difficulty": "easy",
+    "expected_drug": "Ocrevus",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [
+      "dosage_and_administration"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.5322,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2082.6,
+      "retrieval": 93.0,
+      "generation": 12209.9,
+      "validation": 599.4
+    }
+  },
+  {
+    "query_id": "DA-002",
+    "query": "How is natalizumab administered?",
+    "category": "dosing",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [
+      "dosage_and_administration"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2060.5,
+      "retrieval": 91.9,
+      "generation": 7450.1,
+      "validation": 281.7
+    }
+  },
+  {
+    "query_id": "DA-003",
+    "query": "What is the dosing schedule for alemtuzumab?",
+    "category": "dosing",
+    "difficulty": "easy",
+    "expected_drug": "Lemtrada",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [
+      "dosage_and_administration"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "The recommended dosing schedule for alemtuzumab involves gradually escalating to a maximum single dose of 30 mg. Initially, administer 3 mg daily until infusion-related reactions are \u2264 Grade 2, then 10 mg daily until infusion-related reactions are \u2264 Grade 2, and finally 30 mg/day three times per wee",
+    "groundedness_score": 0.75,
+    "total_sentences": 4,
+    "supported_sentences": 3,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8868,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2108.6,
+      "retrieval": 69.6,
+      "generation": 14400.3,
+      "validation": 384.9
+    }
+  },
+  {
+    "query_id": "DA-004",
+    "query": "How should fingolimod be initiated?",
+    "category": "dosing",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Prior to initiating fingolimod, a recent complete blood count (CBC) should be available within 6 months or after discontinuation of prior therapy [4]. Patients without a healthcare professional confirmed history of chickenpox or without documentation of a full course of vaccination against varicella",
+    "groundedness_score": 0.5,
+    "total_sentences": 4,
+    "supported_sentences": 2,
+    "unsupported_sentences": 2,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.775,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2284.5,
+      "retrieval": 93.9,
+      "generation": 14085.4,
+      "validation": 427.0
+    }
+  },
+  {
+    "query_id": "DA-005",
+    "query": "What is the titration schedule for ponesimod?",
+    "category": "dosing",
+    "difficulty": "hard",
+    "expected_drug": "Ponvory",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [
+      "dosage_and_administration"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.8299,
+    "answer": "The recommended titration schedule for ponesimod is as follows [5]:\n\nTitration Day | Daily Dose\n---|---\nDays 1 and 2 | 2 mg\nDays 3 and 4 | 3 mg\nDays 5 and 6 | 4 mg\nDay 7 | 5 mg\nDay 8 | 6 mg\nDay 9 | 7 mg\nDay 10 | 8 mg\nDay 11 | 9 mg\nDays 12, 13, and 14 | 10 mg\n\nThe maintenance daily dose is 20 mg, sta",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 1.0,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2040.0,
+      "retrieval": 59.0,
+      "generation": 11611.4,
+      "validation": 404.0
+    }
+  },
+  {
+    "query_id": "DA-006",
+    "query": "What dose of modafinil is recommended for fatigue?",
+    "category": "dosing",
+    "difficulty": "medium",
+    "expected_drug": "Modafinil",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [
+      "indications_and_usage"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4511,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2184.9,
+      "retrieval": 55.3,
+      "generation": 4247.4,
+      "validation": 155.4
+    }
+  },
+  {
+    "query_id": "DI-001",
+    "query": "Does fingolimod interact with beta blockers?",
+    "category": "interactions",
+    "difficulty": "hard",
+    "expected_drug": "Gilenya",
+    "expected_section": "drug_interactions",
+    "routed_sections": [
+      "drug_interactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Concomitant use of fingolimod with drugs that slow the heart rate or atrioventricular conduction, such as beta blockers, may be associated with severe bradycardia or heart block [1]. It is recommended to seek advice from the prescribing physician regarding the possibility to switch to drugs that do ",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9326,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1856.2,
+      "retrieval": 51.8,
+      "generation": 10911.2,
+      "validation": 357.4
+    }
+  },
+  {
+    "query_id": "DI-002",
+    "query": "What drugs interact with teriflunomide?",
+    "category": "interactions",
+    "difficulty": "easy",
+    "expected_drug": "Aubagio",
+    "expected_section": "drug_interactions",
+    "routed_sections": [
+      "drug_interactions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.55,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1924.6,
+      "retrieval": 63.2,
+      "generation": 8705.4,
+      "validation": 316.1
+    }
+  },
+  {
+    "query_id": "DI-003",
+    "query": "Are there drug interactions with siponimod?",
+    "category": "interactions",
+    "difficulty": "easy",
+    "expected_drug": "Mayzent",
+    "expected_section": "drug_interactions",
+    "routed_sections": [
+      "drug_interactions"
+    ],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.55,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1977.5,
+      "retrieval": 250.9,
+      "generation": 5182.5,
+      "validation": 392.6
+    }
+  },
+  {
+    "query_id": "DI-004",
+    "query": "Can tizanidine be taken with CYP1A2 inhibitors?",
+    "category": "interactions",
+    "difficulty": "hard",
+    "expected_drug": "Zanaflex",
+    "expected_section": "drug_interactions",
+    "routed_sections": [
+      "drug_interactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9578,
+    "answer": "Concomitant use of tizanidine hydrochloride with strong CYP1A2 inhibitors (e.g., fluvoxamine, ciprofloxacin) is contraindicated [1]. Concomitant use of tizanidine hydrochloride with moderate or weak CYP1A2 inhibitors (e.g., zileuton) should be avoided [1]. If concomitant use is clinically necessary,",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9547,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1892.4,
+      "retrieval": 199.2,
+      "generation": 10292.4,
+      "validation": 647.8
+    }
+  },
+  {
+    "query_id": "SP-001",
+    "query": "Is teriflunomide safe during pregnancy?",
+    "category": "populations",
+    "difficulty": "easy",
+    "expected_drug": "Aubagio",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [
+      "use_in_specific_populations"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Aubagio (teriflunomide) is contraindicated for use in pregnant women and females of reproductive potential not using effective contraception [1]. Animal studies have demonstrated teratogenicity and embryolethality at plasma exposures lower than the maximum recommended human dose [1, 2]. While limite",
+    "groundedness_score": 0.75,
+    "total_sentences": 4,
+    "supported_sentences": 3,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8743,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2124.7,
+      "retrieval": 276.7,
+      "generation": 14530.3,
+      "validation": 510.2
+    }
+  },
+  {
+    "query_id": "SP-002",
+    "query": "Can fingolimod be used in pediatric patients?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [
+      "use_in_specific_populations"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Fingolimod is indicated for the treatment of relapsing forms of multiple sclerosis in pediatric patients 10 to less than 18 years of age [1]. Safety and effectiveness were established in one clinical study [1]. Cases of seizures were reported in pediatric patients receiving fingolimod [1]. Safety an",
+    "groundedness_score": 0.5,
+    "total_sentences": 4,
+    "supported_sentences": 2,
+    "unsupported_sentences": 2,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.7552,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2101.0,
+      "retrieval": 66.9,
+      "generation": 12948.4,
+      "validation": 638.4
+    }
+  },
+  {
+    "query_id": "SP-003",
+    "query": "What are the pregnancy warnings for natalizumab?",
+    "category": "populations",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [
+      "use_in_specific_populations",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Natalizumab can cause fetal harm [1, 3]. There are no adequate data on the risk of major birth defects, miscarriage, or other adverse maternal outcomes associated with natalizumab use in pregnant women [1, 3]. Cases of neonatal thrombocytopenia and anemia have been reported in infants born to women ",
+    "groundedness_score": 1.0,
+    "total_sentences": 4,
+    "supported_sentences": 4,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9996,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2431.2,
+      "retrieval": 70.1,
+      "generation": 13820.0,
+      "validation": 538.9
+    }
+  },
+  {
+    "query_id": "SP-004",
+    "query": "Is ocrelizumab safe for breastfeeding mothers?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [
+      "use_in_specific_populations"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "There are no data on the presence of ocrelizumab in human milk, the effects on the breastfed infant, or the effects of the drug on milk production [1]. Ocrelizumab was excreted in the milk of ocrelizumab-treated monkeys [1]. Human IgG is excreted in human milk, and the potential for absorption of oc",
+    "groundedness_score": 0.75,
+    "total_sentences": 4,
+    "supported_sentences": 3,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8875,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2205.3,
+      "retrieval": 74.6,
+      "generation": 14560.7,
+      "validation": 499.5
+    }
+  },
+  {
+    "query_id": "SP-005",
+    "query": "Can elderly patients take siponimod?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Mayzent",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [
+      "use_in_specific_populations",
+      "warnings_and_precautions",
+      "adverse_reactions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7979,
+    "answer": "Clinical studies of siponimod in elderly patients have not included sufficient numbers to determine if they respond differently from younger subjects [3]. In general, dose selection for an elderly patient should be cautious, reflecting the greater frequency of decreased hepatic, renal, or cardiac fu",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9277,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2694.6,
+      "retrieval": 124.8,
+      "generation": 7279.6,
+      "validation": 496.5
+    }
+  },
+  {
+    "query_id": "SP-006",
+    "query": "What about using gabapentin in renal impairment?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Gabapentin",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [
+      "use_in_specific_populations",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Dosage adjustment is necessary in adult patients with compromised renal function [1]. Dosage adjustment in patients undergoing hemodialysis is also necessary [1]. Furthermore, monitor for adverse reactions due to increased drug exposure in patients with severe renal impairment [5].",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9705,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2418.1,
+      "retrieval": 112.2,
+      "generation": 10415.2,
+      "validation": 424.1
+    }
+  },
+  {
+    "query_id": "IU-001",
+    "query": "What is ocrelizumab approved to treat?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Ocrevus",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [
+      "indications_and_usage"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7699,
+    "answer": "Ocrevus is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults, and primary progressive MS in adults [4].",
+    "groundedness_score": 1.0,
+    "total_sentences": 1,
+    "supported_sentences": 1,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.945,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2067.1,
+      "retrieval": 83.0,
+      "generation": 8742.2,
+      "validation": 541.3
+    }
+  },
+  {
+    "query_id": "IU-002",
+    "query": "What type of MS is natalizumab used for?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [
+      "indications_and_usage"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Natalizumab is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults [1, 2].",
+    "groundedness_score": 1.0,
+    "total_sentences": 1,
+    "supported_sentences": 1,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9125,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2340.7,
+      "retrieval": 95.6,
+      "generation": 8174.2,
+      "validation": 504.6
+    }
+  },
+  {
+    "query_id": "IU-003",
+    "query": "What is dalfampridine indicated for?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Ampyra",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [
+      "indications_and_usage"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7699,
+    "answer": "Dalfampridine (Ampyra) is indicated as a treatment to improve walking in adult patients with multiple sclerosis (MS) [4].",
+    "groundedness_score": 1.0,
+    "total_sentences": 1,
+    "supported_sentences": 1,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.997,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2124.7,
+      "retrieval": 101.8,
+      "generation": 5579.8,
+      "validation": 374.2
+    }
+  },
+  {
+    "query_id": "IU-004",
+    "query": "What does ofatumumab treat?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Kesimpta",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [
+      "indications_and_usage"
+    ],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7979,
+    "answer": "Ofatumumab (Kesimpta) is indicated for the treatment of chronic lymphocytic leukemia (CLL) [3]. Specifically, it is indicated in combination with chlorambucil for previously untreated patients with CLL for whom fludarabine-based therapy is considered inappropriate, in combination with fludarabine an",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8723,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 1972.9,
+      "retrieval": 80.4,
+      "generation": 11770.5,
+      "validation": 432.9
+    }
+  },
+  {
+    "query_id": "PT-001",
+    "query": "Can I take this drug if I have liver problems?",
+    "category": "patient_style",
+    "difficulty": "medium",
+    "expected_drug": null,
+    "expected_section": "contraindications",
+    "routed_sections": [
+      "use_in_specific_populations",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "It depends on the specific drug. Ponvory is not recommended in patients with moderate or severe hepatic impairment [1]. Dosage reduction is recommended for tizanidine in patients with hepatic impairment [4]. For modafinil, the dose should be reduced in patients with hepatic impairment [2]. Insuffici",
+    "groundedness_score": 0.6,
+    "total_sentences": 5,
+    "supported_sentences": 3,
+    "unsupported_sentences": 2,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.6923,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2644.4,
+      "retrieval": 106.9,
+      "generation": 5543.3,
+      "validation": 398.7
+    }
+  },
+  {
+    "query_id": "PT-002",
+    "query": "What happens if I miss a dose of my MS medication?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [
+      "dosage_and_administration",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "If a dose of Zeposia (ozanimod) is missed after the first 2 weeks of treatment, continue with the treatment as planned [4]. If treatment needs to be reinitiated, use the titration regimen [4].",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8723,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2629.2,
+      "retrieval": 282.0,
+      "generation": 5726.2,
+      "validation": 447.0
+    }
+  },
+  {
+    "query_id": "PT-003",
+    "query": "Will this medicine make me tired?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "adverse_reactions",
+    "routed_sections": [
+      "adverse_reactions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2020.4,
+      "retrieval": 93.7,
+      "generation": 5729.2,
+      "validation": 309.5
+    }
+  },
+  {
+    "query_id": "PT-004",
+    "query": "Is it safe to get vaccinated while on my treatment?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [
+      "warnings_and_precautions",
+      "drug_interactions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2296.6,
+      "retrieval": 85.3,
+      "generation": 2429.8,
+      "validation": 351.5
+    }
+  },
+  {
+    "query_id": "PT-005",
+    "query": "Can I drink alcohol with my MS medication?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "drug_interactions",
+    "routed_sections": [
+      "drug_interactions",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": true,
+    "is_out_of_scope": false,
+    "latency_ms": {
+      "routing": 2424.3,
+      "retrieval": 106.5,
+      "generation": 3177.6,
+      "validation": 182.7
+    }
+  },
+  {
+    "query_id": "OOS-001",
+    "query": "What is the best treatment for type 2 diabetes?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [
+      "indications_and_usage"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": false,
+    "is_out_of_scope": true,
+    "latency_ms": {
+      "routing": 2045.3,
+      "retrieval": 68.3,
+      "generation": 5270.1,
+      "validation": 320.5
+    }
+  },
+  {
+    "query_id": "OOS-002",
+    "query": "How does metformin work?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [
+      "indications_and_usage",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": false,
+    "is_out_of_scope": true,
+    "latency_ms": {
+      "routing": 2402.0,
+      "retrieval": 124.1,
+      "generation": 3907.0,
+      "validation": 302.0
+    }
+  },
+  {
+    "query_id": "OOS-003",
+    "query": "What are the side effects of ibuprofen?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [
+      "adverse_reactions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": false,
+    "is_out_of_scope": true,
+    "latency_ms": {
+      "routing": 1959.3,
+      "retrieval": 77.4,
+      "generation": 10133.6,
+      "validation": 472.5
+    }
+  },
+  {
+    "query_id": "OOS-004",
+    "query": "Should I take aspirin for heart disease prevention?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [
+      "indications_and_usage",
+      "warnings_and_precautions"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4223,
+    "refusal_correct": false,
+    "is_out_of_scope": true,
+    "latency_ms": {
+      "routing": 2359.5,
+      "retrieval": 71.7,
+      "generation": 3707.8,
+      "validation": 118.3
+    }
+  },
+  {
+    "query_id": "OOS-005",
+    "query": "What antibiotics treat strep throat?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [
+      "indications_and_usage"
+    ],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.4516,
+    "refusal_correct": false,
+    "is_out_of_scope": true,
+    "latency_ms": {
+      "routing": 1949.7,
+      "retrieval": 79.7,
+      "generation": 3682.9,
+      "validation": 249.7
+    }
+  }
+]

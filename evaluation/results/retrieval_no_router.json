@@ -1,0 +1,1784 @@
+[
+  {
+    "query_id": "CI-001",
+    "query": "What are the contraindications for natalizumab?",
+    "category": "contraindications",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8855,
+    "retrieval_time_ms": 216.6,
+    "top_5_drugs": [
+      "Tysabri",
+      "Tyruko",
+      "Tysabri",
+      "Tyruko",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "CI-002",
+    "query": "When should ocrelizumab not be used?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8503,
+    "retrieval_time_ms": 74.5,
+    "top_5_drugs": [
+      "Ocrevus",
+      "Gabapentin",
+      "Tysabri",
+      "Tyruko",
+      "Ocrevus"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.01425,
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375
+    ]
+  },
+  {
+    "query_id": "CI-003",
+    "query": "Who should not take fingolimod?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 14.3,
+    "top_5_drugs": [
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "warnings_and_precautions",
+      "dosage_and_administration",
+      "warnings_and_precautions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "CI-004",
+    "query": "Is teriflunomide contraindicated in liver disease?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Aubagio",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.973,
+    "retrieval_time_ms": 60.0,
+    "top_5_drugs": [
+      "Aubagio",
+      "Aubagio",
+      "Ponvory",
+      "Modafinil",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "warnings_and_precautions",
+      "contraindications",
+      "contraindications"
+    ],
+    "top_5_scores": [
+      0.015481,
+      0.014785,
+      0.014568,
+      0.014165,
+      0.013441
+    ]
+  },
+  {
+    "query_id": "CI-005",
+    "query": "What are the contraindications for alemtuzumab?",
+    "category": "contraindications",
+    "difficulty": "easy",
+    "expected_drug": "Lemtrada",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.5,
+    "retrieval_time_ms": 57.7,
+    "top_5_drugs": [
+      "Gilenya",
+      "Aubagio",
+      "Lemtrada",
+      "Tysabri",
+      "Tyruko"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.014083,
+      0.013749,
+      0.009836,
+      0.009677,
+      0.009524
+    ]
+  },
+  {
+    "query_id": "CI-006",
+    "query": "When should dimethyl fumarate not be prescribed?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Tecfidera",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.5378,
+    "retrieval_time_ms": 14.6,
+    "top_5_drugs": [
+      "Vumerity",
+      "Bafiertam",
+      "Tecfidera",
+      "Tecfidera",
+      "Bafiertam"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "drug_interactions",
+      "dosage_and_administration",
+      "contraindications",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.01599,
+      0.015873,
+      0.015129,
+      0.013333,
+      0.009677
+    ]
+  },
+  {
+    "query_id": "CI-007",
+    "query": "Are there any contraindications for siponimod?",
+    "category": "contraindications",
+    "difficulty": "easy",
+    "expected_drug": "Mayzent",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.9197,
+    "retrieval_time_ms": 14.4,
+    "top_5_drugs": [
+      "Mavenclad",
+      "Gilenya",
+      "Vumerity",
+      "Bafiertam",
+      "Tecfidera"
+    ],
+    "top_5_sections": [
+      "contraindications",
+      "warnings_and_precautions",
+      "contraindications",
+      "use_in_specific_populations",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.016288,
+      0.015016,
+      0.013777,
+      0.009677,
+      0.009524
+    ]
+  },
+  {
+    "query_id": "CI-008",
+    "query": "Who should avoid taking ozanimod?",
+    "category": "contraindications",
+    "difficulty": "medium",
+    "expected_drug": "Zeposia",
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 13.2,
+    "top_5_drugs": [
+      "Mavenclad",
+      "Ponvory",
+      "Ponvory",
+      "Gabapentin",
+      "Mayzent"
+    ],
+    "top_5_sections": [
+      "contraindications",
+      "warnings_and_precautions",
+      "drug_interactions",
+      "dosage_and_administration",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "AE-001",
+    "query": "What are the side effects of fingolimod?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Gilenya",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9914,
+    "retrieval_time_ms": 56.7,
+    "top_5_drugs": [
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "adverse_reactions",
+      "adverse_reactions",
+      "drug_interactions",
+      "adverse_reactions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "AE-002",
+    "query": "What adverse reactions have been reported with natalizumab?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9323,
+    "retrieval_time_ms": 14.2,
+    "top_5_drugs": [
+      "Tysabri",
+      "Tyruko",
+      "Tysabri",
+      "Tyruko",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "AE-003",
+    "query": "Does ocrelizumab cause infusion reactions?",
+    "category": "adverse_reactions",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8772,
+    "retrieval_time_ms": 13.7,
+    "top_5_drugs": [
+      "Ocrevus",
+      "Kesimpta",
+      "Briumvi",
+      "Ocrevus",
+      "Briumvi"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "dosage_and_administration",
+      "warnings_and_precautions",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.015897,
+      0.015045,
+      0.014929,
+      0.014708,
+      0.014646
+    ]
+  },
+  {
+    "query_id": "AE-004",
+    "query": "What are the common side effects of teriflunomide?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Aubagio",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 61.0,
+    "top_5_drugs": [
+      "Ponvory",
+      "Mayzent",
+      "Briumvi",
+      "Zeposia",
+      "Ponvory"
+    ],
+    "top_5_sections": [
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.014941,
+      0.014102,
+      0.01393,
+      0.009836,
+      0.009524
+    ]
+  },
+  {
+    "query_id": "AE-005",
+    "query": "What side effects does dimethyl fumarate cause?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Tecfidera",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.5584,
+    "retrieval_time_ms": 13.2,
+    "top_5_drugs": [
+      "Vumerity",
+      "Bafiertam",
+      "Vumerity",
+      "Tecfidera",
+      "Bafiertam"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "drug_interactions",
+      "adverse_reactions",
+      "use_in_specific_populations",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.015316,
+      0.015257,
+      0.014929,
+      0.014821,
+      0.014154
+    ]
+  },
+  {
+    "query_id": "AE-006",
+    "query": "Are there cardiac side effects with siponimod?",
+    "category": "adverse_reactions",
+    "difficulty": "hard",
+    "expected_drug": "Mayzent",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.6835,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Mitoxantrone",
+      "Mayzent",
+      "Betaseron",
+      "Bafiertam",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "warnings",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "contraindications"
+    ],
+    "top_5_scores": [
+      0.014665,
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375
+    ]
+  },
+  {
+    "query_id": "AE-007",
+    "query": "What adverse events occur with glatiramer acetate?",
+    "category": "adverse_reactions",
+    "difficulty": "easy",
+    "expected_drug": "Copaxone",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9948,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Copaxone",
+      "Copaxone",
+      "Copaxone",
+      "Copaxone",
+      "Copaxone"
+    ],
+    "top_5_sections": [
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "contraindications",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.015774,
+      0.015311,
+      0.015099,
+      0.014973,
+      0.014708
+    ]
+  },
+  {
+    "query_id": "AE-008",
+    "query": "Does cladribine cause lymphopenia?",
+    "category": "adverse_reactions",
+    "difficulty": "hard",
+    "expected_drug": "Mavenclad",
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 13.2,
+    "top_5_drugs": [
+      "Mavenclad",
+      "Mavenclad",
+      "Mavenclad",
+      "Mavenclad",
+      "Mavenclad"
+    ],
+    "top_5_sections": [
+      "boxed_warning",
+      "warnings",
+      "dosage_and_administration",
+      "warnings",
+      "boxed_warning"
+    ],
+    "top_5_scores": [
+      0.015831,
+      0.015625,
+      0.015381,
+      0.015238,
+      0.015152
+    ]
+  },
+  {
+    "query_id": "WP-001",
+    "query": "What are the serious infection risks with ocrelizumab?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9724,
+    "retrieval_time_ms": 14.3,
+    "top_5_drugs": [
+      "Ocrevus",
+      "Ocrevus",
+      "Ocrevus",
+      "Ocrevus",
+      "Zeposia"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "contraindications",
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.015831,
+      0.009836,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "WP-002",
+    "query": "What is the black box warning for natalizumab?",
+    "category": "warnings",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "boxed_warning",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8855,
+    "retrieval_time_ms": 13.3,
+    "top_5_drugs": [
+      "Tysabri",
+      "Tyruko",
+      "Tysabri",
+      "Tyruko",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "adverse_reactions",
+      "adverse_reactions",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "WP-003",
+    "query": "What are the cardiac risks of fingolimod?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9734,
+    "retrieval_time_ms": 12.9,
+    "top_5_drugs": [
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "drug_interactions",
+      "contraindications",
+      "warnings_and_precautions",
+      "drug_interactions"
+    ],
+    "top_5_scores": [
+      0.014587,
+      0.009836,
+      0.009677,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "WP-004",
+    "query": "Does teriflunomide carry a risk of hepatotoxicity?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Aubagio",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.907,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Aubagio",
+      "Aubagio",
+      "Aubagio",
+      "Aubagio",
+      "Briumvi"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "warnings_and_precautions",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.015584,
+      0.015245,
+      0.014931,
+      0.013553,
+      0.0133
+    ]
+  },
+  {
+    "query_id": "WP-005",
+    "query": "What warnings exist for PML with natalizumab?",
+    "category": "warnings",
+    "difficulty": "medium",
+    "expected_drug": "Tysabri",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9159,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Tysabri",
+      "Tyruko",
+      "Tysabri",
+      "Tyruko",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.013946,
+      0.013942,
+      0.009836,
+      0.009677,
+      0.009524
+    ]
+  },
+  {
+    "query_id": "WP-006",
+    "query": "What are the macular edema risks with fingolimod?",
+    "category": "warnings",
+    "difficulty": "hard",
+    "expected_drug": "Gilenya",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9131,
+    "retrieval_time_ms": 13.4,
+    "top_5_drugs": [
+      "Gilenya",
+      "Mayzent",
+      "Zeposia",
+      "Gilenya",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.016393,
+      0.016129,
+      0.015724,
+      0.015406,
+      0.015385
+    ]
+  },
+  {
+    "query_id": "WP-007",
+    "query": "Are there cancer risks with alemtuzumab?",
+    "category": "warnings",
+    "difficulty": "hard",
+    "expected_drug": "Lemtrada",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.6934,
+    "retrieval_time_ms": 13.0,
+    "top_5_drugs": [
+      "Zeposia",
+      "Lemtrada",
+      "Lemtrada",
+      "Zeposia",
+      "Zeposia"
+    ],
+    "top_5_sections": [
+      "adverse_reactions",
+      "adverse_reactions",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "drug_interactions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "WP-008",
+    "query": "What are the warnings for ublituximab?",
+    "category": "warnings",
+    "difficulty": "easy",
+    "expected_drug": "Briumvi",
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8503,
+    "retrieval_time_ms": 13.1,
+    "top_5_drugs": [
+      "Briumvi",
+      "Aubagio",
+      "Zeposia",
+      "Ponvory",
+      "Briumvi"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "drug_interactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "DA-001",
+    "query": "What is the recommended dose for ocrelizumab?",
+    "category": "dosing",
+    "difficulty": "easy",
+    "expected_drug": "Ocrevus",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7699,
+    "retrieval_time_ms": 13.0,
+    "top_5_drugs": [
+      "Rebif",
+      "Avonex",
+      "Gabapentin",
+      "Ocrevus",
+      "Baclofen"
+    ],
+    "top_5_sections": [
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.014452,
+      0.014452,
+      0.013635,
+      0.009836,
+      0.009677
+    ]
+  },
+  {
+    "query_id": "DA-002",
+    "query": "How is natalizumab administered?",
+    "category": "dosing",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8855,
+    "retrieval_time_ms": 61.7,
+    "top_5_drugs": [
+      "Tysabri",
+      "Tyruko",
+      "Tysabri",
+      "Tyruko",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.015241,
+      0.015011,
+      0.014175,
+      0.014127,
+      0.013489
+    ]
+  },
+  {
+    "query_id": "DA-003",
+    "query": "What is the dosing schedule for alemtuzumab?",
+    "category": "dosing",
+    "difficulty": "easy",
+    "expected_drug": "Lemtrada",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Lemtrada",
+      "Kesimpta",
+      "Baclofen",
+      "Kesimpta",
+      "Mayzent"
+    ],
+    "top_5_sections": [
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.016235,
+      0.015238,
+      0.014794,
+      0.014175,
+      0.009836
+    ]
+  },
+  {
+    "query_id": "DA-004",
+    "query": "How should fingolimod be initiated?",
+    "category": "dosing",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9275,
+    "retrieval_time_ms": 13.2,
+    "top_5_drugs": [
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "warnings_and_precautions",
+      "dosage_and_administration",
+      "warnings_and_precautions",
+      "drug_interactions"
+    ],
+    "top_5_scores": [
+      0.015291,
+      0.015257,
+      0.014719,
+      0.014583,
+      0.014557
+    ]
+  },
+  {
+    "query_id": "DA-005",
+    "query": "What is the titration schedule for ponesimod?",
+    "category": "dosing",
+    "difficulty": "hard",
+    "expected_drug": "Ponvory",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.8299,
+    "retrieval_time_ms": 13.6,
+    "top_5_drugs": [
+      "Baclofen",
+      "Ponvory",
+      "Ponvory",
+      "Mayzent",
+      "Ponvory"
+    ],
+    "top_5_sections": [
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.015975,
+      0.01558,
+      0.015241,
+      0.015157,
+      0.015152
+    ]
+  },
+  {
+    "query_id": "DA-006",
+    "query": "What dose of modafinil is recommended for fatigue?",
+    "category": "dosing",
+    "difficulty": "medium",
+    "expected_drug": "Modafinil",
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 13.8,
+    "top_5_drugs": [
+      "Modafinil",
+      "Modafinil",
+      "Modafinil",
+      "Modafinil",
+      "Modafinil"
+    ],
+    "top_5_sections": [
+      "dosage_and_administration",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "drug_interactions"
+    ],
+    "top_5_scores": [
+      0.016235,
+      0.015806,
+      0.015341,
+      0.014102,
+      0.013297
+    ]
+  },
+  {
+    "query_id": "DI-001",
+    "query": "Does fingolimod interact with beta blockers?",
+    "category": "interactions",
+    "difficulty": "hard",
+    "expected_drug": "Gilenya",
+    "expected_section": "drug_interactions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 12.8,
+    "top_5_drugs": [
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "drug_interactions",
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.016393,
+      0.016027,
+      0.015975,
+      0.015074,
+      0.014725
+    ]
+  },
+  {
+    "query_id": "DI-002",
+    "query": "What drugs interact with teriflunomide?",
+    "category": "interactions",
+    "difficulty": "easy",
+    "expected_drug": "Aubagio",
+    "expected_section": "drug_interactions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7808,
+    "retrieval_time_ms": 12.7,
+    "top_5_drugs": [
+      "Mayzent",
+      "Zeposia",
+      "Aubagio",
+      "Mavenclad",
+      "Mayzent"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "drug_interactions",
+      "drug_interactions",
+      "drug_interactions",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.015436,
+      0.015129,
+      0.014636,
+      0.014621,
+      0.014578
+    ]
+  },
+  {
+    "query_id": "DI-003",
+    "query": "Are there drug interactions with siponimod?",
+    "category": "interactions",
+    "difficulty": "easy",
+    "expected_drug": "Mayzent",
+    "expected_section": "drug_interactions",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 12.9,
+    "top_5_drugs": [
+      "Mitoxantrone",
+      "Lemtrada",
+      "Mavenclad",
+      "Solu-Medrol",
+      "Mitoxantrone"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "drug_interactions",
+      "drug_interactions",
+      "drug_interactions",
+      "boxed_warning"
+    ],
+    "top_5_scores": [
+      0.016129,
+      0.015718,
+      0.015513,
+      0.015291,
+      0.014487
+    ]
+  },
+  {
+    "query_id": "DI-004",
+    "query": "Can tizanidine be taken with CYP1A2 inhibitors?",
+    "category": "interactions",
+    "difficulty": "hard",
+    "expected_drug": "Zanaflex",
+    "expected_section": "drug_interactions",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9465,
+    "retrieval_time_ms": 12.8,
+    "top_5_drugs": [
+      "Zanaflex",
+      "Zanaflex",
+      "Zanaflex",
+      "Zanaflex",
+      "Zanaflex"
+    ],
+    "top_5_sections": [
+      "contraindications",
+      "drug_interactions",
+      "warnings_and_precautions",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.016185,
+      0.016129,
+      0.015381,
+      0.015345,
+      0.015152
+    ]
+  },
+  {
+    "query_id": "SP-001",
+    "query": "Is teriflunomide safe during pregnancy?",
+    "category": "populations",
+    "difficulty": "easy",
+    "expected_drug": "Aubagio",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Aubagio",
+      "Aubagio",
+      "Aubagio",
+      "Aubagio",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.016185,
+      0.015738,
+      0.015543,
+      0.015321,
+      0.009375
+    ]
+  },
+  {
+    "query_id": "SP-002",
+    "query": "Can fingolimod be used in pediatric patients?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Gilenya",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9734,
+    "retrieval_time_ms": 12.5,
+    "top_5_drugs": [
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya",
+      "Gilenya"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "drug_interactions",
+      "dosage_and_administration",
+      "use_in_specific_populations",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.016027,
+      0.015543,
+      0.015494,
+      0.015113,
+      0.01435
+    ]
+  },
+  {
+    "query_id": "SP-003",
+    "query": "What are the pregnancy warnings for natalizumab?",
+    "category": "populations",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9159,
+    "retrieval_time_ms": 13.2,
+    "top_5_drugs": [
+      "Tysabri",
+      "Tyruko",
+      "Tysabri",
+      "Tyruko",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "adverse_reactions",
+      "adverse_reactions",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.015316,
+      0.015083,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "SP-004",
+    "query": "Is ocrelizumab safe for breastfeeding mothers?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Ocrevus",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 13.4,
+    "top_5_drugs": [
+      "Ocrevus",
+      "Ocrevus",
+      "Briumvi",
+      "Vumerity",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.016393,
+      0.015831,
+      0.015257,
+      0.014621,
+      0.014354
+    ]
+  },
+  {
+    "query_id": "SP-005",
+    "query": "Can elderly patients take siponimod?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Mayzent",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.6183,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Mavenclad",
+      "Mavenclad",
+      "Tecfidera",
+      "Bafiertam",
+      "Betaseron"
+    ],
+    "top_5_sections": [
+      "boxed_warning",
+      "boxed_warning",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.014503,
+      0.012792,
+      0.009836,
+      0.009677,
+      0.009524
+    ]
+  },
+  {
+    "query_id": "SP-006",
+    "query": "What about using gabapentin in renal impairment?",
+    "category": "populations",
+    "difficulty": "medium",
+    "expected_drug": "Gabapentin",
+    "expected_section": "use_in_specific_populations",
+    "routed_sections": [],
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.9244,
+    "retrieval_time_ms": 13.2,
+    "top_5_drugs": [
+      "Gabapentin",
+      "Gabapentin",
+      "Gabapentin",
+      "Gabapentin",
+      "Gabapentin"
+    ],
+    "top_5_sections": [
+      "dosage_and_administration",
+      "use_in_specific_populations",
+      "dosage_and_administration",
+      "use_in_specific_populations",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.016235,
+      0.01599,
+      0.015827,
+      0.0148,
+      0.014578
+    ]
+  },
+  {
+    "query_id": "IU-001",
+    "query": "What is ocrelizumab approved to treat?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Ocrevus",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.973,
+    "retrieval_time_ms": 13.2,
+    "top_5_drugs": [
+      "Ocrevus",
+      "Ocrevus",
+      "Aubagio",
+      "Tysabri",
+      "Tyruko"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "indications_and_usage",
+      "indications_and_usage"
+    ],
+    "top_5_scores": [
+      0.015253,
+      0.015079,
+      0.014373,
+      0.013766,
+      0.013579
+    ]
+  },
+  {
+    "query_id": "IU-002",
+    "query": "What type of MS is natalizumab used for?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Tysabri",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.8855,
+    "retrieval_time_ms": 13.5,
+    "top_5_drugs": [
+      "Tysabri",
+      "Tyruko",
+      "Tysabri",
+      "Tyruko",
+      "Tysabri"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.014251,
+      0.014205,
+      0.013955,
+      0.013946,
+      0.009836
+    ]
+  },
+  {
+    "query_id": "IU-003",
+    "query": "What is dalfampridine indicated for?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Ampyra",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 13.0,
+    "top_5_drugs": [
+      "Ampyra",
+      "Ampyra",
+      "Ampyra",
+      "Modafinil",
+      "Ponvory"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.016288,
+      0.015927,
+      0.015253,
+      0.009524,
+      0.009375
+    ]
+  },
+  {
+    "query_id": "IU-004",
+    "query": "What does ofatumumab treat?",
+    "category": "indications",
+    "difficulty": "easy",
+    "expected_drug": "Kesimpta",
+    "expected_section": "indications_and_usage",
+    "routed_sections": [],
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 0.0,
+    "retrieval_time_ms": 55.2,
+    "top_5_drugs": [
+      "Bafiertam",
+      "Gabapentin",
+      "Tecfidera",
+      "Rebif",
+      "Avonex"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "warnings_and_precautions",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "PT-001",
+    "query": "Can I take this drug if I have liver problems?",
+    "category": "patient_style",
+    "difficulty": "medium",
+    "expected_drug": null,
+    "expected_section": "contraindications",
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 13.8,
+    "top_5_drugs": [
+      "Zeposia",
+      "Mavenclad",
+      "Zanaflex",
+      "Briumvi",
+      "Mavenclad"
+    ],
+    "top_5_sections": [
+      "adverse_reactions",
+      "contraindications",
+      "dosage_and_administration",
+      "warnings_and_precautions",
+      "drug_interactions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "PT-002",
+    "query": "What happens if I miss a dose of my MS medication?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "dosage_and_administration",
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 14.1,
+    "top_5_drugs": [
+      "Vumerity",
+      "Gabapentin",
+      "Zanaflex",
+      "Modafinil",
+      "Gabapentin"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "dosage_and_administration",
+      "adverse_reactions",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.012595,
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375
+    ]
+  },
+  {
+    "query_id": "PT-003",
+    "query": "Will this medicine make me tired?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "adverse_reactions",
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 15.3,
+    "top_5_drugs": [
+      "Ampyra",
+      "Modafinil",
+      "Zanaflex",
+      "Acthar Gel",
+      "Solu-Medrol"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "PT-004",
+    "query": "Is it safe to get vaccinated while on my treatment?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "warnings_and_precautions",
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 15.7,
+    "top_5_drugs": [
+      "Aubagio",
+      "Zeposia",
+      "Gabapentin",
+      "Ampyra",
+      "Zeposia"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "drug_interactions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "PT-005",
+    "query": "Can I drink alcohol with my MS medication?",
+    "category": "patient_style",
+    "difficulty": "hard",
+    "expected_drug": null,
+    "expected_section": "drug_interactions",
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 14.0,
+    "top_5_drugs": [
+      "Gabapentin",
+      "Mavenclad",
+      "Mayzent",
+      "Rebif",
+      "Avonex"
+    ],
+    "top_5_sections": [
+      "dosage_and_administration",
+      "contraindications",
+      "warnings_and_precautions",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "OOS-001",
+    "query": "What is the best treatment for type 2 diabetes?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 13.6,
+    "top_5_drugs": [
+      "Bafiertam",
+      "Solu-Medrol",
+      "Mitoxantrone",
+      "Baclofen",
+      "Ponvory"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration",
+      "dosage_and_administration"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "OOS-002",
+    "query": "How does metformin work?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 51.1,
+    "top_5_drugs": [
+      "Lemtrada",
+      "Tysabri",
+      "Tyruko",
+      "Bafiertam",
+      "Gabapentin"
+    ],
+    "top_5_sections": [
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "use_in_specific_populations",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "OOS-003",
+    "query": "What are the side effects of ibuprofen?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 12.6,
+    "top_5_drugs": [
+      "Bafiertam",
+      "Baclofen",
+      "Zanaflex",
+      "Gabapentin",
+      "Gabapentin"
+    ],
+    "top_5_sections": [
+      "warnings_and_precautions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "OOS-004",
+    "query": "Should I take aspirin for heart disease prevention?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 16.2,
+    "top_5_drugs": [
+      "Zanaflex",
+      "Acthar Gel",
+      "Modafinil",
+      "Ampyra",
+      "Mavenclad"
+    ],
+    "top_5_sections": [
+      "drug_interactions",
+      "drug_interactions",
+      "warnings_and_precautions",
+      "warnings_and_precautions",
+      "boxed_warning"
+    ],
+    "top_5_scores": [
+      0.015678,
+      0.015392,
+      0.009836,
+      0.009375,
+      0.009231
+    ]
+  },
+  {
+    "query_id": "OOS-005",
+    "query": "What antibiotics treat strep throat?",
+    "category": "out_of_scope",
+    "difficulty": "easy",
+    "expected_drug": null,
+    "expected_section": null,
+    "routed_sections": [],
+    "recall_at_5": null,
+    "ndcg_at_5": null,
+    "retrieval_time_ms": 13.9,
+    "top_5_drugs": [
+      "Tecfidera",
+      "Vumerity",
+      "Bafiertam",
+      "Acthar Gel",
+      "Ampyra"
+    ],
+    "top_5_sections": [
+      "adverse_reactions",
+      "adverse_reactions",
+      "adverse_reactions",
+      "dosage_and_administration",
+      "warnings_and_precautions"
+    ],
+    "top_5_scores": [
+      0.009836,
+      0.009677,
+      0.009524,
+      0.009375,
+      0.009231
+    ]
+  }
+]

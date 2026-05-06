@@ -1,0 +1,92 @@
+{
+  "total_queries": 54,
+  "in_scope_queries": 49,
+  "out_of_scope_queries": 5,
+  "retrieval": {
+    "avg_recall_at_5": 0.6591,
+    "avg_ndcg_at_5": 0.9235,
+    "target_recall": 0.7,
+    "target_ndcg": 0.6,
+    "recall_meets_target": false,
+    "ndcg_meets_target": true
+  },
+  "generation": {
+    "avg_groundedness": 0.5022,
+    "hallucination_rate": 0.3814,
+    "total_sentences": 118,
+    "unsupported_sentences": 45,
+    "target_groundedness": 0.85,
+    "target_hallucination": 0.1,
+    "groundedness_meets_target": false,
+    "hallucination_meets_target": false
+  },
+  "refusal": {
+    "accuracy": 0.9074,
+    "decisions": {
+      "ANSWER": 29,
+      "ANSWER_WITH_CAUTION": 25
+    },
+    "out_of_scope_correctly_refused": 0,
+    "out_of_scope_total": 5
+  },
+  "by_category": {
+    "contraindications": {
+      "count": 8,
+      "avg_recall_at_5": 0.5,
+      "avg_groundedness": 0.4375
+    },
+    "adverse_reactions": {
+      "count": 8,
+      "avg_recall_at_5": 0.625,
+      "avg_groundedness": 0.625
+    },
+    "warnings": {
+      "count": 8,
+      "avg_recall_at_5": 0.75,
+      "avg_groundedness": 0.4708
+    },
+    "dosing": {
+      "count": 6,
+      "avg_recall_at_5": 0.3333,
+      "avg_groundedness": 0.375
+    },
+    "interactions": {
+      "count": 4,
+      "avg_recall_at_5": 0.5,
+      "avg_groundedness": 0.5
+    },
+    "populations": {
+      "count": 6,
+      "avg_recall_at_5": 1.0,
+      "avg_groundedness": 0.8333
+    },
+    "indications": {
+      "count": 4,
+      "avg_recall_at_5": 1.0,
+      "avg_groundedness": 1.0
+    },
+    "patient_style": {
+      "count": 5,
+      "avg_recall_at_5": null,
+      "avg_groundedness": 0.32
+    }
+  },
+  "latency": {
+    "routing": {
+      "avg_ms": 2149.1,
+      "p95_ms": 2629.2
+    },
+    "retrieval": {
+      "avg_ms": 98.1,
+      "p95_ms": 250.9
+    },
+    "generation": {
+      "avg_ms": 9346.6,
+      "p95_ms": 17650.6
+    },
+    "validation": {
+      "avg_ms": 420.8,
+      "p95_ms": 673.4
+    }
+  }
+}
