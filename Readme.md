@@ -9,22 +9,24 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
-
-
-## 🔍 The Problem
-
-Healthcare and pharma professionals increasingly turn to LLMs for drug and clinical questions. But current systems suffer from critical shortcomings that make them **unsafe for regulated use**:
-
-| Gap | Risk |
-|-----|------|
-| **Hallucinations** | LLMs fabricate drug interactions, dosages, or contraindications |
-| **Weak citations** | Answers lack traceable evidence back to authoritative sources |
-| **No governance** | Missing audit logs, monitoring, drift detection, and refusal policies |
-| **Prototype-only research** | Most RAG-in-healthcare papers stop at accuracy — ignoring operational readiness |
-
-## 💡 What This Project Does
-
-PharmaRAG is a **prototype drug label & safety QA system** that answers questions about indications, contraindications, warnings, adverse reactions, dosing, and drug interactions — grounded in FDA-approved drug labels.
+ 
+## 🔬 What Is PharmaRAG?
+ 
+PharmaRAG is a Master's capstone project that builds and evaluates a **RAG-based Drug Label QA system** designed for regulated pharmaceutical use.
+ 
+Most RAG systems stop at "it retrieves stuff and generates answers." PharmaRAG addresses the harder question: **how do you know if the answer is trustworthy enough to act on?**
+ 
+The system answers questions about drug indications, contraindications, warnings, adverse reactions, dosing, and drug interactions using **FDA DailyMed Structured Product Labels (SPL)** as the primary evidence source. Every answer comes with numbered citations, an evidence table, and a confidence decision produced by three agentic safety layers.
+ 
+### The Trust Gap
+ 
+Standard RAG pipelines retrieve, generate, and respond. There is no layer that asks:
+- Does this answer actually come from the evidence?
+- Is the evidence strong enough to justify answering at all?
+- How do I know if quality degrades after deployment?
+PharmaRAG closes that gap by treating **reliability and governance as first-class concerns** from day one.
+ 
+---
 
 ### Concrete Use Case
 
