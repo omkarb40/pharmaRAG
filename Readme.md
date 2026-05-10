@@ -336,16 +336,3 @@ pharma-rag/
 - [ ] Chatbot
 - [ ] Evaluation report & ablation study
  
----
-
-## 🤝 Contributing
- 
-This is a Masters capstone project. Feedback, suggestions, and issues are welcome!
- 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add improvement'`)
-4. Push to branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
----
