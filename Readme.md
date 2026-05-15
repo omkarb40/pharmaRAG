@@ -247,6 +247,8 @@ ollama pull llama3.2:3b
 **HCP / Analyst-style:**
 > "Summarize the black box warnings and contraindications for natalizumab, citing the relevant label sections."
 
+** Sample Incorrect Question**
+
 ### Sample Output
  
 ```
