@@ -1,5 +1,5 @@
 """
-PharmaRAG Phase 1.6 — Evaluation Harness
+PharmaRAG Evaluation Harness
 
 Runs the full test suite and produces metrics:
   - Retrieval: Recall@k, nDCG@k per query
