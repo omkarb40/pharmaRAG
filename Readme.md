@@ -53,65 +53,52 @@ PharmaRAG closes that gap by treating **reliability and governance as first-clas
 Removing the safety agents increases hallucination from 8% to 19%. Each agent earns its place.
  
 ---
-
 ## 🏗 Architecture
-
+ 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        USER QUERY                               │
-└─────────────────────┬───────────────────────────────────────────┘
-                      │
-                      ▼
-            ┌─────────────────┐
-            │  QUERY ROUTER   │  Agent 1: Maps question → label
-            │  (Section       │  section type (indications,
-            │   Classifier)   │  contraindications, warnings, etc.)
-            └────────┬────────┘
-                     │
-                     ▼
-        ┌────────────────────────┐
-        │   HYBRID RETRIEVAL     │
-        │  ┌──────┐  ┌────────┐ │
-        │  │ BM25 │  │Vector  │ │  Weighted fusion:
-        │  │(40%) │  │Search  │ │  60% semantic / 40% keyword
-        │  └──┬───┘  └───┬────┘ │
-        │     └─────┬─────┘     │
-        │           ▼           │
-        │      Re-Ranker        │
-        └───────────┬───────────┘
-                    │
-                    ▼
-          ┌──────────────────┐
-          │ EVIDENCE         │  Agent 2: Checks each answer
-          │ VALIDATOR        │  sentence has a supporting
-          │                  │  citation from retrieved chunks
-          └────────┬─────────┘
-                   │
-                   ▼
-          ┌──────────────────┐
-          │ REFUSAL GUARD    │  Agent 3: Abstains when evidence
-          │                  │  confidence is below threshold
-          └────────┬─────────┘
-                   │
-                   ▼
-     ┌──────────────────────────┐
-     │    STRUCTURED OUTPUT     │
-     │  • Answer + Citations    │
-     │  • Evidence Table        │
-     │  • Confidence Level      │
-     └────────────┬─────────────┘
-                  │
-                  ▼
-     ┌──────────────────────────┐
-     │   MONITORING & LOGGING   │
-     │  • request_id, timestamp │
-     │  • retrieval scores      │
-     │  • groundedness score    │
-     │  • latency (per-stage)   │
-     │  • refusal flags         │
-     └──────────────────────────┘
+User Query
+    │
+    ▼
+┌─────────────────────────────────┐
+│     Agent 1: Query Router       │  Classifies query → label section type
+│     (LLM-based classifier)      │  e.g. "contraindications", "warnings"
+└────────────────┬────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────┐
+│    Section-Filtered Retrieval   │
+│  BM25 + PubMedBERT + RRF Fusion │  60% semantic / 40% keyword
+│  ChromaDB vector store          │  698 chunks · 28 MS drugs
+└────────────────┬────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────┐
+│       LLM Generation            │  Gemma 3 12B via Ollama (local)
+│  Evidence-only prompt · T=0.1   │  Numbered citations [1][2][3]
+└────────────────┬────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────┐
+│  Agent 2: Evidence Validator    │  Per-sentence PubMedBERT similarity
+│  Groundedness scoring           │  Against retrieved evidence chunks
+└────────────────┬────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────┐
+│   Agent 3: Refusal Guard        │  Three-tier confidence decision
+│                                 │
+│  Score ≥ 0.70 → ANSWER          │
+│  Score 0.40–0.70 → CAUTION      │
+│  Score < 0.40 → REFUSE          │
+└────────────────┬────────────────┘
+                 │
+        ┌────────┴────────┐
+        ▼                 ▼
+   Cited Answer      Refusal + Reason
+   + Evidence Table  "Insufficient evidence"
+   + Audit Log       + Audit Log
 ```
-
+ 
 ---
 
 ## ✨ Key Features
