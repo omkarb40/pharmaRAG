@@ -320,7 +320,4 @@ pharma-rag/
 ├── docker-compose.yml
 └── README.md
 ```
-## 🗺 Roadmap
- 
-- [x] Project design & framework specification
 
