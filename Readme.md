@@ -257,7 +257,7 @@ with hypersensitivity to natalizumab [3].
 [2] DailyMed — Natalizumab — Section: WARNINGS AND PRECAUTIONS — Chunk ID: nat_wp_012
 [3] DailyMed — Natalizumab — Section: CONTRAINDICATIONS — Chunk ID: nat_ci_003
  
-🚦 Confidence: ██████████ ANSWER (Groundedness: 0.94)
+🚦 Confidence: ██████████ (Groundedness: 0.94)
 ```
  
 ---
