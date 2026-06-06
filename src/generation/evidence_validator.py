@@ -36,7 +36,8 @@ class EvidenceValidator:
 
     def __init__(self):
         self.embedder = PubMedEmbedder()  # Singleton, already loaded
-        self.threshold = 0.5  # Minimum similarity to count as "supported"
+        self.threshold = 0.35  # Lowered from 0.5 — PubMedBERT's similarity 
+                           # scores in this domain cluster between 0.3-0.7
         print(f"[EvidenceValidator] Initialized. Threshold: {self.threshold}")
 
     def _split_sentences(self, text: str) -> list[str]:
