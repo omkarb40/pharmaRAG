@@ -27,8 +27,8 @@ class RefusalGuard:
     """Three-tier confidence decision system."""
 
     def __init__(self):
-        self.refuse_threshold = 0.35
-        self.caution_threshold = 0.65
+        self.refuse_threshold = 0.45 # Raised from 0.35 
+        self.caution_threshold = 0.65 
         print(f"[RefusalGuard] Thresholds → Refuse: <{self.refuse_threshold}, "
               f"Caution: <{self.caution_threshold}, Answer: >={self.caution_threshold}")
 
@@ -37,41 +37,26 @@ class RefusalGuard:
         retrieval_results: list[dict],
         validation_report: dict,
     ) -> dict:
-        """
-        Evaluate confidence and produce a decision.
-
-        Returns:
-          {
-            "decision": "ANSWER" | "ANSWER_WITH_CAUTION" | "INSUFFICIENT_EVIDENCE",
-            "confidence_score": 0.0-1.0,
-            "signals": { ... },
-            "reasons": ["...", "..."],
-          }
-        """
-        # ── Signal 1: Retrieval quality ──
-        # Average fused score of retrieved chunks
+        # Signal 1: Retrieval quality
         fused_scores = [r.get("fused_score", 0) for r in retrieval_results]
         avg_retrieval = sum(fused_scores) / len(fused_scores) if fused_scores else 0
-
-        # Normalize: RRF scores are small (0.005-0.02 range)
-        # A "good" average is ~0.012+, "weak" is <0.008
         retrieval_signal = min(avg_retrieval / 0.015, 1.0)
 
-        # ── Signal 2: Groundedness ──
+        # Signal 2: Groundedness
         groundedness = validation_report.get("groundedness_score", 0)
 
-        # ── Signal 3: Result count ──
+        # Signal 3: Result count
         num_results = len(retrieval_results)
         count_signal = min(num_results / settings.top_k_final, 1.0)
 
-        # ── Composite confidence ──
+        # Updated weights — groundedness is now dominant
         confidence = (
-            0.35 * retrieval_signal
-            + 0.45 * groundedness
-            + 0.20 * count_signal
+            0.25 * retrieval_signal    # Reduced from 0.35
+            + 0.55 * groundedness      # Increased from 0.45
+            + 0.20 * count_signal      # Same
         )
 
-        # ── Decision ──
+        # Decision
         if confidence >= self.caution_threshold:
             decision = "ANSWER"
         elif confidence >= self.refuse_threshold:
@@ -79,15 +64,15 @@ class RefusalGuard:
         else:
             decision = "INSUFFICIENT_EVIDENCE"
 
-        # ── Reasons ──
+        # Reasons
         reasons = []
         if retrieval_signal < 0.5:
             reasons.append(
                 f"Low retrieval quality (avg fused score: {avg_retrieval:.6f})"
             )
-        if groundedness < 0.85:
+        if groundedness < 0.5:
             reasons.append(
-                f"Groundedness below 85%: {groundedness:.1%} of answer sentences "
+                f"Groundedness below 50%: {groundedness:.1%} of answer sentences "
                 f"are supported by evidence"
             )
         if num_results < 3:
