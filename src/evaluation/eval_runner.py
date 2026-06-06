@@ -147,11 +147,19 @@ def run_retrieval_eval(queries: list[dict], retriever: HybridRetriever,
 
         # Retrieve
         t0 = time.time()
-        chunks = retriever.search(
-            query=query_text,
-            top_k=5,
-            section_filter=section_filter,
-        )
+        if section_filter:
+            filtered = retriever.search(query=query_text, top_k=5,
+                                         section_filter=section_filter)
+            unfiltered = retriever.search(query=query_text, top_k=5)
+            seen_ids = set(r["chunk_id"] for r in filtered)
+            merged = list(filtered)
+            for r in unfiltered:
+                if r["chunk_id"] not in seen_ids and len(merged) < 5:
+                    merged.append(r)
+                    seen_ids.add(r["chunk_id"])
+            chunks = merged[:5]
+        else:
+            chunks = retriever.search(query=query_text, top_k=5)
         retrieval_time = (time.time() - t0) * 1000
 
         # If filtered retrieval returned too few, fallback
