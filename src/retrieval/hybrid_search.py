@@ -74,33 +74,42 @@ class HybridRetriever:
             })
         return hits
 
-    def _bm25_search(self, query: str, top_k: int) -> list[dict]:
-        """Keyword search via BM25."""
+    def _bm25_search(self, query: str, top_k: int, section_filter: str | None = None) -> list[dict]:
+        """Keyword search via BM25, with optional section filter."""
         tokenized_query = query.lower().split()
         scores = self.bm25.get_scores(tokenized_query)
-        top_indices = scores.argsort()[-top_k:][::-1]
+        top_indices = scores.argsort()[-top_k * 3:][::-1]  # Over-fetch to filter
 
         hits = []
         for idx in top_indices:
             if scores[idx] <= 0:
                 continue
+            if len(hits) >= top_k:
+                break
+                
             chunk_id = self.bm25_chunk_ids[idx]
             chunk = self.chunks_by_id.get(chunk_id)
-            if chunk:
-                hits.append({
-                    "chunk_id": chunk_id,
-                    "text": chunk["text"],
-                    "metadata": {
-                        "drug_name": chunk.get("drug_name", ""),
-                        "generic_name": chunk.get("generic_name", ""),
-                        "section_name": chunk.get("section_name", ""),
-                        "set_id": chunk.get("set_id", ""),
-                        "loinc_code": chunk.get("loinc_code", ""),
-                        "chunk_index": chunk.get("chunk_index", 0),
-                        "total_chunks": chunk.get("total_chunks", 0),
-                    },
-                    "bm25_score": round(float(scores[idx]), 4),
-                })
+            if not chunk:
+                continue
+                
+            # Apply section filter
+            if section_filter and chunk.get("section_name") != section_filter:
+                continue
+
+            hits.append({
+                "chunk_id": chunk_id,
+                "text": chunk["text"],
+                "metadata": {
+                    "drug_name": chunk.get("drug_name", ""),
+                    "generic_name": chunk.get("generic_name", ""),
+                    "section_name": chunk.get("section_name", ""),
+                    "set_id": chunk.get("set_id", ""),
+                    "loinc_code": chunk.get("loinc_code", ""),
+                    "chunk_index": chunk.get("chunk_index", 0),
+                    "total_chunks": chunk.get("total_chunks", 0),
+                },
+                "bm25_score": round(float(scores[idx]), 4),
+            })
         return hits
 
     def search(
@@ -109,14 +118,10 @@ class HybridRetriever:
         top_k: int = settings.top_k_final,
         section_filter: str | None = None,
     ) -> list[dict]:
-        """
-        Hybrid search with Reciprocal Rank Fusion.
-        Returns top_k chunks sorted by fused score.
-        """
         fetch_k = settings.top_k_retrieval
 
         sem_hits = self._semantic_search(query, fetch_k, section_filter)
-        bm25_hits = self._bm25_search(query, fetch_k)
+        bm25_hits = self._bm25_search(query, fetch_k, section_filter)
 
         # Reciprocal Rank Fusion
         k = settings.rrf_k
