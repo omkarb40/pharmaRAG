@@ -152,19 +152,35 @@ def ask_question(req: AskRequest):
     ctx["timings"]["routing_ms"] = (time.time() - t0) * 1000
     print(f"  [Router] Query: '{req.query[:50]}...' → {routed_sections}")
 
-    # ── Hybrid Retrieval ──
+   # ── Hybrid Retrieval ──
     t0 = time.time()
-    primary_section = routed_sections[0] if routed_sections else None
-    retrieval_results = retriever.search(
-        query=req.query,
-        top_k=req.top_k,
-        section_filter=primary_section,
-    )
-    if len(retrieval_results) < req.top_k:
-        retrieval_results = retriever.search(
+    
+    # Search each routed section and merge results
+    all_results = []
+    seen_ids = set()
+    
+    for section in routed_sections[:2]:  # Search top 2 routed sections
+        section_results = retriever.search(
             query=req.query,
             top_k=req.top_k,
+            section_filter=section,
         )
+        for r in section_results:
+            if r["chunk_id"] not in seen_ids:
+                all_results.append(r)
+                seen_ids.add(r["chunk_id"])
+    
+    # Also get unfiltered results for broader coverage
+    unfiltered = retriever.search(query=req.query, top_k=req.top_k)
+    for r in unfiltered:
+        if r["chunk_id"] not in seen_ids:
+            all_results.append(r)
+            seen_ids.add(r["chunk_id"])
+    
+    # Sort by fused score, take top_k
+    all_results.sort(key=lambda x: x.get("fused_score", 0), reverse=True)
+    retrieval_results = all_results[:req.top_k]
+    
     ctx["timings"]["retrieval_ms"] = (time.time() - t0) * 1000
 
     # ── LLM Generation ──
