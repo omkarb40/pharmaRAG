@@ -10,15 +10,15 @@
       "contraindications",
       "warnings_and_precautions"
     ],
-    "recall_at_5": 1.0,
-    "ndcg_at_5": 0.8508,
-    "retrieval_time_ms": 344.2,
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 354.5,
     "top_5_drugs": [
       "Gabapentin",
-      "Tysabri",
-      "Tyruko",
-      "Mavenclad",
-      "Mitoxantrone"
+      "Avonex",
+      "Rebif",
+      "Vumerity",
+      "Bafiertam"
     ],
     "top_5_sections": [
       "contraindications",
@@ -28,11 +28,11 @@
       "contraindications"
     ],
     "top_5_scores": [
-      0.01389,
-      0.009836,
-      0.009677,
-      0.009524,
-      0.009375
+      0.015045,
+      0.014373,
+      0.014358,
+      0.014061,
+      0.013589
     ]
   },
   {
@@ -47,7 +47,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.8508,
-    "retrieval_time_ms": 45.2,
+    "retrieval_time_ms": 44.8,
     "top_5_drugs": [
       "Mavenclad",
       "Ocrevus",
@@ -82,7 +82,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.7522,
-    "retrieval_time_ms": 39.4,
+    "retrieval_time_ms": 36.8,
     "top_5_drugs": [
       "Mavenclad",
       "Tysabri",
@@ -118,13 +118,13 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 71.3,
+    "retrieval_time_ms": 61.5,
     "top_5_drugs": [
       "Modafinil",
+      "Mitoxantrone",
       "Tysabri",
       "Tyruko",
-      "Avonex",
-      "Rebif"
+      "Mavenclad"
     ],
     "top_5_sections": [
       "contraindications",
@@ -134,11 +134,11 @@
       "contraindications"
     ],
     "top_5_scores": [
-      0.015089,
-      0.014564,
-      0.014496,
-      0.013646,
-      0.013462
+      0.015827,
+      0.015648,
+      0.015481,
+      0.01544,
+      0.015406
     ]
   },
   {
@@ -153,13 +153,13 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 38.3,
+    "retrieval_time_ms": 41.2,
     "top_5_drugs": [
       "Gabapentin",
-      "Tecfidera",
-      "Mavenclad",
-      "Aubagio",
-      "Mitoxantrone"
+      "Avonex",
+      "Rebif",
+      "Ampyra",
+      "Bafiertam"
     ],
     "top_5_sections": [
       "contraindications",
@@ -169,11 +169,11 @@
       "contraindications"
     ],
     "top_5_scores": [
-      0.013414,
-      0.012905,
-      0.009836,
-      0.009677,
-      0.009524
+      0.014568,
+      0.014262,
+      0.01425,
+      0.014165,
+      0.01413
     ]
   },
   {
@@ -187,12 +187,12 @@
       "contraindications"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 37.8,
+    "ndcg_at_5": 0.7979,
+    "retrieval_time_ms": 46.6,
     "top_5_drugs": [
-      "Tecfidera",
       "Vumerity",
       "Bafiertam",
+      "Tecfidera",
       "Mavenclad",
       "Mitoxantrone"
     ],
@@ -204,9 +204,9 @@
       "contraindications"
     ],
     "top_5_scores": [
-      0.014857,
-      0.009836,
-      0.009677,
+      0.016185,
+      0.016129,
+      0.016081,
       0.009375,
       0.009231
     ]
@@ -223,13 +223,13 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 41.0,
+    "retrieval_time_ms": 38.3,
     "top_5_drugs": [
       "Mavenclad",
       "Vumerity",
       "Tecfidera",
-      "Plegridy",
-      "Betaseron"
+      "Betaseron",
+      "Tysabri"
     ],
     "top_5_sections": [
       "contraindications",
@@ -239,11 +239,11 @@
       "contraindications"
     ],
     "top_5_scores": [
-      0.016288,
-      0.014973,
-      0.014725,
-      0.014189,
-      0.014165
+      0.016393,
+      0.015341,
+      0.015023,
+      0.014605,
+      0.014589
     ]
   },
   {
@@ -258,13 +258,13 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 40.4,
+    "retrieval_time_ms": 35.3,
     "top_5_drugs": [
+      "Vumerity",
+      "Bafiertam",
+      "Zanaflex",
       "Mavenclad",
-      "Mitoxantrone",
-      "Tysabri",
-      "Tyruko",
-      "Kesimpta"
+      "Mitoxantrone"
     ],
     "top_5_sections": [
       "contraindications",
@@ -274,11 +274,11 @@
       "contraindications"
     ],
     "top_5_scores": [
+      0.015008,
+      0.014568,
+      0.01456,
       0.009836,
-      0.009677,
-      0.009524,
-      0.009375,
-      0.009231
+      0.009677
     ]
   },
   {
@@ -292,14 +292,14 @@
       "adverse_reactions"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 56.9,
+    "ndcg_at_5": 0.8481,
+    "retrieval_time_ms": 47.7,
     "top_5_drugs": [
+      "Mayzent",
       "Gilenya",
       "Gilenya",
       "Gilenya",
-      "Gilenya",
-      "Zeposia"
+      "Gilenya"
     ],
     "top_5_sections": [
       "adverse_reactions",
@@ -309,11 +309,11 @@
       "adverse_reactions"
     ],
     "top_5_scores": [
+      0.014665,
       0.009836,
       0.009677,
       0.009524,
-      0.009375,
-      0.009231
+      0.009375
     ]
   },
   {
@@ -328,7 +328,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.9323,
-    "retrieval_time_ms": 40.0,
+    "retrieval_time_ms": 64.1,
     "top_5_drugs": [
       "Tysabri",
       "Tyruko",
@@ -344,8 +344,8 @@
       "adverse_reactions"
     ],
     "top_5_scores": [
-      0.009836,
-      0.009677,
+      0.01547,
+      0.015392,
       0.009524,
       0.009375,
       0.009231
@@ -363,14 +363,14 @@
       "adverse_reactions"
     ],
     "recall_at_5": 0.0,
-    "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 45.9,
+    "ndcg_at_5": 0.9197,
+    "retrieval_time_ms": 49.6,
     "top_5_drugs": [
       "Ocrevus",
       "Briumvi",
-      "Kesimpta",
+      "Ocrevus",
       "Briumvi",
-      "Lemtrada"
+      "Kesimpta"
     ],
     "top_5_sections": [
       "warnings_and_precautions",
@@ -380,11 +380,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
-      0.015897,
-      0.015074,
-      0.014973,
-      0.014929,
-      0.014049
+      0.016185,
+      0.015678,
+      0.01556,
+      0.015381,
+      0.015341
     ]
   },
   {
@@ -399,13 +399,13 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 48.0,
+    "retrieval_time_ms": 50.0,
     "top_5_drugs": [
       "Ponvory",
-      "Mayzent",
-      "Modafinil",
+      "Zeposia",
+      "Gilenya",
       "Briumvi",
-      "Zeposia"
+      "Mayzent"
     ],
     "top_5_sections": [
       "adverse_reactions",
@@ -415,11 +415,11 @@
       "adverse_reactions"
     ],
     "top_5_scores": [
-      0.014941,
-      0.014102,
-      0.013944,
-      0.01393,
-      0.009836
+      0.01556,
+      0.014964,
+      0.01478,
+      0.014511,
+      0.014469
     ]
   },
   {
@@ -434,7 +434,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.7522,
-    "retrieval_time_ms": 36.8,
+    "retrieval_time_ms": 54.4,
     "top_5_drugs": [
       "Vumerity",
       "Bafiertam",
@@ -450,11 +450,11 @@
       "adverse_reactions"
     ],
     "top_5_scores": [
-      0.015083,
-      0.014438,
-      0.009836,
-      0.009524,
-      0.009231
+      0.016235,
+      0.01599,
+      0.015827,
+      0.015584,
+      0.01558
     ]
   },
   {
@@ -470,7 +470,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 39.1,
+    "retrieval_time_ms": 42.2,
     "top_5_drugs": [
       "Mayzent",
       "Betaseron",
@@ -486,7 +486,7 @@
       "adverse_reactions"
     ],
     "top_5_scores": [
-      0.009836,
+      0.016185,
       0.009677,
       0.009524,
       0.009375,
@@ -505,7 +505,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 36.7,
+    "retrieval_time_ms": 39.4,
     "top_5_drugs": [
       "Copaxone",
       "Copaxone",
@@ -521,11 +521,11 @@
       "adverse_reactions"
     ],
     "top_5_scores": [
-      0.015774,
-      0.015311,
-      0.015099,
-      0.014708,
-      0.014248
+      0.016081,
+      0.016027,
+      0.015897,
+      0.015529,
+      0.014902
     ]
   },
   {
@@ -541,13 +541,13 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 0.0,
-    "retrieval_time_ms": 38.2,
+    "retrieval_time_ms": 42.6,
     "top_5_drugs": [
+      "Tecfidera",
       "Bafiertam",
       "Vumerity",
       "Bafiertam",
-      "Briumvi",
-      "Tecfidera"
+      "Briumvi"
     ],
     "top_5_sections": [
       "warnings_and_precautions",
@@ -557,11 +557,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
+      0.013228,
       0.009836,
       0.009677,
       0.009524,
-      0.009375,
-      0.009231
+      0.009375
     ]
   },
   {
@@ -578,7 +578,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.9214,
-    "retrieval_time_ms": 41.2,
+    "retrieval_time_ms": 46.6,
     "top_5_drugs": [
       "Ocrevus",
       "Briumvi",
@@ -597,7 +597,7 @@
       0.01599,
       0.015205,
       0.014671,
-      0.014542,
+      0.014632,
       0.014349
     ]
   },
@@ -614,7 +614,7 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 0.8855,
-    "retrieval_time_ms": 38.1,
+    "retrieval_time_ms": 56.0,
     "top_5_drugs": [
       "Tysabri",
       "Tyruko",
@@ -651,7 +651,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 38.3,
+    "retrieval_time_ms": 41.4,
     "top_5_drugs": [
       "Gilenya",
       "Gilenya",
@@ -667,11 +667,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
-      0.014899,
-      0.013514,
+      0.015392,
+      0.01478,
+      0.01399,
       0.009677,
-      0.009524,
-      0.009375
+      0.009524
     ]
   },
   {
@@ -687,14 +687,14 @@
       "adverse_reactions"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 39.8,
+    "ndcg_at_5": 0.9355,
+    "retrieval_time_ms": 51.2,
     "top_5_drugs": [
       "Aubagio",
-      "Modafinil",
-      "Modafinil",
-      "Gilenya",
-      "Tysabri"
+      "Ponvory",
+      "Briumvi",
+      "Aubagio",
+      "Modafinil"
     ],
     "top_5_sections": [
       "warnings_and_precautions",
@@ -704,11 +704,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
-      0.014857,
-      0.009836,
-      0.009677,
-      0.009375,
-      0.009231
+      0.015873,
+      0.014157,
+      0.013309,
+      0.013158,
+      0.009836
     ]
   },
   {
@@ -724,7 +724,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 36.9,
+    "retrieval_time_ms": 41.5,
     "top_5_drugs": [
       "Tysabri",
       "Tyruko",
@@ -760,7 +760,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.9131,
-    "retrieval_time_ms": 38.0,
+    "retrieval_time_ms": 45.0,
     "top_5_drugs": [
       "Gilenya",
       "Mayzent",
@@ -797,10 +797,10 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 38.3,
+    "retrieval_time_ms": 66.5,
     "top_5_drugs": [
-      "Tysabri",
-      "Tyruko",
+      "Aubagio",
+      "Aubagio",
       "Tysabri",
       "Tyruko",
       "Tysabri"
@@ -813,11 +813,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
+      0.013696,
+      0.013333,
       0.009836,
       0.009677,
-      0.009524,
-      0.009375,
-      0.009231
+      0.009524
     ]
   },
   {
@@ -832,14 +832,14 @@
       "boxed_warning"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 0.8508,
-    "retrieval_time_ms": 40.2,
+    "ndcg_at_5": 0.7522,
+    "retrieval_time_ms": 41.7,
     "top_5_drugs": [
       "Aubagio",
-      "Briumvi",
-      "Aubagio",
       "Zeposia",
-      "Aubagio"
+      "Aubagio",
+      "Ponvory",
+      "Briumvi"
     ],
     "top_5_sections": [
       "warnings_and_precautions",
@@ -849,11 +849,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
-      0.014708,
-      0.009836,
-      0.009677,
-      0.009524,
-      0.009231
+      0.015932,
+      0.015678,
+      0.015205,
+      0.014454,
+      0.009836
     ]
   },
   {
@@ -866,15 +866,15 @@
     "routed_sections": [
       "dosage_and_administration"
     ],
-    "recall_at_5": 0.0,
-    "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 42.9,
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.8508,
+    "retrieval_time_ms": 49.4,
     "top_5_drugs": [
-      "Avonex",
       "Rebif",
+      "Ocrevus",
+      "Avonex",
       "Modafinil",
-      "Gabapentin",
-      "Mayzent"
+      "Gabapentin"
     ],
     "top_5_sections": [
       "dosage_and_administration",
@@ -884,11 +884,11 @@
       "dosage_and_administration"
     ],
     "top_5_scores": [
-      0.014902,
-      0.014891,
+      0.015008,
+      0.014836,
+      0.014785,
       0.014349,
-      0.014019,
-      0.013023
+      0.014218
     ]
   },
   {
@@ -903,7 +903,7 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 38.7,
+    "retrieval_time_ms": 47.8,
     "top_5_drugs": [
       "Gilenya",
       "Gilenya",
@@ -938,7 +938,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 45.1,
+    "retrieval_time_ms": 45.0,
     "top_5_drugs": [
       "Lemtrada",
       "Kesimpta",
@@ -973,7 +973,7 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 50.0,
+    "retrieval_time_ms": 71.6,
     "top_5_drugs": [
       "Gilenya",
       "Gilenya",
@@ -989,11 +989,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
-      0.015718,
-      0.015341,
-      0.015147,
-      0.014945,
-      0.014589
+      0.016086,
+      0.015543,
+      0.015385,
+      0.015253,
+      0.015233
     ]
   },
   {
@@ -1008,7 +1008,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.8299,
-    "retrieval_time_ms": 36.9,
+    "retrieval_time_ms": 54.6,
     "top_5_drugs": [
       "Baclofen",
       "Ponvory",
@@ -1043,7 +1043,7 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 42.1,
+    "retrieval_time_ms": 45.4,
     "top_5_drugs": [
       "Modafinil",
       "Mavenclad",
@@ -1059,7 +1059,7 @@
       "indications_and_usage"
     ],
     "top_5_scores": [
-      0.01599,
+      0.016393,
       0.009677,
       0.009524,
       0.009375,
@@ -1078,13 +1078,13 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 81.5,
+    "retrieval_time_ms": 38.7,
     "top_5_drugs": [
       "Gilenya",
       "Gilenya",
+      "Zeposia",
       "Ampyra",
-      "Briumvi",
-      "Mayzent"
+      "Briumvi"
     ],
     "top_5_sections": [
       "drug_interactions",
@@ -1095,10 +1095,10 @@
     ],
     "top_5_scores": [
       0.016393,
-      0.016027,
+      0.016129,
+      0.014701,
       0.009524,
-      0.009375,
-      0.009231
+      0.009375
     ]
   },
   {
@@ -1111,15 +1111,15 @@
     "routed_sections": [
       "drug_interactions"
     ],
-    "recall_at_5": 0.0,
-    "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 67.9,
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7699,
+    "retrieval_time_ms": 36.8,
     "top_5_drugs": [
       "Mayzent",
       "Zeposia",
       "Modafinil",
-      "Mavenclad",
-      "Gilenya"
+      "Aubagio",
+      "Mavenclad"
     ],
     "top_5_sections": [
       "drug_interactions",
@@ -1132,8 +1132,8 @@
       0.015436,
       0.015381,
       0.014946,
-      0.014752,
-      0.014671
+      0.014945,
+      0.014838
     ]
   },
   {
@@ -1148,13 +1148,13 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 41.1,
+    "retrieval_time_ms": 37.3,
     "top_5_drugs": [
       "Mitoxantrone",
       "Lemtrada",
-      "Mavenclad",
       "Solu-Medrol",
-      "Zeposia"
+      "Mavenclad",
+      "Ampyra"
     ],
     "top_5_sections": [
       "drug_interactions",
@@ -1165,10 +1165,10 @@
     ],
     "top_5_scores": [
       0.016129,
-      0.015718,
+      0.016086,
+      0.01558,
       0.015513,
-      0.015291,
-      0.014251
+      0.015079
     ]
   },
   {
@@ -1182,14 +1182,14 @@
       "drug_interactions"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 0.9578,
-    "retrieval_time_ms": 40.7,
+    "ndcg_at_5": 0.9445,
+    "retrieval_time_ms": 38.4,
     "top_5_drugs": [
       "Zanaflex",
       "Aubagio",
       "Zanaflex",
-      "Modafinil",
-      "Acthar Gel"
+      "Zanaflex",
+      "Mayzent"
     ],
     "top_5_sections": [
       "drug_interactions",
@@ -1199,11 +1199,11 @@
       "drug_interactions"
     ],
     "top_5_scores": [
-      0.016288,
-      0.015009,
-      0.014805,
-      0.009677,
-      0.009524
+      0.016393,
+      0.015724,
+      0.015543,
+      0.014849,
+      0.013675
     ]
   },
   {
@@ -1218,13 +1218,13 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 48.2,
+    "retrieval_time_ms": 40.9,
     "top_5_drugs": [
       "Aubagio",
       "Aubagio",
       "Aubagio",
       "Aubagio",
-      "Tysabri"
+      "Gilenya"
     ],
     "top_5_sections": [
       "use_in_specific_populations",
@@ -1234,11 +1234,11 @@
       "use_in_specific_populations"
     ],
     "top_5_scores": [
-      0.016185,
-      0.015738,
-      0.015543,
-      0.015321,
-      0.009375
+      0.016288,
+      0.016027,
+      0.015774,
+      0.015648,
+      0.014794
     ]
   },
   {
@@ -1253,13 +1253,13 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 46.7,
+    "retrieval_time_ms": 38.5,
     "top_5_drugs": [
       "Gilenya",
       "Gilenya",
       "Gilenya",
       "Gilenya",
-      "Bafiertam"
+      "Gilenya"
     ],
     "top_5_sections": [
       "use_in_specific_populations",
@@ -1269,11 +1269,11 @@
       "use_in_specific_populations"
     ],
     "top_5_scores": [
-      0.016185,
-      0.01556,
-      0.015003,
-      0.01478,
-      0.009231
+      0.016393,
+      0.016129,
+      0.015873,
+      0.015625,
+      0.015245
     ]
   },
   {
@@ -1289,7 +1289,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 41.6,
+    "retrieval_time_ms": 40.0,
     "top_5_drugs": [
       "Tysabri",
       "Aubagio",
@@ -1324,7 +1324,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 46.2,
+    "retrieval_time_ms": 47.8,
     "top_5_drugs": [
       "Ocrevus",
       "Ocrevus",
@@ -1341,10 +1341,10 @@
     ],
     "top_5_scores": [
       0.016393,
-      0.015831,
-      0.015406,
-      0.014888,
-      0.014638
+      0.016129,
+      0.015678,
+      0.015152,
+      0.014854
     ]
   },
   {
@@ -1359,15 +1359,15 @@
       "warnings_and_precautions",
       "adverse_reactions"
     ],
-    "recall_at_5": 1.0,
-    "ndcg_at_5": 0.7979,
-    "retrieval_time_ms": 40.2,
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 38.7,
     "top_5_drugs": [
+      "Tysabri",
       "Gabapentin",
-      "Copaxone",
-      "Mayzent",
-      "Tecfidera",
-      "Bafiertam"
+      "Lemtrada",
+      "Tyruko",
+      "Plegridy"
     ],
     "top_5_sections": [
       "use_in_specific_populations",
@@ -1377,11 +1377,11 @@
       "use_in_specific_populations"
     ],
     "top_5_scores": [
-      0.013529,
-      0.013382,
-      0.013074,
-      0.009836,
-      0.009677
+      0.014229,
+      0.014145,
+      0.014051,
+      0.014029,
+      0.013905
     ]
   },
   {
@@ -1397,13 +1397,13 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 39.1,
+    "retrieval_time_ms": 37.5,
     "top_5_drugs": [
       "Gabapentin",
       "Gabapentin",
-      "Gabapentin",
-      "Gabapentin",
-      "Plegridy"
+      "Plegridy",
+      "Copaxone",
+      "Zanaflex"
     ],
     "top_5_sections": [
       "use_in_specific_populations",
@@ -1413,11 +1413,11 @@
       "use_in_specific_populations"
     ],
     "top_5_scores": [
-      0.01599,
-      0.01558,
-      0.013905,
-      0.013529,
-      0.009677
+      0.016288,
+      0.015788,
+      0.015475,
+      0.015436,
+      0.014794
     ]
   },
   {
@@ -1430,15 +1430,15 @@
     "routed_sections": [
       "indications_and_usage"
     ],
-    "recall_at_5": 1.0,
-    "ndcg_at_5": 0.7699,
-    "retrieval_time_ms": 43.7,
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "retrieval_time_ms": 36.8,
     "top_5_drugs": [
       "Tysabri",
       "Tyruko",
-      "Mitoxantrone",
-      "Ocrevus",
-      "Bafiertam"
+      "Bafiertam",
+      "Avonex",
+      "Rebif"
     ],
     "top_5_sections": [
       "indications_and_usage",
@@ -1448,11 +1448,11 @@
       "indications_and_usage"
     ],
     "top_5_scores": [
-      0.014872,
-      0.014652,
-      0.014469,
-      0.009836,
-      0.009375
+      0.016129,
+      0.015873,
+      0.015345,
+      0.015291,
+      0.015245
     ]
   },
   {
@@ -1467,13 +1467,13 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "retrieval_time_ms": 38.8,
+    "retrieval_time_ms": 38.3,
     "top_5_drugs": [
       "Tysabri",
       "Tyruko",
       "Vumerity",
       "Betaseron",
-      "Rebif"
+      "Avonex"
     ],
     "top_5_sections": [
       "indications_and_usage",
@@ -1483,8 +1483,8 @@
       "indications_and_usage"
     ],
     "top_5_scores": [
-      0.013699,
-      0.013514,
+      0.014777,
+      0.01456,
       0.009836,
       0.009677,
       0.009524
@@ -1502,7 +1502,7 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.7699,
-    "retrieval_time_ms": 39.5,
+    "retrieval_time_ms": 36.6,
     "top_5_drugs": [
       "Zanaflex",
       "Lemtrada",
@@ -1518,11 +1518,11 @@
       "indications_and_usage"
     ],
     "top_5_scores": [
-      0.015233,
-      0.014925,
-      0.014865,
-      0.014708,
-      0.014621
+      0.015648,
+      0.015407,
+      0.015291,
+      0.015089,
+      0.015074
     ]
   },
   {
@@ -1537,13 +1537,13 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.7979,
-    "retrieval_time_ms": 41.1,
+    "retrieval_time_ms": 49.5,
     "top_5_drugs": [
       "Tysabri",
       "Tyruko",
       "Kesimpta",
-      "Rebif",
-      "Avonex"
+      "Avonex",
+      "Rebif"
     ],
     "top_5_sections": [
       "indications_and_usage",
@@ -1573,7 +1573,7 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 41.8,
+    "retrieval_time_ms": 45.3,
     "top_5_drugs": [
       "Ponvory",
       "Modafinil",
@@ -1609,13 +1609,13 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 46.7,
+    "retrieval_time_ms": 56.2,
     "top_5_drugs": [
-      "Zanaflex",
-      "Gabapentin",
-      "Ponvory",
       "Zeposia",
-      "Gilenya"
+      "Mitoxantrone",
+      "Tysabri",
+      "Zanaflex",
+      "Gabapentin"
     ],
     "top_5_sections": [
       "dosage_and_administration",
@@ -1625,11 +1625,11 @@
       "dosage_and_administration"
     ],
     "top_5_scores": [
+      0.014708,
+      0.014578,
+      0.012628,
       0.009836,
-      0.009677,
-      0.009524,
-      0.009375,
-      0.009231
+      0.009677
     ]
   },
   {
@@ -1644,7 +1644,7 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 39.6,
+    "retrieval_time_ms": 49.3,
     "top_5_drugs": [
       "Ampyra",
       "Modafinil",
@@ -1680,13 +1680,13 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 47.4,
+    "retrieval_time_ms": 47.0,
     "top_5_drugs": [
-      "Aubagio",
+      "Gabapentin",
       "Zeposia",
       "Gabapentin",
-      "Kesimpta",
-      "Ponvory"
+      "Ponvory",
+      "Aubagio"
     ],
     "top_5_sections": [
       "warnings_and_precautions",
@@ -1696,11 +1696,11 @@
       "warnings_and_precautions"
     ],
     "top_5_scores": [
-      0.009836,
-      0.009677,
-      0.009524,
-      0.009375,
-      0.009231
+      0.015003,
+      0.013333,
+      0.013303,
+      0.012563,
+      0.009836
     ]
   },
   {
@@ -1716,7 +1716,7 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 38.8,
+    "retrieval_time_ms": 45.0,
     "top_5_drugs": [
       "Aubagio",
       "Modafinil",
@@ -1751,7 +1751,7 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 40.0,
+    "retrieval_time_ms": 41.8,
     "top_5_drugs": [
       "Betaseron",
       "Tecfidera",
@@ -1787,7 +1787,7 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 40.6,
+    "retrieval_time_ms": 42.9,
     "top_5_drugs": [
       "Ampyra",
       "Modafinil",
@@ -1822,7 +1822,7 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 40.2,
+    "retrieval_time_ms": 35.4,
     "top_5_drugs": [
       "Baclofen",
       "Zanaflex",
@@ -1858,13 +1858,13 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 39.4,
+    "retrieval_time_ms": 38.1,
     "top_5_drugs": [
-      "Tyruko",
-      "Tysabri",
       "Tysabri",
       "Tyruko",
-      "Modafinil"
+      "Tyruko",
+      "Tysabri",
+      "Tysabri"
     ],
     "top_5_sections": [
       "indications_and_usage",
@@ -1874,11 +1874,11 @@
       "indications_and_usage"
     ],
     "top_5_scores": [
+      0.015381,
+      0.015147,
       0.009836,
       0.009677,
-      0.009524,
-      0.009375,
-      0.009231
+      0.009524
     ]
   },
   {
@@ -1893,7 +1893,7 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "retrieval_time_ms": 38.0,
+    "retrieval_time_ms": 38.5,
     "top_5_drugs": [
       "Modafinil",
       "Tysabri",
