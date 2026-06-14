@@ -10,22 +10,22 @@
       "contraindications",
       "warnings_and_precautions"
     ],
-    "recall_at_5": 1.0,
-    "ndcg_at_5": 0.8508,
-    "answer": "Natalizumab (Tysabri and Tyruko) is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [2, 3] and those who have had a hypersensitivity reaction to natalizumab products or any of its ingredients [2, 3]. Hypersensitivity reactions can range from urticari",
-    "groundedness_score": 0.5,
-    "total_sentences": 2,
-    "supported_sentences": 1,
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
+    "total_sentences": 1,
+    "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER",
-    "confidence_score": 0.6691,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.4381,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 629.0,
-      "retrieval": 22.3,
-      "generation": 5474.4,
-      "validation": 772.9
+      "routing": 612.0,
+      "retrieval": 20.9,
+      "generation": 3549.0,
+      "validation": 169.7
     }
   },
   {
@@ -46,14 +46,14 @@
     "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8723,
+    "confidence_score": 0.9088,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1886.8,
-      "retrieval": 56.2,
-      "generation": 3018.1,
-      "validation": 330.9
+      "routing": 1846.4,
+      "retrieval": 61.9,
+      "generation": 3036.7,
+      "validation": 148.0
     }
   },
   {
@@ -74,14 +74,14 @@
     "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8723,
+    "confidence_score": 0.9088,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1713.6,
-      "retrieval": 51.9,
-      "generation": 4958.4,
-      "validation": 331.3
+      "routing": 1748.6,
+      "retrieval": 63.4,
+      "generation": 4942.6,
+      "validation": 214.7
     }
   },
   {
@@ -103,14 +103,14 @@
     "supported_sentences": 0,
     "unsupported_sentences": 1,
     "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.5325,
+    "confidence_score": 0.45,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2234.5,
-      "retrieval": 70.4,
-      "generation": 3879.4,
-      "validation": 241.6
+      "routing": 2194.1,
+      "retrieval": 89.1,
+      "generation": 3083.5,
+      "validation": 137.7
     }
   },
   {
@@ -130,15 +130,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4583,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.4379,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2018.1,
-      "retrieval": 54.8,
-      "generation": 3198.5,
-      "validation": 203.1
+      "routing": 1968.0,
+      "retrieval": 44.3,
+      "generation": 3638.2,
+      "validation": 81.6
     }
   },
   {
@@ -152,21 +152,21 @@
       "contraindications"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 1.0,
-    "answer": "Dimethyl fumarate should not be prescribed to patients with a known hypersensitivity to dimethyl fumarate or any of its excipients [1]. Additionally, Vumerity is contraindicated in patients with known hypersensitivity to diroximel fumarate, dimethyl fumarate, or any of its excipients [2]. Bafiertam ",
+    "ndcg_at_5": 0.7979,
+    "answer": "Dimethyl fumarate should not be prescribed to patients with a known hypersensitivity to dimethyl fumarate or any of its excipients [3], or to patients taking dimethyl fumarate [1], [2].",
     "groundedness_score": 1.0,
-    "total_sentences": 3,
-    "supported_sentences": 3,
+    "total_sentences": 1,
+    "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8972,
+    "confidence_score": 0.9733,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1980.5,
-      "retrieval": 86.5,
-      "generation": 6847.2,
-      "validation": 588.4
+      "routing": 1879.1,
+      "retrieval": 47.9,
+      "generation": 4439.2,
+      "validation": 355.7
     }
   },
   {
@@ -187,14 +187,14 @@
     "supported_sentences": 0,
     "unsupported_sentences": 1,
     "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.5469,
+    "confidence_score": 0.45,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1980.6,
-      "retrieval": 150.3,
-      "generation": 3249.3,
-      "validation": 173.6
+      "routing": 1912.2,
+      "retrieval": 58.1,
+      "generation": 3386.8,
+      "validation": 88.3
     }
   },
   {
@@ -214,15 +214,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.4122,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1886.9,
-      "retrieval": 44.8,
-      "generation": 2929.4,
-      "validation": 189.1
+      "routing": 1832.8,
+      "retrieval": 45.6,
+      "generation": 3361.1,
+      "validation": 76.0
     }
   },
   {
@@ -236,21 +236,21 @@
       "adverse_reactions"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 1.0,
-    "answer": "Serious adverse reactions associated with fingolimod (Gilenya) include bradyarrhythmia and atrioventricular blocks [1], infections [1], progressive multifocal leukoencephalopathy [1], macular edema [1], liver injury [1], posterior reversible encephalopathy syndrome [1], respiratory effects [1], and ",
+    "ndcg_at_5": 0.8481,
+    "answer": "Most common adverse reactions for fingolimod (incidence \u226510% and greater than placebo) include headache, liver transaminase elevation, diarrhea, cough, influenza, sinusitis, back pain, abdominal pain, and pain in extremity [2, 3]. Adverse reactions reported in clinical trials include nausea, diarrhe",
     "groundedness_score": 1.0,
-    "total_sentences": 3,
-    "supported_sentences": 3,
+    "total_sentences": 4,
+    "supported_sentences": 4,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8723,
+    "confidence_score": 0.9269,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2092.1,
-      "retrieval": 88.2,
-      "generation": 18596.7,
-      "validation": 462.8
+      "routing": 1987.1,
+      "retrieval": 50.5,
+      "generation": 19099.7,
+      "validation": 490.2
     }
   },
   {
@@ -266,19 +266,19 @@
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.9323,
     "answer": "Adverse reactions reported with natalizumab include headache, fatigue, arthralgia, urinary tract infection, lower respiratory tract infection, gastroenteritis, vaginitis, depression, pain in extremity, abdominal discomfort, diarrhea, and rash [1, 2, 3, 4]. Postmarketing experience has identified blo",
-    "groundedness_score": 0.5,
+    "groundedness_score": 0.75,
     "total_sentences": 4,
-    "supported_sentences": 2,
-    "unsupported_sentences": 2,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.6473,
+    "supported_sentences": 3,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8091,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2206.9,
-      "retrieval": 89.9,
-      "generation": 13807.5,
-      "validation": 674.9
+      "routing": 2016.3,
+      "retrieval": 57.0,
+      "generation": 13692.6,
+      "validation": 403.6
     }
   },
   {
@@ -293,21 +293,21 @@
       "adverse_reactions"
     ],
     "recall_at_5": 0.0,
-    "ndcg_at_5": 1.0,
+    "ndcg_at_5": 0.9197,
     "answer": "Yes, ocrelizumab (Ocrevus) can cause infusion reactions, which can include pruritus, rash, urticaria, erythema, bronchospasm, throat irritation, oropharyngeal pain, dyspnea, pharyngeal or laryngeal edema, flushing, hypotension, pyrexia, fatigue, headache, dizziness, nausea, tachycardia, and anaphyla",
     "groundedness_score": 1.0,
     "total_sentences": 2,
     "supported_sentences": 2,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9996,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2242.3,
-      "retrieval": 65.1,
-      "generation": 14140.2,
-      "validation": 449.8
+      "routing": 2318.3,
+      "retrieval": 71.1,
+      "generation": 14017.5,
+      "validation": 388.3
     }
   },
   {
@@ -327,15 +327,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.5111,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.4476,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1953.1,
-      "retrieval": 68.2,
-      "generation": 11913.8,
-      "validation": 477.8
+      "routing": 2062.2,
+      "retrieval": 67.2,
+      "generation": 11704.5,
+      "validation": 240.0
     }
   },
   {
@@ -350,20 +350,20 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.7522,
-    "answer": "The most common adverse reactions for dimethyl fumarate are flushing, abdominal pain, diarrhea, and nausea [1, 2, 3, 4, 5]. Other reported adverse reactions include vomiting, pruritus, rash, albuminuria, erythema, dyspepsia, increased aspartate aminotransferase, and lymphopenia [1, 3, 5].",
+    "answer": "The most common adverse reactions for dimethyl fumarate are flushing, abdominal pain, diarrhea, and nausea [1, 2, 3, 5].",
     "groundedness_score": 1.0,
-    "total_sentences": 2,
-    "supported_sentences": 2,
+    "total_sentences": 1,
+    "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9212,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2040.9,
-      "retrieval": 176.9,
-      "generation": 12716.2,
-      "validation": 577.6
+      "routing": 2019.7,
+      "retrieval": 56.4,
+      "generation": 10616.0,
+      "validation": 233.0
     }
   },
   {
@@ -380,19 +380,19 @@
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
     "answer": "Mayzent (siponimod) can cause AV block (1st and 2nd degree) [1]. Vascular events, including ischemic strokes, pulmonary embolisms, and myocardial infarctions, were reported in 3.0% of MAYZENT-treated patients compared to 2.6% of patients receiving placebo [1].",
-    "groundedness_score": 0.5,
+    "groundedness_score": 1.0,
     "total_sentences": 2,
-    "supported_sentences": 1,
-    "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.6473,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.93,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2369.2,
-      "retrieval": 98.8,
-      "generation": 13075.2,
-      "validation": 488.8
+      "routing": 2259.5,
+      "retrieval": 57.9,
+      "generation": 12876.0,
+      "validation": 424.6
     }
   },
   {
@@ -409,18 +409,18 @@
     "ndcg_at_5": 1.0,
     "answer": "Adverse reactions associated with glatiramer acetate include injection site erythema (22% vs 2% with placebo), injection site pain (10% vs 2% with placebo), injection site mass (6% vs 0% with placebo), injection site pruritus (6% vs 0% with placebo), injection site edema (6% vs 0% with placebo), pyr",
     "groundedness_score": 1.0,
-    "total_sentences": 3,
-    "supported_sentences": 3,
+    "total_sentences": 2,
+    "supported_sentences": 2,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
     "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1999.8,
-      "retrieval": 75.6,
-      "generation": 18604.2,
-      "validation": 444.6
+      "routing": 1989.4,
+      "retrieval": 56.3,
+      "generation": 17650.7,
+      "validation": 408.7
     }
   },
   {
@@ -441,15 +441,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3721,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2249.9,
-      "retrieval": 72.1,
-      "generation": 9125.0,
-      "validation": 438.2
+      "routing": 2248.2,
+      "retrieval": 60.3,
+      "generation": 8933.1,
+      "validation": 349.6
     }
   },
   {
@@ -467,19 +467,19 @@
     "recall_at_5": 1.0,
     "ndcg_at_5": 0.9214,
     "answer": "Serious, including life-threatening, infections have occurred with ocrelizumab [1]. Vaccination with live-attenuated or live vaccines is not recommended during treatment and until B-cell repletion [1]. Cases of progressive multifocal leukoencephalopathy (PML), an opportunistic viral infection, have ",
-    "groundedness_score": 0.6667,
+    "groundedness_score": 1.0,
     "total_sentences": 3,
-    "supported_sentences": 2,
-    "unsupported_sentences": 1,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8489,
+    "confidence_score": 0.9995,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2384.4,
-      "retrieval": 88.4,
-      "generation": 12639.5,
-      "validation": 516.3
+      "routing": 2358.6,
+      "retrieval": 58.0,
+      "generation": 12526.0,
+      "validation": 347.5
     }
   },
   {
@@ -500,15 +500,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3588,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2237.1,
-      "retrieval": 221.7,
-      "generation": 8910.8,
-      "validation": 399.5
+      "routing": 2210.6,
+      "retrieval": 72.3,
+      "generation": 8851.4,
+      "validation": 364.3
     }
   },
   {
@@ -525,20 +525,20 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "answer": "Fingolimod can cause cardiac risks including symptomatic bradycardia, AV blocks, and transient AV conduction delays [1, 3]. Patients with certain pre-existing conditions (e.g., ischemic heart disease, history of myocardial infarction, congestive heart failure, history of cardiac arrest, cerebrovascu",
-    "groundedness_score": 0.4,
-    "total_sentences": 5,
-    "supported_sentences": 2,
-    "unsupported_sentences": 3,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.6459,
+    "answer": "Fingolimod carries several cardiac risks. Patients with conditions such as ischemic heart disease, history of myocardial infarction, congestive heart failure, history of cardiac arrest, cerebrovascular disease, uncontrolled hypertension, history of symptomatic bradycardia, history of recurrent synco",
+    "groundedness_score": 0.8333,
+    "total_sentences": 6,
+    "supported_sentences": 5,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.8695,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2437.0,
-      "retrieval": 78.6,
-      "generation": 16577.1,
-      "validation": 449.6
+      "routing": 2402.4,
+      "retrieval": 58.5,
+      "generation": 17003.1,
+      "validation": 413.7
     }
   },
   {
@@ -554,21 +554,21 @@
       "adverse_reactions"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 1.0,
-    "answer": "Yes, teriflunomide carries a risk of hepatotoxicity [1]. If liver injury is suspected, teriflunomide should be discontinued and an accelerated elimination procedure started, with weekly monitoring of liver tests until normalized [1].",
+    "ndcg_at_5": 0.9355,
+    "answer": "Yes, teriflunomide (Aubagio) carries a risk of hepatotoxicity [1]. If liver injury is suspected, discontinue teriflunomide and start an accelerated elimination procedure [1].",
     "groundedness_score": 1.0,
     "total_sentences": 2,
     "supported_sentences": 2,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8972,
+    "confidence_score": 0.9711,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2501.3,
-      "retrieval": 97.1,
-      "generation": 10182.3,
-      "validation": 558.7
+      "routing": 2418.3,
+      "retrieval": 60.8,
+      "generation": 11679.2,
+      "validation": 386.5
     }
   },
   {
@@ -585,19 +585,19 @@
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
     "answer": "Natalizumab carries a risk of Progressive Multifocal Leukoencephalopathy (PML), which usually leads to death or severe disability over weeks or months [1, 2]. Withhold natalizumab dosing and perform a diagnostic evaluation at the first sign or symptom suggestive of PML [1, 2]. MRI findings may prece",
-    "groundedness_score": 0.5,
+    "groundedness_score": 0.8333,
     "total_sentences": 6,
-    "supported_sentences": 3,
-    "unsupported_sentences": 3,
+    "supported_sentences": 5,
+    "unsupported_sentences": 1,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.7491,
+    "confidence_score": 0.8898,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2323.6,
-      "retrieval": 74.6,
-      "generation": 14411.1,
-      "validation": 673.4
+      "routing": 2246.2,
+      "retrieval": 58.3,
+      "generation": 14268.9,
+      "validation": 379.0
     }
   },
   {
@@ -623,10 +623,10 @@
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2372.7,
-      "retrieval": 96.9,
-      "generation": 17650.6,
-      "validation": 397.4
+      "routing": 2253.6,
+      "retrieval": 65.9,
+      "generation": 17616.2,
+      "validation": 361.9
     }
   },
   {
@@ -648,15 +648,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3869,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2436.6,
-      "retrieval": 94.8,
-      "generation": 6683.8,
-      "validation": 345.4
+      "routing": 2391.0,
+      "retrieval": 58.2,
+      "generation": 7024.7,
+      "validation": 380.9
     }
   },
   {
@@ -671,21 +671,21 @@
       "boxed_warning"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 0.8508,
-    "answer": "Briumvi (ublituximab) can cause infusion reactions, which can include pyrexia, chills, headache, influenza-like illness, tachycardia, nausea, throat irritation, erythema, and an anaphylactic reaction [2]. Serious infections have occurred, and vaccination with live-attenuated or live vaccines is not ",
-    "groundedness_score": 0.2,
-    "total_sentences": 5,
-    "supported_sentences": 1,
-    "unsupported_sentences": 4,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.5372,
+    "ndcg_at_5": 0.7522,
+    "answer": "Here are the warnings for Briumvi (ublituximab) [5]:\n\n*   **Infusion Reactions:** Management depends on the type and severity of the reaction. Permanently discontinue BRIUMVI if a life-threatening or disabling infusion reaction occurs [5].\n*   **Infections:** Serious infections have occurred. Delay ",
+    "groundedness_score": 0.4545,
+    "total_sentences": 11,
+    "supported_sentences": 5,
+    "unsupported_sentences": 6,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.687,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2250.2,
-      "retrieval": 65.9,
-      "generation": 15904.1,
-      "validation": 457.6
+      "routing": 2263.2,
+      "retrieval": 75.2,
+      "generation": 19023.2,
+      "validation": 551.2
     }
   },
   {
@@ -698,22 +698,22 @@
     "routed_sections": [
       "dosage_and_administration"
     ],
-    "recall_at_5": 0.0,
-    "ndcg_at_5": 1.0,
-    "answer": "Insufficient evidence to answer this question.",
-    "groundedness_score": 0.0,
-    "total_sentences": 1,
-    "supported_sentences": 0,
-    "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.5322,
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.8508,
+    "answer": "The recommended dose for ocrelizumab is 300 mg administered as an intravenous infusion every 6 months [2]. The initial dose consists of two infusions of 300 mg each, given two weeks apart [2].",
+    "groundedness_score": 1.0,
+    "total_sentences": 2,
+    "supported_sentences": 2,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.994,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2082.6,
-      "retrieval": 93.0,
-      "generation": 12209.9,
-      "validation": 599.4
+      "routing": 2066.3,
+      "retrieval": 65.6,
+      "generation": 13957.5,
+      "validation": 429.3
     }
   },
   {
@@ -733,15 +733,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3588,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2060.5,
-      "retrieval": 91.9,
-      "generation": 7450.1,
-      "validation": 281.7
+      "routing": 2046.4,
+      "retrieval": 76.2,
+      "generation": 7503.3,
+      "validation": 315.9
     }
   },
   {
@@ -757,19 +757,19 @@
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
     "answer": "The recommended dosing schedule for alemtuzumab involves gradually escalating to a maximum single dose of 30 mg. Initially, administer 3 mg daily until infusion-related reactions are \u2264 Grade 2, then 10 mg daily until infusion-related reactions are \u2264 Grade 2, and finally 30 mg/day three times per wee",
-    "groundedness_score": 0.75,
+    "groundedness_score": 1.0,
     "total_sentences": 4,
-    "supported_sentences": 3,
-    "unsupported_sentences": 1,
+    "supported_sentences": 4,
+    "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8868,
+    "confidence_score": 0.9995,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2108.6,
-      "retrieval": 69.6,
-      "generation": 14400.3,
-      "validation": 384.9
+      "routing": 2033.5,
+      "retrieval": 56.6,
+      "generation": 14565.9,
+      "validation": 433.6
     }
   },
   {
@@ -784,20 +784,20 @@
     ],
     "recall_at_5": 0.0,
     "ndcg_at_5": 1.0,
-    "answer": "Prior to initiating fingolimod, a recent complete blood count (CBC) should be available within 6 months or after discontinuation of prior therapy [4]. Patients without a healthcare professional confirmed history of chickenpox or without documentation of a full course of vaccination against varicella",
-    "groundedness_score": 0.5,
-    "total_sentences": 4,
-    "supported_sentences": 2,
-    "unsupported_sentences": 2,
+    "answer": "Prior to initiating fingolimod, a recent complete blood count (CBC) should be available, performed within 6 months or after discontinuation of prior therapy [3]. Patients without a healthcare professional confirmed history of chickenpox or without documentation of a full course of vaccination agains",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.775,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2284.5,
-      "retrieval": 93.9,
-      "generation": 14085.4,
-      "validation": 427.0
+      "routing": 2341.0,
+      "retrieval": 75.3,
+      "generation": 13655.3,
+      "validation": 424.1
     }
   },
   {
@@ -822,10 +822,10 @@
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2040.0,
-      "retrieval": 59.0,
-      "generation": 11611.4,
-      "validation": 404.0
+      "routing": 2098.2,
+      "retrieval": 58.7,
+      "generation": 11629.2,
+      "validation": 529.7
     }
   },
   {
@@ -845,15 +845,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4511,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3807,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2184.9,
-      "retrieval": 55.3,
-      "generation": 4247.4,
-      "validation": 155.4
+      "routing": 2287.6,
+      "retrieval": 76.4,
+      "generation": 4239.7,
+      "validation": 359.5
     }
   },
   {
@@ -868,20 +868,20 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "answer": "Concomitant use of fingolimod with drugs that slow the heart rate or atrioventricular conduction, such as beta blockers, may be associated with severe bradycardia or heart block [1]. It is recommended to seek advice from the prescribing physician regarding the possibility to switch to drugs that do ",
+    "answer": "Experience with fingolimod in patients receiving concurrent therapy with drugs that slow the heart rate or AV conduction (e.g., beta blockers) is limited [1]. Concomitant use of these drugs during fingolimod initiation may be associated with severe bradycardia or heart block [1]. Patients who cannot",
     "groundedness_score": 1.0,
-    "total_sentences": 2,
-    "supported_sentences": 2,
+    "total_sentences": 3,
+    "supported_sentences": 3,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9326,
+    "confidence_score": 0.9704,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1856.2,
-      "retrieval": 51.8,
-      "generation": 10911.2,
-      "validation": 357.4
+      "routing": 1932.4,
+      "retrieval": 58.2,
+      "generation": 10893.7,
+      "validation": 272.8
     }
   },
   {
@@ -894,22 +894,22 @@
     "routed_sections": [
       "drug_interactions"
     ],
-    "recall_at_5": 0.0,
-    "ndcg_at_5": 1.0,
-    "answer": "Insufficient evidence to answer this question.",
-    "groundedness_score": 0.0,
-    "total_sentences": 1,
-    "supported_sentences": 0,
-    "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.55,
+    "recall_at_5": 1.0,
+    "ndcg_at_5": 0.7699,
+    "answer": "Teriflunomide may increase exposure of drugs metabolized by CYP2C8, OAT3, BCRP, and OATP1B1/B3 transporters [4]. It may also decrease exposure of drugs metabolized by CYP1A2 [4]. Specifically, teriflunomide may increase exposure of ethinylestradiol and levonorgestrel, requiring consideration of cont",
+    "groundedness_score": 1.0,
+    "total_sentences": 4,
+    "supported_sentences": 4,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1924.6,
-      "retrieval": 63.2,
-      "generation": 8705.4,
-      "validation": 316.1
+      "routing": 1953.7,
+      "retrieval": 59.8,
+      "generation": 12797.3,
+      "validation": 457.9
     }
   },
   {
@@ -930,14 +930,14 @@
     "supported_sentences": 0,
     "unsupported_sentences": 1,
     "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.55,
+    "confidence_score": 0.45,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1977.5,
-      "retrieval": 250.9,
-      "generation": 5182.5,
-      "validation": 392.6
+      "routing": 1944.1,
+      "retrieval": 60.6,
+      "generation": 4236.8,
+      "validation": 174.0
     }
   },
   {
@@ -951,21 +951,21 @@
       "drug_interactions"
     ],
     "recall_at_5": 1.0,
-    "ndcg_at_5": 0.9578,
-    "answer": "Concomitant use of tizanidine hydrochloride with strong CYP1A2 inhibitors (e.g., fluvoxamine, ciprofloxacin) is contraindicated [1]. Concomitant use of tizanidine hydrochloride with moderate or weak CYP1A2 inhibitors (e.g., zileuton) should be avoided [1]. If concomitant use is clinically necessary,",
+    "ndcg_at_5": 0.9445,
+    "answer": "Concomitant use of tizanidine hydrochloride with strong CYP1A2 inhibitors (e.g., fluvoxamine, ciprofloxacin) is contraindicated [1]. Concomitant use of tizanidine hydrochloride with moderate or weak CYP1A2 inhibitors (e.g., zileuton, amiodarone, oral contraceptives) should be avoided [1]. If concomi",
     "groundedness_score": 1.0,
     "total_sentences": 3,
     "supported_sentences": 3,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9547,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1892.4,
-      "retrieval": 199.2,
-      "generation": 10292.4,
-      "validation": 647.8
+      "routing": 1902.9,
+      "retrieval": 47.6,
+      "generation": 11635.6,
+      "validation": 391.2
     }
   },
   {
@@ -980,20 +980,20 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "answer": "Aubagio (teriflunomide) is contraindicated for use in pregnant women and females of reproductive potential not using effective contraception [1]. Animal studies have demonstrated teratogenicity and embryolethality at plasma exposures lower than the maximum recommended human dose [1, 2]. While limite",
-    "groundedness_score": 0.75,
+    "answer": "Aubagio (teriflunomide) is contraindicated for use in pregnant women and females of reproductive potential not using effective contraception due to the potential for fetal harm based on animal data [1]. Animal studies have shown teratogenicity and embryolethality at plasma exposures lower than the m",
+    "groundedness_score": 1.0,
     "total_sentences": 4,
-    "supported_sentences": 3,
-    "unsupported_sentences": 1,
+    "supported_sentences": 4,
+    "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8743,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2124.7,
-      "retrieval": 276.7,
-      "generation": 14530.3,
-      "validation": 510.2
+      "routing": 2108.0,
+      "retrieval": 66.3,
+      "generation": 15422.9,
+      "validation": 431.3
     }
   },
   {
@@ -1008,20 +1008,20 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "answer": "Fingolimod is indicated for the treatment of relapsing forms of multiple sclerosis in pediatric patients 10 to less than 18 years of age [1]. Safety and effectiveness were established in one clinical study [1]. Cases of seizures were reported in pediatric patients receiving fingolimod [1]. Safety an",
-    "groundedness_score": 0.5,
-    "total_sentences": 4,
-    "supported_sentences": 2,
-    "unsupported_sentences": 2,
+    "answer": "Fingolimod is indicated for the treatment of relapsing forms of multiple sclerosis in pediatric patients 10 to less than 18 years of age [1]. Safety and effectiveness in pediatric patients below the age of 10 years have not been established [1]. In a controlled pediatric study, the safety profile in",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
+    "supported_sentences": 3,
+    "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.7552,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2101.0,
-      "retrieval": 66.9,
-      "generation": 12948.4,
-      "validation": 638.4
+      "routing": 2047.9,
+      "retrieval": 61.0,
+      "generation": 13660.7,
+      "validation": 241.7
     }
   },
   {
@@ -1043,14 +1043,14 @@
     "supported_sentences": 4,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9996,
+    "confidence_score": 0.9997,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2431.2,
-      "retrieval": 70.1,
-      "generation": 13820.0,
-      "validation": 538.9
+      "routing": 2387.4,
+      "retrieval": 55.3,
+      "generation": 13403.7,
+      "validation": 446.5
     }
   },
   {
@@ -1066,19 +1066,19 @@
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
     "answer": "There are no data on the presence of ocrelizumab in human milk, the effects on the breastfed infant, or the effects of the drug on milk production [1]. Ocrelizumab was excreted in the milk of ocrelizumab-treated monkeys [1]. Human IgG is excreted in human milk, and the potential for absorption of oc",
-    "groundedness_score": 0.75,
+    "groundedness_score": 1.0,
     "total_sentences": 4,
-    "supported_sentences": 3,
-    "unsupported_sentences": 1,
+    "supported_sentences": 4,
+    "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8875,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2205.3,
-      "retrieval": 74.6,
-      "generation": 14560.7,
-      "validation": 499.5
+      "routing": 2055.4,
+      "retrieval": 66.5,
+      "generation": 14254.5,
+      "validation": 449.8
     }
   },
   {
@@ -1093,22 +1093,22 @@
       "warnings_and_precautions",
       "adverse_reactions"
     ],
-    "recall_at_5": 1.0,
-    "ndcg_at_5": 0.7979,
-    "answer": "Clinical studies of siponimod in elderly patients have not included sufficient numbers to determine if they respond differently from younger subjects [3]. In general, dose selection for an elderly patient should be cautious, reflecting the greater frequency of decreased hepatic, renal, or cardiac fu",
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
     "groundedness_score": 1.0,
-    "total_sentences": 2,
-    "supported_sentences": 2,
+    "total_sentences": 1,
+    "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9277,
+    "confidence_score": 0.9845,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2694.6,
-      "retrieval": 124.8,
-      "generation": 7279.6,
-      "validation": 496.5
+      "routing": 2527.0,
+      "retrieval": 58.6,
+      "generation": 3966.6,
+      "validation": 182.1
     }
   },
   {
@@ -1124,20 +1124,20 @@
     ],
     "recall_at_5": 1.0,
     "ndcg_at_5": 1.0,
-    "answer": "Dosage adjustment is necessary in adult patients with compromised renal function [1]. Dosage adjustment in patients undergoing hemodialysis is also necessary [1]. Furthermore, monitor for adverse reactions due to increased drug exposure in patients with severe renal impairment [5].",
+    "answer": "Dosage adjustment in adult patients with compromised renal function is necessary [1]. Dosage adjustment in patients undergoing hemodialysis is also necessary [1]. Pediatric patients with renal insufficiency have not been studied [1].",
     "groundedness_score": 1.0,
     "total_sentences": 3,
     "supported_sentences": 3,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9705,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2418.1,
-      "retrieval": 112.2,
-      "generation": 10415.2,
-      "validation": 424.1
+      "routing": 2353.6,
+      "retrieval": 45.6,
+      "generation": 7984.3,
+      "validation": 668.4
     }
   },
   {
@@ -1150,22 +1150,22 @@
     "routed_sections": [
       "indications_and_usage"
     ],
-    "recall_at_5": 1.0,
-    "ndcg_at_5": 0.7699,
-    "answer": "Ocrevus is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults, and primary progressive MS in adults [4].",
-    "groundedness_score": 1.0,
+    "recall_at_5": 0.0,
+    "ndcg_at_5": 1.0,
+    "answer": "Insufficient evidence to answer this question.",
+    "groundedness_score": 0.0,
     "total_sentences": 1,
-    "supported_sentences": 1,
-    "unsupported_sentences": 0,
-    "confidence_decision": "ANSWER",
-    "confidence_score": 0.945,
+    "supported_sentences": 0,
+    "unsupported_sentences": 1,
+    "confidence_decision": "ANSWER_WITH_CAUTION",
+    "confidence_score": 0.45,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2067.1,
-      "retrieval": 83.0,
-      "generation": 8742.2,
-      "validation": 541.3
+      "routing": 1966.7,
+      "retrieval": 58.4,
+      "generation": 6095.1,
+      "validation": 272.7
     }
   },
   {
@@ -1186,14 +1186,14 @@
     "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.9125,
+    "confidence_score": 0.9446,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2340.7,
-      "retrieval": 95.6,
-      "generation": 8174.2,
-      "validation": 504.6
+      "routing": 1970.3,
+      "retrieval": 83.3,
+      "generation": 7547.2,
+      "validation": 240.5
     }
   },
   {
@@ -1214,14 +1214,14 @@
     "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.997,
+    "confidence_score": 1.0,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2124.7,
-      "retrieval": 101.8,
-      "generation": 5579.8,
-      "validation": 374.2
+      "routing": 1981.7,
+      "retrieval": 60.4,
+      "generation": 5252.1,
+      "validation": 195.5
     }
   },
   {
@@ -1242,14 +1242,14 @@
     "supported_sentences": 2,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8723,
+    "confidence_score": 0.9088,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 1972.9,
-      "retrieval": 80.4,
-      "generation": 11770.5,
-      "validation": 432.9
+      "routing": 1876.8,
+      "retrieval": 54.0,
+      "generation": 11234.9,
+      "validation": 495.3
     }
   },
   {
@@ -1265,20 +1265,20 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "answer": "It depends on the specific drug. Ponvory is not recommended in patients with moderate or severe hepatic impairment [1]. Dosage reduction is recommended for tizanidine in patients with hepatic impairment [4]. For modafinil, the dose should be reduced in patients with hepatic impairment [2]. Insuffici",
-    "groundedness_score": 0.6,
-    "total_sentences": 5,
+    "answer": "Dosage adjustment is recommended in patients with hepatic impairment [4]. Ponvory is not recommended in patients with moderate or severe hepatic impairment [1]. Modafinil dosage should be reduced in patients with hepatic impairment [2].",
+    "groundedness_score": 1.0,
+    "total_sentences": 3,
     "supported_sentences": 3,
-    "unsupported_sentences": 2,
+    "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.6923,
+    "confidence_score": 0.9088,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2644.4,
-      "retrieval": 106.9,
-      "generation": 5543.3,
-      "validation": 398.7
+      "routing": 2441.9,
+      "retrieval": 58.9,
+      "generation": 3879.2,
+      "validation": 166.2
     }
   },
   {
@@ -1294,20 +1294,20 @@
     ],
     "recall_at_5": null,
     "ndcg_at_5": null,
-    "answer": "If a dose of Zeposia (ozanimod) is missed after the first 2 weeks of treatment, continue with the treatment as planned [4]. If treatment needs to be reinitiated, use the titration regimen [4].",
+    "answer": "If a dose of Zeposia is missed after the first 2 weeks of treatment, continue with the treatment as planned [1].",
     "groundedness_score": 1.0,
-    "total_sentences": 2,
-    "supported_sentences": 2,
+    "total_sentences": 1,
+    "supported_sentences": 1,
     "unsupported_sentences": 0,
     "confidence_decision": "ANSWER",
-    "confidence_score": 0.8723,
+    "confidence_score": 0.9548,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2629.2,
-      "retrieval": 282.0,
-      "generation": 5726.2,
-      "validation": 447.0
+      "routing": 2246.6,
+      "retrieval": 55.7,
+      "generation": 6320.6,
+      "validation": 240.9
     }
   },
   {
@@ -1323,19 +1323,19 @@
     "recall_at_5": null,
     "ndcg_at_5": null,
     "answer": "Insufficient evidence to answer this question.",
-    "groundedness_score": 0.0,
+    "groundedness_score": 1.0,
     "total_sentences": 1,
-    "supported_sentences": 0,
-    "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
+    "supported_sentences": 1,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9088,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2020.4,
-      "retrieval": 93.7,
-      "generation": 5729.2,
-      "validation": 309.5
+      "routing": 1993.3,
+      "retrieval": 66.1,
+      "generation": 5477.8,
+      "validation": 365.7
     }
   },
   {
@@ -1352,19 +1352,19 @@
     "recall_at_5": null,
     "ndcg_at_5": null,
     "answer": "Insufficient evidence to answer this question.",
-    "groundedness_score": 0.0,
+    "groundedness_score": 1.0,
     "total_sentences": 1,
-    "supported_sentences": 0,
-    "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
+    "supported_sentences": 1,
+    "unsupported_sentences": 0,
+    "confidence_decision": "ANSWER",
+    "confidence_score": 0.9635,
     "refusal_correct": true,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2296.6,
-      "retrieval": 85.3,
-      "generation": 2429.8,
-      "validation": 351.5
+      "routing": 2250.9,
+      "retrieval": 70.6,
+      "generation": 6514.6,
+      "validation": 201.1
     }
   },
   {
@@ -1385,15 +1385,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": true,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3588,
+    "refusal_correct": false,
     "is_out_of_scope": false,
     "latency_ms": {
-      "routing": 2424.3,
-      "retrieval": 106.5,
-      "generation": 3177.6,
-      "validation": 182.7
+      "routing": 2181.2,
+      "retrieval": 51.0,
+      "generation": 2992.3,
+      "validation": 123.5
     }
   },
   {
@@ -1413,15 +1413,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": false,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3588,
+    "refusal_correct": true,
     "is_out_of_scope": true,
     "latency_ms": {
-      "routing": 2045.3,
-      "retrieval": 68.3,
-      "generation": 5270.1,
-      "validation": 320.5
+      "routing": 2000.2,
+      "retrieval": 51.1,
+      "generation": 4975.6,
+      "validation": 173.2
     }
   },
   {
@@ -1442,15 +1442,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": false,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3588,
+    "refusal_correct": true,
     "is_out_of_scope": true,
     "latency_ms": {
-      "routing": 2402.0,
-      "retrieval": 124.1,
-      "generation": 3907.0,
-      "validation": 302.0
+      "routing": 2305.1,
+      "retrieval": 86.7,
+      "generation": 3672.9,
+      "validation": 145.4
     }
   },
   {
@@ -1470,15 +1470,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": false,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3588,
+    "refusal_correct": true,
     "is_out_of_scope": true,
     "latency_ms": {
-      "routing": 1959.3,
-      "retrieval": 77.4,
-      "generation": 10133.6,
-      "validation": 472.5
+      "routing": 1828.0,
+      "retrieval": 72.6,
+      "generation": 9446.2,
+      "validation": 393.2
     }
   },
   {
@@ -1499,15 +1499,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4223,
-    "refusal_correct": false,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3985,
+    "refusal_correct": true,
     "is_out_of_scope": true,
     "latency_ms": {
-      "routing": 2359.5,
-      "retrieval": 71.7,
-      "generation": 3707.8,
-      "validation": 118.3
+      "routing": 2293.6,
+      "retrieval": 59.8,
+      "generation": 5810.7,
+      "validation": 169.2
     }
   },
   {
@@ -1527,15 +1527,15 @@
     "total_sentences": 1,
     "supported_sentences": 0,
     "unsupported_sentences": 1,
-    "confidence_decision": "ANSWER_WITH_CAUTION",
-    "confidence_score": 0.4516,
-    "refusal_correct": false,
+    "confidence_decision": "INSUFFICIENT_EVIDENCE",
+    "confidence_score": 0.3798,
+    "refusal_correct": true,
     "is_out_of_scope": true,
     "latency_ms": {
-      "routing": 1949.7,
-      "retrieval": 79.7,
-      "generation": 3682.9,
-      "validation": 249.7
+      "routing": 1990.4,
+      "retrieval": 66.6,
+      "generation": 3537.6,
+      "validation": 127.4
     }
   }
 ]
