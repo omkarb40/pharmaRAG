@@ -1,0 +1,1517 @@
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[Embedder] Loading model: neuml/pubmedbert-base-embeddings
+[Embedder] Ready. Dimension: 768
+[Retriever] Ready. 698 chunks indexed.
+
+===========================================================================
+  CI-003  [contraindications]  expected_drug=Gilenya
+  QUERY: Who should not take fingolimod?
+  expected_section: contraindications
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 34894d0f8132  | Mavenclad | contraindications | fused=0.00984
+      CONTRAINDICATIONS Cladribine Injection, USP is contraindicated in those patients who are hypersensitive to this drug or any of its components.
+
+  [2] chunk_id: 6f6ee168435d  | Tysabri | contraindications | fused=0.00968
+      4 CONTRAINDICATIONS •TYRUKO is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [see Warnings and Precautions (5.1)]. •TYRUKO is contraindicated in patients who have had a hypersensitivity reaction to natalizumab products or any of the ingredients in TYRUKO. Observed reactions range from urticaria to anaphylaxis [see Warnings and Precautions (5.5)]. •Patients who have or have had PML (4) •Patients who have had a hypersensitivity reaction to natali
+
+  [3] chunk_id: 01467d6585fe  | Tyruko | contraindications | fused=0.00952
+      4 CONTRAINDICATIONS •TYRUKO is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [see Warnings and Precautions (5.1)]. •TYRUKO is contraindicated in patients who have had a hypersensitivity reaction to natalizumab products or any of the ingredients in TYRUKO. Observed reactions range from urticaria to anaphylaxis [see Warnings and Precautions (5.5)]. •Patients who have or have had PML (4) •Patients who have had a hypersensitivity reaction to natali
+
+  [4] chunk_id: 1cd69dc01307  | Mitoxantrone | contraindications | fused=0.00937
+      CONTRAINDICATIONS Mitoxantrone is contraindicated in patients who have demonstrated prior hypersensitivity to it.
+
+  [5] chunk_id: 758f661c7931  | Gilenya | contraindications | fused=0.00923
+      4 CONTRAINDICATIONS Fingolimod is contraindicated in patients who have: in the last 6 months experienced myocardial infarction, unstable angina, stroke, transient ischemic attack (TIA), decompensated heart failure requiring hospitalization or Class III/IV heart failure a history or presence of Mobitz Type II second-degree or third-degree AV block or sick sinus syndrome, unless patient has a functioning pacemaker [see Warnings and Precautions (5.1)] a baseline QTc interval ≥500 msec cardiac arrhy
+
+  [6] chunk_id: 559a5de54325  | Kesimpta | contraindications | fused=0.00909
+      4 CONTRAINDICATIONS None. None. (4)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  CI-004  [contraindications]  expected_drug=Aubagio
+  QUERY: Is teriflunomide contraindicated in liver disease?
+  expected_section: contraindications
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: fdcc7ba5b3f0  | Modafinil | contraindications | fused=0.01583
+      4 CONTRAINDICATIONS Modafinil is contraindicated in patients with known hypersensitivity to modafinil or armodafinil or its inactive ingredients [see Warnings and Precautions ( 5.1, 5.2, 5.3)] . Modafinil is contraindicated in patients with known hypersensitivity to modafinil or armodafinil. ( 4)
+
+  [2] chunk_id: 1cd69dc01307  | Mitoxantrone | contraindications | fused=0.01565
+      CONTRAINDICATIONS Mitoxantrone is contraindicated in patients who have demonstrated prior hypersensitivity to it.
+
+  [3] chunk_id: 6f6ee168435d  | Tysabri | contraindications | fused=0.01548
+      4 CONTRAINDICATIONS •TYRUKO is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [see Warnings and Precautions (5.1)]. •TYRUKO is contraindicated in patients who have had a hypersensitivity reaction to natalizumab products or any of the ingredients in TYRUKO. Observed reactions range from urticaria to anaphylaxis [see Warnings and Precautions (5.5)]. •Patients who have or have had PML (4) •Patients who have had a hypersensitivity reaction to natali
+
+  [4] chunk_id: 01467d6585fe  | Tyruko | contraindications | fused=0.01544
+      4 CONTRAINDICATIONS •TYRUKO is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [see Warnings and Precautions (5.1)]. •TYRUKO is contraindicated in patients who have had a hypersensitivity reaction to natalizumab products or any of the ingredients in TYRUKO. Observed reactions range from urticaria to anaphylaxis [see Warnings and Precautions (5.5)]. •Patients who have or have had PML (4) •Patients who have had a hypersensitivity reaction to natali
+
+  [5] chunk_id: 34894d0f8132  | Mavenclad | contraindications | fused=0.01541
+      CONTRAINDICATIONS Cladribine Injection, USP is contraindicated in those patients who are hypersensitive to this drug or any of its components.
+
+  [6] chunk_id: 7868de02999f  | Avonex | contraindications | fused=0.01460
+      4 CONTRAINDICATIONS AVONEX is contraindicated in patients with a history of hypersensitivity to natural or recombinant interferon beta, or any other component of the formulation [see Warnings and Precautions (5.3)]. The formerly available lyophilized vial formulation of AVONEX is contraindicated in patients with a history of hypersensitivity to albumin (human). History of hypersensitivity to natural or recombinant interferon beta, albumin or any other component of the formulation (4)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  CI-005  [contraindications]  expected_drug=Zeposia
+  QUERY: What are the contraindications for ozanimod?
+  expected_section: contraindications
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: f7097d747cb8  | Gabapentin | contraindications | fused=0.01504
+      4 CONTRAINDICATIONS Gabapentin is contraindicated in patients who have demonstrated hypersensitivity to the drug or its ingredients. Known hypersensitivity to gabapentin or its ingredients (4)
+
+  [2] chunk_id: 7868de02999f  | Avonex | contraindications | fused=0.01449
+      4 CONTRAINDICATIONS AVONEX is contraindicated in patients with a history of hypersensitivity to natural or recombinant interferon beta, or any other component of the formulation [see Warnings and Precautions (5.3)]. The formerly available lyophilized vial formulation of AVONEX is contraindicated in patients with a history of hypersensitivity to albumin (human). History of hypersensitivity to natural or recombinant interferon beta, albumin or any other component of the formulation (4)
+
+  [3] chunk_id: 3af5a799afa3  | Rebif | contraindications | fused=0.01447
+      4 CONTRAINDICATIONS AVONEX is contraindicated in patients with a history of hypersensitivity to natural or recombinant interferon beta, or any other component of the formulation [see Warnings and Precautions (5.3)]. The formerly available lyophilized vial formulation of AVONEX is contraindicated in patients with a history of hypersensitivity to albumin (human). History of hypersensitivity to natural or recombinant interferon beta, albumin or any other component of the formulation (4)
+
+  [4] chunk_id: 34a816a257c2  | Bafiertam | contraindications | fused=0.01425
+      4 CONTRAINDICATIONS BAFIERTAM is contraindicated in patients: with known hypersensitivity to monomethyl fumarate, dimethyl fumarate, diroximel fumarate, or to any of the excipients of BAFIERTAM. Reactions may include anaphylaxis or angioedema [see Warnings and Precautions (5.1)]. taking dimethyl fumarate or diroximel fumarate [see Drug Interactions (7.1)]. Known hypersensitivity to monomethyl fumarate, dimethyl fumarate, diroximel fumarate, or any of the excipients of BAFIERTAM Co-administration
+
+  [5] chunk_id: 0da512d724bd  | Vumerity | contraindications | fused=0.01396
+      4 CONTRAINDICATIONS VUMERITY is contraindicated in patients With known hypersensitivity to diroximel fumarate, dimethyl fumarate, or to any of the excipients of VUMERITY. Reactions may include anaphylaxis and angioedema [see Warnings and Precautions (5.1)]. Taking dimethyl fumarate [see Drug Interactions (7.1)]. Known hypersensitivity to diroximel fumarate, dimethyl fumarate, or to any of the excipients of VUMERITY (4) Co-administration with dimethyl fumarate (4)
+
+  [6] chunk_id: 25c3964c080d  | Tecfidera | contraindications | fused=0.01395
+      4 CONTRAINDICATIONS Dimethyl fumarate delayed-release capsules are contraindicated in patients with known hypersensitivity to dimethyl fumarate or to any of the excipients of dimethyl fumarate delayed-release capsules. Reactions have included anaphylaxis and angioedema [see Warnings and Precautions (5.1)]. Known hypersensitivity to dimethyl fumarate or any of the excipients of dimethyl fumarate delayed-release capsules.
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  CI-006  [contraindications]  expected_drug=Tecfidera
+  QUERY: When should dimethyl fumarate not be prescribed?
+  expected_section: contraindications
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 0da512d724bd  | Vumerity | contraindications | fused=0.01619
+      4 CONTRAINDICATIONS VUMERITY is contraindicated in patients With known hypersensitivity to diroximel fumarate, dimethyl fumarate, or to any of the excipients of VUMERITY. Reactions may include anaphylaxis and angioedema [see Warnings and Precautions (5.1)]. Taking dimethyl fumarate [see Drug Interactions (7.1)]. Known hypersensitivity to diroximel fumarate, dimethyl fumarate, or to any of the excipients of VUMERITY (4) Co-administration with dimethyl fumarate (4)
+
+  [2] chunk_id: 34a816a257c2  | Bafiertam | contraindications | fused=0.01613
+      4 CONTRAINDICATIONS BAFIERTAM is contraindicated in patients: with known hypersensitivity to monomethyl fumarate, dimethyl fumarate, diroximel fumarate, or to any of the excipients of BAFIERTAM. Reactions may include anaphylaxis or angioedema [see Warnings and Precautions (5.1)]. taking dimethyl fumarate or diroximel fumarate [see Drug Interactions (7.1)]. Known hypersensitivity to monomethyl fumarate, dimethyl fumarate, diroximel fumarate, or any of the excipients of BAFIERTAM Co-administration
+
+  [3] chunk_id: 25c3964c080d  | Tecfidera | contraindications | fused=0.01608
+      4 CONTRAINDICATIONS Dimethyl fumarate delayed-release capsules are contraindicated in patients with known hypersensitivity to dimethyl fumarate or to any of the excipients of dimethyl fumarate delayed-release capsules. Reactions have included anaphylaxis and angioedema [see Warnings and Precautions (5.1)]. Known hypersensitivity to dimethyl fumarate or any of the excipients of dimethyl fumarate delayed-release capsules.
+
+  [4] chunk_id: 34894d0f8132  | Mavenclad | contraindications | fused=0.00937
+      CONTRAINDICATIONS Cladribine Injection, USP is contraindicated in those patients who are hypersensitive to this drug or any of its components.
+
+  [5] chunk_id: 1cd69dc01307  | Mitoxantrone | contraindications | fused=0.00923
+      CONTRAINDICATIONS Mitoxantrone is contraindicated in patients who have demonstrated prior hypersensitivity to it.
+
+  [6] chunk_id: 6f6ee168435d  | Tysabri | contraindications | fused=0.00909
+      4 CONTRAINDICATIONS •TYRUKO is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [see Warnings and Precautions (5.1)]. •TYRUKO is contraindicated in patients who have had a hypersensitivity reaction to natalizumab products or any of the ingredients in TYRUKO. Observed reactions range from urticaria to anaphylaxis [see Warnings and Precautions (5.5)]. •Patients who have or have had PML (4) •Patients who have had a hypersensitivity reaction to natali
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  CI-007  [contraindications]  expected_drug=Briumvi
+  QUERY: Are there contraindications for ublituximab?
+  expected_section: contraindications
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 34894d0f8132  | Mavenclad | contraindications | fused=0.01629
+      CONTRAINDICATIONS Cladribine Injection, USP is contraindicated in those patients who are hypersensitive to this drug or any of its components.
+
+  [2] chunk_id: 1fb90fc188a4  | Baclofen | contraindications | fused=0.01603
+      CONTRAINDICATIONS Hypersensitivity to baclofen.
+
+  [3] chunk_id: 1cd69dc01307  | Mitoxantrone | contraindications | fused=0.01549
+      CONTRAINDICATIONS Mitoxantrone is contraindicated in patients who have demonstrated prior hypersensitivity to it.
+
+  [4] chunk_id: 559a5de54325  | Kesimpta | contraindications | fused=0.01520
+      4 CONTRAINDICATIONS None. None. (4)
+
+  [5] chunk_id: e5f2260017c0  | Lemtrada | contraindications | fused=0.01498
+      4 CONTRAINDICATIONS None. None (4)
+
+  [6] chunk_id: f7097d747cb8  | Gabapentin | contraindications | fused=0.01445
+      4 CONTRAINDICATIONS Gabapentin is contraindicated in patients who have demonstrated hypersensitivity to the drug or its ingredients. Known hypersensitivity to gabapentin or its ingredients (4)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-001  [adverse_reactions]  expected_drug=Gilenya
+  QUERY: What are the side effects of fingolimod?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 35c8afc335d3  | Mayzent | adverse_reactions | fused=0.01466
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: Infections [see Warnings and Precautions (5.1)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] Macular Edema [see Warnings and Precautions (5.3)] Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.4)] Respiratory Effects [see Warnings and Precautions (5.5)] Liver Injury [see Warnings and Precautions (5.6)] Cutaneous Malignancie
+
+  [2] chunk_id: e89057faa937  | Gilenya | adverse_reactions | fused=0.00984
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in labeling: Bradyarrhythmia and Atrioventricular Blocks [see Warnings and Precautions (5.1)] Infections [see Warnings and Precautions (5.2)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.3)] Macular Edema [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.5)] Posterior Reversible Encephalopathy Syndrome [see Warnings and Precautions (5.6)] Respiratory
+
+  [3] chunk_id: d8d07f0387ab  | Gilenya | adverse_reactions | fused=0.00968
+      astrointestinal disorders Nausea 13 12 Diarrhea 13 10 Abdominal pain 11 10 General disorders and administration-site conditions Asthenia 2 1 Musculoskeletal and connective tissue disorders Back pain 10 9 Pain in extremity 10 7 Skin and subcutaneous tissue disorders Alopecia 3 2 Actinic keratosis 2 1 Investigations Liver transaminase elevations (ALT/GGT/AST) 15 4 Blood triglycerides increased 3 1 Respiratory, thoracic, and mediastinal disorders Cough 12 11 Dyspnea 9 7 Eye disorders Vision blurred
+
+  [4] chunk_id: c7a9bd896ab6  | Gilenya | adverse_reactions | fused=0.00952
+      and in the postmarketing setting in adults [see Adverse Reactions (6.2)]. In adult clinical trials, the rate of seizures was 0.9% in fingolimod-treated patients and 0.3% in placebo-treated patients. It is unknown whether these events were related to the effects of multiple sclerosis alone, to fingolimod, or to a combination of both. Pediatric Patients 10 Years of Age and Older In the controlled pediatric trial (Study 4), the safety profile in pediatric patients receiving fingolimod 0.25 mg or 0.
+
+  [5] chunk_id: c302d87bcbcd  | Gilenya | adverse_reactions | fused=0.00937
+      ug and may not reflect the rates observed in practice. Adults In clinical trials (Studies 1, 2, and 3), a total of 1212 patients with relapsing forms of multiple sclerosis received fingolimod 0.5 mg. This included 783 patients who received fingolimod 0.5 mg in the 2-year placebo-controlled trials (Studies 1 and 3) and 429 patients who received fingolimod 0.5 mg in the 1-year active-controlled trial (Study 2). The overall exposure in the controlled trials was equivalent to 1716 person-years. Appr
+
+  [6] chunk_id: ebd7a7a6b23b  | Zeposia | adverse_reactions | fused=0.00923
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: •Infections [see Warnings and Precautions (5.1)] •Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] •Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.3)] •Liver Injury [see Warnings and Precautions (5.4) ] •Fetal Risk [see Warnings and Precautions (5.5) ] •Increased Blood Pressure [see Warnings and Precautions (5.6) ] •Respirato
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-002  [adverse_reactions]  expected_drug=Tysabri
+  QUERY: What adverse reactions have been reported with natalizumab?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 0c6b728afc79  | Tysabri | adverse_reactions | fused=0.01547
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during po
+
+  [2] chunk_id: 2f02ab2840ac  | Tyruko | adverse_reactions | fused=0.01539
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during po
+
+  [3] chunk_id: da81c145cabe  | Tysabri | adverse_reactions | fused=0.00952
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Preca
+
+  [4] chunk_id: 16ba27731e8f  | Tyruko | adverse_reactions | fused=0.00937
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Preca
+
+  [5] chunk_id: 6e1b7ae55011  | Tysabri | adverse_reactions | fused=0.00923
+      dence of at least 0.3%: intestinal obstruction or stenosis (2% vs. 1% in placebo), acute hypersensitivity reactions (0.5% vs. 0%), abdominal adhesions (0.3% vs. 0%), and cholelithiasis (0.3% vs. 0%). Similar serious adverse reactions were seen in the maintenance Study CD3. Table 3 enumerates adverse reactions that occurred in Studies CD1 and CD2 (median exposure of 2.8 months). Table 4 enumerates adverse reactions that occurred in Study CD3 (median exposure of 11.0 months). Table 3: Adverse Reac
+
+  [6] chunk_id: 35bd57f61a98  | Tyruko | adverse_reactions | fused=0.00909
+      dence of at least 0.3%: intestinal obstruction or stenosis (2% vs. 1% in placebo), acute hypersensitivity reactions (0.5% vs. 0%), abdominal adhesions (0.3% vs. 0%), and cholelithiasis (0.3% vs. 0%). Similar serious adverse reactions were seen in the maintenance Study CD3. Table 3 enumerates adverse reactions that occurred in Studies CD1 and CD2 (median exposure of 2.8 months). Table 4 enumerates adverse reactions that occurred in Study CD3 (median exposure of 11.0 months). Table 3: Adverse Reac
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-003  [adverse_reactions]  expected_drug=Ocrevus
+  QUERY: Does ocrelizumab cause infusion reactions?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 2c25b162fb2c  | Ocrevus | adverse_reactions | fused=0.01449
+      6 ADVERSE REACTIONS The following serious adverse reactions are discussed in greater detail in other sections of the labeling: Infusion Reactions [see Warnings and Precautions (5.1)] Infections [see Warnings and Precautions (5.2)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.3)] Reduction in Immunoglobulins [see Warnings and Precautions (5.4)] Malignancies [see Warnings and Precautions (5.5)] Immune-Mediated Colitis [see Warnings and Precautions (5.6)] Liver Injury
+
+  [2] chunk_id: b1fc7d2c5958  | Briumvi | adverse_reactions | fused=0.01415
+      6 ADVERSE REACTIONS The following serious adverse reactions are discussed in greater detail in other sections of the labeling: Infusion Reactions [see Warnings and Precautions (5.1)] Infections [see Warnings and Precautions (5.2)] Reduction in Immunoglobulins [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.5)] The most common adverse reactions (≥10%) were infusion reactions and upper respiratory tract infections ( 6.1). To report SUSPECTED ADVERSE REACTIONS, co
+
+  [3] chunk_id: 35c5592a4bfb  | Lemtrada | adverse_reactions | fused=0.00984
+      cause these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. General Disorders and Administration Site Conditions: Fatal infusion-related reactions. Cardiovascular Disorders: Congestive heart failure, cardiomyopathy, decreased ejection fraction (some patients had been previously treated with cardiotoxic agents). Cerebrovascular Disorders: Cervicocephalic arte
+
+  [4] chunk_id: 73c574a11282  | Ocrevus | adverse_reactions | fused=0.00968
+      . Patients in MS trials (Study 1, Study 2, and Study 3) were tested at multiple time points (baseline and every 6 months post-treatment for the duration of the trial) for anti-drug antibodies (ADAs). Out of 1311 patients treated with OCREVUS, 12 (~1%) tested positive for ADAs, of which 2 patients tested positive for neutralizing antibodies. These data are not adequate to assess the impact of ADAs on the safety and efficacy of OCREVUS. 6.3 Postmarketing Experience The following adverse reactions 
+
+  [5] chunk_id: 02264c4aa351  | Mavenclad | adverse_reactions | fused=0.00952
+      of nausea were mild, not accompanied by vomiting, and did not require treatment with antiemetics. In patients requiring antiemetics, nausea was easily controlled, most frequently with chlorpromazine. When used in other clinical settings the following ADRs were reported: bacteremia, cellulitis, localized infection, pneumonia, anemia, thrombocytopenia (with bleeding or petechiae), phlebitis, purpura, crepitations, localized edema and edema. For a description of adverse reactions associated with us
+
+  [6] chunk_id: 961fa6b7b149  | Betaseron | adverse_reactions | fused=0.00937
+      ction, concomitant medications, and underlying disease. For these reasons, comparison of the incidence of antibodies to BETASERON with the incidence of antibodies to other products may be misleading. Anaphylactic reactions have been reported with the use of BETASERON [see Warnings and Precautions (5.2)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during postapproval use of BETASERON. Because these reactions are reported voluntarily from a population of unce
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-004  [adverse_reactions]  expected_drug=Aubagio
+  QUERY: What are the common side effects of teriflunomide?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 234c40fc03e9  | Ponvory | adverse_reactions | fused=0.01556
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in labeling: Infections [see Warnings and Precautions (5.1)] Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.2)] Respiratory Effects [see Warnings and Precautions (5.3)] Liver Injury [see Warnings and Precautions (5.4)] Increased Blood Pressure [see Warnings and Precautions (5.5)] Cutaneous Malignancies [see Warnings and Precautions (5.6)] Fetal Risk [see Warnings and Preca
+
+  [2] chunk_id: ebd7a7a6b23b  | Zeposia | adverse_reactions | fused=0.01496
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: •Infections [see Warnings and Precautions (5.1)] •Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] •Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.3)] •Liver Injury [see Warnings and Precautions (5.4) ] •Fetal Risk [see Warnings and Precautions (5.5) ] •Increased Blood Pressure [see Warnings and Precautions (5.6) ] •Respirato
+
+  [3] chunk_id: e89057faa937  | Gilenya | adverse_reactions | fused=0.01478
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in labeling: Bradyarrhythmia and Atrioventricular Blocks [see Warnings and Precautions (5.1)] Infections [see Warnings and Precautions (5.2)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.3)] Macular Edema [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.5)] Posterior Reversible Encephalopathy Syndrome [see Warnings and Precautions (5.6)] Respiratory
+
+  [4] chunk_id: b1fc7d2c5958  | Briumvi | adverse_reactions | fused=0.01451
+      6 ADVERSE REACTIONS The following serious adverse reactions are discussed in greater detail in other sections of the labeling: Infusion Reactions [see Warnings and Precautions (5.1)] Infections [see Warnings and Precautions (5.2)] Reduction in Immunoglobulins [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.5)] The most common adverse reactions (≥10%) were infusion reactions and upper respiratory tract infections ( 6.1). To report SUSPECTED ADVERSE REACTIONS, co
+
+  [5] chunk_id: 35c8afc335d3  | Mayzent | adverse_reactions | fused=0.01447
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: Infections [see Warnings and Precautions (5.1)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] Macular Edema [see Warnings and Precautions (5.3)] Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.4)] Respiratory Effects [see Warnings and Precautions (5.5)] Liver Injury [see Warnings and Precautions (5.6)] Cutaneous Malignancie
+
+  [6] chunk_id: da81c145cabe  | Tysabri | adverse_reactions | fused=0.01418
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Preca
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-005  [adverse_reactions]  expected_drug=Copaxone
+  QUERY: What side effects does glatiramer acetate cause?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 986bbcb08137  | Copaxone | adverse_reactions | fused=0.01609
+      ntilation and hay fever. Infrequent: Asthma, pneumonia, epistaxis, hypoventilation, and voice alteration. Skin and Appendages: Frequent: Eczema, herpes zoster, pustular rash, skin atrophy, and warts. Infrequent: Dry skin, skin hypertrophy, dermatitis, furunculosis, psoriasis, angioedema, contact dermatitis, erythema nodosum, fungal dermatitis, maculopapular rash, pigmentation, benign skin neoplasm, skin carcinoma, skin striae, and vesiculobullous rash. Special Senses: Frequent: Visual field defe
+
+  [2] chunk_id: 60638625a1de  | Copaxone | adverse_reactions | fused=0.01608
+      s and symptoms were numerically more common in patients treated with Glatiramer Acetate Injection 40 mg per mL than in patients treated with placebo. Adverse reactions were usually mild in intensity. Table 2: Adverse Reactions in a Controlled Clinical Trial with an Incidence ≥2% of Patients and More Frequent with Glatiramer Acetate Injection (40 mg per mL Three Times per Week) than with Placebo Glatiramer Acetate Injection 40 mg/mL (n=943) % Placebo (n=461) % General Disorders And Administration
+
+  [3] chunk_id: eb44fba1e68d  | Copaxone | adverse_reactions | fused=0.01603
+      asms Benign, Malignant And Unspecified (Incl Cysts And Polyps) Benign Neoplasm of Skin 2 1 Nervous System Disorders Tremor 4 2 Migraine 4 2 Syncope 3 2 Speech Disorder 2 1 Psychiatric Disorders Anxiety 13 10 Nervousness 2 1 Renal And Urinary Disorders Micturition Urgency 5 4 Respiratory, Thoracic And Mediastinal Disorders Dyspnea 14 4 Cough 6 5 Laryngospasm 2 1 Skin And Subcutaneous Tissue Disorders Rash 19 11 Hyperhidrosis 7 5 Pruritus 5 4 Urticaria 3 1 Skin Disorder 3 1 Vascular Disorders Vaso
+
+  [4] chunk_id: 9008f7d1e271  | Copaxone | adverse_reactions | fused=0.01554
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: Anaphylactic Reactions [see Warnings and Precautions (5.1)] Immediate Post-Injection Reaction [see Warnings and Precautions (5.2)] Chest Pain [see Warnings and Precautions (5.3)] Lipoatrophy and Skin Necrosis [see Warnings and Precautions (5.4)] Potential Effects on Immune Response [see Warnings and Precautions (5.5)] Hepatic Injury [see Warnings and Precautions (5.6)] In controlled studies of Gl
+
+  [5] chunk_id: 46a265f00948  | Copaxone | adverse_reactions | fused=0.01553
+      atiramer Acetate Injection were between the ages of 18 and 45. Consequently, data are inadequate to perform an analysis of the adverse reaction incidence related to clinically-relevant age subgroups. Other Adverse Reactions In the paragraphs that follow, the frequencies of less commonly reported adverse clinical reactions are presented. Because the reports include reactions observed in open and uncontrolled premarketing studies (n= 979), the role of Glatiramer Acetate Injection in their causatio
+
+  [6] chunk_id: f7142ab8fb5f  | Copaxone | adverse_reactions | fused=0.01520
+      eaction incidence related to clinically-relevant age groups. 6.2 Postmarketing Experience The following adverse reactions have been identified during postapproval use of Glatiramer Acetate Injection. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Body as a Whole: sepsis; SLE syndrome; hydrocephalus; enlarged abdomen; allergic reaction Cardiova
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-006  [adverse_reactions]  expected_drug=Mayzent
+  QUERY: Are there cardiac side effects with siponimod?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 77386835a43a  | Mayzent | adverse_reactions | fused=0.01619
+      wing adverse reactions have occurred in less than 5% of MAYZENT-treated patients but at a rate at least 1% higher than in patients receiving placebo: herpes zoster, lymphopenia, seizure, tremor, macular edema, AV block (1st and 2nd degree), asthenia, and pulmonary function test decreased [see Warnings and Precautions (5.1, 5.3, 5.4, 5.5)]. Seizures In Study 1, cases of seizures were reported in 1.7% of MAYZENT-treated patients, compared to 0.4% in patients receiving placebo. It is not known whet
+
+  [2] chunk_id: 7b571a59c958  | Betaseron | adverse_reactions | fused=0.00968
+      6 ADVERSE REACTIONS The following serious adverse reactions are discussed in more details in other sections of labeling: •Hepatic Injury [see Warnings and Precautions (5.1)] •Anaphylaxis and Other Allergic Reactions [see Warnings and Precautions (5.2)] •Depression and Suicide [see Warnings and Precautions (5.3)] •Congestive Heart Failure [see Warnings and Precautions (5.4)] •Injection Site Reactions Including Necrosis [see Warnings and Precautions (5.5)] •Leukopenia [see Warnings and Precautions
+
+  [3] chunk_id: dcf07541f327  | Bafiertam | adverse_reactions | fused=0.00952
+      6 ADVERSE REACTIONS The following clinically significant adverse reactions are described elsewhere in the labeling: Anaphylaxis and Angioedema [see Warnings and Precautions (5.1)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2 )] Herpes Zoster and Other Serious Opportunistic Infections [see Warnings and Precautions (5.3 )] Lymphopenia [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.5)] Flushing [see Warnings and Precautions (5.6)]
+
+  [4] chunk_id: 739eedeb81b9  | Zeposia | adverse_reactions | fused=0.00937
+      Warnings and Precautions (5.3)]. Respiratory Effects Dose-dependent reductions in absolute FEV1 and FVC were observed in MS and UC patients treated with ZEPOSIA [see Warnings and Precautions (5.7) ]. Malignancies Malignancies, such as melanoma, basal cell carcinoma, breast cancer, seminoma, cervical carcinoma, and adenocarcinomas, including rectal adenocarcinoma, were reported with ZEPOSIA in controlled trials of MS and UC. An increased risk of cutaneous malignancies has been reported with S1P r
+
+  [5] chunk_id: e89057faa937  | Gilenya | adverse_reactions | fused=0.00923
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in labeling: Bradyarrhythmia and Atrioventricular Blocks [see Warnings and Precautions (5.1)] Infections [see Warnings and Precautions (5.2)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.3)] Macular Edema [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.5)] Posterior Reversible Encephalopathy Syndrome [see Warnings and Precautions (5.6)] Respiratory
+
+  [6] chunk_id: 896d456e71a9  | Vumerity | adverse_reactions | fused=0.00909
+      6 ADVERSE REACTIONS The following important adverse reactions are described elsewhere in labeling: Anaphylaxis and Angioedema [see Warnings and Precautions (5.1)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions Section (5.2)] Herpes Zoster and Other Serious Opportunistic Infections [see Warnings and Precautions (5.3)] Lymphopenia [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.6)] Flushing [see Warnings and Precautions (5.6)] Serious Ga
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-007  [adverse_reactions]  expected_drug=Kesimpta
+  QUERY: What are the side effects of ofatumumab?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 35c8afc335d3  | Mayzent | adverse_reactions | fused=0.01445
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: Infections [see Warnings and Precautions (5.1)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] Macular Edema [see Warnings and Precautions (5.3)] Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.4)] Respiratory Effects [see Warnings and Precautions (5.5)] Liver Injury [see Warnings and Precautions (5.6)] Cutaneous Malignancie
+
+  [2] chunk_id: ebd7a7a6b23b  | Zeposia | adverse_reactions | fused=0.00984
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: •Infections [see Warnings and Precautions (5.1)] •Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] •Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.3)] •Liver Injury [see Warnings and Precautions (5.4) ] •Fetal Risk [see Warnings and Precautions (5.5) ] •Increased Blood Pressure [see Warnings and Precautions (5.6) ] •Respirato
+
+  [3] chunk_id: 73c574a11282  | Ocrevus | adverse_reactions | fused=0.00968
+      . Patients in MS trials (Study 1, Study 2, and Study 3) were tested at multiple time points (baseline and every 6 months post-treatment for the duration of the trial) for anti-drug antibodies (ADAs). Out of 1311 patients treated with OCREVUS, 12 (~1%) tested positive for ADAs, of which 2 patients tested positive for neutralizing antibodies. These data are not adequate to assess the impact of ADAs on the safety and efficacy of OCREVUS. 6.3 Postmarketing Experience The following adverse reactions 
+
+  [4] chunk_id: da81c145cabe  | Tysabri | adverse_reactions | fused=0.00952
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Preca
+
+  [5] chunk_id: 16ba27731e8f  | Tyruko | adverse_reactions | fused=0.00937
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Preca
+
+  [6] chunk_id: 6e1b7ae55011  | Tysabri | adverse_reactions | fused=0.00923
+      dence of at least 0.3%: intestinal obstruction or stenosis (2% vs. 1% in placebo), acute hypersensitivity reactions (0.5% vs. 0%), abdominal adhesions (0.3% vs. 0%), and cholelithiasis (0.3% vs. 0%). Similar serious adverse reactions were seen in the maintenance Study CD3. Table 3 enumerates adverse reactions that occurred in Studies CD1 and CD2 (median exposure of 2.8 months). Table 4 enumerates adverse reactions that occurred in Study CD3 (median exposure of 11.0 months). Table 3: Adverse Reac
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  AE-008  [adverse_reactions]  expected_drug=Vumerity
+  QUERY: What adverse events occur with diroximel fumarate?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 8d3c697360cb  | Modafinil | adverse_reactions | fused=0.01406
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: Serious Rash, including Stevens-Johnson Syndrome [see Warnings and Precautions ( 5.1)] Angioedema and Anaphylaxis Reactions [see Warnings and Precautions ( 5.2)] Multi-organ Hypersensitivity Reactions [see Warnings and Precautions ( 5.3)] Persistent Sleepiness [see Warnings and Precautions ( 5.4)] Psychiatric Symptoms [see Warnings and Precautions ( 5.5)] Effects on Ability to Drive and Use Machi
+
+  [2] chunk_id: 896d456e71a9  | Vumerity | adverse_reactions | fused=0.00984
+      6 ADVERSE REACTIONS The following important adverse reactions are described elsewhere in labeling: Anaphylaxis and Angioedema [see Warnings and Precautions (5.1)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions Section (5.2)] Herpes Zoster and Other Serious Opportunistic Infections [see Warnings and Precautions (5.3)] Lymphopenia [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.6)] Flushing [see Warnings and Precautions (5.6)] Serious Ga
+
+  [3] chunk_id: dcf07541f327  | Bafiertam | adverse_reactions | fused=0.00968
+      6 ADVERSE REACTIONS The following clinically significant adverse reactions are described elsewhere in the labeling: Anaphylaxis and Angioedema [see Warnings and Precautions (5.1)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2 )] Herpes Zoster and Other Serious Opportunistic Infections [see Warnings and Precautions (5.3 )] Lymphopenia [see Warnings and Precautions (5.4)] Liver Injury [see Warnings and Precautions (5.5)] Flushing [see Warnings and Precautions (5.6)]
+
+  [4] chunk_id: a45f19bb7817  | Tecfidera | adverse_reactions | fused=0.00952
+      6 ADVERSE REACTIONS The following important adverse reactions are described elsewhere in labeling: Anaphylaxis and Angioedema [see Warnings and Precautions (5.1)]. Progressive multifocal leukoencephalopathy [see Warnings and Precautions (5.2)]. Herpes Zoster and Other Serious Opportunistic Infections [see Warnings and Precautions (5.3)]. Lymphopenia [see Warnings and Precautions (5.4)]. Liver Injury [see Warnings and Precautions (5.5)]. Flushing [see Warnings and Precautions (5.6)]. Serious Gast
+
+  [5] chunk_id: 59bb8c14fa04  | Vumerity | adverse_reactions | fused=0.00937
+      11,318 person-years. A total of 1169 patients have received at least 5 years of treatment with dimethyl fumarate, and 426 patients have received at least 10 years of treatment with dimethyl fumarate. Adverse Reactions in Placebo-Controlled Trials with Dimethyl Fumarate In the two well-controlled studies demonstrating effectiveness, 1529 patients received dimethyl fumarate with an overall exposure of 2244 person-years [see Clinical Studies (14)]. The adverse reactions presented in Table 1 below a
+
+  [6] chunk_id: 6a4c13654ed4  | Bafiertam | adverse_reactions | fused=0.00923
+      g twice a day and 771 placebo-treated patients. The most common adverse reactions (incidence ≥10% and ≥2% more than placebo) for dimethyl fumarate were flushing, abdominal pain, diarrhea, and nausea. Table 1: Adverse Reactions in Study 1 and 2 Reported for Dimethyl Fumarate at ≥ 2% Higher Incidence than Placebo Adverse Reaction Dimethyl Fumarate 240 mg Twice Daily N=769 % Placebo N=771 % Flushing 40 6 Abdominal pain 18 10 Diarrhea 14 11 Nausea 12 9 Vomiting 9 5 Pruritus 8 4 Rash 8 3 Albumin urin
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-001  [warnings]  expected_drug=Ocrevus
+  QUERY: What are the serious infection risks with ocrelizumab?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 0b154819e5ce  | Ocrevus | warnings_and_precautions | fused=0.01599
+      5 WARNINGS AND PRECAUTIONS Infusion Reactions: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue OCREVUS if a life-threatening or disabling infusion reaction occurs (2.3, 5.1) Infections: Serious, including life-threatening and fatal infections, have occurred. Delay OCREVUS administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommende
+
+  [2] chunk_id: 6ef34e86caa3  | Briumvi | warnings_and_precautions | fused=0.01520
+      reaction. For life-threatening infusion reactions, stop the infusion immediately, permanently discontinue BRIUMVI, and provide appropriate supportive treatment [see Dosage and Administration (2.5)] . For less severe infusion reactions, management may involve temporarily stopping the infusion, reducing the infusion rate, and/or administering symptomatic treatment. 5.2 Infections Serious, including life-threatening or fatal, bacterial and viral infections have been reported in patients receiving B
+
+  [3] chunk_id: d259d93c8a01  | Gilenya | warnings_and_precautions | fused=0.01467
+      Risk of Infections Fingolimod causes a dose-dependent reduction in peripheral lymphocyte count to 20% to 30% of baseline values because of reversible sequestration of lymphocytes in lymphoid tissues. Fingolimod may therefore increase the risk of infections, some serious in nature [see Clinical Pharmacology (12.2)]. Life-threatening and fatal infections have occurred in association with fingolimod. Before initiating treatment with fingolimod, a recent CBC (i.e., within 6 months or after discontin
+
+  [4] chunk_id: 5a4eb6b250ed  | Briumvi | warnings_and_precautions | fused=0.01463
+      5 WARNINGS AND PRECAUTIONS Infusion Reactions: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue BRIUMVI if a life-threatening or disabling infusion reaction occurs ( 2.3, 5.1). Infections: Serious, including life-threatening and fatal infections, have occurred. Delay BRIUMVI administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommen
+
+  [5] chunk_id: 2391111deb74  | Ocrevus | warnings_and_precautions | fused=0.01435
+      ollowing OCREVUS therapy has not been studied, and vaccination with live-attenuated or live vaccines is not recommended during treatment and until B-cell repletion [see Clinical Pharmacology (12.2)]. Vaccination of Infants Born to Mothers Treated with OCREVUS During Pregnancy In infants of mothers exposed to OCREVUS during pregnancy, do not administer live or live-attenuated vaccines before confirming the recovery of B-cell counts as measured by CD19+ B-cells. Depletion of B-cells in these infan
+
+  [6] chunk_id: d89bd010f826  | Ocrevus | warnings_and_precautions | fused=0.00968
+      and severity of the reaction [see Dosage and Administration (2.5)]. For life-threatening infusion reactions, immediately and permanently stop OCREVUS and administer appropriate supportive treatment. For less severe infusion reactions, management may involve temporarily stopping the infusion, reducing the infusion rate, and/or administering symptomatic treatment. 5.2 Infections Serious, including life-threatening or fatal, bacterial, viral, parasitic and fungal infections have been reported in pa
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-002  [warnings]  expected_drug=Tysabri
+  QUERY: What is the black box warning for natalizumab?
+  expected_section: boxed_warning
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: e9a6f0dc250b  | Acthar Gel | boxed_warning | fused=0.01435
+      PRECAUTIONS General Patients with latent tuberculosis or tuberculin reactivity who receive corticotropin should be closely observed as reactivation of the disease may occur. During prolonged corticotropin therapy, these patients should receive chemoprophylaxis. Skin testing should be performed prior to treatment of all patients with suspected sensitivity to porcine protein. Immediately following intramuscular or subcutaneous administration of corticotropin all patients should be observed careful
+
+  [2] chunk_id: 67b7a52aa01e  | Mavenclad | boxed_warning | fused=0.00984
+      lastic leukemia cells. Cladribine was not mutagenic in vitro (Ames and Chinese hamster ovary cell gene mutation tests) and did not induce unscheduled DNA synthesis in primary rat hepatocyte cultures. However, cladribine was clastogenic both in vitro (chromosome aberrations in Chinese hamster ovary cells) and in vivo (mouse bone marrow micronucleus test). Impairment of Fertility The effect on human fertility is unknown. When administered intravenously to Cynomolgus monkeys, cladribine has been sh
+
+  [3] chunk_id: b39d0a511ef1  | Mitoxantrone | boxed_warning | fused=0.00968
+      PRECAUTIONS General Therapy with mitoxantrone should be accompanied by close and frequent monitoring of hematologic and chemical laboratory parameters, as well as frequent patient observation. Systemic infections should be treated concomitantly with or just prior to commencing therapy with mitoxantrone. Information for Patients See FDA-approved patient labeling (MEDICATION GUIDE). Inform patients of the availability of a Medication Guide and instruct them to read the Medication Guide prior to in
+
+  [4] chunk_id: bf949f670609  | Mavenclad | boxed_warning | fused=0.00952
+      PRECAUTIONS General Cladribine injection is a potent antineoplastic agent with potentially significant toxic side effects. It should be administered only under the supervision of a physician experienced with the use of cancer chemotherapeutic agents. Patients undergoing therapy should be closely observed for signs of hematologic and non-hematologic toxicity. Periodic assessment of peripheral blood counts, particularly during the first 4 to 8 weeks post-treatment, is recommended to detect the dev
+
+  [5] chunk_id: 4f67414fab0a  | Mavenclad | boxed_warning | fused=0.00937
+      enal or hepatic insufficiency (see WARNINGS). Rare cases of tumor lysis syndrome have been reported in patients treated with cladribine with other hematologic malignancies having a high tumor burden. Cladribine injection must be diluted in designated intravenous solutions prior to administration (see DOSAGE AND ADMINISTRATION). Laboratory Tests During and following treatment, the patient's hematologic profile should be monitored regularly to determine the degree of hematopoietic suppression. In 
+
+  [6] chunk_id: 4994d6b5f8c6  | Mitoxantrone | boxed_warning | fused=0.00923
+      induced DNA damage in primary rat hepatocytes and sister chromatid exchanges in Chinese hamster ovary cells. Mitoxantrone was mutagenic in bacterial and mammalian test systems (Ames/Salmonella and E. coli and L5178Y TK+/-mouse lymphoma). Drug Interactions Mitoxantrone and its metabolites are excreted in bile and urine, but it is not known whether the metabolic or excretory pathways are saturable, may be inhibited or induced, or if mitoxantrone and its metabolites undergo enterohepatic circulatio
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-003  [warnings]  expected_drug=Gilenya
+  QUERY: What are the cardiac risks of fingolimod?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 0acc8075365b  | Gilenya | warnings_and_precautions | fused=0.01539
+      cerebrovascular disease, uncontrolled hypertension, history of symptomatic bradycardia, history of recurrent syncope, severe untreated sleep apnea, AV block, sinoatrial heart block) may poorly tolerate the fingolimod-induced bradycardia, or experience serious rhythm disturbances after the first dose of fingolimod. Prior to treatment with fingolimod, these patients should have a cardiac evaluation by a physician appropriately trained to conduct such evaluation, and if treated with fingolimod, sho
+
+  [2] chunk_id: d259d93c8a01  | Gilenya | warnings_and_precautions | fused=0.01478
+      Risk of Infections Fingolimod causes a dose-dependent reduction in peripheral lymphocyte count to 20% to 30% of baseline values because of reversible sequestration of lymphocytes in lymphoid tissues. Fingolimod may therefore increase the risk of infections, some serious in nature [see Clinical Pharmacology (12.2)]. Life-threatening and fatal infections have occurred in association with fingolimod. Before initiating treatment with fingolimod, a recent CBC (i.e., within 6 months or after discontin
+
+  [3] chunk_id: 9fadb7153686  | Gilenya | warnings_and_precautions | fused=0.01399
+      lead to permanent visual loss. Consider discontinuing fingolimod if macular edema develops; this decision should include an assessment of the potential benefits and risks for the individual patient. The risk of recurrence after rechallenge has not been evaluated. Macular Edema in Patients with History of Uveitis or Diabetes Mellitus Patients with a history of uveitis and patients with diabetes mellitus are at increased risk of macular edema during fingolimod therapy. In the combined clinical tri
+
+  [4] chunk_id: 65ec8e58d5e1  | Gilenya | warnings_and_precautions | fused=0.00968
+      apse occurs during treatment or after discontinuation. Obtain imaging and begin treatment as needed. (5.10) Increased Blood Pressure (BP): Monitor BP in adult and pediatric patients during treatment. (5.11) Malignancies: Skin examination prior to or shortly after the start of treatment and periodically thereafter is recommended. Suspicious skin lesions should be evaluated. (5.12) 5.1 Bradyarrhythmia and Atrioventricular Blocks Because of a risk for bradyarrhythmia and AV blocks, patients should 
+
+  [5] chunk_id: 37aac46053e9  | Gilenya | warnings_and_precautions | fused=0.00952
+      5 WARNINGS AND PRECAUTIONS Infections: Fingolimod may increase the risk. Obtain a complete blood count (CBC) before initiating treatment. Monitor for infection during treatment and for 2 months after discontinuation. Do not start in patients with active infections. (5.2) Progressive Multifocal Leukoencephalopathy (PML): Withhold fingolimod at the first sign or symptom suggestive of PML. (5.3) Macular Edema: Increases the risk of macular edema. Obtain a baseline evaluation of the fundus, includin
+
+  [6] chunk_id: 7e2ff1eb128f  | Gilenya | warnings_and_precautions | fused=0.00923
+      d human dose. Available observational pregnancy registry data suggest that use of fingolimod is associated with an increased prevalence of major birth defects in comparison to the general population. Advise pregnant women and females of reproductive potential of the potential risk to a fetus. Because it takes approximately 2 months to eliminate fingolimod from the body, advise females of reproductive potential to use effective contraception to avoid pregnancy during and for 2 months after stoppi
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-004  [warnings]  expected_drug=Aubagio
+  QUERY: Does teriflunomide carry a risk of hepatotoxicity?
+  expected_section: boxed_warning
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 44d3778b5449  | Mavenclad | boxed_warning | fused=0.00984
+      tion for an elderly patient should be cautious, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy in elderly patients.
+
+  [2] chunk_id: bf949f670609  | Mavenclad | boxed_warning | fused=0.00968
+      PRECAUTIONS General Cladribine injection is a potent antineoplastic agent with potentially significant toxic side effects. It should be administered only under the supervision of a physician experienced with the use of cancer chemotherapeutic agents. Patients undergoing therapy should be closely observed for signs of hematologic and non-hematologic toxicity. Periodic assessment of peripheral blood counts, particularly during the first 4 to 8 weeks post-treatment, is recommended to detect the dev
+
+  [3] chunk_id: 4f67414fab0a  | Mavenclad | boxed_warning | fused=0.00952
+      enal or hepatic insufficiency (see WARNINGS). Rare cases of tumor lysis syndrome have been reported in patients treated with cladribine with other hematologic malignancies having a high tumor burden. Cladribine injection must be diluted in designated intravenous solutions prior to administration (see DOSAGE AND ADMINISTRATION). Laboratory Tests During and following treatment, the patient's hematologic profile should be monitored regularly to determine the degree of hematopoietic suppression. In 
+
+  [4] chunk_id: 4994d6b5f8c6  | Mitoxantrone | boxed_warning | fused=0.00937
+      induced DNA damage in primary rat hepatocytes and sister chromatid exchanges in Chinese hamster ovary cells. Mitoxantrone was mutagenic in bacterial and mammalian test systems (Ames/Salmonella and E. coli and L5178Y TK+/-mouse lymphoma). Drug Interactions Mitoxantrone and its metabolites are excreted in bile and urine, but it is not known whether the metabolic or excretory pathways are saturable, may be inhibited or induced, or if mitoxantrone and its metabolites undergo enterohepatic circulatio
+
+  [5] chunk_id: 67b7a52aa01e  | Mavenclad | boxed_warning | fused=0.00923
+      lastic leukemia cells. Cladribine was not mutagenic in vitro (Ames and Chinese hamster ovary cell gene mutation tests) and did not induce unscheduled DNA synthesis in primary rat hepatocyte cultures. However, cladribine was clastogenic both in vitro (chromosome aberrations in Chinese hamster ovary cells) and in vivo (mouse bone marrow micronucleus test). Impairment of Fertility The effect on human fertility is unknown. When administered intravenously to Cynomolgus monkeys, cladribine has been sh
+
+  [6] chunk_id: b39d0a511ef1  | Mitoxantrone | boxed_warning | fused=0.00909
+      PRECAUTIONS General Therapy with mitoxantrone should be accompanied by close and frequent monitoring of hematologic and chemical laboratory parameters, as well as frequent patient observation. Systemic infections should be treated concomitantly with or just prior to commencing therapy with mitoxantrone. Information for Patients See FDA-approved patient labeling (MEDICATION GUIDE). Inform patients of the availability of a Medication Guide and instruct them to read the Medication Guide prior to in
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-005  [warnings]  expected_drug=Tysabri
+  QUERY: What warnings exist for PML with natalizumab?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 5091c32d0715  | Tysabri | warnings_and_precautions | fused=0.01460
+      s usually leads to death or severe disability over weeks or months. Withhold TYRUKO dosing immediately and perform an appropriate diagnostic evaluation at the first sign or symptom suggestive of PML. MRI findings may be apparent before clinical signs or symptoms. Cases of PML, diagnosed based on MRI findings and the detection of JCV DNA in the cerebrospinal fluid in the absence of clinical signs or symptoms specific to PML, have been reported. Many of these patients subsequently became symptomat
+
+  [2] chunk_id: 12b41048cf42  | Tyruko | warnings_and_precautions | fused=0.01458
+      s usually leads to death or severe disability over weeks or months. Withhold TYRUKO dosing immediately and perform an appropriate diagnostic evaluation at the first sign or symptom suggestive of PML. MRI findings may be apparent before clinical signs or symptoms. Cases of PML, diagnosed based on MRI findings and the detection of JCV DNA in the cerebrospinal fluid in the absence of clinical signs or symptoms specific to PML, have been reported. Many of these patients subsequently became symptomat
+
+  [3] chunk_id: 3016d1d51693  | Bafiertam | warnings_and_precautions | fused=0.01345
+      e of clinical signs or symptoms specific to PML, have been reported in patients treated with other MS medications associated with PML. Many of these patients subsequently became symptomatic with PML. Therefore, monitoring with MRI for signs that may be consistent with PML may be useful, and any suspicious findings should lead to further investigation to allow for an early diagnosis of PML, if present. Lower PML-related mortality and morbidity have been reported following discontinuation of anoth
+
+  [4] chunk_id: 31a014f60304  | Vumerity | warnings_and_precautions | fused=0.01341
+      o are immunocompromised, and that usually leads to death or severe disability. A fatal case of PML occurred in a patient who received dimethyl fumarate for 4 years while enrolled in a clinical trial. During the clinical trial, the patient experienced prolonged lymphopenia (lymphocyte counts predominantly <0.5 × 109/L for 3.5 years) while taking dimethyl fumarate [see Warnings and Precautions (5.4)]. The patient had no other identified systemic medical conditions resulting in compromised immune s
+
+  [5] chunk_id: 1673e0562796  | Vumerity | warnings_and_precautions | fused=0.01341
+      e of clinical signs or symptoms specific to PML, have been reported in patients treated with other MS medications associated with PML. Many of these patients subsequently became symptomatic with PML. Therefore, monitoring with MRI for signs that may be consistent with PML may be useful, and any suspicious findings should lead to further investigation to allow for an early diagnosis of PML, if present. Lower PML-related mortality and morbidity have been reported following discontinuation of anoth
+
+  [6] chunk_id: d4336d4175b7  | Tysabri | warnings_and_precautions | fused=0.00984
+      e in infections was seen in patients concurrently receiving corticosteroids. However, the increase in infections was similar in placebo-treated and natalizumab-treated patients who received steroids. Concurrent use of antineoplastic, immunosuppressant, or immunomodulating agents may further increase the risk of infections, including PML and other opportunistic infections, over the risk observed with use of natalizumab alone [see Warnings and Precautions (5.1) and Adverse Reactions (6.1)]. The sa
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-006  [warnings]  expected_drug=Gilenya
+  QUERY: What are the macular edema risks with fingolimod?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 73ce7f0f4772  | Gilenya | warnings_and_precautions | fused=0.01639
+      ors, including fingolimod, have been associated with an increased risk of macular edema. Obtain a baseline evaluation of the fundus, including the macula, near the start of treatment with fingolimod. Perform an examination of the fundus, including the macula, 3 to 4 months after starting treatment, periodically while on therapy, and any time there is a change in vision. A dose-dependent increase in the risk of macular edema occurred in the fingolimod clinical development program. In 2-year doubl
+
+  [2] chunk_id: d63bb73f7de8  | Mayzent | warnings_and_precautions | fused=0.01613
+      IRIS presents as a clinical decline in the patient’s condition that may be rapid, can lead to serious neurological complications or death, and is often associated with characteristic changes on MRI. The time to onset of IRIS in patients with PML was generally within a few months after S1P receptor modulator discontinuation. Monitoring for development of IRIS and appropriate treatment of the associated inflammation should be undertaken. 5.3 Macular Edema S1P receptor modulators, including MAYZENT
+
+  [3] chunk_id: 26b32b33c720  | Zeposia | warnings_and_precautions | fused=0.01572
+      ly. There is insufficient information to determine the reversibility of observed decreases in FEV1 or FVC after discontinuation of ZEPOSIA, or whether changes could be progressive with continued use. Spirometric evaluation of respiratory function should be performed during therapy with ZEPOSIA, if clinically indicated. 5.8 Macular Edema S1P receptor modulators, including ZEPOSIA, have been associated with an increased risk of macular edema. Obtain a baseline evaluation of the fundus, including t
+
+  [4] chunk_id: 37aac46053e9  | Gilenya | warnings_and_precautions | fused=0.01541
+      5 WARNINGS AND PRECAUTIONS Infections: Fingolimod may increase the risk. Obtain a complete blood count (CBC) before initiating treatment. Monitor for infection during treatment and for 2 months after discontinuation. Do not start in patients with active infections. (5.2) Progressive Multifocal Leukoencephalopathy (PML): Withhold fingolimod at the first sign or symptom suggestive of PML. (5.3) Macular Edema: Increases the risk of macular edema. Obtain a baseline evaluation of the fundus, includin
+
+  [5] chunk_id: 9fadb7153686  | Gilenya | warnings_and_precautions | fused=0.01538
+      lead to permanent visual loss. Consider discontinuing fingolimod if macular edema develops; this decision should include an assessment of the potential benefits and risks for the individual patient. The risk of recurrence after rechallenge has not been evaluated. Macular Edema in Patients with History of Uveitis or Diabetes Mellitus Patients with a history of uveitis and patients with diabetes mellitus are at increased risk of macular edema during fingolimod therapy. In the combined clinical tri
+
+  [6] chunk_id: afe4636109ac  | Ponvory | warnings_and_precautions | fused=0.01534
+      rketing setting. Skin examinations are recommended prior to or shortly after the start of treatment and periodically thereafter for all patients, particularly those with risk factors for skin cancer. Providers and patients are advised to monitor for suspicious skin lesions. If a suspicious skin lesion is observed, it should be promptly evaluated. As usual for patients with increased risk for skin cancer, exposure to sunlight and ultraviolet light should be limited by wearing protective clothing 
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-007  [warnings]  expected_drug=Mavenclad
+  QUERY: What are the warnings for cladribine?
+  expected_section: boxed_warning
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 4f67414fab0a  | Mavenclad | boxed_warning | fused=0.00984
+      enal or hepatic insufficiency (see WARNINGS). Rare cases of tumor lysis syndrome have been reported in patients treated with cladribine with other hematologic malignancies having a high tumor burden. Cladribine injection must be diluted in designated intravenous solutions prior to administration (see DOSAGE AND ADMINISTRATION). Laboratory Tests During and following treatment, the patient's hematologic profile should be monitored regularly to determine the degree of hematopoietic suppression. In 
+
+  [2] chunk_id: bf949f670609  | Mavenclad | boxed_warning | fused=0.00968
+      PRECAUTIONS General Cladribine injection is a potent antineoplastic agent with potentially significant toxic side effects. It should be administered only under the supervision of a physician experienced with the use of cancer chemotherapeutic agents. Patients undergoing therapy should be closely observed for signs of hematologic and non-hematologic toxicity. Periodic assessment of peripheral blood counts, particularly during the first 4 to 8 weeks post-treatment, is recommended to detect the dev
+
+  [3] chunk_id: 67b7a52aa01e  | Mavenclad | boxed_warning | fused=0.00952
+      lastic leukemia cells. Cladribine was not mutagenic in vitro (Ames and Chinese hamster ovary cell gene mutation tests) and did not induce unscheduled DNA synthesis in primary rat hepatocyte cultures. However, cladribine was clastogenic both in vitro (chromosome aberrations in Chinese hamster ovary cells) and in vivo (mouse bone marrow micronucleus test). Impairment of Fertility The effect on human fertility is unknown. When administered intravenously to Cynomolgus monkeys, cladribine has been sh
+
+  [4] chunk_id: b39d0a511ef1  | Mitoxantrone | boxed_warning | fused=0.00937
+      PRECAUTIONS General Therapy with mitoxantrone should be accompanied by close and frequent monitoring of hematologic and chemical laboratory parameters, as well as frequent patient observation. Systemic infections should be treated concomitantly with or just prior to commencing therapy with mitoxantrone. Information for Patients See FDA-approved patient labeling (MEDICATION GUIDE). Inform patients of the availability of a Medication Guide and instruct them to read the Medication Guide prior to in
+
+  [5] chunk_id: 7f77ed40123a  | Solu-Medrol | boxed_warning | fused=0.00923
+      peptic ulcer; renal insufficiency; hypertension; osteoporosis; and myasthenia gravis. Growth and development of infants and children on prolonged corticosteroid therapy should be carefully observed. Although controlled clinical trials have shown corticosteroids to be effective in speeding the resolution of acute exacerbations of multiple sclerosis, they do not show that corticosteroids affect the ultimate outcome or natural history of the disease. The studies do show that relatively high doses o
+
+  [6] chunk_id: 4994d6b5f8c6  | Mitoxantrone | boxed_warning | fused=0.00909
+      induced DNA damage in primary rat hepatocytes and sister chromatid exchanges in Chinese hamster ovary cells. Mitoxantrone was mutagenic in bacterial and mammalian test systems (Ames/Salmonella and E. coli and L5178Y TK+/-mouse lymphoma). Drug Interactions Mitoxantrone and its metabolites are excreted in bile and urine, but it is not known whether the metabolic or excretory pathways are saturable, may be inhibited or induced, or if mitoxantrone and its metabolites undergo enterohepatic circulatio
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  WP-008  [warnings]  expected_drug=Briumvi
+  QUERY: What are the warnings for ublituximab?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: ef67970e0af8  | Aubagio | warnings_and_precautions | fused=0.01593
+      of therapy and for further investigation as appropriate. If discontinuation of the drug is necessary, consider initiation of an accelerated elimination procedure [see Warnings and Precautions (5.3)]. 5.12 Pancreatitis in Pediatric Patients AUBAGIO is not approved for use in pediatric patients. In the pediatric clinical trial, cases of pancreatitis were observed in 1.8% (2/109) of patients receiving AUBAGIO; one of these cases was serious [see Use in Specific Populations (8.4)]. If pancreatitis i
+
+  [2] chunk_id: de3e5296bd15  | Zeposia | warnings_and_precautions | fused=0.01568
+      5 WARNINGS AND PRECAUTIONS • Infections: ZEPOSIA may increase the risk of infections. Obtain a complete blood count (CBC) before initiation of treatment. Monitor for infection during treatment and for 3 months after discontinuation. Do not start ZEPOSIA in patients with active infections. (5.1) • Progressive Multifocal Leukoencephalopathy (PML): Withhold ZEPOSIA at the first sign or symptom suggestive of PML. (5.2) • Bradyarrhythmia and Atrioventricular Conduction Delays: ZEPOSIA may result in t
+
+  [3] chunk_id: cc6a05a4b178  | Aubagio | warnings_and_precautions | fused=0.01520
+      ment. Peripheral neuropathy also occurred in patients receiving leflunomide. Age older than 60 years, concomitant neurotoxic medications, and diabetes may increase the risk for peripheral neuropathy. If a patient taking AUBAGIO develops symptoms consistent with peripheral neuropathy, such as bilateral numbness or tingling of hands or feet, consider discontinuing AUBAGIO therapy and performing an accelerated elimination procedure [see Warnings and Precautions (5.3)]. 5.10 Increased Blood Pressure
+
+  [4] chunk_id: 3ff516fe3cd2  | Ponvory | warnings_and_precautions | fused=0.01445
+      5 WARNINGS AND PRECAUTIONS Infections: PONVORY may increase the risk of infections. Obtain a complete blood count (CBC) before initiating treatment. Monitor for infection during treatment and for 1-2 weeks after discontinuation. Do not start PONVORY in patients with active infection. (5.1) Bradyarrhythmia and Atrioventricular Conduction Delays: PONVORY may result in a transient decrease in heart rate; titration is required for treatment initiation. Check an electrocardiogram (ECG) to assess for 
+
+  [5] chunk_id: 5a4eb6b250ed  | Briumvi | warnings_and_precautions | fused=0.00984
+      5 WARNINGS AND PRECAUTIONS Infusion Reactions: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue BRIUMVI if a life-threatening or disabling infusion reaction occurs ( 2.3, 5.1). Infections: Serious, including life-threatening and fatal infections, have occurred. Delay BRIUMVI administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommen
+
+  [6] chunk_id: c6aa97432d18  | Aubagio | warnings_and_precautions | fused=0.00968
+      erculosis have been observed. Prior to initiating AUBAGIO, screen patients for latent tuberculosis infection with a tuberculin skin test or with a blood test for mycobacterium tuberculosis infection. AUBAGIO has not been studied in patients with a positive tuberculosis screen, and the safety of AUBAGIO in individuals with latent tuberculosis infection is unknown. For patients testing positive in tuberculosis screening, treat by standard medical practice prior to therapy with AUBAGIO. Vaccination
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DA-001  [dosing]  expected_drug=Ocrevus
+  QUERY: What is the recommended dose for ocrelizumab?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: f9afbe6cc42b  | Rebif | dosage_and_administration | fused=0.01501
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional 
+
+  [2] chunk_id: c87349f71b0e  | Ocrevus | dosage_and_administration | fused=0.01484
+      ous infusion. Subsequent doses: single 600 mg intravenous infusion every 6 months. Observe the patient for at least one hour after the completion of the infusion [see Warnings and Precautions (5.1)]. Table 1 Recommended Dose, Infusion Rate, and Infusion Duration for RMS and PPMS Amount and Volume Solutions of OCREVUS for intravenous infusion are prepared by dilution of the drug product into an infusion bag containing 0.9% Sodium Chloride Injection, to a final drug concentration of approximately 
+
+  [3] chunk_id: 4a94bfbe206b  | Avonex | dosage_and_administration | fused=0.01478
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional 
+
+  [4] chunk_id: 9b1083a5368d  | Modafinil | dosage_and_administration | fused=0.01435
+      2 DOSAGE AND ADMINISTRATION The recommended dosage of modafinil for each indication is as follows: Narcolepsy or OSA: 200 mg once a day in the morning. ( 2.1) SWD: 200 mg once a day, taken approximately one hour prior to start of the work shift. ( 2.2) Severe Hepatic Impairment: reduce dose to half the recommended dose ( 2.3, 12.3) Geriatric Patients: consider lower dose. ( 2.4, 12.3) 2.1 Dosage in Narcolepsy and Obstructive Sleep Apnea (OSA) The recommended dosage of modafinil for patients with
+
+  [5] chunk_id: abb5f17263ed  | Gabapentin | dosage_and_administration | fused=0.01422
+      day. Dosages up to 2,400 mg/day have been administered in long-term clinical studies. Doses of 3,600 mg/day have also been administered to a small number of patients for a relatively short duration. Administer gabapentin three times a day using 300 mg or 400 mg capsules, or 600 mg or 800 mg tablets. The maximum time between doses should not exceed 12 hours. Pediatric Patients Age 3 to 11 Years The starting dose range is 10 mg/kg/day to 15 mg/kg/day, given in three divided doses, and the recommen
+
+  [6] chunk_id: fe92bc492cef  | Lemtrada | dosage_and_administration | fused=0.01324
+      2 DOSAGE AND ADMINISTRATION Administer as an intravenous infusion over 2 hours. (2.1) Escalate to recommended dose of 30 mg/day three times per week for 12 weeks. (2.1) Premedicate with oral antihistamine and acetaminophen. (2.2) 2.1 Dosing Schedule and Administration Administer as an intravenous infusion over 2 hours. Do not administer as intravenous push or bolus. Recommended Dosing Regimen Gradually escalate to the maximum recommended single dose of 30 mg. Escalation is required at initiation
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DA-002  [dosing]  expected_drug=Tysabri
+  QUERY: How is natalizumab administered?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 5e03a9fdeb6a  | Gilenya | dosage_and_administration | fused=0.00984
+      rt rate and AV conduction may recur on reintroduction of fingolimod treatment [see Dosage and Administration (2.4)]. The same precautions (first-dose monitoring) as for initial dosing are applicable. Within the first 2 weeks of treatment, first-dose procedures are recommended after interruption of 1 day or more; during Weeks 3 and 4 of treatment, first-dose procedures are recommended after treatment interruption of more than 7 days.
+
+  [2] chunk_id: 934dcb31d207  | Gilenya | dosage_and_administration | fused=0.00968
+      AV) conduction [see Dosage and Administration (2.4), Drug Interactions (7.5)]. Complete Blood Count (CBC) Review results of a recent CBC [see Warnings and Precautions (5.2), Drug Interactions (7.6)]. Serum Transaminases (ALT and AST) and Total Bilirubin Levels Prior to starting treatment with fingolimod (i.e., within 6 months), obtain serum transaminases [alanine transaminase (ALT) and aspartate transferase (AST)] and total bilirubin levels [see Warnings and Precautions (5.5)]. Ophthalmic Assess
+
+  [3] chunk_id: 741637435066  | Ponvory | dosage_and_administration | fused=0.00952
+      f treatment needs to be reinitiated with Day 1 of the titration regimen (new starter pack), complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.3)].
+
+  [4] chunk_id: 2b9850f89cd3  | Solu-Medrol | dosage_and_administration | fused=0.00937
+      DOSAGE AND ADMINISTRATION The initial dosage of methylprednisolone tablets may vary from 4 mg to 48 mg of methylprednisolone per day depending on the specific disease entity being treated. In situations of less severity lower doses will generally suffice while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, 
+
+  [5] chunk_id: 9f2254c44f67  | Gilenya | dosage_and_administration | fused=0.00923
+      iscontinuation for longer than 14 days, require first-dose monitoring. This monitoring is also recommended when the dose is increased in pediatric patients [see Dosage and Administration (2.4, 2.5)]. Fingolimod capsules can be taken with or without food. 2.3 Recommended Dosage In adults and pediatric patients 10 years of age and older weighing more than 40 kg, the recommended dosage of fingolimod capsules is 0.5 mg orally once-daily. In pediatric patients 10 years of age and older weighing less 
+
+  [6] chunk_id: 8a57bc0899ff  | Gilenya | dosage_and_administration | fused=0.00909
+      t, first-dose procedures are recommended after interruption of 1 day or more; during Weeks 3 and 4 of treatment, first-dose procedures are recommended after treatment interruption of more than 7 days.
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DA-003  [dosing]  expected_drug=Lemtrada
+  QUERY: What is the dosing schedule for alemtuzumab?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: fe92bc492cef  | Lemtrada | dosage_and_administration | fused=0.01623
+      2 DOSAGE AND ADMINISTRATION Administer as an intravenous infusion over 2 hours. (2.1) Escalate to recommended dose of 30 mg/day three times per week for 12 weeks. (2.1) Premedicate with oral antihistamine and acetaminophen. (2.2) 2.1 Dosing Schedule and Administration Administer as an intravenous infusion over 2 hours. Do not administer as intravenous push or bolus. Recommended Dosing Regimen Gradually escalate to the maximum recommended single dose of 30 mg. Escalation is required at initiation
+
+  [2] chunk_id: 7042bc8ed97e  | Kesimpta | dosage_and_administration | fused=0.01524
+      0 mg on Day 1, followed 1 week later by 1,000 mg on Day 8 (Cycle 1), followed by 1,000 mg on Day 1 of subsequent 28-day cycles for a minimum of 3 cycles until best response or a maximum of 12 cycles. Relapsed CLL: The recommended dosage and schedule in combination with fludarabine and cyclophosphamide is: 300 mg on Day 1, followed 1 week later by 1,000 mg on Day 8 (Cycle 1), followed by 1,000 mg on Day 1 of subsequent 28-day cycles for a maximum of 6 cycles. Extended Treatment in CLL: The recomm
+
+  [3] chunk_id: f41be12dd9ec  | Baclofen | dosage_and_administration | fused=0.01493
+      DOSAGE AND ADMINISTRATION The determination of optimal dosage requires individual titration. Start therapy at a low dosage and increase gradually until optimum effect is achieved (usually between 40-80 mg daily). The following dosage titration schedule is suggested: 5 mg t.i.d. for 3 days 10 mg t.i.d. for 3 days 15 mg t.i.d. for 3 days 20 mg t.i.d. for 3 days Thereafter additional increases may be necessary but the total daily dose should not exceed a maximum of 80 mg daily (20 mg q.i.d.). The l
+
+  [4] chunk_id: ceef62f23d00  | Kesimpta | dosage_and_administration | fused=0.01430
+      2 DOSAGE AND ADMINISTRATION Dilute and administer as an intravenous infusion. Do not administer subcutaneously or as an intravenous push or bolus. (2.1) Previously untreated CLL in combination with chlorambucil recommended dosage and schedule is: 300 mg on Day 1 followed by 1,000 mg on Day 8 (Cycle 1) 1,000 mg on Day 1 of subsequent 28-day cycles for a minimum of 3 cycles until best response or a maximum of 12 cycles. (2.1) Relapsed CLL in combination with fludarabine and cyclophosphamide recomm
+
+  [5] chunk_id: 581250a76c67  | Copaxone | dosage_and_administration | fused=0.01414
+      2 DOSAGE AND ADMINISTRATION For subcutaneous injection only; doses are not interchangeable (2.1) Glatiramer Acetate Injection 20 mg/mL per day (2.1) Glatiramer Acetate Injection 40 mg/mL three times per week (2.1) Before use, allow the solution to warm to room temperature (2.2) 2.1 Recommended Dose Glatiramer Acetate Injection is for subcutaneous use only [see Dosage and Administration (2.2)]. Do not administer intravenously. The dosing schedule depends on the product strength that is selected. 
+
+  [6] chunk_id: 9a5383ba766d  | Mavenclad | dosage_and_administration | fused=0.01330
+      DOSAGE AND ADMINISTRATION Usual Dose The recommended dose and schedule of cladribine injection, USP for active Hairy Cell Leukemia is as a single course given by continuous infusion for 7 consecutive days at a dose of 0.09 mg/kg/day. Deviations from this dosage regimen are not advised. If the patient does not respond to the initial course of cladribine injection, USP for Hairy Cell Leukemia, it is unlikely that they will benefit from additional courses. Physicians should consider delaying or dis
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DA-004  [dosing]  expected_drug=Gilenya
+  QUERY: How should fingolimod be initiated?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 934dcb31d207  | Gilenya | dosage_and_administration | fused=0.01623
+      AV) conduction [see Dosage and Administration (2.4), Drug Interactions (7.5)]. Complete Blood Count (CBC) Review results of a recent CBC [see Warnings and Precautions (5.2), Drug Interactions (7.6)]. Serum Transaminases (ALT and AST) and Total Bilirubin Levels Prior to starting treatment with fingolimod (i.e., within 6 months), obtain serum transaminases [alanine transaminase (ALT) and aspartate transferase (AST)] and total bilirubin levels [see Warnings and Precautions (5.5)]. Ophthalmic Assess
+
+  [2] chunk_id: 5e03a9fdeb6a  | Gilenya | dosage_and_administration | fused=0.01581
+      rt rate and AV conduction may recur on reintroduction of fingolimod treatment [see Dosage and Administration (2.4)]. The same precautions (first-dose monitoring) as for initial dosing are applicable. Within the first 2 weeks of treatment, first-dose procedures are recommended after interruption of 1 day or more; during Weeks 3 and 4 of treatment, first-dose procedures are recommended after treatment interruption of more than 7 days.
+
+  [3] chunk_id: 9f2254c44f67  | Gilenya | dosage_and_administration | fused=0.01554
+      iscontinuation for longer than 14 days, require first-dose monitoring. This monitoring is also recommended when the dose is increased in pediatric patients [see Dosage and Administration (2.4, 2.5)]. Fingolimod capsules can be taken with or without food. 2.3 Recommended Dosage In adults and pediatric patients 10 years of age and older weighing more than 40 kg, the recommended dosage of fingolimod capsules is 0.5 mg orally once-daily. In pediatric patients 10 years of age and older weighing less 
+
+  [4] chunk_id: 68642ca14e35  | Gilenya | dosage_and_administration | fused=0.01541
+      2 DOSAGE AND ADMINISTRATION Assessments are required prior to initiating fingolimod capsules (2.1) Recommended dosage for adults and pediatric patients (10 years of age and older) weighing more than 40 kg: 0.5 mg orally once daily, with or without food. (2.2, 2.3) Recommended dosage for pediatric patients (10 years of age and above) weighing less than or equal to 40 kg: 0.25 mg orally once daily, with or without food. (2.2, 2.3) First-Dose Monitoring (including reinitiation after discontinuation
+
+  [5] chunk_id: 307f5c2ce9d7  | Gilenya | dosage_and_administration | fused=0.01463
+      est value postdose suggesting that the maximum pharmacodynamic effect on the heart may not have occurred; the ECG 6 hours postdose shows new onset second degree or higher atrioventricular (AV) block. If postdose symptomatic bradycardia occurs, initiate appropriate management, begin continuous ECG monitoring, and continue monitoring until the symptoms have resolved if no pharmacological treatment is required. If pharmacological treatment is required, continue monitoring overnight and repeat 6-hou
+
+  [6] chunk_id: 2b9850f89cd3  | Solu-Medrol | dosage_and_administration | fused=0.01333
+      DOSAGE AND ADMINISTRATION The initial dosage of methylprednisolone tablets may vary from 4 mg to 48 mg of methylprednisolone per day depending on the specific disease entity being treated. In situations of less severity lower doses will generally suffice while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, 
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DA-005  [dosing]  expected_drug=Ponvory
+  QUERY: What is the titration schedule for ponesimod?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: f41be12dd9ec  | Baclofen | dosage_and_administration | fused=0.01597
+      DOSAGE AND ADMINISTRATION The determination of optimal dosage requires individual titration. Start therapy at a low dosage and increase gradually until optimum effect is achieved (usually between 40-80 mg daily). The following dosage titration schedule is suggested: 5 mg t.i.d. for 3 days 10 mg t.i.d. for 3 days 15 mg t.i.d. for 3 days 20 mg t.i.d. for 3 days Thereafter additional increases may be necessary but the total daily dose should not exceed a maximum of 80 mg daily (20 mg q.i.d.). The l
+
+  [2] chunk_id: 41214aaa7b45  | Ponvory | dosage_and_administration | fused=0.01558
+      ck or QTc greater than or equal to 500 msec, initiate appropriate management, begin continuous ECG monitoring, and continue monitoring until the symptoms have resolved if no pharmacological treatment is required. If pharmacological treatment is required, continue monitoring overnight and repeat 4-hour monitoring after the second dose. Advice from a cardiologist should be sought to determine the most appropriate monitoring strategy (which may include overnight monitoring) during treatment initiat
+
+  [3] chunk_id: 741637435066  | Ponvory | dosage_and_administration | fused=0.01524
+      f treatment needs to be reinitiated with Day 1 of the titration regimen (new starter pack), complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.3)].
+
+  [4] chunk_id: bbbe5c50f161  | Mayzent | dosage_and_administration | fused=0.01516
+      atment with Day 1 of the titration regimen [see Dosage and Administration (2.2, 2.3)]; also complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.4)].
+
+  [5] chunk_id: 86d18f43ff7d  | Ponvory | dosage_and_administration | fused=0.01515
+      tion Obtain a baseline skin examination prior to or shortly after initiation of PONVORY. If a suspicious skin lesion is observed, it should be promptly evaluated [see Warnings and Precautions (5.6)]. Current or Prior Medications with Immune System Effects If patients are taking anti-neoplastic, immunosuppressive, or immune-modulating therapies, or if there is a history of prior use of these drugs, consider possible unintended additive immunosuppressive effects before initiating treatment with PO
+
+  [6] chunk_id: 1524e33fabe5  | Plegridy | dosage_and_administration | fused=0.01478
+      uivalence demonstrated between the two routes of administration. Subcutaneous Administration of PLEGRIDY Patients using PLEGRIDY for the first time should start treatment with 63 micrograms on day 1. On day 15 (14 days later), the dose is increased to 94 micrograms, reaching the full dose of 125 micrograms on day 29 (after another 14 days). Patients continue with the full dose (125 micrograms) every 14 days thereafter (see Table 1). A PLEGRIDY Starter Pack is available containing two prefilled p
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DA-006  [dosing]  expected_drug=Kesimpta
+  QUERY: What is the dosing for ofatumumab?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: f9afbe6cc42b  | Rebif | dosage_and_administration | fused=0.01498
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional 
+
+  [2] chunk_id: fe92bc492cef  | Lemtrada | dosage_and_administration | fused=0.01489
+      2 DOSAGE AND ADMINISTRATION Administer as an intravenous infusion over 2 hours. (2.1) Escalate to recommended dose of 30 mg/day three times per week for 12 weeks. (2.1) Premedicate with oral antihistamine and acetaminophen. (2.2) 2.1 Dosing Schedule and Administration Administer as an intravenous infusion over 2 hours. Do not administer as intravenous push or bolus. Recommended Dosing Regimen Gradually escalate to the maximum recommended single dose of 30 mg. Escalation is required at initiation
+
+  [3] chunk_id: d2b434c4aa14  | Vumerity | dosage_and_administration | fused=0.01479
+      2 DOSAGE AND ADMINISTRATION Blood tests are required prior to initiation of VUMERITY (2.1) Starting dose: 231 mg twice a day, orally, for 7 days (2.2) Maintenance dose after 7 days: 462 mg (administered as two 231 mg capsules) twice a day, orally (2.2) Swallow VUMERITY capsules whole and intact. Do not crush, chew, or sprinkle capsule contents on food (2.3) Avoid administration of VUMERITY with a high-fat, high-calorie meal/snack (2.3) Avoid co-administration of VUMERITY with alcohol (2.3) 2.1 B
+
+  [4] chunk_id: 4a94bfbe206b  | Avonex | dosage_and_administration | fused=0.01476
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional 
+
+  [5] chunk_id: 97382878a88a  | Bafiertam | dosage_and_administration | fused=0.01417
+      2 DOSAGE AND ADMINISTRATION Blood tests are required prior to initiation of BAFIERTAM. (2.1) Starting dose: 95 mg twice a day, orally, for 7 days (2.2) Maintenance dose after 7 days: 190 mg (administered as two 95 mg capsules) twice a day, orally (2.2) Swallow BAFIERTAM capsules whole and intact. Do not crush, chew, or mix contents with food. (2.3) Take BAFIERTAM with or without food. (2.3) 2.1 Blood Tests Prior to Initiation of BAFIERTAM Obtain the following prior to treatment with BAFIERTAM: A
+
+  [6] chunk_id: 5da71a125b5c  | Zanaflex | dosage_and_administration | fused=0.01374
+      Single doses greater than 16 mg have not been studied. There are pharmacokinetic differences when administering tizanidine tablets between the fed or fasted state [see Clinical Pharmacology (12.3)] . Tizanidine tablets may be taken with or without food; however, consistent administration with respect to food is recommended to reduce variability in tizanidine plasma exposure. Because of the short duration of therapeutic effect, treatment with tizanidine tablets should be reserved for those daily 
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DI-001  [interactions]  expected_drug=Gilenya
+  QUERY: Does fingolimod interact with beta blockers?
+  expected_section: drug_interactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: c85cc8670fc7  | Gilenya | drug_interactions | fused=0.01639
+      ncluding corticosteroids) are expected to increase the risk of immunosuppression, and the risk of additive immune system effects must be considered if these therapies are coadministered with fingolimod. When switching from drugs with prolonged immune effects, such as natalizumab, teriflunomide or mitoxantrone, the duration and mode of action of these drugs must be considered to avoid unintended additive immunosuppressive effects when initiating fingolimod [see Warnings and Precautions (5.2)]. 7.
+
+  [2] chunk_id: 1345508d8a34  | Gilenya | drug_interactions | fused=0.01613
+      7 DRUG INTERACTIONS Systemic Ketoconazole: Monitor during concomitant use. (7.2, 12.3) Vaccines: Avoid live attenuated vaccines during, and for 2 months after stopping fingolimod treatment. (5.2, 7.3) 7.1 QT Prolonging Drugs Fingolimod has not been studied in patients treated with drugs that prolong the QT interval. Drugs that prolong the QT interval have been associated with cases of torsades de pointes in patients with bradycardia. Since initiation of fingolimod treatment results in decreased 
+
+  [3] chunk_id: 8b5b8b755f39  | Zeposia | drug_interactions | fused=0.01470
+      7 DRUG INTERACTIONS Tables 5 and 6 include drugs with clinically important drug and vaccine interactions when administered concomitantly with ZEPOSIA and instructions for preventing or managing them. Table 5: Clinically Relevant Interactions Affecting Drugs and Vaccines Co-administered with ZEPOSIA Anti-Neoplastic, Immune-Modulating, or Non-Corticosteroid Immunosuppressive Therapies Clinical Impact: ZEPOSIA has not been studied in combination with anti-neoplastic, immune-modulating, or non-corti
+
+  [4] chunk_id: 7234f37e49b2  | Ampyra | drug_interactions | fused=0.00952
+      7 DRUG INTERACTIONS OCT2 Inhibitors: Concomitant use may cause an increased exposure and potential risk of seizures (7.1) 7.1 OCT2 Inhibitors Concurrent treatment with OCT2 inhibitors, such as cimetidine, may cause increased exposure to dalfampridine [see Clinical Pharmacology (12.3) ]. Elevated levels of dalfampridine increase the risk of seizures [see Warnings and Precautions (5.1, 5.2) ]. The potential benefits of taking OCT2 inhibitors concurrently with AMPYRA should be considered against th
+
+  [5] chunk_id: b7c88d61b3ec  | Briumvi | drug_interactions | fused=0.00937
+      7 DRUG INTERACTIONS 7.1 Immunosuppressive or Immune-Modulating Therapies The concomitant usage of BRIUMVI with other immune-modulating or immunosuppressant drugs, including immunosuppressant doses of corticosteroids, may increase the risk of infection. Consider the risk of additive immune system effects when co-administering immunosuppressive therapies with BRIUMVI. When switching from therapies with immune effects, the duration and mechanism of action of these therapies should be taken into acc
+
+  [6] chunk_id: d3b2be9e324d  | Mayzent | drug_interactions | fused=0.00923
+      7 DRUG INTERACTIONS Vaccination: Avoid live-attenuated vaccines during and for up to 4 weeks after treatment with MAYZENT. (7.4) CYP2C9 and Dual CYP2C9/3A4 Inhibitors: Strong CYP2C9 inhibitors increase siponimod exposure; concomitant use with MAYZENT is not recommended. Monitor for adverse reactions during concomitant use of MAYZENT with moderate CYP2C9 inhibitors or moderate CYP2C9/CYP3A4 dual inhibitors. (7.5) CYP2C9 and CYP3A4 Inducers: Dual moderate CYP2C9/strong CYP3A4 inducers decrease sip
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DI-002  [interactions]  expected_drug=Aubagio
+  QUERY: What drugs interact with teriflunomide?
+  expected_section: drug_interactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: d3b2be9e324d  | Mayzent | drug_interactions | fused=0.01544
+      7 DRUG INTERACTIONS Vaccination: Avoid live-attenuated vaccines during and for up to 4 weeks after treatment with MAYZENT. (7.4) CYP2C9 and Dual CYP2C9/3A4 Inhibitors: Strong CYP2C9 inhibitors increase siponimod exposure; concomitant use with MAYZENT is not recommended. Monitor for adverse reactions during concomitant use of MAYZENT with moderate CYP2C9 inhibitors or moderate CYP2C9/CYP3A4 dual inhibitors. (7.5) CYP2C9 and CYP3A4 Inducers: Dual moderate CYP2C9/strong CYP3A4 inducers decrease sip
+
+  [2] chunk_id: 8b5b8b755f39  | Zeposia | drug_interactions | fused=0.01538
+      7 DRUG INTERACTIONS Tables 5 and 6 include drugs with clinically important drug and vaccine interactions when administered concomitantly with ZEPOSIA and instructions for preventing or managing them. Table 5: Clinically Relevant Interactions Affecting Drugs and Vaccines Co-administered with ZEPOSIA Anti-Neoplastic, Immune-Modulating, or Non-Corticosteroid Immunosuppressive Therapies Clinical Impact: ZEPOSIA has not been studied in combination with anti-neoplastic, immune-modulating, or non-corti
+
+  [3] chunk_id: b7d654eb3184  | Modafinil | drug_interactions | fused=0.01495
+      7 DRUG INTERACTIONS Effects of Modafinil on CYP3A4/5 Substrates The clearance of drugs that are substrates for CYP3A4/5 (e.g., steroidal contraceptives, cyclosporine, midazolam, and triazolam) may be increased by modafinil via induction of metabolic enzymes, which results in lower systemic exposure. Dosage adjustment of these drugs should be considered when these drugs are used concomitantly with modafinil [see Clinical Pharmacology ( 12.3)] . The effectiveness of steroidal contraceptives may be
+
+  [4] chunk_id: 4ce88e78dc5d  | Aubagio | drug_interactions | fused=0.01494
+      7 DRUG INTERACTIONS Drugs metabolized by CYP2C8 and OAT3 transporters: Monitor patients because teriflunomide may increase exposure of these drugs. (7) Teriflunomide may increase exposure of ethinylestradiol and levonorgestrel. Choose an appropriate oral contraceptive. (7) Drugs metabolized by CYP1A2: Monitor patients because teriflunomide may decrease exposure of these drugs. (7) Warfarin: Monitor INR as teriflunomide may decrease INR. (7) Drugs metabolized by BCRP and OATP1B1/B3 transporters: 
+
+  [5] chunk_id: bc54863111ad  | Mavenclad | drug_interactions | fused=0.01484
+      Drug Interactions There are no known drug interactions with cladribine injection. Caution should be exercised if cladribine injection is administered before, after, or in conjunction with other drugs known to cause immunosuppression or myelosuppression. (see WARNINGS)
+
+  [6] chunk_id: c85cc8670fc7  | Gilenya | drug_interactions | fused=0.01467
+      ncluding corticosteroids) are expected to increase the risk of immunosuppression, and the risk of additive immune system effects must be considered if these therapies are coadministered with fingolimod. When switching from drugs with prolonged immune effects, such as natalizumab, teriflunomide or mitoxantrone, the duration and mode of action of these drugs must be considered to avoid unintended additive immunosuppressive effects when initiating fingolimod [see Warnings and Precautions (5.2)]. 7.
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DI-003  [interactions]  expected_drug=Mayzent
+  QUERY: Are there drug interactions with siponimod?
+  expected_section: drug_interactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 9af07fb45ab3  | Mitoxantrone | drug_interactions | fused=0.01613
+      Drug Interactions Mitoxantrone and its metabolites are excreted in bile and urine, but it is not known whether the metabolic or excretory pathways are saturable, may be inhibited or induced, or if mitoxantrone and its metabolites undergo enterohepatic circulation. To date, post-marketing experience has not revealed any significant drug interactions in patients who have received mitoxantrone for treatment of cancer. Information on drug interactions in patients with multiple sclerosis is limited. 
+
+  [2] chunk_id: a77cc50d2f17  | Lemtrada | drug_interactions | fused=0.01609
+      7 DRUG INTERACTIONS No formal drug interaction studies have been performed with CAMPATH.
+
+  [3] chunk_id: 6f0e4b5e96a7  | Solu-Medrol | drug_interactions | fused=0.01558
+      DRUG INTERACTIONS The pharmacokinetic interactions listed below are potentially clinically important. Mutual inhibition of metabolism occurs with concurrent use of cyclosporin and methylprednisolone; therefore, it is possible that adverse events associated with the individual use of either drug may be more apt to occur. Convulsions have been reported with concurrent use of methylprednisolone and cyclosporin. Drugs that induce hepatic enzymes such as phenobarbital, phenytoin and rifampin may incr
+
+  [4] chunk_id: bc54863111ad  | Mavenclad | drug_interactions | fused=0.01551
+      Drug Interactions There are no known drug interactions with cladribine injection. Caution should be exercised if cladribine injection is administered before, after, or in conjunction with other drugs known to cause immunosuppression or myelosuppression. (see WARNINGS)
+
+  [5] chunk_id: 7234f37e49b2  | Ampyra | drug_interactions | fused=0.01508
+      7 DRUG INTERACTIONS OCT2 Inhibitors: Concomitant use may cause an increased exposure and potential risk of seizures (7.1) 7.1 OCT2 Inhibitors Concurrent treatment with OCT2 inhibitors, such as cimetidine, may cause increased exposure to dalfampridine [see Clinical Pharmacology (12.3) ]. Elevated levels of dalfampridine increase the risk of seizures [see Warnings and Precautions (5.1, 5.2) ]. The potential benefits of taking OCT2 inhibitors concurrently with AMPYRA should be considered against th
+
+  [6] chunk_id: 8b5b8b755f39  | Zeposia | drug_interactions | fused=0.01476
+      7 DRUG INTERACTIONS Tables 5 and 6 include drugs with clinically important drug and vaccine interactions when administered concomitantly with ZEPOSIA and instructions for preventing or managing them. Table 5: Clinically Relevant Interactions Affecting Drugs and Vaccines Co-administered with ZEPOSIA Anti-Neoplastic, Immune-Modulating, or Non-Corticosteroid Immunosuppressive Therapies Clinical Impact: ZEPOSIA has not been studied in combination with anti-neoplastic, immune-modulating, or non-corti
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  DI-004  [interactions]  expected_drug=Zanaflex
+  QUERY: Can tizanidine be taken with CYP1A2 inhibitors?
+  expected_section: drug_interactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 1a6b54c51433  | Zanaflex | drug_interactions | fused=0.01639
+      7 DRUG INTERACTIONS Moderate or weak CYP1A2 inhibitors: avoid concomitant use; may cause hypotension, bradycardia, or excessive drowsiness; if concomitant use is necessary and adverse reactions occur, reduce tizanidine hydrochloride dosage or discontinue. ( 7.2, 12.3) 7.1 Strong CYP1A2 Inhibitors Concomitant use of tizanidine hydrochloride with strong cytochrome P450 1A2 (CYP1A2) inhibitors (e.g., fluvoxamine, ciprofloxacin) is contraindicated. Changes in pharmacokinetics of tizanidine when admi
+
+  [2] chunk_id: 4ce88e78dc5d  | Aubagio | drug_interactions | fused=0.01572
+      7 DRUG INTERACTIONS Drugs metabolized by CYP2C8 and OAT3 transporters: Monitor patients because teriflunomide may increase exposure of these drugs. (7) Teriflunomide may increase exposure of ethinylestradiol and levonorgestrel. Choose an appropriate oral contraceptive. (7) Drugs metabolized by CYP1A2: Monitor patients because teriflunomide may decrease exposure of these drugs. (7) Warfarin: Monitor INR as teriflunomide may decrease INR. (7) Drugs metabolized by BCRP and OATP1B1/B3 transporters: 
+
+  [3] chunk_id: fabfed027b69  | Zanaflex | drug_interactions | fused=0.01554
+      r CNS Depressants Alcohol increases the exposure of tizanidine after administration of tizanidine hydrochloride. This was associated with an increase in adverse reactions of tizanidine hydrochloride. Concomitant use of tizanidine hydrochloride with CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) may cause additive CNS depressant effects, including sedation. Monitor patients who take tizanidine hydrochloride with another CNS depressant for symptoms of excess s
+
+  [4] chunk_id: a3904ec53b32  | Zanaflex | drug_interactions | fused=0.01485
+      with antihypertensive medications may cause additive hypotensive effects [see Warnings and Precautions (5.1)] . Monitor patients who take Tizanidine with antihypertensive medications for hypotension.
+
+  [5] chunk_id: 665511b0ee6e  | Mayzent | drug_interactions | fused=0.01367
+      ing drugs. Class Ia (e.g., quinidine, procainamide) and Class III (e.g., amiodarone, sotalol) antiarrhythmic drugs have been associated with cases of Torsades de Pointes in patients with bradycardia. If treatment with MAYZENT is considered, advice from a cardiologist should be sought. Because of the potential additive effects on heart rate, treatment with MAYZENT should generally not be initiated in patients who are concurrently treated with QT prolonging drugs with known arrhythmogenic properti
+
+  [6] chunk_id: a4c3014b7124  | Modafinil | drug_interactions | fused=0.00968
+      ment. ( 7) Cyclosporine: Blood concentrations of cyclosporine may be reduced. ( 7) CYP2C19 substrates, such as omeprazole, phenytoin, and diazepam: Exposure of these medications may be increased. ( 7)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  SP-001  [populations]  expected_drug=Aubagio
+  QUERY: Is teriflunomide safe during pregnancy?
+  expected_section: use_in_specific_populations
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: ba10ad28e22e  | Aubagio | use_in_specific_populations | fused=0.01629
+      8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Risk Summary AUBAGIO is contraindicated for use in pregnant women and females of reproductive potential not using effective contraception because of the potential for fetal harm based on animal data [see Contraindications (4) and Warnings and Precautions (5.2)]. In animal reproduction studies in rat and rabbit, oral administration of teriflunomide during organogenesis caused teratogenicity and embryolethality at plasma exposures (AUC) lower than that a
+
+  [2] chunk_id: fd4311e9a572  | Aubagio | use_in_specific_populations | fused=0.01603
+      reactions Lowering the plasma concentration of teriflunomide by instituting an accelerated drug elimination procedure as soon as pregnancy is detected may decrease the risk to the fetus from AUBAGIO. The accelerated drug elimination procedure includes verification that the plasma teriflunomide concentration is less than 0.02 mg/L [see Warnings and Precautions (5.3) and Clinical Pharmacology (12.3)]. Data Human data Available human data are limited. Prospectively reported data (from clinical tria
+
+  [3] chunk_id: 4f2ce5c216fe  | Aubagio | use_in_specific_populations | fused=0.01577
+      genesis. Maternal plasma exposure at the no-effect level (1.0 mg/kg/day) for fetal developmental toxicity in rats was less than that in humans at the maximum recommended human dose (MRHD, 14 mg/day). Administration of teriflunomide (oral doses of 1, 3.5, or 12 mg/kg/day) to pregnant rabbits throughout organogenesis resulted in high incidences of fetal malformation (primarily craniofacial, and axial and appendicular skeletal defects) and fetal death at doses associated with minimal maternal toxic
+
+  [4] chunk_id: 431b0b11be74  | Aubagio | use_in_specific_populations | fused=0.01565
+      se) is the same for therapeutic efficacy and developmental toxicity. At recommended doses in humans, teriflunomide and leflunomide result in a similar range of plasma concentrations of teriflunomide. 8.2 Lactation Risk Summary There are no data on the presence of AUBAGIO in human milk, the effects on the breastfed infant, or the effects on milk production. Teriflunomide was detected in rat milk following a single oral dose. Because of the potential for adverse reactions in a breastfed infant fro
+
+  [5] chunk_id: f676a46954c0  | Gilenya | use_in_specific_populations | fused=0.01479
+      reased incidences of fetal malformations and embryofetal deaths were observed at all but the lowest dose tested (0.03 mg/kg/day), which is less than the recommended human dose (RHD) on a mg/m2 basis. Oral administration to pregnant rabbits during organogenesis (0, 0.5, 1.5, and 5 mg/kg/day) resulted in increased incidences of embryofetal mortality and fetal growth retardation at the mid and high doses. The no-effect dose for these effects in rabbits (0.5 mg/kg/day) is approximately 20 times the 
+
+  [6] chunk_id: e02218b76069  | Aubagio | use_in_specific_populations | fused=0.01476
+      aluate the risk of male mediated fetal toxicity have not been conducted. To minimize any possible risk, men not wishing to father a child and their female partners should use effective contraception. Men wishing to father a child should discontinue use of AUBAGIO and either undergo an accelerated elimination procedure or wait until verification that the plasma teriflunomide concentration is less than 0.02 mg/L (0.02 mcg/mL) [see Warnings and Precautions (5.3)]. 8.4 Pediatric Use Safety and effec
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  SP-002  [populations]  expected_drug=Gilenya
+  QUERY: Can fingolimod be used in pediatric patients?
+  expected_section: use_in_specific_populations
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: ca574a4b6b27  | Gilenya | use_in_specific_populations | fused=0.01639
+      on the potential for a serious risk to the fetus and the need for effective contraception during treatment with fingolimod [see Warnings and Precautions (5.8) and Use in Specific Populations (8.1)]. Since it takes approximately 2 months to eliminate the compound from the body after stopping treatment, the potential risk to the fetus may persist and women should use effective contraception during this period [see Warnings and Precautions (5.8, 5.13)]. 8.4 Pediatric Use Safety and effectiveness of
+
+  [2] chunk_id: ec6d0d386a8b  | Gilenya | use_in_specific_populations | fused=0.01613
+      highest dose tested and in males at all doses. The bone changes observed in fingolimod-treated juvenile rats are consistent with a reported role of S1P in the regulation of bone mineral homeostasis. When fingolimod (0.5 or 5 mg/kg/day) was orally administered to rats from the neonatal period through sexual maturity, a marked decrease in T-cell dependent antibody response was observed at both doses. This effect had not fully recovered by 6 to 8 weeks after the end of treatment. Overall, a no-effe
+
+  [3] chunk_id: f676a46954c0  | Gilenya | use_in_specific_populations | fused=0.01587
+      reased incidences of fetal malformations and embryofetal deaths were observed at all but the lowest dose tested (0.03 mg/kg/day), which is less than the recommended human dose (RHD) on a mg/m2 basis. Oral administration to pregnant rabbits during organogenesis (0, 0.5, 1.5, and 5 mg/kg/day) resulted in increased incidences of embryofetal mortality and fetal growth retardation at the mid and high doses. The no-effect dose for these effects in rabbits (0.5 mg/kg/day) is approximately 20 times the 
+
+  [4] chunk_id: 40ed8ee2592f  | Gilenya | use_in_specific_populations | fused=0.01562
+      8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Risk Summary Available observational pregnancy registry data suggest that use of fingolimod is associated with an increased prevalence of major birth defects in comparison to the general population. However, limitations in the number of exposed pregnant women and in the study design preclude definitive conclusions (see Data). Data from prospective reports to the pregnancy registry are currently not sufficient to allow for an adequate assessment of the 
+
+  [5] chunk_id: 4093c4041360  | Gilenya | use_in_specific_populations | fused=0.01524
+      conception. The possibility of severe increase in disability should be considered in women who discontinue or are considering discontinuation of fingolimod because of pregnancy or planned pregnancy. In many of the cases in which increase in disability was reported after stopping fingolimod, patients had stopped fingolimod because of pregnancy or planned pregnancy [see Warnings and Precautions (5.9)]. Data Human Data In a prospective observational fingolimod pregnancy registry (GPR) (2011 to 2024
+
+  [6] chunk_id: 8c5703f1c79b  | Tyruko | use_in_specific_populations | fused=0.01438
+      d natalizumab on alternate days from GD20 until delivery, hematologic effects (decreased lymphocyte and platelet counts) were also observed. These effects were reversed upon clearance of natalizumab. There was no evidence of anemia in these offspring. Offspring exposed in utero and during lactation had a normal immune response to challenge with a T-cell dependent antigen. In a study in which pregnant guinea pigs were exposed to natalizumab (30 mg/kg IV) on alternate dates during GDs 30-64, a red
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  SP-003  [populations]  expected_drug=Tysabri
+  QUERY: What are the pregnancy warnings for natalizumab?
+  expected_section: use_in_specific_populations
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 977285fd2098  | Tysabri | use_in_specific_populations | fused=0.01532
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Can cause fetal harm. (5.8, 8.1) *Biosimilar means that the biological product is approved based on data demonstrating that it is highly similar to an FDA-approved biological product, known as a reference product, and that there are no clinically meaningful differences between the biosimilar product and the reference product. Biosimilarity of TYRUKO has been demonstrated for the condition(s) of use (e.g., indication(s), dosing regimen(s)), strength(s), do
+
+  [2] chunk_id: ba10ad28e22e  | Aubagio | use_in_specific_populations | fused=0.01517
+      8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Risk Summary AUBAGIO is contraindicated for use in pregnant women and females of reproductive potential not using effective contraception because of the potential for fetal harm based on animal data [see Contraindications (4) and Warnings and Precautions (5.2)]. In animal reproduction studies in rat and rabbit, oral administration of teriflunomide during organogenesis caused teratogenicity and embryolethality at plasma exposures (AUC) lower than that a
+
+  [3] chunk_id: 36f56553f202  | Tyruko | use_in_specific_populations | fused=0.01508
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Can cause fetal harm. (5.8, 8.1) *Biosimilar means that the biological product is approved based on data demonstrating that it is highly similar to an FDA-approved biological product, known as a reference product, and that there are no clinically meaningful differences between the biosimilar product and the reference product. Biosimilarity of TYRUKO has been demonstrated for the condition(s) of use (e.g., indication(s), dosing regimen(s)), strength(s), do
+
+  [4] chunk_id: 211b42571df6  | Vumerity | use_in_specific_populations | fused=0.01467
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Based on animal data, may cause fetal harm. (8.1) VUMERITY is not recommended in patients with moderate or severe renal impairment. (8.6) 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to VUMERITY during pregnancy. Encourage patients to enroll by calling 1-833-569-2635 or visiting www.vumeritypregnancyregistry.com. Risk Summary There are no adequate data on the development
+
+  [5] chunk_id: fa3208c368e0  | Briumvi | use_in_specific_populations | fused=0.01467
+      8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to BRIUMVI during pregnancy. Eligible patients are women who become pregnant either while taking BRIUMVI or within 6 months following their last dose of BRIUMVI. Physicians are encouraged to register patients and pregnant women are encouraged to register themselves by calling 1-877-411-4546 or visiting www.briumvipregnancyregistry.com. R
+
+  [6] chunk_id: e58efbb7a5af  | Bafiertam | use_in_specific_populations | fused=0.01445
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Based on animal data, may cause fetal harm. (8.1) 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to BAFIERTAM during pregnancy. Pregnant women exposed to BAFIERTAM and healthcare providers are encouraged to contact Banner Life Sciences at 1-866-MMF-95MG (1-866-663-9564). Risk Summary There are no adequate data on the developmental risk associated with the use of BAFIERTAM 
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  SP-004  [populations]  expected_drug=Ocrevus
+  QUERY: Is ocrelizumab safe for breastfeeding mothers?
+  expected_section: use_in_specific_populations
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: cad063ab8bd9  | Ocrevus | use_in_specific_populations | fused=0.01639
+      75 mg/kg on gestation days 20, 21, and 22, followed by weekly doses of 20 or 100 mg/kg), depletion of B-lymphocytes in lymphoid tissue (spleen and lymph nodes) was observed in fetuses at both doses. Intravenous administration of OCREVUS (three daily loading doses of 15 or 75 mg/kg, followed by weekly doses of 20 or 100 mg/kg) to pregnant monkeys throughout the period of organogenesis and continuing through the neonatal period resulted in perinatal deaths (some associated with bacterial infection
+
+  [2] chunk_id: 429d3b6157e5  | Ocrevus | use_in_specific_populations | fused=0.01613
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Based on animal data, may cause fetal harm (8.1) 8.1 Pregnancy Risk Summary OCREVUS is a humanized monoclonal antibody of an immunoglobulin G1 subtype and immunoglobulins are known to cross the placental barrier. There are no adequate data on the developmental risk associated with use of OCREVUS in pregnant women. However, transient peripheral B-cell depletion and lymphocytopenia have been reported in infants born to mothers exposed to other anti-CD20 ant
+
+  [3] chunk_id: 8992ae6ca72f  | Briumvi | use_in_specific_populations | fused=0.01568
+      relevant animal model, intravenous administration of ublituximab-xiiy (0, 5, 20, or 50 mg/kg) during organogenesis (gestation day 6 and 12) resulted in no adverse effects on embryofetal development. There was a marked reduction in B-cells in fetal blood at all but the lowest dose tested. 8.2 Lactation Risk Summary There are no data on the presence of ublituximab-xiiy in human milk, the effects on the breastfed infant, or the effects of the drug on milk production. Human IgG is excreted in human 
+
+  [4] chunk_id: 44442c007b2a  | Vumerity | use_in_specific_populations | fused=0.01515
+      kg/day) to rats throughout gestation and lactation resulted in reduced weight, which persisted into adulthood, and adverse effects on neurobehavioral function in offspring at the highest dose tested. Plasma exposures (AUC) for MMF and HES at the no-effect dose for adverse effects on postnatal development (100 mg/kg/day) were approximately 3 times (MMF) or similar to (HES) those in humans at the RHD. 8.2 Lactation Risk Summary There are no data on the presence of diroximel fumarate or metabolites
+
+  [5] chunk_id: 278765344b42  | Tysabri | use_in_specific_populations | fused=0.01485
+      d natalizumab on alternate days from GD20 until delivery, hematologic effects (decreased lymphocyte and platelet counts) were also observed. These effects were reversed upon clearance of natalizumab. There was no evidence of anemia in these offspring. Offspring exposed in utero and during lactation had a normal immune response to challenge with a T-cell dependent antigen. In a study in which pregnant guinea pigs were exposed to natalizumab (30 mg/kg IV) on alternate dates during GDs 30-64, a red
+
+  [6] chunk_id: 8c5703f1c79b  | Tyruko | use_in_specific_populations | fused=0.01464
+      d natalizumab on alternate days from GD20 until delivery, hematologic effects (decreased lymphocyte and platelet counts) were also observed. These effects were reversed upon clearance of natalizumab. There was no evidence of anemia in these offspring. Offspring exposed in utero and during lactation had a normal immune response to challenge with a T-cell dependent antigen. In a study in which pregnant guinea pigs were exposed to natalizumab (30 mg/kg IV) on alternate dates during GDs 30-64, a red
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  SP-005  [populations]  expected_drug=Mayzent
+  QUERY: Can elderly patients take siponimod?
+  expected_section: use_in_specific_populations
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: ebe3dc34278d  | Tysabri | use_in_specific_populations | fused=0.01423
+      s and over to determine whether they respond differently than younger patients. Other reported clinical experience has not identified differences in responses between the elderly and younger patients.
+
+  [2] chunk_id: 2c0a0144df12  | Gabapentin | use_in_specific_populations | fused=0.01414
+      cretion, the larger treatment effect observed in patients ≥75 years may be a consequence of increased gabapentin exposure for a given dose that results from an age-related decrease in renal function. However, other factors cannot be excluded. The types and incidence of adverse reactions were similar across age groups except for peripheral edema and ataxia, which tended to increase in incidence with age. Clinical studies of gabapentin in epilepsy did not include sufficient numbers of subjects age
+
+  [3] chunk_id: 8ed7d7154e39  | Lemtrada | use_in_specific_populations | fused=0.01405
+      5 and over to determine whether they respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients.
+
+  [4] chunk_id: 5b902f5693a9  | Tyruko | use_in_specific_populations | fused=0.01403
+      s and over to determine whether they respond differently than younger patients. Other reported clinical experience has not identified differences in responses between the elderly and younger patients.
+
+  [5] chunk_id: c1a06a86ddb8  | Plegridy | use_in_specific_populations | fused=0.01391
+      reastfeeding should be considered along with the mother's clinical need for PLEGRIDY and any potential adverse effects on the breastfed infant from PLEGRIDY or from the underlying maternal condition. 8.4 Pediatric Use Safety and effectiveness in pediatric patients have not been established. 8.5 Geriatric Use Clinical studies of PLEGRIDY did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical expe
+
+  [6] chunk_id: cc374fd2a7d4  | Copaxone | use_in_specific_populations | fused=0.01385
+      has not been studied in elderly patients. 8.6 Use in Patients with Impaired Renal Function The pharmacokinetics of glatiramer acetate in patients with impaired renal function have not been determined.
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  SP-006  [populations]  expected_drug=Gabapentin
+  QUERY: What about using gabapentin in renal impairment?
+  expected_section: use_in_specific_populations
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 2c0a0144df12  | Gabapentin | use_in_specific_populations | fused=0.01629
+      cretion, the larger treatment effect observed in patients ≥75 years may be a consequence of increased gabapentin exposure for a given dose that results from an age-related decrease in renal function. However, other factors cannot be excluded. The types and incidence of adverse reactions were similar across age groups except for peripheral edema and ataxia, which tended to increase in incidence with age. Clinical studies of gabapentin in epilepsy did not include sufficient numbers of subjects age
+
+  [2] chunk_id: 37f8a06fb2fe  | Gabapentin | use_in_specific_populations | fused=0.01579
+      ay) was administered by intraperitoneal injection to neonatal mice during the first postnatal week, a period of synaptogenesis in rodents (corresponding to the last trimester of pregnancy in humans). Gabapentin caused a marked decrease in neuronal synapse formation in brains of intact mice and abnormal neuronal synapse formation in a mouse model of synaptic repair. Gabapentin has been shown in vitro to interfere with activity of the α2δ subunit of voltage-activated calcium channels, a receptor i
+
+  [3] chunk_id: aa9d15a67df4  | Plegridy | use_in_specific_populations | fused=0.01547
+      tween the elderly and younger patients. 8.6 Renal Impairment Monitor for adverse reactions due to increased drug exposure in patients with severe renal impairment [see Clinical Pharmacology ( 12.3 )].
+
+  [4] chunk_id: cc374fd2a7d4  | Copaxone | use_in_specific_populations | fused=0.01544
+      has not been studied in elderly patients. 8.6 Use in Patients with Impaired Renal Function The pharmacokinetics of glatiramer acetate in patients with impaired renal function have not been determined.
+
+  [5] chunk_id: 79b713aeef15  | Zanaflex | use_in_specific_populations | fused=0.01479
+      ain, delayed sexual maturation in females, and bilateral corneal crystals at the mid and high doses. Corneal crystals were still observed at the mid and high doses after a three-week recovery period. Neurobehavioral deficits were observed on a learning and memory task at the high dose. A no-effect dose for adverse effects on postnatal development not identified. 8.5 Geriatric Use Tizanidine hydrochloride is known to be substantially excreted by the kidney, and the risk of adverse reactions to th
+
+  [6] chunk_id: e7e9d41e3727  | Gabapentin | use_in_specific_populations | fused=0.01446
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Based on animal data, may cause fetal harm (8.1) 8.1 Pregnancy Risk Summary The totality of available data from published prospective and retrospective cohort studies pertaining to gabapentin use during pregnancy has not indicated an increased risk of major birth defects or miscarriage. There are important methodological limitations hindering interpretation of these studies [see Data ]. In nonclinical studies in mice, rats, and rabbits, gabapentin was dev
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  IU-001  [indications]  expected_drug=Ocrevus
+  QUERY: What is ocrelizumab approved to treat?
+  expected_section: indications_and_usage
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 8d8b216260aa  | Tysabri | indications_and_usage | fused=0.01613
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [2] chunk_id: 46fd32aae5b7  | Tyruko | indications_and_usage | fused=0.01587
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [3] chunk_id: 29d20e6bcbaa  | Rebif | indications_and_usage | fused=0.01538
+      1 INDICATIONS AND USAGE AVONEX is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. AVONEX is for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [4] chunk_id: 8f3a93d0f570  | Bafiertam | indications_and_usage | fused=0.01534
+      1 INDICATIONS AND USAGE BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [5] chunk_id: c13899038fad  | Avonex | indications_and_usage | fused=0.01515
+      1 INDICATIONS AND USAGE AVONEX is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. AVONEX is for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [6] chunk_id: 1462cb90a383  | Mitoxantrone | indications_and_usage | fused=0.01478
+      INDICATIONS AND USAGE Mitoxantrone is indicated for reducing neurologic disability and/or the frequency of clinical relapses in patients with secondary (chronic) progressive, progressive relapsing, or worsening relapsing-remitting multiple sclerosis (i.e., patients whose neurologic status is significantly abnormal between relapses). Mitoxantrone is not indicated in the treatment of patients with primary progressive multiple sclerosis. The clinical patterns of multiple sclerosis in the studies we
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  IU-002  [indications]  expected_drug=Tysabri
+  QUERY: What type of MS is natalizumab used for?
+  expected_section: indications_and_usage
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 8d8b216260aa  | Tysabri | indications_and_usage | fused=0.01478
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [2] chunk_id: 46fd32aae5b7  | Tyruko | indications_and_usage | fused=0.01456
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [3] chunk_id: f2afdf60e662  | Vumerity | indications_and_usage | fused=0.00984
+      1 INDICATIONS AND USAGE VUMERITY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. VUMERITY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [4] chunk_id: cab1a9e59399  | Betaseron | indications_and_usage | fused=0.00968
+      1 INDICATIONS AND USAGE BETASERON is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. BETASERON is an interferon beta indicated for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [5] chunk_id: 29d20e6bcbaa  | Rebif | indications_and_usage | fused=0.00952
+      1 INDICATIONS AND USAGE AVONEX is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. AVONEX is for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [6] chunk_id: c13899038fad  | Avonex | indications_and_usage | fused=0.00937
+      1 INDICATIONS AND USAGE AVONEX is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. AVONEX is for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  IU-003  [indications]  expected_drug=Ampyra
+  QUERY: What is dalfampridine indicated for?
+  expected_section: indications_and_usage
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 3d0ef4f9af92  | Zanaflex | indications_and_usage | fused=0.01565
+      1 INDICATIONS AND USAGE Tizanidine tablets are indicated for the treatment of spasticity in adults. Tizanidine tablet is a central alpha-2-adrenergic agonist indicated for the treatment of spasticity. ( 1)
+
+  [2] chunk_id: 4310732217eb  | Lemtrada | indications_and_usage | fused=0.01541
+      1 INDICATIONS AND USAGE CAMPATH is indicated as a single agent for the treatment of B-cell chronic lymphocytic leukemia (B-CLL). CAMPATH is a CD52-directed cytolytic antibody indicated as a single agent for the treatment of B-cell chronic lymphocytic leukemia (B-CLL). (1)
+
+  [3] chunk_id: 8f3a93d0f570  | Bafiertam | indications_and_usage | fused=0.01529
+      1 INDICATIONS AND USAGE BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [4] chunk_id: 2dda3d84a9f1  | Ampyra | indications_and_usage | fused=0.01509
+      1 INDICATIONS AND USAGE AMPYRA is indicated as a treatment to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed [see Clinical Studies (14)]. AMPYRA ® (dalfampridine) is a potassium channel blocker indicated to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed (1, 14).
+
+  [5] chunk_id: 8d8b216260aa  | Tysabri | indications_and_usage | fused=0.01507
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [6] chunk_id: 46fd32aae5b7  | Tyruko | indications_and_usage | fused=0.01504
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  IU-004  [indications]  expected_drug=Kesimpta
+  QUERY: What does ofatumumab treat?
+  expected_section: indications_and_usage
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 8d8b216260aa  | Tysabri | indications_and_usage | fused=0.00984
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [2] chunk_id: 46fd32aae5b7  | Tyruko | indications_and_usage | fused=0.00968
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [3] chunk_id: 8262c1d799c7  | Kesimpta | indications_and_usage | fused=0.00952
+      1 INDICATIONS AND USAGE Chronic Lymphocytic Leukemia (CLL) ARZERRA (ofatumumab) is indicated: in combination with chlorambucil, for the treatment of previously untreated patients with CLL for whom fludarabine-based therapy is considered inappropriate [see Clinical Studies (14.1)] in combination with fludarabine and cyclophosphamide for the treatment of patients with relapsed CLL [see Clinical Studies (14.2)] for extended treatment of patients who are in complete or partial response after at leas
+
+  [4] chunk_id: 29d20e6bcbaa  | Rebif | indications_and_usage | fused=0.00937
+      1 INDICATIONS AND USAGE AVONEX is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. AVONEX is for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [5] chunk_id: c13899038fad  | Avonex | indications_and_usage | fused=0.00923
+      1 INDICATIONS AND USAGE AVONEX is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. AVONEX is for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [6] chunk_id: f2afdf60e662  | Vumerity | indications_and_usage | fused=0.00909
+      1 INDICATIONS AND USAGE VUMERITY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. VUMERITY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  IU-005  [indications]  expected_drug=Plegridy
+  QUERY: What is peginterferon beta-1a used for?
+  expected_section: indications_and_usage
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 8d8b216260aa  | Tysabri | indications_and_usage | fused=0.01579
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [2] chunk_id: 46fd32aae5b7  | Tyruko | indications_and_usage | fused=0.01554
+      1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider
+
+  [3] chunk_id: a37150a89a8f  | Mavenclad | indications_and_usage | fused=0.00984
+      INDICATIONS FOR USE Cladribine Injection, USP is indicated for the treatment of active Hairy Cell Leukemia as defined by clinically significant anemia, neutropenia, thrombocytopenia or disease-related symptoms.
+
+  [4] chunk_id: cab1a9e59399  | Betaseron | indications_and_usage | fused=0.00968
+      1 INDICATIONS AND USAGE BETASERON is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. BETASERON is an interferon beta indicated for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [5] chunk_id: 1d25a789c478  | Tysabri | indications_and_usage | fused=0.00952
+      F-α. TYRUKO should not be used in combination with immunosuppressants (e.g., 6-mercaptopurine, azathioprine, cyclosporine, or methotrexate) or inhibitors of TNF-α [see Warnings and Precautions (5.1)].
+
+  [6] chunk_id: 1f2f15d34f63  | Tyruko | indications_and_usage | fused=0.00937
+      F-α. TYRUKO should not be used in combination with immunosuppressants (e.g., 6-mercaptopurine, azathioprine, cyclosporine, or methotrexate) or inhibitors of TNF-α [see Warnings and Precautions (5.1)].
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  IU-006  [indications]  expected_drug=Mitoxantrone
+  QUERY: What is mitoxantrone indicated for in MS?
+  expected_section: indications_and_usage
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 1462cb90a383  | Mitoxantrone | indications_and_usage | fused=0.01639
+      INDICATIONS AND USAGE Mitoxantrone is indicated for reducing neurologic disability and/or the frequency of clinical relapses in patients with secondary (chronic) progressive, progressive relapsing, or worsening relapsing-remitting multiple sclerosis (i.e., patients whose neurologic status is significantly abnormal between relapses). Mitoxantrone is not indicated in the treatment of patients with primary progressive multiple sclerosis. The clinical patterns of multiple sclerosis in the studies we
+
+  [2] chunk_id: 8f3a93d0f570  | Bafiertam | indications_and_usage | fused=0.01574
+      1 INDICATIONS AND USAGE BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. BAFIERTAM is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [3] chunk_id: cab1a9e59399  | Betaseron | indications_and_usage | fused=0.01541
+      1 INDICATIONS AND USAGE BETASERON is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. BETASERON is an interferon beta indicated for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [4] chunk_id: f2afdf60e662  | Vumerity | indications_and_usage | fused=0.01506
+      1 INDICATIONS AND USAGE VUMERITY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. VUMERITY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. (1)
+
+  [5] chunk_id: 08c221dff861  | Ocrevus | indications_and_usage | fused=0.01485
+      1 INDICATIONS AND USAGE OCREVUS is indicated for the treatment of: Relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults Primary progressive MS, in adults OCREVUS is a CD20-directed cytolytic antibody indicated for the treatment of: Relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease,
+
+  [6] chunk_id: ebf1f108420e  | Plegridy | indications_and_usage | fused=0.01475
+      1 INDICATIONS AND USAGE PLEGRIDY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. PLEGRIDY is an interferon beta indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults (1)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  PT-002  [patient_style]  expected_drug=None
+  QUERY: What happens if I miss a dose of my MS medication?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 4a1e7577770f  | Zeposia | dosage_and_administration | fused=0.01471
+      nt, reinitiate treatment using the titration regimen [see Dosage and Administration (2.2)]. If a dose of ZEPOSIA is missed after the first 2 weeks of treatment, continue with the treatment as planned.
+
+  [2] chunk_id: 009170f16de0  | Mitoxantrone | dosage_and_administration | fused=0.01458
+      DOSAGE AND ADMINISTRATION (See also WARNINGS) Multiple Sclerosis The recommended dosage of mitoxantrone is 12 mg/m2 given as a short (approximately 5 to 15 minutes) intravenous infusion every 3 months. Left ventricular ejection fraction (LVEF) should be evaluated by echocardiogram or MUGA prior to administration of the initial dose of mitoxantrone and all subsequent doses. In addition, LVEF evaluations are recommended if signs or symptoms of congestive heart failure develop at any time during tr
+
+  [3] chunk_id: 55dd689b658f  | Tysabri | dosage_and_administration | fused=0.01263
+      2 DOSAGE AND ADMINISTRATION •300 mg infused intravenously over one hour, every four weeks. Do not give as an intravenous push or bolus. (2.1, 2.2) •TYRUKO solution must be administered within 4 hours of preparation. (2.3) •Observe patients during all infusions. Post-infusion, for the first 12 infusions, observe patients for one hour after the infusion is complete. For patients who have received 12 infusions without evidence of a hypersensitivity reaction, observe patients post-infusion for the 1
+
+  [4] chunk_id: e75a5262e463  | Zanaflex | dosage_and_administration | fused=0.00984
+      forms if being administered with food. If these situations occur, monitor patients for therapeutic effect or adverse reactions [see Dosage and Administration ( 2.2) and Clinical Pharmacology ( 12.3)].
+
+  [5] chunk_id: 96d5f43a75ef  | Gabapentin | dosage_and_administration | fused=0.00968
+      ose is reduced, discontinued, or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber).
+
+  [6] chunk_id: 741637435066  | Ponvory | dosage_and_administration | fused=0.00952
+      f treatment needs to be reinitiated with Day 1 of the titration regimen (new starter pack), complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.3)].
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  PT-003  [patient_style]  expected_drug=None
+  QUERY: Will this medicine make me tired?
+  expected_section: adverse_reactions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 1389d80ca7ce  | Ampyra | adverse_reactions | fused=0.00984
+      ons are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure: vomiting, vertigo.
+
+  [2] chunk_id: 9b1d7b0f65dc  | Modafinil | adverse_reactions | fused=0.00968
+      size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Hematologic: agranulocytosis Psychiatric disorders: psychomotor hyperactivity
+
+  [3] chunk_id: 443263732622  | Copaxone | adverse_reactions | fused=0.00952
+      n. Cardiovascular: Frequent: Hypertension. Infrequent: Hypotension, midsystolic click, systolic murmur, atrial fibrillation, bradycardia, fourth heart sound, postural hypotension, and varicose veins. Digestive: Infrequent: Dry mouth, stomatitis, burning sensation on tongue, cholecystitis, colitis, esophageal ulcer, esophagitis, gastrointestinal carcinoma, gum hemorrhage, hepatomegaly, increased appetite, melena, mouth ulceration, pancreas disorder, pancreatitis, rectal hemorrhage, tenesmus, tong
+
+  [4] chunk_id: ada2a414e98d  | Gabapentin | adverse_reactions | fused=0.00937
+      eation and behavior, agitation, confusion, disorientation, psychotic symptoms, anxiety, insomnia, nausea, pain, sweating, tremor, headache, dizziness, and malaise [see Warnings and Precautions (5.6)].
+
+  [5] chunk_id: 85e96df6934d  | Acthar Gel | adverse_reactions | fused=0.00923
+      ADVERSE REACTIONS Fluid and Electrolyte Disturbances Sodium retention. Hypokalemic alkalosis.Fluid retention.Calcium loss.Potassium loss. Musculoskeletal Muscle weakness.Loss of muscle mass.Steroid myopathy.Osteoporosis.Vertebral compression fractures.Aseptic necrosis of femoral and humeral heads.Pathologic fracture of long bones. Gastrointestinal Peptic ulcer with possible perforation and hemorrhage.Abdominal distention.Ulcerative esophagitis.Pancreatitis. Dermatologic Injection site reactions.
+
+  [6] chunk_id: e6c73a715255  | Zeposia | adverse_reactions | fused=0.00909
+      ain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Hepatobiliary Disorders: Liver injury [see Warnings and Precautions (5.4)]
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  PT-004  [patient_style]  expected_drug=None
+  QUERY: Is it safe to get vaccinated while on my treatment?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 9b1db99b519d  | Gabapentin | warnings_and_precautions | fused=0.01500
+      e of the background incidence and recurrence in a similar population not treated with gabapentin, it is impossible to know whether the incidence seen in this cohort is or is not affected by treatment.
+
+  [2] chunk_id: 525b4e1a090b  | Zeposia | warnings_and_precautions | fused=0.01333
+      ould promptly schedule a complete physical and neurological examination and should consider an MRI. Symptoms of PRES are usually reversible but may evolve into ischemic stroke or cerebral hemorrhage. Delay in diagnosis and treatment may lead to permanent neurological sequelae. If PRES is suspected, treatment with ZEPOSIA should be discontinued. 5.11 Unintended Additive Immunosuppressive Effects from Prior Treatment with Immunosuppressive or Immune-Modulating Drugs When switching from drugs with 
+
+  [3] chunk_id: f2c70a17b1f7  | Gabapentin | warnings_and_precautions | fused=0.01330
+      organ systems not noted here may be involved. It is important to note that early manifestations of hypersensitivity, such as fever or lymphadenopathy, may be present even though rash is not evident. If such signs or symptoms are present, the patient should be evaluated immediately. Gabapentin should be discontinued if an alternative etiology for the signs or symptoms cannot be established. 5.2 Anaphylaxis and Angioedema Gabapentin can cause anaphylaxis and angioedema after the first dose or at a
+
+  [4] chunk_id: 0e3d48d877bb  | Ponvory | warnings_and_precautions | fused=0.01266
+      ts on the immune system while at the same time minimizing risk of disease reactivation, when initiating PONVORY. Initiating treatment with PONVORY after treatment with alemtuzumab is not recommended. 5.11 Severe Increase in Disability After Stopping PONVORY Severe exacerbation of disease, including disease rebound, has been rarely reported after discontinuation of a S1P receptor modulator. The possibility of severe exacerbation of disease should be considered after stopping PONVORY treatment. Pa
+
+  [5] chunk_id: 90e45240ff90  | Aubagio | warnings_and_precautions | fused=0.00984
+      limination procedure may decrease this risk, but may also potentially result in return of disease activity if the patient had been responding to AUBAGIO treatment [see Warnings and Precautions (5.3)].
+
+  [6] chunk_id: f5570f329e1a  | Zeposia | warnings_and_precautions | fused=0.00968
+      this period may lead to an additive effect on the immune system, and therefore caution should be applied when initiating other drugs 4 weeks after the last dose of ZEPOSIA [see Drug Interactions (7)].
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  PT-005  [patient_style]  expected_drug=Zeposia
+  QUERY: Can I take ozanimod if I have heart problems?
+  expected_section: contraindications
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: f9008f085b86  | Ponvory | contraindications | fused=0.01608
+      4 CONTRAINDICATIONS PONVORY is contraindicated in patients who: In the last 6 months, have experienced myocardial infarction, unstable angina, stroke, transient ischemic attack (TIA), decompensated heart failure requiring hospitalization, or Class III or IV heart failure [see Warnings and Precautions (5.2)] Have presence of Mobitz type II second-degree, third-degree AV block, sick sinus syndrome, or sino-atrial block, unless patient has a functioning pacemaker [see Warnings and Precautions (5.2)
+
+  [2] chunk_id: 64f3839386fa  | Zeposia | contraindications | fused=0.01554
+      4 CONTRAINDICATIONS ZEPOSIA is contraindicated in patients who: •In the last 6 months, have experienced a myocardial infarction, unstable angina, stroke, transient ischemic attack (TIA), decompensated heart failure requiring hospitalization, or Class III or IV heart failure [see Warnings and Precautions (5.3) ] •Have the presence of Mobitz type II second-degree or third degree atrioventricular (AV) block, sick sinus syndrome, or sino-atrial block, unless the patient has a functioning pacemaker [
+
+  [3] chunk_id: 34894d0f8132  | Mavenclad | contraindications | fused=0.00984
+      CONTRAINDICATIONS Cladribine Injection, USP is contraindicated in those patients who are hypersensitive to this drug or any of its components.
+
+  [4] chunk_id: 1cd69dc01307  | Mitoxantrone | contraindications | fused=0.00968
+      CONTRAINDICATIONS Mitoxantrone is contraindicated in patients who have demonstrated prior hypersensitivity to it.
+
+  [5] chunk_id: 758f661c7931  | Gilenya | contraindications | fused=0.00937
+      4 CONTRAINDICATIONS Fingolimod is contraindicated in patients who have: in the last 6 months experienced myocardial infarction, unstable angina, stroke, transient ischemic attack (TIA), decompensated heart failure requiring hospitalization or Class III/IV heart failure a history or presence of Mobitz Type II second-degree or third-degree AV block or sick sinus syndrome, unless patient has a functioning pacemaker [see Warnings and Precautions (5.1)] a baseline QTc interval ≥500 msec cardiac arrhy
+
+  [6] chunk_id: 559a5de54325  | Kesimpta | contraindications | fused=0.00923
+      4 CONTRAINDICATIONS None. None. (4)
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  PT-006  [patient_style]  expected_drug=Gilenya
+  QUERY: Will fingolimod affect my heart rate?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 0acc8075365b  | Gilenya | warnings_and_precautions | fused=0.01639
+      cerebrovascular disease, uncontrolled hypertension, history of symptomatic bradycardia, history of recurrent syncope, severe untreated sleep apnea, AV block, sinoatrial heart block) may poorly tolerate the fingolimod-induced bradycardia, or experience serious rhythm disturbances after the first dose of fingolimod. Prior to treatment with fingolimod, these patients should have a cardiac evaluation by a physician appropriately trained to conduct such evaluation, and if treated with fingolimod, sho
+
+  [2] chunk_id: 65ec8e58d5e1  | Gilenya | warnings_and_precautions | fused=0.01613
+      apse occurs during treatment or after discontinuation. Obtain imaging and begin treatment as needed. (5.10) Increased Blood Pressure (BP): Monitor BP in adult and pediatric patients during treatment. (5.11) Malignancies: Skin examination prior to or shortly after the start of treatment and periodically thereafter is recommended. Suspicious skin lesions should be evaluated. (5.12) 5.1 Bradyarrhythmia and Atrioventricular Blocks Because of a risk for bradyarrhythmia and AV blocks, patients should 
+
+  [3] chunk_id: 4b20d582b0c9  | Gilenya | warnings_and_precautions | fused=0.01511
+      hs after fingolimod initiation, but tumefactive MS may occur at any point during treatment. Cases of tumefactive MS have also been reported within the first 4 months after fingolimod discontinuation. Tumefactive MS should be considered when a severe MS relapse occurs during fingolimod treatment, especially during initiation, or after discontinuation of fingolimod, prompting imaging evaluation and initiation of appropriate treatment. 5.11 Increased Blood Pressure Increases in blood pressure have 
+
+  [4] chunk_id: 7e2ff1eb128f  | Gilenya | warnings_and_precautions | fused=0.01507
+      d human dose. Available observational pregnancy registry data suggest that use of fingolimod is associated with an increased prevalence of major birth defects in comparison to the general population. Advise pregnant women and females of reproductive potential of the potential risk to a fetus. Because it takes approximately 2 months to eliminate fingolimod from the body, advise females of reproductive potential to use effective contraception to avoid pregnancy during and for 2 months after stoppi
+
+  [5] chunk_id: 5eaf24b41b55  | Gilenya | warnings_and_precautions | fused=0.01500
+      to baseline. Physicians should continue to be alert to patient reports of cardiac symptoms. Atrioventricular Blocks Initiation of fingolimod treatment has resulted in transient AV conduction delays. In controlled clinical trials in adult patients, first-degree AV block after the first dose occurred in 4.7% of patients receiving fingolimod and 1.6% of patients on placebo. In a study of 697 patients with available 24-hour Holter monitoring data after their first dose (N=351 receiving fingolimod an
+
+  [6] chunk_id: d9bb428649aa  | Gilenya | warnings_and_precautions | fused=0.01473
+      en reported with fingolimod in the postmarketing setting. Fingolimod is contraindicated in patients with history of hypersensitivity to fingolimod or any of its excipients [see Contraindications (4)].
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  MD-002  [multi_drug]  expected_drug=Ocrevus
+  QUERY: Compare the infusion requirements of ocrelizumab and natalizumab.
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 8530fbe8efa0  | Ocrevus | dosage_and_administration | fused=0.01608
+      ssed, administer OCREVUS as soon as possible; do not wait until the next scheduled dose. Reset the dose schedule to administer the next sequential dose 6 months after the missed dose is administered. Doses of OCREVUS must be separated by at least 5 months [see Dosage and Administration (2.3)]. 2.5 Dose Modifications Because of Infusion Reactions Dose modifications in response to infusion reactions depends on the severity. Life-threatening Infusion Reactions Immediately stop and permanently disco
+
+  [2] chunk_id: 0bb99b12b7cf  | Briumvi | dosage_and_administration | fused=0.01572
+      oximately 30-60 minutes prior to each BRIUMVI infusion to further reduce the frequency and severity of infusion reactions. The addition of an antipyretic (e.g., acetaminophen) may also be considered. 2.3 Recommended Dosage and Dose Administration Administer BRIUMVI under the close supervision of an experienced healthcare professional with access to appropriate medical support to manage severe reactions, such as serious infusion reactions. First Infusion: 150 mg intravenous infusion Second Infusi
+
+  [3] chunk_id: c87349f71b0e  | Ocrevus | dosage_and_administration | fused=0.01572
+      ous infusion. Subsequent doses: single 600 mg intravenous infusion every 6 months. Observe the patient for at least one hour after the completion of the infusion [see Warnings and Precautions (5.1)]. Table 1 Recommended Dose, Infusion Rate, and Infusion Duration for RMS and PPMS Amount and Volume Solutions of OCREVUS for intravenous infusion are prepared by dilution of the drug product into an infusion bag containing 0.9% Sodium Chloride Injection, to a final drug concentration of approximately 
+
+  [4] chunk_id: ecd2d93c21a2  | Briumvi | dosage_and_administration | fused=0.01528
+      hour for the first 30 minutes Increase to 400 mL per hour for the remaining 30 minutes 1 hour Subsequent Infusions (once every 24 weeks) Administer the first subsequent infusion 24 weeks after the first infusion. 450 mg (18 mL) 250 mL Start at 100 mL per hour for the first 30 minutes Increase to 400 mL per hour for the remaining 30 minutes 1 hour 2.4 Delayed or Missed Doses If a planned infusion of BRIUMVI is missed, administer BRIUMVI as soon as possible; do not wait until the next scheduled in
+
+  [5] chunk_id: 9a60f0ba4621  | Kesimpta | dosage_and_administration | fused=0.01515
+      ing the previous infusion. In the absence of an infusion-related adverse event, the rate of infusion may be increased every 30 minutes (Table 1). Do not exceed the infusion rates in Table 1. Table 1. Infusion Rates for ARZERRA in Previously Untreated CLL, Relapsed CLL, and Extended Treatment in CLL a Initial 300 mg: median durations of infusions = 4.8 to 5.2 hours. b Subsequent infusions of 1,000 mg: median durations of infusions = 4.2 to 4.4 hours. Interval After Start of Infusion (min) Initial
+
+  [6] chunk_id: 9c8d93e41a31  | Ocrevus | dosage_and_administration | fused=0.01493
+      ional using aseptic technique. A sterile needle and syringe should be used to prepare the diluted infusion solution. Visually inspect for particulate matter and discoloration prior to administration. Do not use the solution if discolored or if the solution contains discrete foreign particulate matter. Do not shake. Withdraw intended dose and further dilute into an infusion bag containing 0.9% Sodium Chloride Injection, to a final drug concentration of approximately 1.2 mg/mL. Withdraw 10 mL (300
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  MD-003  [multi_drug]  expected_drug=Aubagio
+  QUERY: Which has a boxed warning, teriflunomide or dimethyl fumarate?
+  expected_section: boxed_warning
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 67b7a52aa01e  | Mavenclad | boxed_warning | fused=0.00984
+      lastic leukemia cells. Cladribine was not mutagenic in vitro (Ames and Chinese hamster ovary cell gene mutation tests) and did not induce unscheduled DNA synthesis in primary rat hepatocyte cultures. However, cladribine was clastogenic both in vitro (chromosome aberrations in Chinese hamster ovary cells) and in vivo (mouse bone marrow micronucleus test). Impairment of Fertility The effect on human fertility is unknown. When administered intravenously to Cynomolgus monkeys, cladribine has been sh
+
+  [2] chunk_id: 4f67414fab0a  | Mavenclad | boxed_warning | fused=0.00968
+      enal or hepatic insufficiency (see WARNINGS). Rare cases of tumor lysis syndrome have been reported in patients treated with cladribine with other hematologic malignancies having a high tumor burden. Cladribine injection must be diluted in designated intravenous solutions prior to administration (see DOSAGE AND ADMINISTRATION). Laboratory Tests During and following treatment, the patient's hematologic profile should be monitored regularly to determine the degree of hematopoietic suppression. In 
+
+  [3] chunk_id: b39d0a511ef1  | Mitoxantrone | boxed_warning | fused=0.00952
+      PRECAUTIONS General Therapy with mitoxantrone should be accompanied by close and frequent monitoring of hematologic and chemical laboratory parameters, as well as frequent patient observation. Systemic infections should be treated concomitantly with or just prior to commencing therapy with mitoxantrone. Information for Patients See FDA-approved patient labeling (MEDICATION GUIDE). Inform patients of the availability of a Medication Guide and instruct them to read the Medication Guide prior to in
+
+  [4] chunk_id: bf949f670609  | Mavenclad | boxed_warning | fused=0.00937
+      PRECAUTIONS General Cladribine injection is a potent antineoplastic agent with potentially significant toxic side effects. It should be administered only under the supervision of a physician experienced with the use of cancer chemotherapeutic agents. Patients undergoing therapy should be closely observed for signs of hematologic and non-hematologic toxicity. Periodic assessment of peripheral blood counts, particularly during the first 4 to 8 weeks post-treatment, is recommended to detect the dev
+
+  [5] chunk_id: 4994d6b5f8c6  | Mitoxantrone | boxed_warning | fused=0.00923
+      induced DNA damage in primary rat hepatocytes and sister chromatid exchanges in Chinese hamster ovary cells. Mitoxantrone was mutagenic in bacterial and mammalian test systems (Ames/Salmonella and E. coli and L5178Y TK+/-mouse lymphoma). Drug Interactions Mitoxantrone and its metabolites are excreted in bile and urine, but it is not known whether the metabolic or excretory pathways are saturable, may be inhibited or induced, or if mitoxantrone and its metabolites undergo enterohepatic circulatio
+
+  [6] chunk_id: 44d3778b5449  | Mavenclad | boxed_warning | fused=0.00909
+      tion for an elderly patient should be cautious, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy in elderly patients.
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  MD-004  [multi_drug]  expected_drug=Mayzent
+  QUERY: Do both siponimod and ozanimod require first-dose cardiac monitoring?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 8015cc0eef8f  | Zeposia | warnings_and_precautions | fused=0.01583
+      ing sick sinus syndrome, significant QT prolongation (QTcF > 450 msec in males, > 470 msec in females), risk factors for QT prolongation, or other conduction abnormalities or cardiac condition that in the opinion of the treating investigator could jeopardize the patient's health •Other pre-existing stable cardiac conditions without clearance from a cardiologist •Severe untreated sleep apnea •A resting heart rate less than 55 beats per minute (bpm) at baseline Reduction in Heart Rate Initiation o
+
+  [2] chunk_id: 71dce9de4ed2  | Mayzent | warnings_and_precautions | fused=0.01490
+      fter Stopping MAYZENT After stopping MAYZENT therapy, siponimod remains in the blood for up to 10 days. Starting other therapies during this interval will result in concomitant exposure to siponimod. Lymphocyte counts returned to the normal range in 90% of patients within 10 days of stopping therapy [see Clinical Pharmacology (12.2)]. However, residual pharmacodynamics effects, such as lowering effects on peripheral lymphocyte count, may persist for up to 3 to 4 weeks after the last dose. Use of
+
+  [3] chunk_id: f58bb508570b  | Mayzent | warnings_and_precautions | fused=0.00968
+      osuppressants within this period may lead to an additive effect on the immune system, and therefore caution should be applied 3 to 4 weeks after the last dose of MAYZENT [see Drug Interactions (7.1)].
+
+  [4] chunk_id: f76d4b53afb7  | Ponvory | warnings_and_precautions | fused=0.00952
+      osuppressants within this period may lead to an additive effect on the immune system, and therefore caution should be applied 1 to 2 weeks after the last dose of PONVORY [see Drug Interactions (7.1)].
+
+  [5] chunk_id: 6f9f311f4576  | Mayzent | warnings_and_precautions | fused=0.00923
+      hanges, cortical visual disturbances, or any other neurological cortical symptoms/signs), any symptom/sign suggestive of an increase of intracranial pressure, or accelerated neurological deterioration, the physician should promptly schedule a complete physical and neurological examination and should consider an MRI. Symptoms of PRES are usually reversible but may evolve into ischemic stroke or cerebral hemorrhage. Delay in diagnosis and treatment may lead to permanent neurological sequelae. If P
+
+  [6] chunk_id: 0acc8075365b  | Gilenya | warnings_and_precautions | fused=0.00909
+      cerebrovascular disease, uncontrolled hypertension, history of symptomatic bradycardia, history of recurrent syncope, severe untreated sleep apnea, AV block, sinoatrial heart block) may poorly tolerate the fingolimod-induced bradycardia, or experience serious rhythm disturbances after the first dose of fingolimod. Prior to treatment with fingolimod, these patients should have a cardiac evaluation by a physician appropriately trained to conduct such evaluation, and if treated with fingolimod, sho
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  MD-005  [multi_drug]  expected_drug=Copaxone
+  QUERY: Between glatiramer acetate and interferon beta-1a, which is injected?
+  expected_section: dosage_and_administration
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 581250a76c67  | Copaxone | dosage_and_administration | fused=0.01639
+      2 DOSAGE AND ADMINISTRATION For subcutaneous injection only; doses are not interchangeable (2.1) Glatiramer Acetate Injection 20 mg/mL per day (2.1) Glatiramer Acetate Injection 40 mg/mL three times per week (2.1) Before use, allow the solution to warm to room temperature (2.2) 2.1 Recommended Dose Glatiramer Acetate Injection is for subcutaneous use only [see Dosage and Administration (2.2)]. Do not administer intravenously. The dosing schedule depends on the product strength that is selected. 
+
+  [2] chunk_id: 3ce029e4a524  | Plegridy | dosage_and_administration | fused=0.01583
+      2 DOSAGE AND ADMINISTRATION For subcutaneous or intramuscular use only (2.1) Recommended dose: 125 micrograms every 14 days (2.1) PLEGRIDY dose should be titrated, starting with 63 micrograms on day 1, 94 micrograms on day 15, and 125 micrograms (full dose) on day 29 (2.1) A healthcare professional should train patients in the proper technique for self-administering subcutaneous injections using the prefilled pen or syringe or intramuscular injections using the prefilled syringe (2.2) Analgesics
+
+  [3] chunk_id: 1e594b8c08c4  | Betaseron | dosage_and_administration | fused=0.00952
+      wder completely; do not shake. Foaming may occur during reconstitution or if the vial is swirled or shaken too vigorously. If foaming occurs, allow the vial to sit undisturbed until the foam settles. (e) 1 mL of reconstituted BETASERON solution contains 0.25 mg of interferon beta-1b. (f) After reconstitution, if not used immediately, refrigerate the reconstituted BETASERON solution at 35°F to 46°F (2°C to 8°C) and use within three hours. Do not freeze. 2.3 Important Administration Instructions (
+
+  [4] chunk_id: f9afbe6cc42b  | Rebif | dosage_and_administration | fused=0.00937
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional 
+
+  [5] chunk_id: 4a94bfbe206b  | Avonex | dosage_and_administration | fused=0.00923
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional 
+
+  [6] chunk_id: 29a2ed7411e5  | Betaseron | dosage_and_administration | fused=0.00909
+      2 DOSAGE AND ADMINISTRATION •For subcutaneous use only (2.1) •The recommended dose is 0.25 mg every other day. Generally, start at 0.0625 mg (0.25 mL) every other day, and increase over a six-week period to 0.25 mg (1 mL) every other day. (2.1) •Reconstitute lyophilized powder with supplied diluent (2.2) 2.1 Dosing Information The recommended starting dose is 0.0625 mg (0.25 mL) subcutaneously every other day, with dose increases over a six-week period to the recommended dose of 0.25 mg (1 mL) e
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  MD-006  [multi_drug]  expected_drug=Ocrevus
+  QUERY: Which carries a higher infection risk, ocrelizumab or ublituximab?
+  expected_section: warnings_and_precautions
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: d89bd010f826  | Ocrevus | warnings_and_precautions | fused=0.01629
+      and severity of the reaction [see Dosage and Administration (2.5)]. For life-threatening infusion reactions, immediately and permanently stop OCREVUS and administer appropriate supportive treatment. For less severe infusion reactions, management may involve temporarily stopping the infusion, reducing the infusion rate, and/or administering symptomatic treatment. 5.2 Infections Serious, including life-threatening or fatal, bacterial, viral, parasitic and fungal infections have been reported in pa
+
+  [2] chunk_id: 90e45240ff90  | Aubagio | warnings_and_precautions | fused=0.01562
+      limination procedure may decrease this risk, but may also potentially result in return of disease activity if the patient had been responding to AUBAGIO treatment [see Warnings and Precautions (5.3)].
+
+  [3] chunk_id: ef67970e0af8  | Aubagio | warnings_and_precautions | fused=0.01489
+      of therapy and for further investigation as appropriate. If discontinuation of the drug is necessary, consider initiation of an accelerated elimination procedure [see Warnings and Precautions (5.3)]. 5.12 Pancreatitis in Pediatric Patients AUBAGIO is not approved for use in pediatric patients. In the pediatric clinical trial, cases of pancreatitis were observed in 1.8% (2/109) of patients receiving AUBAGIO; one of these cases was serious [see Use in Specific Populations (8.4)]. If pancreatitis i
+
+  [4] chunk_id: bb65050c5ed4  | Zeposia | warnings_and_precautions | fused=0.01402
+      se the risk. (5.8) • Cutaneous Malignancies: Skin examination prior to or shortly after the start of treatment and periodically thereafter is recommended. Suspicious skin lesions should be evaluated. (5.9) 5.1 Infections Risk of Infections ZEPOSIA causes a mean reduction in peripheral blood lymphocyte count to approximately 45% of baseline values because of reversible sequestration of lymphocytes in lymphoid tissues [see Clinical Pharmacology (12.2)]. ZEPOSIA may therefore increase the susceptib
+
+  [5] chunk_id: 5a4eb6b250ed  | Briumvi | warnings_and_precautions | fused=0.01401
+      5 WARNINGS AND PRECAUTIONS Infusion Reactions: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue BRIUMVI if a life-threatening or disabling infusion reaction occurs ( 2.3, 5.1). Infections: Serious, including life-threatening and fatal infections, have occurred. Delay BRIUMVI administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommen
+
+  [6] chunk_id: 0b154819e5ce  | Ocrevus | warnings_and_precautions | fused=0.00968
+      5 WARNINGS AND PRECAUTIONS Infusion Reactions: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue OCREVUS if a life-threatening or disabling infusion reaction occurs (2.3, 5.1) Infections: Serious, including life-threatening and fatal infections, have occurred. Delay OCREVUS administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommende
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
+
+===========================================================================
+  MD-007  [multi_drug]  expected_drug=Lemtrada
+  QUERY: Do alemtuzumab and cladribine both have boxed warnings for malignancy?
+  expected_section: boxed_warning
+  STATUS: NEEDS ANNOTATION
+===========================================================================
+
+  [1] chunk_id: 4f67414fab0a  | Mavenclad | boxed_warning | fused=0.01629
+      enal or hepatic insufficiency (see WARNINGS). Rare cases of tumor lysis syndrome have been reported in patients treated with cladribine with other hematologic malignancies having a high tumor burden. Cladribine injection must be diluted in designated intravenous solutions prior to administration (see DOSAGE AND ADMINISTRATION). Laboratory Tests During and following treatment, the patient's hematologic profile should be monitored regularly to determine the degree of hematopoietic suppression. In 
+
+  [2] chunk_id: 67b7a52aa01e  | Mavenclad | boxed_warning | fused=0.01608
+      lastic leukemia cells. Cladribine was not mutagenic in vitro (Ames and Chinese hamster ovary cell gene mutation tests) and did not induce unscheduled DNA synthesis in primary rat hepatocyte cultures. However, cladribine was clastogenic both in vitro (chromosome aberrations in Chinese hamster ovary cells) and in vivo (mouse bone marrow micronucleus test). Impairment of Fertility The effect on human fertility is unknown. When administered intravenously to Cynomolgus monkeys, cladribine has been sh
+
+  [3] chunk_id: bf949f670609  | Mavenclad | boxed_warning | fused=0.01603
+      PRECAUTIONS General Cladribine injection is a potent antineoplastic agent with potentially significant toxic side effects. It should be administered only under the supervision of a physician experienced with the use of cancer chemotherapeutic agents. Patients undergoing therapy should be closely observed for signs of hematologic and non-hematologic toxicity. Periodic assessment of peripheral blood counts, particularly during the first 4 to 8 weeks post-treatment, is recommended to detect the dev
+
+  [4] chunk_id: b39d0a511ef1  | Mitoxantrone | boxed_warning | fused=0.00937
+      PRECAUTIONS General Therapy with mitoxantrone should be accompanied by close and frequent monitoring of hematologic and chemical laboratory parameters, as well as frequent patient observation. Systemic infections should be treated concomitantly with or just prior to commencing therapy with mitoxantrone. Information for Patients See FDA-approved patient labeling (MEDICATION GUIDE). Inform patients of the availability of a Medication Guide and instruct them to read the Medication Guide prior to in
+
+  [5] chunk_id: 7f77ed40123a  | Solu-Medrol | boxed_warning | fused=0.00923
+      peptic ulcer; renal insufficiency; hypertension; osteoporosis; and myasthenia gravis. Growth and development of infants and children on prolonged corticosteroid therapy should be carefully observed. Although controlled clinical trials have shown corticosteroids to be effective in speeding the resolution of acute exacerbations of multiple sclerosis, they do not show that corticosteroids affect the ultimate outcome or natural history of the disease. The studies do show that relatively high doses o
+
+  [6] chunk_id: 4994d6b5f8c6  | Mitoxantrone | boxed_warning | fused=0.00909
+      induced DNA damage in primary rat hepatocytes and sister chromatid exchanges in Chinese hamster ovary cells. Mitoxantrone was mutagenic in bacterial and mammalian test systems (Ames/Salmonella and E. coli and L5178Y TK+/-mouse lymphoma). Drug Interactions Mitoxantrone and its metabolites are excreted in bile and urine, but it is not known whether the metabolic or excretory pathways are saturable, may be inhibited or induced, or if mitoxantrone and its metabolites undergo enterohepatic circulatio
+
+  → Copy the chunk_id and the exact answering sentence(s) into the JSON.
+
