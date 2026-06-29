@@ -195,7 +195,7 @@ Initial focus: **25–50 drugs** in a single therapeutic area (e.g., Multiple Sc
  
 ```
 FDA DailyMed API  →  Pull relevant SPLs  →  Parse XML sections  →  Chunk by section
-                                                                          │
+                                                                        │
 PubMed API        →  Curated abstracts   →  Parse & clean       →        ▼
                                                                    Hybrid Index
 ClinicalTrials    →  Trial summaries     →  Parse & clean       →  (BM25 + Vector)
