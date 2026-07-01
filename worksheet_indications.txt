@@ -1,0 +1,158 @@
+================================================================================
+  PharmaRAG BATCH ANNOTATION WORKSHEET
+  Total queries: 85
+  Answer queries needing annotation: 6
+  Filtered to category: indications
+  Refuse/adversarial/OOS queries: auto-skipped (correctly null)
+================================================================================
+
+
+################################################################################
+#  CATEGORY: INDICATIONS  (6 queries)
+################################################################################
+================================================================================
+  IU-001  [indications]  difficulty=easy
+  QUERY: What is ocrelizumab approved to treat?
+  expected_drug: Ocrevus
+  expected_section: indications_and_usage
+  acceptable_sections: ['indications_and_usage']
+================================================================================
+
+  --- Ocrevus / indications_and_usage ---
+    Found 1 matching chunk(s)
+    ======================================================================
+    
+    chunk_id:   08c221dff861
+    drug:       Ocrevus (ocrelizumab)
+    section:    indications_and_usage
+    chunk:      1/1
+    text:       1 INDICATIONS AND USAGE OCREVUS is indicated for the treatment of: Relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults Primary progressive MS, in adults OCREVUS is a CD20-directed cytolytic antibody indicated for the treatment of: Relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults (1) Primary progressive MS, in adults (1)
+    ----------------------------------------------------------------------
+
+  >> ACTION: Pick the best chunk_id and verbatim snippet for IU-001
+  >> If all sections return 0 chunks, flag as CORPUS GAP
+
+================================================================================
+  IU-002  [indications]  difficulty=easy
+  QUERY: What type of MS is natalizumab used for?
+  expected_drug: Tysabri
+  expected_section: indications_and_usage
+  acceptable_sections: ['indications_and_usage']
+================================================================================
+
+  --- Tysabri / indications_and_usage ---
+    Found 3 matching chunk(s)
+    ======================================================================
+    
+    chunk_id:   8d8b216260aa
+    drug:       Tysabri (natalizumab)
+    section:    indications_and_usage
+    chunk:      1/3
+    text:       1 INDICATIONS AND USAGE TYRUKO is an integrin receptor antagonist indicated for treatment of: Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider whether the expected benefit of TYRUKO is sufficient to offset this risk. (1.1) Crohn's Disease (CD) •TYRUKO is indicated for inducing and maintaining clinical response and remission in adult patients with moderately to severely active Crohn's disease with evidence of inflammation who have had an inadequate response to, or are unable to tolerate, conventional CD therapies and inhibitors of TNF-α. (1.2) Important Limitations: •In CD, TYRUKO should not be used in combination with immunosuppressants or inhibitors of TNF-α. (1.2) 1.1 Multiple Sclerosis (MS) TYRUKO is indicated as monotherapy for the treatment of relapsing forms of multiple sclerosis, to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. Natalizumab products increase the risk of PML [see Warnings and Precautions (5.1)]. When initiating and continuing treatment with TYRUKO, physicians should consider whether the expected benefit of TYRUKO is sufficient to offset this risk. 1.2 Crohn's Disease (CD) TYRUKO is indicated for inducing and maintaining clinical response and remission in adult patients with moderately to severely active Crohn’s disease with evidence of inflammation who have had an inadequate response to, or are unable to tolerate, conventional CD therapies and inhibitors of TNF-α.
+    ----------------------------------------------------------------------
+    
+    chunk_id:   a6068676b604
+    drug:       Tysabri (natalizumab)
+    section:    indications_and_usage
+    chunk:      2/3
+    text:       with moderately to severely active Crohn’s disease with evidence of inflammation who have had an inadequate response to, or are unable to tolerate, conventional CD therapies and inhibitors of TNF-α. TYRUKO should not be used in combination with immunosuppressants (e.g., 6-mercaptopurine, azathioprine, cyclosporine, or methotrexate) or inhibitors of TNF-α [see Warnings and Precautions (5.1)].
+    ----------------------------------------------------------------------
+    
+    chunk_id:   1d25a789c478
+    drug:       Tysabri (natalizumab)
+    section:    indications_and_usage
+    chunk:      3/3
+    text:       F-α. TYRUKO should not be used in combination with immunosuppressants (e.g., 6-mercaptopurine, azathioprine, cyclosporine, or methotrexate) or inhibitors of TNF-α [see Warnings and Precautions (5.1)].
+    ----------------------------------------------------------------------
+
+  >> ACTION: Pick the best chunk_id and verbatim snippet for IU-002
+  >> If all sections return 0 chunks, flag as CORPUS GAP
+
+================================================================================
+  IU-003  [indications]  difficulty=easy
+  QUERY: What is dalfampridine indicated for?
+  expected_drug: Ampyra
+  expected_section: indications_and_usage
+  acceptable_sections: ['indications_and_usage']
+================================================================================
+
+  --- Ampyra / indications_and_usage ---
+    Found 1 matching chunk(s)
+    ======================================================================
+    
+    chunk_id:   2dda3d84a9f1
+    drug:       Ampyra (dalfampridine)
+    section:    indications_and_usage
+    chunk:      1/1
+    text:       1 INDICATIONS AND USAGE AMPYRA is indicated as a treatment to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed [see Clinical Studies (14)]. AMPYRA ® (dalfampridine) is a potassium channel blocker indicated to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed (1, 14).
+    ----------------------------------------------------------------------
+
+  >> ACTION: Pick the best chunk_id and verbatim snippet for IU-003
+  >> If all sections return 0 chunks, flag as CORPUS GAP
+
+================================================================================
+  IU-004  [indications]  difficulty=easy
+  QUERY: What does ofatumumab treat?
+  expected_drug: Kesimpta
+  expected_section: indications_and_usage
+  acceptable_sections: ['indications_and_usage']
+================================================================================
+
+  --- Kesimpta / indications_and_usage ---
+    Found 1 matching chunk(s)
+    ======================================================================
+    
+    chunk_id:   8262c1d799c7
+    drug:       Kesimpta (ofatumumab)
+    section:    indications_and_usage
+    chunk:      1/1
+    text:       1 INDICATIONS AND USAGE Chronic Lymphocytic Leukemia (CLL) ARZERRA (ofatumumab) is indicated: in combination with chlorambucil, for the treatment of previously untreated patients with CLL for whom fludarabine-based therapy is considered inappropriate [see Clinical Studies (14.1)] in combination with fludarabine and cyclophosphamide for the treatment of patients with relapsed CLL [see Clinical Studies (14.2)] for extended treatment of patients who are in complete or partial response after at least two lines of therapy for recurrent or progressive CLL [see Clinical Studies (14.3)] for the treatment of patients with CLL refractory to fludarabine and alemtuzumab [see Clinical Studies (14.4)] ARZERRA (ofatumumab) is a CD20-directed cytolytic monoclonal antibody indicated for the treatment of chronic lymphocytic leukemia (CLL) (1): in combination with chlorambucil, for the treatment of previously untreated patients with CLL for whom fludarabine-based therapy is considered inappropriate. in combination with fludarabine and cyclophosphamide for the treatment of patients with relapsed CLL. for extended treatment of patients who are in complete or partial response after at least two lines of therapy for recurrent or progressive CLL. for the treatment of patients with CLL refractory to fludarabine and alemtuzumab.
+    ----------------------------------------------------------------------
+
+  >> ACTION: Pick the best chunk_id and verbatim snippet for IU-004
+  >> If all sections return 0 chunks, flag as CORPUS GAP
+
+================================================================================
+  IU-005  [indications]  difficulty=easy
+  QUERY: What is peginterferon beta-1a used for?
+  expected_drug: Plegridy
+  expected_section: indications_and_usage
+  acceptable_sections: ['indications_and_usage']
+================================================================================
+
+  --- Plegridy / indications_and_usage ---
+    Found 1 matching chunk(s)
+    ======================================================================
+    
+    chunk_id:   ebf1f108420e
+    drug:       Plegridy (peginterferon beta-1a)
+    section:    indications_and_usage
+    chunk:      1/1
+    text:       1 INDICATIONS AND USAGE PLEGRIDY is indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults. PLEGRIDY is an interferon beta indicated for the treatment of relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults (1)
+    ----------------------------------------------------------------------
+
+  >> ACTION: Pick the best chunk_id and verbatim snippet for IU-005
+  >> If all sections return 0 chunks, flag as CORPUS GAP
+
+================================================================================
+  IU-006  [indications]  difficulty=medium
+  QUERY: What is mitoxantrone indicated for in MS?
+  expected_drug: Mitoxantrone
+  expected_section: indications_and_usage
+  acceptable_sections: ['indications_and_usage']
+================================================================================
+
+  --- Mitoxantrone / indications_and_usage ---
+    Found 1 matching chunk(s)
+    ======================================================================
+    
+    chunk_id:   1462cb90a383
+    drug:       Mitoxantrone (mitoxantrone)
+    section:    indications_and_usage
+    chunk:      1/1
+    text:       INDICATIONS AND USAGE Mitoxantrone is indicated for reducing neurologic disability and/or the frequency of clinical relapses in patients with secondary (chronic) progressive, progressive relapsing, or worsening relapsing-remitting multiple sclerosis (i.e., patients whose neurologic status is significantly abnormal between relapses). Mitoxantrone is not indicated in the treatment of patients with primary progressive multiple sclerosis. The clinical patterns of multiple sclerosis in the studies were characterized as follows: secondary progressive and progressive relapsing disease were characterized by gradual increasing disability with or without superimposed clinical relapses, and worsening relapsing-remitting disease was characterized by clinical relapses resulting in a step-wise worsening of disability. Mitoxantrone in combination with corticosteroids is indicated as initial chemotherapy for the treatment of patients with pain related to advanced hormone-refractory prostate cancer. Mitoxantrone in combination with other approved drug(s) is indicated in the initial therapy of acute nonlymphocytic leukemia (ANLL) in adults. This category includes myelogenous, promyelocytic, monocytic, and erythroid acute leukemias.
+    ----------------------------------------------------------------------
+
+  >> ACTION: Pick the best chunk_id and verbatim snippet for IU-006
+  >> If all sections return 0 chunks, flag as CORPUS GAP
+
