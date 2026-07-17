@@ -32,5 +32,9 @@ logs/*.jsonl
 .DS_Store
 Thumbs.db
 
+# Embedded external repos
+external/MIRAGE/
+external/MedRAG/
+
 # Model cache
 .cache/
