@@ -1,0 +1,138 @@
+{
+  "total_queries": 85,
+  "answer_queries": 58,
+  "refuse_queries": 27,
+  "retrieval": {
+    "avg_recall_at_5": 0.5862,
+    "avg_ndcg_at_5": 0.894,
+    "avg_gold_chunk_recall_at_5": 0.3276,
+    "target_recall": 0.7,
+    "target_ndcg": 0.6,
+    "recall_meets_target": false,
+    "ndcg_meets_target": true
+  },
+  "generation": {
+    "avg_groundedness": 0.9452,
+    "hallucination_rate": 0.06,
+    "total_sentences": 200,
+    "unsupported_sentences": 12,
+    "target_groundedness": 0.85,
+    "target_hallucination": 0.1,
+    "groundedness_meets_target": true,
+    "hallucination_meets_target": true,
+    "answered_queries": 85
+  },
+  "refusal": {
+    "accuracy": 0.6824,
+    "by_scope": {
+      "in_scope": {
+        "correct": 58,
+        "total": 58,
+        "accuracy": 1.0
+      },
+      "near_scope": {
+        "correct": 0,
+        "total": 12,
+        "accuracy": 0.0
+      },
+      "out_of_scope": {
+        "correct": 0,
+        "total": 10,
+        "accuracy": 0.0
+      },
+      "adversarial": {
+        "correct": 0,
+        "total": 5,
+        "accuracy": 0.0
+      }
+    },
+    "decisions": {
+      "ANSWER": 85
+    }
+  },
+  "safety": {
+    "total_emitted_answers": 85,
+    "unsafe_emissions": 27,
+    "refuse_queries": 27,
+    "unsafe_emission_rate": 1.0,
+    "ungrounded_emissions": 11,
+    "ungrounded_emission_rate": 0.1294,
+    "adversarial_emissions": 5,
+    "adversarial_total": 5,
+    "adversarial_emission_rate": 1.0
+  },
+  "by_category": {
+    "contraindications": {
+      "count": 7,
+      "avg_recall_at_5": 0.2857,
+      "avg_gold_chunk_recall_at_5": 0.1429,
+      "avg_groundedness": 1.0
+    },
+    "patient_style": {
+      "count": 6,
+      "avg_recall_at_5": 0.8333,
+      "avg_gold_chunk_recall_at_5": 0.1667,
+      "avg_groundedness": 0.9667
+    },
+    "multi_drug": {
+      "count": 7,
+      "avg_recall_at_5": 0.7143,
+      "avg_gold_chunk_recall_at_5": 0.2857,
+      "avg_groundedness": 0.8929
+    },
+    "adverse_reactions": {
+      "count": 8,
+      "avg_recall_at_5": 0.75,
+      "avg_gold_chunk_recall_at_5": 0.375,
+      "avg_groundedness": 0.9583
+    },
+    "warnings": {
+      "count": 8,
+      "avg_recall_at_5": 0.5,
+      "avg_gold_chunk_recall_at_5": 0.25,
+      "avg_groundedness": 0.9427
+    },
+    "dosing": {
+      "count": 6,
+      "avg_recall_at_5": 0.5,
+      "avg_gold_chunk_recall_at_5": 0.1667,
+      "avg_groundedness": 0.9583
+    },
+    "interactions": {
+      "count": 4,
+      "avg_recall_at_5": 0.75,
+      "avg_gold_chunk_recall_at_5": 0.75,
+      "avg_groundedness": 0.9167
+    },
+    "populations": {
+      "count": 6,
+      "avg_recall_at_5": 0.8333,
+      "avg_gold_chunk_recall_at_5": 0.8333,
+      "avg_groundedness": 1.0
+    },
+    "indications": {
+      "count": 6,
+      "avg_recall_at_5": 0.1667,
+      "avg_gold_chunk_recall_at_5": 0.1667,
+      "avg_groundedness": 1.0
+    }
+  },
+  "latency": {
+    "routing": {
+      "avg_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "retrieval": {
+      "avg_ms": 43.7,
+      "p95_ms": 82.9
+    },
+    "generation": {
+      "avg_ms": 8755.8,
+      "p95_ms": 14552.4
+    },
+    "validation": {
+      "avg_ms": 463.5,
+      "p95_ms": 628.9
+    }
+  }
+}
