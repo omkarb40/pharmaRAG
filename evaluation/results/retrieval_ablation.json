@@ -1,0 +1,1738 @@
+{
+  "aggregate": {
+    "bm25": {
+      "n_answer_queries": 58,
+      "recall_at_5": 0.5345,
+      "gold_chunk_recall_at_5": 0.2931,
+      "ndcg_at_5": 0.9155
+    },
+    "dense": {
+      "n_answer_queries": 58,
+      "recall_at_5": 0.7759,
+      "gold_chunk_recall_at_5": 0.5172,
+      "ndcg_at_5": 0.9602
+    },
+    "hybrid": {
+      "n_answer_queries": 58,
+      "recall_at_5": 0.7069,
+      "gold_chunk_recall_at_5": 0.4483,
+      "ndcg_at_5": 0.9626
+    },
+    "hybrid_rerank": {
+      "n_answer_queries": 58,
+      "recall_at_5": 0.8448,
+      "gold_chunk_recall_at_5": 0.6034,
+      "ndcg_at_5": 0.977
+    }
+  },
+  "per_query": {
+    "bm25": {
+      "CI-001": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-001": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "MD-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "NS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "CI-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 0.0
+      },
+      "CI-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9484
+      },
+      "CI-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-001": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 0.0
+      },
+      "AE-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7979
+      },
+      "AE-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-006": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 0.8772
+      },
+      "AE-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 0.0
+      },
+      "AE-008": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7604
+      },
+      "WP-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-005": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.7745
+      },
+      "WP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9214
+      },
+      "WP-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-008": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-001": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 0.8447
+      },
+      "DA-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-005": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.7979
+      },
+      "DA-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "DI-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "DI-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DI-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DI-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "SP-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "SP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "IU-001": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9842
+      },
+      "IU-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "PT-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9914
+      },
+      "PT-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.972
+      },
+      "MD-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9214
+      },
+      "MD-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9355
+      },
+      "MD-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.8025
+      },
+      "MD-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-006": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.7699
+      },
+      "MD-007": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "NS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-011": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-012": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      }
+    },
+    "dense": {
+      "CI-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "CI-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "PT-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-001": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "NS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "CI-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7699
+      },
+      "CI-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "CI-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7979
+      },
+      "CI-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9686
+      },
+      "AE-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-005": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-006": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-008": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9355
+      },
+      "WP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9323
+      },
+      "WP-007": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.7979
+      },
+      "WP-008": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.8508
+      },
+      "DA-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9214
+      },
+      "DA-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-005": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9214
+      },
+      "DA-006": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DI-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "DI-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.738
+      },
+      "DI-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7979
+      },
+      "DI-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "SP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9214
+      },
+      "IU-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "IU-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7699
+      },
+      "IU-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "PT-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9323
+      },
+      "MD-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.7522
+      },
+      "MD-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.972
+      },
+      "MD-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9131
+      },
+      "MD-006": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "MD-007": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "NS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-011": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-012": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      }
+    },
+    "hybrid": {
+      "CI-001": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "PT-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "NS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "CI-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7699
+      },
+      "CI-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7979
+      },
+      "CI-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9355
+      },
+      "AE-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-006": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.8508
+      },
+      "AE-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-008": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.8025
+      },
+      "WP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-005": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9131
+      },
+      "WP-007": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.7979
+      },
+      "WP-008": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-001": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.8508
+      },
+      "DA-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.8299
+      },
+      "DA-006": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DI-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "DI-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7699
+      },
+      "DI-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DI-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9445
+      },
+      "SP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9578
+      },
+      "SP-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "SP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "IU-001": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "IU-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "PT-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9686
+      },
+      "MD-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.8025
+      },
+      "MD-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9891
+      },
+      "MD-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9131
+      },
+      "MD-006": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9355
+      },
+      "MD-007": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "NS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-011": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-012": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      }
+    },
+    "hybrid_rerank": {
+      "CI-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "CI-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "PT-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-001": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "NS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-001": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "CI-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "CI-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "CI-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "CI-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "CI-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "AE-006": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-007": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "AE-008": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7522
+      },
+      "WP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "WP-007": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "WP-008": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.7522
+      },
+      "DA-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "DA-002": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-003": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DA-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.8167
+      },
+      "DA-006": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "DI-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9686
+      },
+      "DI-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "DI-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9214
+      },
+      "DI-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9445
+      },
+      "SP-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-004": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "SP-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.9686
+      },
+      "IU-001": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "IU-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "IU-003": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "IU-004": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "IU-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 0.8508
+      },
+      "IU-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "PT-002": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-005": {
+        "recall": 0.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "PT-006": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-002": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-003": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9214
+      },
+      "MD-004": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.839
+      },
+      "MD-005": {
+        "recall": 1.0,
+        "gold": 1.0,
+        "ndcg": 1.0
+      },
+      "MD-006": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 0.9323
+      },
+      "MD-007": {
+        "recall": 1.0,
+        "gold": 0.0,
+        "ndcg": 1.0
+      },
+      "NS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-011": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "NS-012": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-006": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-007": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-008": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-009": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "OOS-010": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-002": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-003": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-004": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      },
+      "ADV-005": {
+        "recall": null,
+        "gold": null,
+        "ndcg": null
+      }
+    }
+  }
+}
