@@ -1,0 +1,523 @@
+PharmaRAG — Gold Evidence Annotation Task
+========================================================================
+
+For each QUERY below you will see several candidate passages (A, B, C...)
+taken from FDA drug labels.
+
+TASK — two things per query:
+  1. For EACH candidate, mark Y or N: does this passage contain information
+     that directly answers the query?
+  2. Then pick the SINGLE BEST passage letter that most directly answers it
+     (or NONE if no passage answers it).
+
+Rules:
+  - A passage about the WRONG DRUG is always N, even if the topic matches.
+  - "Directly answers" means the answer is stated, not merely implied.
+  - Work independently. Do not discuss with anyone.
+
+Record answers in evaluation/iaa/annotator2.txt, one line per query:
+     QUERY_ID | per-candidate Y/N in order | BEST
+  example:
+     CI-003 | N,N,Y,N,N,N | C
+
+========================================================================
+
+------------------------------------------------------------------------
+AE-002
+QUERY: What adverse reactions have been reported with natalizumab?
+------------------------------------------------------------------------
+
+  [A] Drug: Tyruko | Section: adverse_reactions
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during post approval use of natalizumab products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establi
+
+  [B] Drug: Tyruko | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Precautions (5.8)] Most common adverse reactions (incidence ≥ 10%): •MS - headache, fatigue, arthralgia, urinary tract infection, lower respiratory tract infection, gastroenteritis, vaginitis, depression, 
+
+  [C] Drug: Tysabri | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Precautions (5.8)] Most common adverse reactions (incidence ≥ 10%): •MS - headache, fatigue, arthralgia, urinary tract infection, lower respiratory tract infection, gastroenteritis, vaginitis, depression, 
+
+  [D] Drug: Tysabri | Section: adverse_reactions
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during post approval use of natalizumab products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establi
+
+  [E] Drug: Tyruko | Section: adverse_reactions
+      dence of at least 0.3%: intestinal obstruction or stenosis (2% vs. 1% in placebo), acute hypersensitivity reactions (0.5% vs. 0%), abdominal adhesions (0.3% vs. 0%), and cholelithiasis (0.3% vs. 0%). Similar serious adverse reactions were seen in the maintenance Study CD3. Table 3 enumerates adverse reactions that occurred in Studies CD1 and CD2 (median exposure of 2.8 months). Table 4 enumerates adverse reactions that occurred in Study CD3 (median exposure of 11.0 months). Table 3: Adverse Reactions in Studies CD1 and CD2 (Induction Studies) Adverse Reactions* Natalizumab n=983 % Placebo n=431 % * Occurred at an incidence of at least 1% higher in natalizumab-treated patients than placebo-tr
+
+  [F] Drug: Tysabri | Section: adverse_reactions
+      dence of at least 0.3%: intestinal obstruction or stenosis (2% vs. 1% in placebo), acute hypersensitivity reactions (0.5% vs. 0%), abdominal adhesions (0.3% vs. 0%), and cholelithiasis (0.3% vs. 0%). Similar serious adverse reactions were seen in the maintenance Study CD3. Table 3 enumerates adverse reactions that occurred in Studies CD1 and CD2 (median exposure of 2.8 months). Table 4 enumerates adverse reactions that occurred in Study CD3 (median exposure of 11.0 months). Table 3: Adverse Reactions in Studies CD1 and CD2 (Induction Studies) Adverse Reactions* Natalizumab n=983 % Placebo n=431 % * Occurred at an incidence of at least 1% higher in natalizumab-treated patients than placebo-tr
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+CI-001
+QUERY: What are the contraindications for natalizumab?
+------------------------------------------------------------------------
+
+  [A] Drug: Tysabri | Section: adverse_reactions
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during post approval use of natalizumab products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establi
+
+  [B] Drug: Tyruko | Section: warnings_and_precautions
+      e in infections was seen in patients concurrently receiving corticosteroids. However, the increase in infections was similar in placebo-treated and natalizumab-treated patients who received steroids. Concurrent use of antineoplastic, immunosuppressant, or immunomodulating agents may further increase the risk of infections, including PML and other opportunistic infections, over the risk observed with use of natalizumab alone [see Warnings and Precautions (5.1) and Adverse Reactions (6.1)]. The safety and efficacy of natalizumab products in combination with antineoplastic, immunosuppressant, or immunomodulating agents have not been established. Patients receiving chronic immunosuppressant or i
+
+  [C] Drug: Tysabri | Section: warnings_and_precautions
+      e in infections was seen in patients concurrently receiving corticosteroids. However, the increase in infections was similar in placebo-treated and natalizumab-treated patients who received steroids. Concurrent use of antineoplastic, immunosuppressant, or immunomodulating agents may further increase the risk of infections, including PML and other opportunistic infections, over the risk observed with use of natalizumab alone [see Warnings and Precautions (5.1) and Adverse Reactions (6.1)]. The safety and efficacy of natalizumab products in combination with antineoplastic, immunosuppressant, or immunomodulating agents have not been established. Patients receiving chronic immunosuppressant or i
+
+  [D] Drug: Tyruko | Section: adverse_reactions
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during post approval use of natalizumab products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establi
+
+  [E] Drug: Tysabri | Section: warnings_and_precautions
+      on the effects of vaccination in patients receiving natalizumab products. No data are available on the secondary transmission of infection by live vaccines in patients receiving natalizumab products.
+
+  [F] Drug: Tysabri | Section: contraindications
+      4 CONTRAINDICATIONS •TYRUKO is contraindicated in patients who have or have had progressive multifocal leukoencephalopathy (PML) [see Warnings and Precautions (5.1)]. •TYRUKO is contraindicated in patients who have had a hypersensitivity reaction to natalizumab products or any of the ingredients in TYRUKO. Observed reactions range from urticaria to anaphylaxis [see Warnings and Precautions (5.5)]. •Patients who have or have had PML (4) •Patients who have had a hypersensitivity reaction to natalizumab products (4, 5.3)
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+DA-006
+QUERY: What is the dosing for ofatumumab?
+------------------------------------------------------------------------
+
+  [A] Drug: Kesimpta | Section: dosage_and_administration
+      iating KESIMPTA, obtain serum aminotransferases (alanine aminotransferase [ALT] and aspartate aminotransferase [AST]), alkaline phosphatase, and bilirubin levels [see Warnings and Precautions (5.4)]. 2.2 Recommended Dosage The recommended dosage of KESIMPTA is: initial dosing of 20 mg by subcutaneous injection at Weeks 0, 1, and 2, followed by subsequent dosing of 20 mg by subcutaneous injection once monthly starting at Week 4. Missed Doses If an injection of KESIMPTA is missed, it should be administered as soon as possible without waiting until the next scheduled dose. Subsequent doses should be administered at the recommended intervals. 2.3 Administration Instructions Administer by subcuta
+
+  [B] Drug: Rebif | Section: dosage_and_administration
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional (2.2) Analgesics and/or antipyretics on treatment days may help ameliorate flu-like symptoms (2.3) 2.1 Dosing Information AVONEX is administered intramuscularly. The recommended dose is 30 micrograms 
+
+  [C] Drug: Mayzent | Section: dosage_and_administration
+      atment with Day 1 of the titration regimen [see Dosage and Administration (2.2, 2.3)]; also complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.4)].
+
+  [D] Drug: Avonex | Section: dosage_and_administration
+      2 DOSAGE AND ADMINISTRATION For intramuscular use only (2.1) Recommended dose: 30 micrograms once a week (2.1) AVONEX may be titrated, starting with 7.5 micrograms for first week, to reduce flu-like symptoms (2.1) Increase dose by 7.5 micrograms each week for next 3 weeks until recommended dose of 30 micrograms (2.1) See patient instructions for use for complete administration instructions (2.2) Perform first injection under the supervision of an appropriately qualified health care professional (2.2) Analgesics and/or antipyretics on treatment days may help ameliorate flu-like symptoms (2.3) 2.1 Dosing Information AVONEX is administered intramuscularly. The recommended dose is 30 micrograms 
+
+  [E] Drug: Vumerity | Section: dosage_and_administration
+      2 DOSAGE AND ADMINISTRATION Blood tests are required prior to initiation of VUMERITY (2.1) Starting dose: 231 mg twice a day, orally, for 7 days (2.2) Maintenance dose after 7 days: 462 mg (administered as two 231 mg capsules) twice a day, orally (2.2) Swallow VUMERITY capsules whole and intact. Do not crush, chew, or sprinkle capsule contents on food (2.3) Avoid administration of VUMERITY with a high-fat, high-calorie meal/snack (2.3) Avoid co-administration of VUMERITY with alcohol (2.3) 2.1 Blood Tests Prior to Initiation of VUMERITY Obtain the following prior to treatment with VUMERITY: A complete blood cell count (CBC), including lymphocyte count [see Warnings and Precautions (5.4)]. Se
+
+  [F] Drug: Baclofen | Section: dosage_and_administration
+      DOSAGE AND ADMINISTRATION The determination of optimal dosage requires individual titration. Start therapy at a low dosage and increase gradually until optimum effect is achieved (usually between 40-80 mg daily). The following dosage titration schedule is suggested: 5 mg t.i.d. for 3 days 10 mg t.i.d. for 3 days 15 mg t.i.d. for 3 days 20 mg t.i.d. for 3 days Thereafter additional increases may be necessary but the total daily dose should not exceed a maximum of 80 mg daily (20 mg q.i.d.). The lowest dose compatible with an optimal response is recommended. If benefits are not evident after a reasonable trial period, patients should be slowly withdrawn from the drug (see WARNINGS Abrupt Drug 
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+IU-003
+QUERY: What is dalfampridine indicated for?
+------------------------------------------------------------------------
+
+  [A] Drug: Bafiertam | Section: use_in_specific_populations
+      es of dimethyl fumarate (the prodrug of BAFIERTAM) and of BAFIERTAM did not include sufficient numbers of patients aged 65 and over to determine whether they respond differently from younger patients.
+
+  [B] Drug: Ponvory | Section: dosage_and_administration
+      f treatment needs to be reinitiated with Day 1 of the titration regimen (new starter pack), complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.3)].
+
+  [C] Drug: Ampyra | Section: use_in_specific_populations
+      on a mg/m2 basis. 8.2 Lactation Risk Summary There are no data on the presence of dalfampridine in human milk, the effects of dalfampridine on the breastfed infant, or the effects on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for AMPYRA and any potential adverse effects on the breastfed infant from AMPYRA or from the underlying maternal condition. 8.4 Pediatric Use Safety and effectiveness in patients younger than 18 years of age have not been established. 8.5 Geriatric Use Clinical studies of AMPYRA did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differen
+
+  [D] Drug: Ampyra | Section: use_in_specific_populations
+      l 51–80 mL/min) is unknown, but dalfampridine plasma levels in these patients may approach those seen at a dose of 15 mg twice daily, a dose that may be associated with an increased risk of seizures. If unknown, estimated creatinine clearance should be calculated prior to initiating treatment with AMPYRA [see Dosage and Administration (2.3) and Warnings and Precautions (5.2)] .
+
+  [E] Drug: Ampyra | Section: indications_and_usage
+      1 INDICATIONS AND USAGE AMPYRA is indicated as a treatment to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed [see Clinical Studies (14)]. AMPYRA ® (dalfampridine) is a potassium channel blocker indicated to improve walking in adult patients with multiple sclerosis (MS). This was demonstrated by an increase in walking speed (1, 14).
+
+  [F] Drug: Modafinil | Section: dosage_and_administration
+      2 DOSAGE AND ADMINISTRATION The recommended dosage of modafinil for each indication is as follows: Narcolepsy or OSA: 200 mg once a day in the morning. ( 2.1) SWD: 200 mg once a day, taken approximately one hour prior to start of the work shift. ( 2.2) Severe Hepatic Impairment: reduce dose to half the recommended dose ( 2.3, 12.3) Geriatric Patients: consider lower dose. ( 2.4, 12.3) 2.1 Dosage in Narcolepsy and Obstructive Sleep Apnea (OSA) The recommended dosage of modafinil for patients with narcolepsy or OSA is 200 mg taken orally once a day as a single dose in the morning. Doses up to 400 mg/day, given as a single dose, have been well tolerated, but there is no consistent evidence that
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+DI-002
+QUERY: What drugs interact with teriflunomide?
+------------------------------------------------------------------------
+
+  [A] Drug: Aubagio | Section: drug_interactions
+      7 DRUG INTERACTIONS Drugs metabolized by CYP2C8 and OAT3 transporters: Monitor patients because teriflunomide may increase exposure of these drugs. (7) Teriflunomide may increase exposure of ethinylestradiol and levonorgestrel. Choose an appropriate oral contraceptive. (7) Drugs metabolized by CYP1A2: Monitor patients because teriflunomide may decrease exposure of these drugs. (7) Warfarin: Monitor INR as teriflunomide may decrease INR. (7) Drugs metabolized by BCRP and OATP1B1/B3 transporters: Monitor patients because teriflunomide may increase exposure of these drugs. (7) Rosuvastatin: The dose of rosuvastatin should not exceed 10 mg once daily in patients taking AUBAGIO. (7) Effect of AUB
+
+  [B] Drug: Zeposia | Section: drug_interactions
+      7 DRUG INTERACTIONS Tables 5 and 6 include drugs with clinically important drug and vaccine interactions when administered concomitantly with ZEPOSIA and instructions for preventing or managing them. Table 5: Clinically Relevant Interactions Affecting Drugs and Vaccines Co-administered with ZEPOSIA Anti-Neoplastic, Immune-Modulating, or Non-Corticosteroid Immunosuppressive Therapies Clinical Impact: ZEPOSIA has not been studied in combination with anti-neoplastic, immune-modulating, or non-corticosteroid immunosuppressive therapies with the exception of cyclosporine, which had no pharmacokinetic interaction [see Clinical Pharmacology (12.3)]. Prevention or Management: Caution should be used 
+
+  [C] Drug: Modafinil | Section: drug_interactions
+      7 DRUG INTERACTIONS Effects of Modafinil on CYP3A4/5 Substrates The clearance of drugs that are substrates for CYP3A4/5 (e.g., steroidal contraceptives, cyclosporine, midazolam, and triazolam) may be increased by modafinil via induction of metabolic enzymes, which results in lower systemic exposure. Dosage adjustment of these drugs should be considered when these drugs are used concomitantly with modafinil [see Clinical Pharmacology ( 12.3)] . The effectiveness of steroidal contraceptives may be reduced when used with modafinil and for one month after discontinuation of therapy. Alternative or concomitant methods of contraception are recommended for patients taking steroidal contraceptives (
+
+  [D] Drug: Mayzent | Section: dosage_and_administration
+      nal risk for QT prolongation, or on concurrent therapy with QT prolonging drugs with a known risk of torsades de pointes [see Warnings and Precautions (5.4) and Drug Interactions (7.2)] Receiving concurrent therapy with drugs that slow heart rate or AV conduction [see Drug Interactions (7.2, 7.3)] 2.5 Reinitiation of MAYZENT After Treatment Interruption After the initial titration is complete, if MAYZENT treatment is interrupted for 4 or more consecutive daily doses, reinitiate treatment with Day 1 of the titration regimen [see Dosage and Administration (2.2, 2.3)]; also complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.4)].
+
+  [E] Drug: Gilenya | Section: drug_interactions
+      7 DRUG INTERACTIONS Systemic Ketoconazole: Monitor during concomitant use. (7.2, 12.3) Vaccines: Avoid live attenuated vaccines during, and for 2 months after stopping fingolimod treatment. (5.2, 7.3) 7.1 QT Prolonging Drugs Fingolimod has not been studied in patients treated with drugs that prolong the QT interval. Drugs that prolong the QT interval have been associated with cases of torsades de pointes in patients with bradycardia. Since initiation of fingolimod treatment results in decreased heart rate and may prolong the QT interval, patients on QT-prolonging drugs with a known risk of torsades de pointes (e.g., citalopram, chlorpromazine, haloperidol, methadone, erythromycin) should be 
+
+  [F] Drug: Mayzent | Section: drug_interactions
+      7 DRUG INTERACTIONS Vaccination: Avoid live-attenuated vaccines during and for up to 4 weeks after treatment with MAYZENT. (7.4) CYP2C9 and Dual CYP2C9/3A4 Inhibitors: Strong CYP2C9 inhibitors increase siponimod exposure; concomitant use with MAYZENT is not recommended. Monitor for adverse reactions during concomitant use of MAYZENT with moderate CYP2C9 inhibitors or moderate CYP2C9/CYP3A4 dual inhibitors. (7.5) CYP2C9 and CYP3A4 Inducers: Dual moderate CYP2C9/strong CYP3A4 inducers decrease siponimod exposure; concomitant use with MAYZENT is not recommended. Monitor for loss of efficacy with concomitant use of MAYZENT and moderate or strong CYP3A4 inducers in patients with CYP2C9*1/*3 or *2
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+MD-002
+QUERY: Compare the infusion requirements of ocrelizumab and natalizumab.
+------------------------------------------------------------------------
+
+  [A] Drug: Tyruko | Section: warnings_and_precautions
+      e in infections was seen in patients concurrently receiving corticosteroids. However, the increase in infections was similar in placebo-treated and natalizumab-treated patients who received steroids. Concurrent use of antineoplastic, immunosuppressant, or immunomodulating agents may further increase the risk of infections, including PML and other opportunistic infections, over the risk observed with use of natalizumab alone [see Warnings and Precautions (5.1) and Adverse Reactions (6.1)]. The safety and efficacy of natalizumab products in combination with antineoplastic, immunosuppressant, or immunomodulating agents have not been established. Patients receiving chronic immunosuppressant or i
+
+  [B] Drug: Tyruko | Section: adverse_reactions
+      acebo-treated patients. In the controlled CD clinical trials, infusion-related reactions occurred in approximately 11% of patients treated with natalizumab compared to 7% of placebo-treated patients. Reactions more common in the natalizumab-treated MS patients compared to the placebo-treated MS patients included headache, dizziness, fatigue, urticaria, pruritus, and rigors. Acute urticaria was observed in approximately 2% of patients. Other hypersensitivity reactions were observed in 1% of patients receiving natalizumab. Serious systemic hypersensitivity infusion reactions occurred in <1% of patients [see Warnings and Precautions (5.5)]. All patients recovered with treatment and/or discontin
+
+  [C] Drug: Tysabri | Section: adverse_reactions
+      acebo-treated patients. In the controlled CD clinical trials, infusion-related reactions occurred in approximately 11% of patients treated with natalizumab compared to 7% of placebo-treated patients. Reactions more common in the natalizumab-treated MS patients compared to the placebo-treated MS patients included headache, dizziness, fatigue, urticaria, pruritus, and rigors. Acute urticaria was observed in approximately 2% of patients. Other hypersensitivity reactions were observed in 1% of patients receiving natalizumab. Serious systemic hypersensitivity infusion reactions occurred in <1% of patients [see Warnings and Precautions (5.5)]. All patients recovered with treatment and/or discontin
+
+  [D] Drug: Ocrevus | Section: dosage_and_administration
+      ous infusion. Subsequent doses: single 600 mg intravenous infusion every 6 months. Observe the patient for at least one hour after the completion of the infusion [see Warnings and Precautions (5.1)]. Table 1 Recommended Dose, Infusion Rate, and Infusion Duration for RMS and PPMS Amount and Volume Solutions of OCREVUS for intravenous infusion are prepared by dilution of the drug product into an infusion bag containing 0.9% Sodium Chloride Injection, to a final drug concentration of approximately 1.2 mg/mL. Infusion Rate and Duration Infusion time may take longer if the infusion is interrupted or slowed [see Dosage and Administration (2.5)]. Initial Dose (two infusions) Infusion 1 300 mg in 25
+
+  [E] Drug: Tysabri | Section: adverse_reactions
+      as 1.7 per patient-year in natalizumab-treated patients and was similar in placebo-treated patients. The most common infections were nasopharyngitis, upper respiratory tract infection, and influenza. The majority of patients did not interrupt natalizumab therapy during infections, and recovery occurred with appropriate treatment. Concurrent use of natalizumab in CD clinical trials with chronic steroids and/or methotrexate, 6-MP, and azathioprine did not result in an increase in overall infections compared to natalizumab alone; however, the concomitant use of such agents could lead to an increased risk of serious infections. In Studies CD1 and CD2, the incidence of serious infection was appro
+
+  [F] Drug: Tysabri | Section: warnings_and_precautions
+      e in infections was seen in patients concurrently receiving corticosteroids. However, the increase in infections was similar in placebo-treated and natalizumab-treated patients who received steroids. Concurrent use of antineoplastic, immunosuppressant, or immunomodulating agents may further increase the risk of infections, including PML and other opportunistic infections, over the risk observed with use of natalizumab alone [see Warnings and Precautions (5.1) and Adverse Reactions (6.1)]. The safety and efficacy of natalizumab products in combination with antineoplastic, immunosuppressant, or immunomodulating agents have not been established. Patients receiving chronic immunosuppressant or i
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+PT-002
+QUERY: What happens if I miss a dose of my MS medication?
+------------------------------------------------------------------------
+
+  [A] Drug: Zanaflex | Section: dosage_and_administration
+      forms if being administered with food. If these situations occur, monitor patients for therapeutic effect or adverse reactions [see Dosage and Administration ( 2.2) and Clinical Pharmacology ( 12.3)].
+
+  [B] Drug: Gabapentin | Section: warnings_and_precautions
+      e of the background incidence and recurrence in a similar population not treated with gabapentin, it is impossible to know whether the incidence seen in this cohort is or is not affected by treatment.
+
+  [C] Drug: Ocrevus | Section: dosage_and_administration
+      ous infusion. Subsequent doses: single 600 mg intravenous infusion every 6 months. Observe the patient for at least one hour after the completion of the infusion [see Warnings and Precautions (5.1)]. Table 1 Recommended Dose, Infusion Rate, and Infusion Duration for RMS and PPMS Amount and Volume Solutions of OCREVUS for intravenous infusion are prepared by dilution of the drug product into an infusion bag containing 0.9% Sodium Chloride Injection, to a final drug concentration of approximately 1.2 mg/mL. Infusion Rate and Duration Infusion time may take longer if the infusion is interrupted or slowed [see Dosage and Administration (2.5)]. Initial Dose (two infusions) Infusion 1 300 mg in 25
+
+  [D] Drug: Modafinil | Section: adverse_reactions
+      size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Hematologic: agranulocytosis Psychiatric disorders: psychomotor hyperactivity
+
+  [E] Drug: Ampyra | Section: adverse_reactions
+      ons are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure: vomiting, vertigo.
+
+  [F] Drug: Gabapentin | Section: dosage_and_administration
+      ose is reduced, discontinued, or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber).
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+SP-006
+QUERY: What about using gabapentin in renal impairment?
+------------------------------------------------------------------------
+
+  [A] Drug: Gabapentin | Section: use_in_specific_populations
+      cretion, the larger treatment effect observed in patients ≥75 years may be a consequence of increased gabapentin exposure for a given dose that results from an age-related decrease in renal function. However, other factors cannot be excluded. The types and incidence of adverse reactions were similar across age groups except for peripheral edema and ataxia, which tended to increase in incidence with age. Clinical studies of gabapentin in epilepsy did not include sufficient numbers of subjects aged 65 and over to determine whether they responded differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger pati
+
+  [B] Drug: Gabapentin | Section: dosage_and_administration
+      D 15a 100 to 300 100 QD 125 QD 150 QD 200 QD 300 QD Post-Hemodialysis Supplemental Dose (mg)b Hemodialysis 125b 150b 200b 250b 350b Creatinine clearance (CLCr) is difficult to measure in outpatients. In patients with stable renal function, creatinine clearance can be reasonably well estimated using the equation of Cockcroft and Gault: The use of gabapentin in patients less than 12 years of age with compromised renal function has not been studied. image-04 2.4 Dosage in Elderly Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and dose should be adjusted based on creatinine clearance values in these patients. 2.5 Administration 
+
+  [C] Drug: Gabapentin | Section: use_in_specific_populations
+      ay) was administered by intraperitoneal injection to neonatal mice during the first postnatal week, a period of synaptogenesis in rodents (corresponding to the last trimester of pregnancy in humans). Gabapentin caused a marked decrease in neuronal synapse formation in brains of intact mice and abnormal neuronal synapse formation in a mouse model of synaptic repair. Gabapentin has been shown in vitro to interfere with activity of the α2δ subunit of voltage-activated calcium channels, a receptor involved in neuronal synaptogenesis. The clinical significance of these findings is unknown. 8.2 Lactation Risk Summary Gabapentin is secreted in human milk following oral administration. The effects o
+
+  [D] Drug: Gabapentin | Section: dosage_and_administration
+      day. Dosages up to 2,400 mg/day have been administered in long-term clinical studies. Doses of 3,600 mg/day have also been administered to a small number of patients for a relatively short duration. Administer gabapentin three times a day using 300 mg or 400 mg capsules, or 600 mg or 800 mg tablets. The maximum time between doses should not exceed 12 hours. Pediatric Patients Age 3 to 11 Years The starting dose range is 10 mg/kg/day to 15 mg/kg/day, given in three divided doses, and the recommended maintenance dose reached by upward titration over a period of approximately 3 days. The recommended maintenance dose of gabapentin in patients 3 to 4 years of age is 40 mg/kg/day, given in three d
+
+  [E] Drug: Gabapentin | Section: warnings_and_precautions
+      5.4)], patients should be advised not to operate complex machinery until they have gained sufficient experience on gabapentin to assess whether gabapentin impairs their ability to perform such tasks. 5.4 Somnolence/Sedation and Dizziness During the controlled epilepsy trials in patients older than 12 years of age receiving doses of gabapentin up to 1,800 mg daily, somnolence, dizziness, and ataxia were reported at a greater rate in patients receiving gabapentin compared to placebo: i.e., 19% in drug versus 9% in placebo for somnolence, 17% in drug versus 7% in placebo for dizziness, and 13% in drug versus 6% in placebo for ataxia. In these trials somnolence, ataxia and fatigue were common ad
+
+  [F] Drug: Gabapentin | Section: drug_interactions
+      7 DRUG INTERACTIONS Concentrations increased by morphine; may need dose adjustment (5.4, 7.1) 7.1 Opioids Respiratory depression and sedation, sometimes resulting in death, have been reported following coadministration of gabapentin with opioids (e.g., morphine, hydrocodone, oxycodone, buprenorphine) [see Warnings and Precautions (5.8)]. Hydrocodone Coadministration of gabapentin with hydrocodone decreases hydrocodone exposure [see Clinical Pharmacology (12.3)]. The potential for alteration in hydrocodone exposure and effect should be considered when gabapentin is started or discontinued in a patient taking hydrocodone. Morphine When gabapentin is administered with morphine, patients should 
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+WP-002
+QUERY: What is the black box warning for natalizumab?
+------------------------------------------------------------------------
+
+  [A] Drug: Tyruko | Section: use_in_specific_populations
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Can cause fetal harm. (5.8, 8.1) *Biosimilar means that the biological product is approved based on data demonstrating that it is highly similar to an FDA-approved biological product, known as a reference product, and that there are no clinically meaningful differences between the biosimilar product and the reference product. Biosimilarity of TYRUKO has been demonstrated for the condition(s) of use (e.g., indication(s), dosing regimen(s)), strength(s), dosage form(s), and route(s) of administration described in its Full Prescribing Information. 8.1 Pregnancy Risk Summary There are no adequate data on the risk of major birth defects, miscarriage, or ot
+
+  [B] Drug: Tyruko | Section: adverse_reactions
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during post approval use of natalizumab products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establi
+
+  [C] Drug: Tysabri | Section: adverse_reactions
+      more than one occasion. Persistent antibodies resulted in reduced efficacy and an increase in infusion-related reactions with symptoms that include urticaria, pruritus, nausea, flushing, and dyspnea. The long-term immunogenicity of natalizumab products and the effects of low to moderate levels of antibody to natalizumab products are unknown [see Warnings and Precautions (5.5) and Adverse Reactions (6.1)]. 6.3 Postmarketing Experience The following adverse reactions have been identified during post approval use of natalizumab products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establi
+
+  [D] Drug: Tysabri | Section: use_in_specific_populations
+      d natalizumab on alternate days from GD20 until delivery, hematologic effects (decreased lymphocyte and platelet counts) were also observed. These effects were reversed upon clearance of natalizumab. There was no evidence of anemia in these offspring. Offspring exposed in utero and during lactation had a normal immune response to challenge with a T-cell dependent antigen. In a study in which pregnant guinea pigs were exposed to natalizumab (30 mg/kg IV) on alternate dates during GDs 30-64, a reduction in pup survival was observed. 8.2 Lactation Risk Summary Natalizumab products have been detected in human milk. There are no data on the effects of this exposure on the breastfed infant or the 
+
+  [E] Drug: Tysabri | Section: use_in_specific_populations
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Can cause fetal harm. (5.8, 8.1) *Biosimilar means that the biological product is approved based on data demonstrating that it is highly similar to an FDA-approved biological product, known as a reference product, and that there are no clinically meaningful differences between the biosimilar product and the reference product. Biosimilarity of TYRUKO has been demonstrated for the condition(s) of use (e.g., indication(s), dosing regimen(s)), strength(s), dosage form(s), and route(s) of administration described in its Full Prescribing Information. 8.1 Pregnancy Risk Summary There are no adequate data on the risk of major birth defects, miscarriage, or ot
+
+  [F] Drug: Tysabri | Section: warnings_and_precautions
+      5 WARNINGS AND PRECAUTIONS •Herpes infections: Life-threatening and fatal cases have occurred with herpes encephalitis and meningitis infections. Blindness has occurred in patients developing acute retinal necrosis. Discontinue TYRUKO if these infections occur and treat appropriately. (5.3) •Hepatotoxicity: Significant liver injury, including liver failure requiring transplant, has occurred. Discontinue TYRUKO in patients with evidence of liver injury. (5.4) •Hypersensitivity reactions: Serious hypersensitivity reactions (e.g., anaphylaxis) have occurred. Permanently discontinue TYRUKO if such a reaction occurs. (5.5) •Immunosuppression/Infections: Natalizumab products may increase the risk 
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+AE-007
+QUERY: What are the side effects of ofatumumab?
+------------------------------------------------------------------------
+
+  [A] Drug: Kesimpta | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following clinically significant adverse reactions are discussed in greater detail elsewhere in the labeling: Infections [see Warnings and Precautions (5.1)] Injection-Related Reactions and Hypersensitivity Reactions [see Warnings and Precautions (5.2)] Reduction in Immunoglobulins [see Warnings and Precautions (5.3)] Liver Injury [see Warnings and Precautions (5.4)] Most common adverse reactions (incidence greater than 10%) are upper respiratory tract infection, headache, injection-related reactions, and local injection site reactions. (6.1) To report SUSPECTED ADVERSE REACTIONS, contact Novartis Pharmaceuticals Corporation at 1-888-669-6682 or FDA at 1-800-FDA-1088 
+
+  [B] Drug: Tysabri | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Precautions (5.8)] Most common adverse reactions (incidence ≥ 10%): •MS - headache, fatigue, arthralgia, urinary tract infection, lower respiratory tract infection, gastroenteritis, vaginitis, depression, 
+
+  [C] Drug: Tyruko | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions are described below and elsewhere in the labeling: •Progressive Multifocal Leukoencephalopathy (PML) [see Warnings and Precautions (5.1)] •Herpes Infections [see Warnings and Precautions (5.3)] •Hepatotoxicity [see Warnings and Precautions (5.4)] •Hypersensitivity/Antibody Formation [see Warnings and Precautions (5.5)] •Immunosuppression/Infections [see Warnings and Precautions (5.6)] •Hematological Abnormalities [see Warnings and Precautions (5.8)] Most common adverse reactions (incidence ≥ 10%): •MS - headache, fatigue, arthralgia, urinary tract infection, lower respiratory tract infection, gastroenteritis, vaginitis, depression, 
+
+  [D] Drug: Mavenclad | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions and potential risks are discussed, or discussed in greater detail, in other sections of the labeling: Malignancies [see Warnings and Precautions (5.1)] Risk of Teratogenicity [see Warnings and Precautions (5.2)] Lymphopenia [see Warnings and Precautions (5.3)] Infections [see Warnings and Precautions (5.4)] Hematologic Toxicity [see Warnings and Precautions (5.5)] Graft-Versus-Host Disease With Blood Transfusion [see Warnings and Precautions (5.6)] Liver Injury [see Warnings and Precautions (5.7)] Hypersensitivity [see Warnings and Precautions (5.8)] Cardiac Failure [see Warnings and Precautions (5.9)] Most common adverse reactions 
+
+  [E] Drug: Zeposia | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: •Infections [see Warnings and Precautions (5.1)] •Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] •Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.3)] •Liver Injury [see Warnings and Precautions (5.4) ] •Fetal Risk [see Warnings and Precautions (5.5) ] •Increased Blood Pressure [see Warnings and Precautions (5.6) ] •Respiratory Effects [see Warnings and Precautions (5.7) ] •Macular Edema [see Warnings and Precautions (5.8) ] •Cutaneous Malignancies [see Warnings and Precautions (5.9)] •Posterior Reversible Encephalopathy 
+
+  [F] Drug: Ocrevus | Section: adverse_reactions
+      . Patients in MS trials (Study 1, Study 2, and Study 3) were tested at multiple time points (baseline and every 6 months post-treatment for the duration of the trial) for anti-drug antibodies (ADAs). Out of 1311 patients treated with OCREVUS, 12 (~1%) tested positive for ADAs, of which 2 patients tested positive for neutralizing antibodies. These data are not adequate to assess the impact of ADAs on the safety and efficacy of OCREVUS. 6.3 Postmarketing Experience The following adverse reactions have been identified during postapproval use of OCREVUS. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their freq
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+CI-007
+QUERY: Are there contraindications for ublituximab?
+------------------------------------------------------------------------
+
+  [A] Drug: Mitoxantrone | Section: contraindications
+      CONTRAINDICATIONS Mitoxantrone is contraindicated in patients who have demonstrated prior hypersensitivity to it.
+
+  [B] Drug: Baclofen | Section: contraindications
+      CONTRAINDICATIONS Hypersensitivity to baclofen.
+
+  [C] Drug: Briumvi | Section: use_in_specific_populations
+      relevant animal model, intravenous administration of ublituximab-xiiy (0, 5, 20, or 50 mg/kg) during organogenesis (gestation day 6 and 12) resulted in no adverse effects on embryofetal development. There was a marked reduction in B-cells in fetal blood at all but the lowest dose tested. 8.2 Lactation Risk Summary There are no data on the presence of ublituximab-xiiy in human milk, the effects on the breastfed infant, or the effects of the drug on milk production. Human IgG is excreted in human milk, and the potential for absorption of ublituximab-xiiy to lead to B-cell depletion in the infant is unknown. The developmental and health benefits of breastfeeding should be considered along with 
+
+  [D] Drug: Briumvi | Section: contraindications
+      4 CONTRAINDICATIONS BRIUMVI is contraindicated in patients with: Active HBV infection [see Dosage and Administration (2.1)and Warnings and Precautions (5.2)] A history of life-threatening infusion reaction to BRIUMVI [see Warnings and Precautions (5.1)] Active hepatitis B virus infection ( 4) History of life-threatening infusion reaction to BRIUMVI ( 4)
+
+  [E] Drug: Vumerity | Section: dosage_and_administration
+      than 700 calories and no more than 30 g fat [see Warnings and Precautions (5.6) and Clinical Pharmacology (12.3)]. Avoid co-administration of VUMERITY with alcohol [see Clinical Pharmacology (12.3)]. 2.4 Blood Tests to Assess Safety After Initiation of VUMERITY Obtain a complete blood cell count (CBC), including lymphocyte count, 6 months after initiation of VUMERITY and then every 6 to 12 months thereafter, as clinically indicated [see Warnings and Precautions (5.4)]. Obtain serum aminotransferase, alkaline phosphatase, and total bilirubin levels during treatment with VUMERITY, as clinically indicated [see Warnings and Precautions (5.5)]. 2.5 Patients With Renal Impairment No dosing adjustm
+
+  [F] Drug: Aubagio | Section: drug_interactions
+      consider reducing the dose of these drugs and monitor patients closely for signs and symptoms of increased exposures to the drugs while patients are taking AUBAGIO [see Clinical Pharmacology (12.3)].
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+DA-005
+QUERY: What is the titration schedule for ponesimod?
+------------------------------------------------------------------------
+
+  [A] Drug: Ponvory | Section: dosage_and_administration
+      tion Obtain a baseline skin examination prior to or shortly after initiation of PONVORY. If a suspicious skin lesion is observed, it should be promptly evaluated [see Warnings and Precautions (5.6)]. Current or Prior Medications with Immune System Effects If patients are taking anti-neoplastic, immunosuppressive, or immune-modulating therapies, or if there is a history of prior use of these drugs, consider possible unintended additive immunosuppressive effects before initiating treatment with PONVORY [see Warnings and Precautions (5.1, 5.10) and Drug Interactions (7.1)]. Vaccinations Test patients for antibodies to varicella zoster virus (VZV) before initiating PONVORY; VZV vaccination of an
+
+  [B] Drug: Baclofen | Section: dosage_and_administration
+      DOSAGE AND ADMINISTRATION The determination of optimal dosage requires individual titration. Start therapy at a low dosage and increase gradually until optimum effect is achieved (usually between 40-80 mg daily). The following dosage titration schedule is suggested: 5 mg t.i.d. for 3 days 10 mg t.i.d. for 3 days 15 mg t.i.d. for 3 days 20 mg t.i.d. for 3 days Thereafter additional increases may be necessary but the total daily dose should not exceed a maximum of 80 mg daily (20 mg q.i.d.). The lowest dose compatible with an optimal response is recommended. If benefits are not evident after a reasonable trial period, patients should be slowly withdrawn from the drug (see WARNINGS Abrupt Drug 
+
+  [C] Drug: Mayzent | Section: dosage_and_administration
+      atment with Day 1 of the titration regimen [see Dosage and Administration (2.2, 2.3)]; also complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.4)].
+
+  [D] Drug: Plegridy | Section: dosage_and_administration
+      uivalence demonstrated between the two routes of administration. Subcutaneous Administration of PLEGRIDY Patients using PLEGRIDY for the first time should start treatment with 63 micrograms on day 1. On day 15 (14 days later), the dose is increased to 94 micrograms, reaching the full dose of 125 micrograms on day 29 (after another 14 days). Patients continue with the full dose (125 micrograms) every 14 days thereafter (see Table 1). A PLEGRIDY Starter Pack is available containing two prefilled pens or syringes: 63 micrograms (dose 1) and 94 micrograms (dose 2). Table 1: Schedule for Subcutaneous Dose Titration Dose Time a Amount (micrograms) Color of Pen or Syringe Label a Dosed every 14 day
+
+  [E] Drug: Ponvory | Section: dosage_and_administration
+      ck or QTc greater than or equal to 500 msec, initiate appropriate management, begin continuous ECG monitoring, and continue monitoring until the symptoms have resolved if no pharmacological treatment is required. If pharmacological treatment is required, continue monitoring overnight and repeat 4-hour monitoring after the second dose. Advice from a cardiologist should be sought to determine the most appropriate monitoring strategy (which may include overnight monitoring) during treatment initiation, if treatment with PONVORY is considered in patients: With some preexisting heart and cerebrovascular conditions [see Warnings and Precautions (5.2)] With a prolonged QTc interval before dosing or
+
+  [F] Drug: Ponvory | Section: dosage_and_administration
+      f treatment needs to be reinitiated with Day 1 of the titration regimen (new starter pack), complete first-dose monitoring in patients for whom it is recommended [see Dosage and Administration (2.3)].
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+IU-001
+QUERY: What is ocrelizumab approved to treat?
+------------------------------------------------------------------------
+
+  [A] Drug: Aubagio | Section: warnings_and_precautions
+      of therapy and for further investigation as appropriate. If discontinuation of the drug is necessary, consider initiation of an accelerated elimination procedure [see Warnings and Precautions (5.3)]. 5.12 Pancreatitis in Pediatric Patients AUBAGIO is not approved for use in pediatric patients. In the pediatric clinical trial, cases of pancreatitis were observed in 1.8% (2/109) of patients receiving AUBAGIO; one of these cases was serious [see Use in Specific Populations (8.4)]. If pancreatitis is suspected, discontinue teriflunomide and start an accelerated elimination procedure [see Warnings and Precautions (5.3)]. 5.13 Concomitant Use with Immunosuppressive or Immunomodulating Therapies Co
+
+  [B] Drug: Ocrevus | Section: adverse_reactions
+      . Patients in MS trials (Study 1, Study 2, and Study 3) were tested at multiple time points (baseline and every 6 months post-treatment for the duration of the trial) for anti-drug antibodies (ADAs). Out of 1311 patients treated with OCREVUS, 12 (~1%) tested positive for ADAs, of which 2 patients tested positive for neutralizing antibodies. These data are not adequate to assess the impact of ADAs on the safety and efficacy of OCREVUS. 6.3 Postmarketing Experience The following adverse reactions have been identified during postapproval use of OCREVUS. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their freq
+
+  [C] Drug: Ocrevus | Section: use_in_specific_populations
+      75 mg/kg on gestation days 20, 21, and 22, followed by weekly doses of 20 or 100 mg/kg), depletion of B-lymphocytes in lymphoid tissue (spleen and lymph nodes) was observed in fetuses at both doses. Intravenous administration of OCREVUS (three daily loading doses of 15 or 75 mg/kg, followed by weekly doses of 20 or 100 mg/kg) to pregnant monkeys throughout the period of organogenesis and continuing through the neonatal period resulted in perinatal deaths (some associated with bacterial infections), renal toxicity (glomerulopathy and inflammation), lymphoid follicle formation in the bone marrow, and severe decreases in circulating B-lymphocytes in neonates. The cause of the neonatal deaths is
+
+  [D] Drug: Ocrevus | Section: indications_and_usage
+      1 INDICATIONS AND USAGE OCREVUS is indicated for the treatment of: Relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults Primary progressive MS, in adults OCREVUS is a CD20-directed cytolytic antibody indicated for the treatment of: Relapsing forms of multiple sclerosis (MS), to include clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease, in adults (1) Primary progressive MS, in adults (1)
+
+  [E] Drug: Ocrevus | Section: warnings_and_precautions
+      ) and their open-label extensions (up to approximately 7 years of exposure) have shown an association between decreased levels of immunoglobulin G (IgG<LLN) and increased rates of serious infections. Monitor the levels of quantitative serum immunoglobulins during OCREVUS treatment and after discontinuation of treatment, until B-cell repletion, and especially in the setting of recurrent serious infections. Consider discontinuing OCREVUS therapy in patients with serious opportunistic or recurrent serious infections, and if prolonged hypogammaglobulinemia requires treatment with intravenous immunoglobulins [see Adverse Reactions (6.1)]. 5.5 Malignancies An increased risk of malignancy with OCRE
+
+  [F] Drug: Ocrevus | Section: use_in_specific_populations
+      OCREVUS and for 6 months after the last infusion of OCREVUS [see Clinical Pharmacology (12.3)]. 8.4 Pediatric Use Safety and effectiveness of OCREVUS in pediatric patients have not been established. 8.5 Geriatric Use Clinical studies of OCREVUS did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects.
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+DI-004
+QUERY: Can tizanidine be taken with CYP1A2 inhibitors?
+------------------------------------------------------------------------
+
+  [A] Drug: Zanaflex | Section: contraindications
+      4 CONTRAINDICATIONS Tizanidine hydrochloride is contraindicated in patients: taking strong CYP1A2 inhibitors [see Drug Interactions (7.1)]. with a history of hypersensitivity to tizanidine or the ingredients in tizanidine tablets. Symptoms have included anaphylaxis and angioedema [see Warnings and Precautions (5.5)]. Concomitant use with strong CYP1A2 inhibitors ( 4, 7.1) Patients with a history of hypersensitivity to tizanidine or the ingredientsin tizanidine tablets (4, 5.5)
+
+  [B] Drug: Zanaflex | Section: warnings_and_precautions
+      ydrochloride with strong CYP1A2 inhibitors is contraindicated [see Contraindications (4) and Drug Interactions (7.1)]. 5.2 Liver Injury Tizanidine hydrochloride may cause hepatocellular liver injury. Liver function test abnormality and hepatotoxicity have been observed with tizanidine hydrochloride [see Adverse Reactions ( 6.1, 6.2)] . Monitoring of aminotransferase levels is recommended at baseline and 1 month after maximum dose is achieved, or if hepatic injury is suspected [see Dosage and Administration ( 2.1) and Use in Specific Populations ( 8.7)]. 5.3 Sedation Tizanidine hydrochloride can cause sedation, which may interfere with everyday activity. In the multiple dose studies of tizani
+
+  [C] Drug: Zanaflex | Section: dosage_and_administration
+      Single doses greater than 16 mg have not been studied. There are pharmacokinetic differences when administering tizanidine tablets between the fed or fasted state [see Clinical Pharmacology (12.3)] . Tizanidine tablets may be taken with or without food; however, consistent administration with respect to food is recommended to reduce variability in tizanidine plasma exposure. Because of the short duration of therapeutic effect, treatment with tizanidine tablets should be reserved for those daily activities and times when relief of spasticity is most important. 2.3 Recommended Dosage in Patients with Renal Impairment In patients with creatinine clearance < 25 mL/min, use lower individual doses
+
+  [D] Drug: Zanaflex | Section: drug_interactions
+      7 DRUG INTERACTIONS Moderate or weak CYP1A2 inhibitors: avoid concomitant use; may cause hypotension, bradycardia, or excessive drowsiness; if concomitant use is necessary and adverse reactions occur, reduce tizanidine hydrochloride dosage or discontinue. ( 7.2, 12.3) 7.1 Strong CYP1A2 Inhibitors Concomitant use of tizanidine hydrochloride with strong cytochrome P450 1A2 (CYP1A2) inhibitors (e.g., fluvoxamine, ciprofloxacin) is contraindicated. Changes in pharmacokinetics of tizanidine when administered with a strong CYP1A2 inhibitor resulted in significantly decreased blood pressure, increased drowsiness, and increased psychomotor impairment [see Contraindications (4) and Clinical Pharmacol
+
+  [E] Drug: Zanaflex | Section: warnings_and_precautions
+      5 WARNINGS AND PRECAUTIONS Hypotension: monitor for signs and symptoms of hypotension, in particular in patients receiving concurrent antihypertensives; tizanidine hydrochloride should not be used with other α 2-adrenergic agonists ( 5.1, 7.7) Risk of liver injury: monitor ALTs; discontinue tizanidine hydrochloride if liver injury occurs ( 5.2) Sedation: tizanidine hydrochloride may interfere with everyday activities; sedative effects of tizanidine hydrochloride, alcohol, and other central nervous system (CNS) depressants are additive ( 5.3, 7.4) Hallucinations: consider discontinuation of tizanidine hydrochloride (5.4) 5.1 Hypotension Tizanidine is an α 2-adrenergic agonist that can produce
+
+  [F] Drug: Zanaflex | Section: dosage_and_administration
+      2 DOSAGE AND ADMINISTRATION Monitoring of aminotransferase levels is recommended at baseline and 1month after maximum dose is achieved. (2.1) Recommended starting dose: 2 mg by mouth every 6 to 8 hours, as needed, up to a maximum of 3 doses in 24 hours (2.2) Dosage can be increased by 2 mg to 4 mg per dose every1 to 4 days; maximum total daily dosage is 36 mg (2.2) Tizanidine pharmacokinetics differs between tablets and capsules, and when taken with or without food. These differences could result in a change in tolerability and control of symptoms. Consistent administration with respect to food is recommended. If substitution between dosage forms is necessary, take into consideration these p
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+MD-005
+QUERY: Between glatiramer acetate and interferon beta-1a, which is injected?
+------------------------------------------------------------------------
+
+  [A] Drug: Copaxone | Section: warnings_and_precautions
+      e for use with the specific glatiramer acetate product by referring to the autoinjector labeling. The availability of compatible autoinjectors for each glatiramer acetate product may change with time.
+
+  [B] Drug: Copaxone | Section: warnings_and_precautions
+      in the postmarketing setting. Lipoatrophy may occur at various times after treatment onset (sometimes after several months) and is thought to be permanent. There is no known therapy for lipoatrophy. To assist in possibly minimizing these events, the patient should be advised to follow proper injection technique and to rotate injection sites with each injection. 5.5 Potential Effects on Immune Response Because Glatiramer Acetate Injection can modify immune response, it may interfere with immune functions. For example, treatment with Glatiramer Acetate Injection may interfere with the recognition of foreign antigens in a way that would undermine the body's tumor surveillance and its defenses a
+
+  [C] Drug: Copaxone | Section: contraindications
+      4 CONTRAINDICATIONS Glatiramer Acetate Injection is contraindicated in patients with known hypersensitivity to glatiramer acetate or mannitol. Reactions have included anaphylaxis [see Warnings and Precautions (5.1)]. Known hypersensitivity to glatiramer acetate or mannitol (4)
+
+  [D] Drug: Copaxone | Section: warnings_and_precautions
+      5 WARNINGS AND PRECAUTIONS Immediate Post-Injection Reaction (flushing, chest pain, palpitations, tachycardia, anxiety, dyspnea, throat constriction, and/or urticaria), may occur within seconds to minutes after injection and are generally transient and self-limiting (5.2) Chest pain, usually transient (5.3) Lipoatrophy and skin necrosis may occur. Instruct patients in proper injection technique and to rotate injection sites (5.4) Glatiramer Acetate Injection can modify immune response (5.5) Hepatic Injury: if signs or symptoms of hepatic dysfunction occur, consider discontinuing Glatiramer Acetate Injection (5.6) Glatiramer Acetate Products and Administration Errors: Using an optional autoin
+
+  [E] Drug: Copaxone | Section: warnings_and_precautions
+      ents by 3 months of initiation of treatment. By 12 months of treatment, however, 30% of patients still had IgG levels at least 3 times baseline values, and 90% had levels above baseline by 12 months. The antibodies are exclusively of the IgG subtype and predominantly of the IgG-1 subtype. No IgE type antibodies could be detected in any of the 94 sera tested; nevertheless, anaphylaxis can be associated with the administration of most any foreign substance and has been reported with Glatiramer Acetate Injection [see Warnings and Precautions (5.1)]. 5.6 Hepatic Injury Cases of hepatic injury, some severe, including liver failure and hepatitis with jaundice, have been reported with Glatiramer Ac
+
+  [F] Drug: Copaxone | Section: dosage_and_administration
+      2 DOSAGE AND ADMINISTRATION For subcutaneous injection only; doses are not interchangeable (2.1) Glatiramer Acetate Injection 20 mg/mL per day (2.1) Glatiramer Acetate Injection 40 mg/mL three times per week (2.1) Before use, allow the solution to warm to room temperature (2.2) 2.1 Recommended Dose Glatiramer Acetate Injection is for subcutaneous use only [see Dosage and Administration (2.2)]. Do not administer intravenously. The dosing schedule depends on the product strength that is selected. The recommended doses are: Glatiramer Acetate Injection 20 mg per mL: administer once per dayor Glatiramer Acetate Injection 40 mg per mL: administer three times per week and at least 48 hours apart G
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+PT-001
+QUERY: Can I take this medicine if I have liver problems?
+------------------------------------------------------------------------
+
+  [A] Drug: Ampyra | Section: warnings_and_precautions
+      ty to AMPYRA or 4-aminopyridine. Inform patients of the signs and symptoms of anaphylaxis and instruct them to discontinue AMPYRA and seek immediate medical care should these signs and symptoms occur.
+
+  [B] Drug: Zanaflex | Section: dosage_and_administration
+      forms if being administered with food. If these situations occur, monitor patients for therapeutic effect or adverse reactions [see Dosage and Administration ( 2.2) and Clinical Pharmacology ( 12.3)].
+
+  [C] Drug: Ponvory | Section: use_in_specific_populations
+      is not recommended in patients with moderate or severe hepatic impairment (Child-Pugh class B and C, respectively), as the risk of adverse reactions may be greater [see Clinical Pharmacology (12.3)].
+
+  [D] Drug: Mavenclad | Section: warnings_and_precautions
+      indications other than multiple sclerosis. Instruct patients to seek medical advice if they experience symptoms of cardiac failure (e.g., shortness of breath, rapid or irregular heartbeat, swelling).
+
+  [E] Drug: Zeposia | Section: adverse_reactions
+      ain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Hepatobiliary Disorders: Liver injury [see Warnings and Precautions (5.4)]
+
+  [F] Drug: Kesimpta | Section: adverse_reactions
+      ablish a causal relationship to drug exposure. Immune System: Hypersensitivity reactions [see Warnings and Precautions (5.2)] Hepatobiliary Disorders: Liver injury [see Warnings and Precautions (5.4)]
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+SP-001
+QUERY: Is teriflunomide safe during pregnancy?
+------------------------------------------------------------------------
+
+  [A] Drug: Aubagio | Section: use_in_specific_populations
+      8 USE IN SPECIFIC POPULATIONS 8.1 Pregnancy Risk Summary AUBAGIO is contraindicated for use in pregnant women and females of reproductive potential not using effective contraception because of the potential for fetal harm based on animal data [see Contraindications (4) and Warnings and Precautions (5.2)]. In animal reproduction studies in rat and rabbit, oral administration of teriflunomide during organogenesis caused teratogenicity and embryolethality at plasma exposures (AUC) lower than that at the maximum recommended human dose (MRHD) of 14 mg/day [see Data]. Available human data from pregnancy registries, clinical trials, pharmacovigilance cases, and published literature are too limited 
+
+  [B] Drug: Baclofen | Section: warnings
+      were given 17 or 34 times the human daily dose. There are no studies in pregnant women. Baclofen should be used during pregnancy only if the benefit clearly justifies the potential risk to the fetus.
+
+  [C] Drug: Aubagio | Section: warnings_and_precautions
+      BAGIO therapy, particularly in patients who develop symptoms suggestive of hepatic dysfunction, such as unexplained nausea, vomiting, abdominal pain, fatigue, anorexia, or jaundice and/or dark urine. If liver injury is suspected to be AUBAGIO-induced, discontinue AUBAGIO and start an accelerated elimination procedure [see Warnings and Precautions (5.3)] and monitor liver tests weekly until normalized. If AUBAGIO-induced liver injury is unlikely because some other probable cause has been found, resumption of AUBAGIO therapy may be considered. 5.2 Embryofetal Toxicity AUBAGIO may cause fetal harm when administered to a pregnant woman. Teratogenicity and embryofetal lethality occurred in animal
+
+  [D] Drug: Tyruko | Section: use_in_specific_populations
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Can cause fetal harm. (5.8, 8.1) *Biosimilar means that the biological product is approved based on data demonstrating that it is highly similar to an FDA-approved biological product, known as a reference product, and that there are no clinically meaningful differences between the biosimilar product and the reference product. Biosimilarity of TYRUKO has been demonstrated for the condition(s) of use (e.g., indication(s), dosing regimen(s)), strength(s), dosage form(s), and route(s) of administration described in its Full Prescribing Information. 8.1 Pregnancy Risk Summary There are no adequate data on the risk of major birth defects, miscarriage, or ot
+
+  [E] Drug: Tysabri | Section: use_in_specific_populations
+      8 USE IN SPECIFIC POPULATIONS Pregnancy: Can cause fetal harm. (5.8, 8.1) *Biosimilar means that the biological product is approved based on data demonstrating that it is highly similar to an FDA-approved biological product, known as a reference product, and that there are no clinically meaningful differences between the biosimilar product and the reference product. Biosimilarity of TYRUKO has been demonstrated for the condition(s) of use (e.g., indication(s), dosing regimen(s)), strength(s), dosage form(s), and route(s) of administration described in its Full Prescribing Information. 8.1 Pregnancy Risk Summary There are no adequate data on the risk of major birth defects, miscarriage, or ot
+
+  [F] Drug: Aubagio | Section: use_in_specific_populations
+      se) is the same for therapeutic efficacy and developmental toxicity. At recommended doses in humans, teriflunomide and leflunomide result in a similar range of plasma concentrations of teriflunomide. 8.2 Lactation Risk Summary There are no data on the presence of AUBAGIO in human milk, the effects on the breastfed infant, or the effects on milk production. Teriflunomide was detected in rat milk following a single oral dose. Because of the potential for adverse reactions in a breastfed infant from AUBAGIO, women should not breastfeed during treatment with AUBAGIO. 8.3 Females and Males of Reproductive Potential Pregnancy Testing Exclude pregnancy prior to initiation of treatment with AUBAGIO 
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+WP-001
+QUERY: What are the serious infection risks with ocrelizumab?
+------------------------------------------------------------------------
+
+  [A] Drug: Zeposia | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: •Infections [see Warnings and Precautions (5.1)] •Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.2)] •Bradyarrhythmia and Atrioventricular Conduction Delays [see Warnings and Precautions (5.3)] •Liver Injury [see Warnings and Precautions (5.4) ] •Fetal Risk [see Warnings and Precautions (5.5) ] •Increased Blood Pressure [see Warnings and Precautions (5.6) ] •Respiratory Effects [see Warnings and Precautions (5.7) ] •Macular Edema [see Warnings and Precautions (5.8) ] •Cutaneous Malignancies [see Warnings and Precautions (5.9)] •Posterior Reversible Encephalopathy 
+
+  [B] Drug: Ocrevus | Section: warnings_and_precautions
+      ) and their open-label extensions (up to approximately 7 years of exposure) have shown an association between decreased levels of immunoglobulin G (IgG<LLN) and increased rates of serious infections. Monitor the levels of quantitative serum immunoglobulins during OCREVUS treatment and after discontinuation of treatment, until B-cell repletion, and especially in the setting of recurrent serious infections. Consider discontinuing OCREVUS therapy in patients with serious opportunistic or recurrent serious infections, and if prolonged hypogammaglobulinemia requires treatment with intravenous immunoglobulins [see Adverse Reactions (6.1)]. 5.5 Malignancies An increased risk of malignancy with OCRE
+
+  [C] Drug: Ocrevus | Section: warnings_and_precautions
+      5 WARNINGS AND PRECAUTIONS Infusion Reactions: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue OCREVUS if a life-threatening or disabling infusion reaction occurs (2.3, 5.1) Infections: Serious, including life-threatening and fatal infections, have occurred. Delay OCREVUS administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommended during treatment with OCREVUS and after discontinuation, until B-cell repletion (5.2) Progressive Multifocal Leukoencephalopathy (PML): Withhold OCREVUS at the first sign or symptom suggestive of PM
+
+  [D] Drug: Ocrevus | Section: adverse_reactions
+      . Patients in MS trials (Study 1, Study 2, and Study 3) were tested at multiple time points (baseline and every 6 months post-treatment for the duration of the trial) for anti-drug antibodies (ADAs). Out of 1311 patients treated with OCREVUS, 12 (~1%) tested positive for ADAs, of which 2 patients tested positive for neutralizing antibodies. These data are not adequate to assess the impact of ADAs on the safety and efficacy of OCREVUS. 6.3 Postmarketing Experience The following adverse reactions have been identified during postapproval use of OCREVUS. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their freq
+
+  [E] Drug: Ocrevus | Section: warnings_and_precautions
+      and severity of the reaction [see Dosage and Administration (2.5)]. For life-threatening infusion reactions, immediately and permanently stop OCREVUS and administer appropriate supportive treatment. For less severe infusion reactions, management may involve temporarily stopping the infusion, reducing the infusion rate, and/or administering symptomatic treatment. 5.2 Infections Serious, including life-threatening or fatal, bacterial, viral, parasitic and fungal infections have been reported in patients receiving OCREVUS. An increased risk of infections (including serious and fatal bacterial, fungal, and new or reactivated viral infections) has been observed in patients during and following co
+
+  [F] Drug: Ocrevus | Section: contraindications
+      4 CONTRAINDICATIONS OCREVUS is contraindicated in patients with: Active HBV infection [see Dosage and Administration (2.1) and Warnings and Precautions (5.2)] A history of life-threatening infusion reaction to OCREVUS [see Warnings and Precautions (5.1)] Active hepatitis B virus infection (4) History of life-threatening infusion reaction to OCREVUS (4)
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+AE-003
+QUERY: Does ocrelizumab cause infusion reactions?
+------------------------------------------------------------------------
+
+  [A] Drug: Ocrevus | Section: warnings_and_precautions
+      ilirubin levels before initiating OCREVUS, and during treatment as clinically indicated. Discontinue OCREVUS in patients with evidence of liver injury in the absence of an alternative etiology (5.7). 5.1 Infusion Reactions OCREVUS can cause infusion reactions, which can include pruritus, rash, urticaria, erythema, bronchospasm, throat irritation, oropharyngeal pain, dyspnea, pharyngeal or laryngeal edema, flushing, hypotension, pyrexia, fatigue, headache, dizziness, nausea, tachycardia, and anaphylaxis. In multiple sclerosis (MS) clinical trials, the incidence of infusion reactions in OCREVUS-treated patients [who received methylprednisolone (or an equivalent steroid) and possibly other pre-
+
+  [B] Drug: Briumvi | Section: warnings_and_precautions
+      infusion reactions, which can include pyrexia, chills, headache, influenza-like illness, tachycardia, nausea, throat irritation, erythema, and an anaphylactic reaction [see Adverse Reactions (6.1)] . In Studies 1 and 2 [see Clinical Studies (14)] , patients received methylprednisolone (or an equivalent steroid), an antihistamine, and possibly other pre-medication (i.e., acetaminophen) to reduce the risk of infusion reactions prior to each infusion. The incidence of infusion reactions in Studies 1 and 2 in patients who received treatment with BRIUMVI was 48%, with the highest incidence within 24 hours of the first infusion. In Studies 1 and 2, there were no fatal infusion reactions, but 0.6% 
+
+  [C] Drug: Briumvi | Section: dosage_and_administration
+      hour for the first 30 minutes Increase to 400 mL per hour for the remaining 30 minutes 1 hour Subsequent Infusions (once every 24 weeks) Administer the first subsequent infusion 24 weeks after the first infusion. 450 mg (18 mL) 250 mL Start at 100 mL per hour for the first 30 minutes Increase to 400 mL per hour for the remaining 30 minutes 1 hour 2.4 Delayed or Missed Doses If a planned infusion of BRIUMVI is missed, administer BRIUMVI as soon as possible; do not wait until the next scheduled infusion. Reset the infusion schedule to administer the next sequential infusion 24 weeks after the missed infusion is administered. Infusions of BRIUMVI must be separated by at least 5 months. 2.5 Dosa
+
+  [D] Drug: Ocrevus | Section: dosage_and_administration
+      ssed, administer OCREVUS as soon as possible; do not wait until the next scheduled dose. Reset the dose schedule to administer the next sequential dose 6 months after the missed dose is administered. Doses of OCREVUS must be separated by at least 5 months [see Dosage and Administration (2.3)]. 2.5 Dose Modifications Because of Infusion Reactions Dose modifications in response to infusion reactions depends on the severity. Life-threatening Infusion Reactions Immediately stop and permanently discontinue OCREVUS if there are signs of a life-threatening or disabling infusion reaction [see Warnings and Precautions (5.1)]. Provide appropriate supportive treatment. Severe Infusion Reactions Immedia
+
+  [E] Drug: Briumvi | Section: warnings_and_precautions
+      5 WARNINGS AND PRECAUTIONS Infusion Reactions: Management recommendations for infusion reactions depend on the type and severity of the reaction. Permanently discontinue BRIUMVI if a life-threatening or disabling infusion reaction occurs ( 2.3, 5.1). Infections: Serious, including life-threatening and fatal infections, have occurred. Delay BRIUMVI administration in patients with an active infection until the infection is resolved. Vaccination with live-attenuated or live vaccines is not recommended during treatment with BRIUMVI and after discontinuation, until B-cell repletion ( 5.2). Reduction in Immunoglobulins: Monitor the level of immunoglobulins at the beginning, during, and after disco
+
+  [F] Drug: Ocrevus | Section: adverse_reactions
+      6 ADVERSE REACTIONS The following serious adverse reactions are discussed in greater detail in other sections of the labeling: Infusion Reactions [see Warnings and Precautions (5.1)] Infections [see Warnings and Precautions (5.2)] Progressive Multifocal Leukoencephalopathy [see Warnings and Precautions (5.3)] Reduction in Immunoglobulins [see Warnings and Precautions (5.4)] Malignancies [see Warnings and Precautions (5.5)] Immune-Mediated Colitis [see Warnings and Precautions (5.6)] Liver Injury [see Warnings and Precautions (5.7)] The most common adverse reactions were: RMS (incidence ≥10% and > REBIF®): upper respiratory tract infections and infusion reactions (6.1) PPMS (incidence ≥10% an
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____
+
+------------------------------------------------------------------------
+CI-003
+QUERY: Who should not take fingolimod?
+------------------------------------------------------------------------
+
+  [A] Drug: Gilenya | Section: warnings_and_precautions
+      Risk of Infections Fingolimod causes a dose-dependent reduction in peripheral lymphocyte count to 20% to 30% of baseline values because of reversible sequestration of lymphocytes in lymphoid tissues. Fingolimod may therefore increase the risk of infections, some serious in nature [see Clinical Pharmacology (12.2)]. Life-threatening and fatal infections have occurred in association with fingolimod. Before initiating treatment with fingolimod, a recent CBC (i.e., within 6 months or after discontinuation of prior therapy) should be available. Consider suspending treatment with fingolimod if a patient develops a serious infection, and reassess the benefits and risks prior to reinitiation of ther
+
+  [B] Drug: Gilenya | Section: dosage_and_administration
+      AV) conduction [see Dosage and Administration (2.4), Drug Interactions (7.5)]. Complete Blood Count (CBC) Review results of a recent CBC [see Warnings and Precautions (5.2), Drug Interactions (7.6)]. Serum Transaminases (ALT and AST) and Total Bilirubin Levels Prior to starting treatment with fingolimod (i.e., within 6 months), obtain serum transaminases [alanine transaminase (ALT) and aspartate transferase (AST)] and total bilirubin levels [see Warnings and Precautions (5.5)]. Ophthalmic Assessment Obtain a baseline evaluation of the fundus, including the macula, near the start of the treatment with fingolimod [see Warnings and Precautions (5.4)]. Skin Examination Obtain a baseline skin exa
+
+  [C] Drug: Gilenya | Section: contraindications
+      4 CONTRAINDICATIONS Fingolimod is contraindicated in patients who have: in the last 6 months experienced myocardial infarction, unstable angina, stroke, transient ischemic attack (TIA), decompensated heart failure requiring hospitalization or Class III/IV heart failure a history or presence of Mobitz Type II second-degree or third-degree AV block or sick sinus syndrome, unless patient has a functioning pacemaker [see Warnings and Precautions (5.1)] a baseline QTc interval ≥500 msec cardiac arrhythmias requiring anti-arrhythmic treatment with Class Ia or Class III anti-arrhythmic drugs had a hypersensitivity reaction to fingolimod or any of the excipients in fingolimod. Observed reactions inc
+
+  [D] Drug: Gilenya | Section: warnings_and_precautions
+      rketing setting. Skin examinations are recommended prior to or shortly after the start of treatment and periodically thereafter for all patients, particularly those with risk factors for skin cancer. Providers and patients are advised to monitor for suspicious skin lesions. If a suspicious skin lesion is observed, it should be promptly evaluated. As usual for patients with increased risk for skin cancer, exposure to sunlight and ultraviolet light should be limited by wearing protective clothing and using a sunscreen with a high protection factor. Concomitant phototherapy with UV-B radiation or PUVA photochemotherapy is not recommended in patients taking fingolimod. Lymphoma Cases of lymphoma
+
+  [E] Drug: Gilenya | Section: drug_interactions
+      blood lymphocyte counts cannot be utilized to evaluate the lymphocyte subset status of a patient treated with fingolimod. A recent CBC should be available before initiating treatment with fingolimod.
+
+  [F] Drug: Gilenya | Section: warnings_and_precautions
+      en reported with fingolimod in the postmarketing setting. Fingolimod is contraindicated in patients with history of hypersensitivity to fingolimod or any of its excipients [see Contraindications (4)].
+
+  Y/N for A,B,C,D,E,F:  ______   BEST: ____

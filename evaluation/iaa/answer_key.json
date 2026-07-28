@@ -1,0 +1,262 @@
+{
+  "AE-002": {
+    "query": "What adverse reactions have been reported with natalizumab?",
+    "letters": {
+      "A": "2f02ab2840ac",
+      "B": "16ba27731e8f",
+      "C": "da81c145cabe",
+      "D": "0c6b728afc79",
+      "E": "35bd57f61a98",
+      "F": "6e1b7ae55011"
+    },
+    "gold_chunk_id": "da81c145cabe",
+    "gold_letter": "C"
+  },
+  "CI-001": {
+    "query": "What are the contraindications for natalizumab?",
+    "letters": {
+      "A": "0c6b728afc79",
+      "B": "d75ed57a6188",
+      "C": "d4336d4175b7",
+      "D": "2f02ab2840ac",
+      "E": "e0064f2a3ec7",
+      "F": "6f6ee168435d"
+    },
+    "gold_chunk_id": "6f6ee168435d",
+    "gold_letter": "F"
+  },
+  "DA-006": {
+    "query": "What is the dosing for ofatumumab?",
+    "letters": {
+      "A": "7042bc8ed97e",
+      "B": "f9afbe6cc42b",
+      "C": "bbbe5c50f161",
+      "D": "4a94bfbe206b",
+      "E": "d2b434c4aa14",
+      "F": "f41be12dd9ec"
+    },
+    "gold_chunk_id": "7042bc8ed97e",
+    "gold_letter": "A"
+  },
+  "IU-003": {
+    "query": "What is dalfampridine indicated for?",
+    "letters": {
+      "A": "c85ffe92345b",
+      "B": "741637435066",
+      "C": "ddfe11cd13bc",
+      "D": "7542c18e34b2",
+      "E": "2dda3d84a9f1",
+      "F": "9b1083a5368d"
+    },
+    "gold_chunk_id": "2dda3d84a9f1",
+    "gold_letter": "E"
+  },
+  "DI-002": {
+    "query": "What drugs interact with teriflunomide?",
+    "letters": {
+      "A": "4ce88e78dc5d",
+      "B": "8b5b8b755f39",
+      "C": "b7d654eb3184",
+      "D": "5c8035fd7a55",
+      "E": "1345508d8a34",
+      "F": "d3b2be9e324d"
+    },
+    "gold_chunk_id": "4ce88e78dc5d",
+    "gold_letter": "A"
+  },
+  "MD-002": {
+    "query": "Compare the infusion requirements of ocrelizumab and natalizumab.",
+    "letters": {
+      "A": "d75ed57a6188",
+      "B": "136e90d6d9aa",
+      "C": "a68bca468005",
+      "D": "c87349f71b0e",
+      "E": "e0e05e2f2838",
+      "F": "d4336d4175b7"
+    },
+    "gold_chunk_id": "c87349f71b0e",
+    "gold_letter": "D"
+  },
+  "PT-002": {
+    "query": "What happens if I miss a dose of my MS medication?",
+    "letters": {
+      "A": "e75a5262e463",
+      "B": "9b1db99b519d",
+      "C": "c87349f71b0e",
+      "D": "9b1d7b0f65dc",
+      "E": "1389d80ca7ce",
+      "F": "96d5f43a75ef"
+    },
+    "gold_chunk_id": "c87349f71b0e",
+    "gold_letter": "C"
+  },
+  "SP-006": {
+    "query": "What about using gabapentin in renal impairment?",
+    "letters": {
+      "A": "2c0a0144df12",
+      "B": "059235bf0ce6",
+      "C": "37f8a06fb2fe",
+      "D": "abb5f17263ed",
+      "E": "668e53ca73e0",
+      "F": "fb7e63997486"
+    },
+    "gold_chunk_id": "2c0a0144df12",
+    "gold_letter": "A"
+  },
+  "WP-002": {
+    "query": "What is the black box warning for natalizumab?",
+    "letters": {
+      "A": "36f56553f202",
+      "B": "2f02ab2840ac",
+      "C": "0c6b728afc79",
+      "D": "278765344b42",
+      "E": "977285fd2098",
+      "F": "af30f0f2afbb"
+    },
+    "gold_chunk_id": "af30f0f2afbb",
+    "gold_letter": "F"
+  },
+  "AE-007": {
+    "query": "What are the side effects of ofatumumab?",
+    "letters": {
+      "A": "d25dde0e14b7",
+      "B": "da81c145cabe",
+      "C": "16ba27731e8f",
+      "D": "17b6edd14bc9",
+      "E": "ebd7a7a6b23b",
+      "F": "73c574a11282"
+    },
+    "gold_chunk_id": "d25dde0e14b7",
+    "gold_letter": "A"
+  },
+  "CI-007": {
+    "query": "Are there contraindications for ublituximab?",
+    "letters": {
+      "A": "1cd69dc01307",
+      "B": "1fb90fc188a4",
+      "C": "8992ae6ca72f",
+      "D": "c1a267b69a30",
+      "E": "c73cb27d2bf9",
+      "F": "556e950adfce"
+    },
+    "gold_chunk_id": "c1a267b69a30",
+    "gold_letter": "D"
+  },
+  "DA-005": {
+    "query": "What is the titration schedule for ponesimod?",
+    "letters": {
+      "A": "86d18f43ff7d",
+      "B": "f41be12dd9ec",
+      "C": "bbbe5c50f161",
+      "D": "1524e33fabe5",
+      "E": "41214aaa7b45",
+      "F": "741637435066"
+    },
+    "gold_chunk_id": "86d18f43ff7d",
+    "gold_letter": "A"
+  },
+  "IU-001": {
+    "query": "What is ocrelizumab approved to treat?",
+    "letters": {
+      "A": "ef67970e0af8",
+      "B": "73c574a11282",
+      "C": "cad063ab8bd9",
+      "D": "08c221dff861",
+      "E": "f03208773dc0",
+      "F": "e285337a6d42"
+    },
+    "gold_chunk_id": "08c221dff861",
+    "gold_letter": "D"
+  },
+  "DI-004": {
+    "query": "Can tizanidine be taken with CYP1A2 inhibitors?",
+    "letters": {
+      "A": "6b5069740f0d",
+      "B": "39ace5fe12f4",
+      "C": "5da71a125b5c",
+      "D": "1a6b54c51433",
+      "E": "f6afc10476af",
+      "F": "90515b196c8d"
+    },
+    "gold_chunk_id": "1a6b54c51433",
+    "gold_letter": "D"
+  },
+  "MD-005": {
+    "query": "Between glatiramer acetate and interferon beta-1a, which is injected?",
+    "letters": {
+      "A": "4b2b17fca038",
+      "B": "a27435b62399",
+      "C": "5be1a9e87996",
+      "D": "f47471da68a0",
+      "E": "bed61183e687",
+      "F": "581250a76c67"
+    },
+    "gold_chunk_id": "581250a76c67",
+    "gold_letter": "F"
+  },
+  "PT-001": {
+    "query": "Can I take this medicine if I have liver problems?",
+    "letters": {
+      "A": "3ecfa3acec37",
+      "B": "e75a5262e463",
+      "C": "15bf5c57c947",
+      "D": "19ebac0fe3cd",
+      "E": "e6c73a715255",
+      "F": "059695e4224f"
+    },
+    "gold_chunk_id": "15bf5c57c947",
+    "gold_letter": "C"
+  },
+  "SP-001": {
+    "query": "Is teriflunomide safe during pregnancy?",
+    "letters": {
+      "A": "ba10ad28e22e",
+      "B": "ecb166ba4046",
+      "C": "011de074bcc1",
+      "D": "36f56553f202",
+      "E": "977285fd2098",
+      "F": "431b0b11be74"
+    },
+    "gold_chunk_id": "ba10ad28e22e",
+    "gold_letter": "A"
+  },
+  "WP-001": {
+    "query": "What are the serious infection risks with ocrelizumab?",
+    "letters": {
+      "A": "ebd7a7a6b23b",
+      "B": "f03208773dc0",
+      "C": "0b154819e5ce",
+      "D": "73c574a11282",
+      "E": "d89bd010f826",
+      "F": "a52d48941efe"
+    },
+    "gold_chunk_id": "0b154819e5ce",
+    "gold_letter": "C"
+  },
+  "AE-003": {
+    "query": "Does ocrelizumab cause infusion reactions?",
+    "letters": {
+      "A": "276d7e7693c2",
+      "B": "4261475ee8b0",
+      "C": "ecd2d93c21a2",
+      "D": "8530fbe8efa0",
+      "E": "5a4eb6b250ed",
+      "F": "2c25b162fb2c"
+    },
+    "gold_chunk_id": "2c25b162fb2c",
+    "gold_letter": "F"
+  },
+  "CI-003": {
+    "query": "Who should not take fingolimod?",
+    "letters": {
+      "A": "d259d93c8a01",
+      "B": "934dcb31d207",
+      "C": "758f661c7931",
+      "D": "8df6b8ce5f00",
+      "E": "d3942b42abc0",
+      "F": "d9bb428649aa"
+    },
+    "gold_chunk_id": "758f661c7931",
+    "gold_letter": "C"
+  }
+}
