@@ -76,8 +76,20 @@ class EvidenceValidator:
           }
         """
         sentences = self._split_sentences(answer)
-
-        if not sentences:
+        # Refusal boilerplate is a control message, not a claim — never score it.
+        # Match only the standalone refusal, not answers that happen to contain
+        # the phrase (label text often says "insufficient evidence in ...").
+        stripped = (answer or "").strip().lower().rstrip(".")
+        REFUSAL_BOILERPLATE = {
+            "insufficient evidence to answer this question",
+            "i don't have enough evidence to answer this question",
+            "cannot answer this question",
+        }
+        is_boilerplate_refusal = (
+            stripped in REFUSAL_BOILERPLATE
+            or (len(stripped) < 80 and stripped.startswith("insufficient evidence"))
+        )
+        if is_boilerplate_refusal:
             return {
                 "is_grounded": False,
                 "groundedness_score": 0.0,

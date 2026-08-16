@@ -24,6 +24,18 @@ User Question: {query}
 
 Answer:"""
 
+GENERATION_PROMPT_NO_REFUSAL = """You are a pharmaceutical safety assistant. Answer the user's question using the provided evidence chunks.
+
+1. Cite claims using [1], [2], etc. matching the chunk numbers.
+2. Be concise and precise. Use clinical language appropriate for healthcare professionals.
+3. Always provide a direct answer to the question asked.
+
+Evidence Chunks:
+{evidence}
+
+User Question: {query}
+
+Answer:"""
 
 class AnswerGenerator:
     """Generates grounded, citation-backed answers via Ollama."""
@@ -65,22 +77,13 @@ class AnswerGenerator:
 
         return "\n\n".join(parts)
 
-    def generate(self, query: str, chunks: list[dict]) -> dict:
-        """
-        Generate a cited answer from retrieved evidence.
-        
-        Returns:
-          {
-            "answer": "The answer text with [1][2] citations...",
-            "citations": [...],         # Map of citation numbers to chunk metadata
-            "generation_time_ms": 2340,  # How long the LLM took
-            "model": "gemma3:12b",
-            "num_evidence_chunks": 5,
-          }
-        """
-        # Format evidence
+    def generate(self, query: str, chunks: list[dict],
+                 allow_refusal: bool = True) -> dict:
+        """Generate a cited answer. If allow_refusal=False (ablation Config N),
+        the model is instructed to always answer — no self-refusal."""
         evidence = self._format_evidence(chunks)
-        prompt = GENERATION_PROMPT.format(evidence=evidence, query=query)
+        template = GENERATION_PROMPT if allow_refusal else GENERATION_PROMPT_NO_REFUSAL
+        prompt = template.format(evidence=evidence, query=query)
 
         # Call LLM
         start = time.time()

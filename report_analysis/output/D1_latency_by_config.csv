@@ -1,0 +1,6 @@
+config,n,routing_avg_ms,routing_p95_ms,retrieval_avg_ms,retrieval_p95_ms,generation_avg_ms,generation_p95_ms,validation_avg_ms,validation_p95_ms,end_to_end_avg_ms_derived,end_to_end_p95_ms
+N,85,0.0,0.0,43.7,82.9,8755.8,14552.4,463.5,628.9,9263.0,not derivable (sum of marginal P95s overstates true P95; per-query totals not in aggregate file)
+Baseline,85,2154.1,2446.4,226.0,347.7,8960.8,15290.3,168.4,510.5,11509.3,not derivable (sum of marginal P95s overstates true P95; per-query totals not in aggregate file)
+A,85,2181.7,2576.9,211.7,332.6,9191.5,14620.1,209.3,592.3,11794.2,not derivable (sum of marginal P95s overstates true P95; per-query totals not in aggregate file)
+B,85,2144.6,2397.0,212.5,346.2,8508.3,14223.6,175.7,508.0,11041.1,not derivable (sum of marginal P95s overstates true P95; per-query totals not in aggregate file)
+C,85,2154.3,2540.8,2268.5,6733.5,10293.7,15770.4,461.6,1250.3,15178.1,not derivable (sum of marginal P95s overstates true P95; per-query totals not in aggregate file)

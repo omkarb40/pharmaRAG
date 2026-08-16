@@ -1,0 +1,13 @@
+category,answer,refuse,total
+adversarial,0,5,5
+adverse_reactions,8,0,8
+contraindications,7,0,7
+dosing,6,0,6
+indications,6,0,6
+interactions,4,0,4
+multi_drug,7,0,7
+near_scope,0,12,12
+out_of_scope,0,10,10
+patient_style,6,0,6
+populations,6,0,6
+warnings,8,0,8

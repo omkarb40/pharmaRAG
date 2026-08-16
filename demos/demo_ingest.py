@@ -105,9 +105,15 @@ def fetch_all_drugs() -> list[dict]:
             name = row["generic_name"]
             brand = row["drug_name"]
             category = row["category"]
-            print(f"\n[{brand}] Searching for '{name}'...")
+            pinned_setid = (row.get("dailymed_setid") or "").strip()
 
-            set_id = search_drug(name)
+            if pinned_setid:
+                print(f"\n[{brand}] Using pinned set_id: {pinned_setid}")
+                set_id = pinned_setid
+            else:
+                print(f"\n[{brand}] Searching for '{name}'...")
+                set_id = search_drug(name)
+
             if not set_id:
                 print(f"  ✗ Not found on DailyMed, skipping.")
                 continue

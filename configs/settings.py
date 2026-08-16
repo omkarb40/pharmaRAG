@@ -22,7 +22,7 @@ class Settings:
         # === LLM ===
         self.ollama_base_url = "http://localhost:11434"
         self.llm_model = "gemma3:12b"
-        self.llm_temperature = 0.1
+        self.llm_temperature = 0.0 # deterministic generation for reproducible results
         self.llm_max_tokens = 1024
 
         # === Embeddings ===
@@ -45,6 +45,10 @@ class Settings:
 
         # === Monitoring ===
         self.enable_audit_logging = True
+
+        # === Chunking ===
+        self.chunk_size = 500 # tokens (~2000 characters at 4 chars/token)
+        self.chunk_overlap = 50 # tokens (~200 characters overlap)
 
 
 # Singleton instance — import this everywhere

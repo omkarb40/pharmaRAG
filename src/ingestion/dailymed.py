@@ -89,10 +89,12 @@ class DailyMedClient:
             "spl_data": spl_data,
         }
 
-    def fetch_all_drugs(self, drug_list_path: Path, output_dir: Path,
+     def fetch_all_drugs(self, drug_list_path: Path, output_dir: Path,
                         delay: float = 1.0):
         """
         Fetch SPL data for all drugs in a CSV file.
+        Prefers an explicit dailymed_setid when present (unambiguous);
+        falls back to name search only when the SetID column is blank.
         Saves raw JSON per drug to output_dir.
         """
         import csv
@@ -103,13 +105,30 @@ class DailyMedClient:
             reader = csv.DictReader(f)
             for row in reader:
                 drug_name = row["generic_name"]
+                brand = row.get("drug_name", drug_name)
+                pinned_setid = (row.get("dailymed_setid") or "").strip()
+
                 out_file = output_dir / f"{drug_name.replace(' ', '_')}.json"
 
                 if out_file.exists():
                     print(f"[DailyMed] Skipping '{drug_name}' (already fetched)")
                     continue
 
-                label = self.fetch_drug_label(drug_name)
+                if pinned_setid:
+                    # Unambiguous path — fetch the exact SPL we want
+                    print(f"[DailyMed] '{brand}' → pinned set_id: {pinned_setid}")
+                    spl_data = self.fetch_spl_sections(pinned_setid)
+                    label = {
+                        "drug_name": drug_name,
+                        "set_id": pinned_setid,
+                        "title": brand,
+                        "published_date": None,
+                        "spl_data": spl_data,
+                    } if spl_data else None
+                else:
+                    # Fall back to name search (works for unambiguous drugs)
+                    label = self.fetch_drug_label(drug_name)
+
                 if label:
                     with open(out_file, "w") as fout:
                         json.dump(label, fout, indent=2)
@@ -117,4 +136,4 @@ class DailyMedClient:
                 else:
                     print(f"[DailyMed] FAILED: {drug_name}")
 
-                time.sleep(delay)  # Rate limiting
+                time.sleep(delay)

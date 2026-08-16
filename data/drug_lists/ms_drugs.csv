@@ -9,9 +9,9 @@ Rebif,interferon beta-1a,,disease_modifying
 Avonex,interferon beta-1a,,disease_modifying
 Betaseron,interferon beta-1b,,disease_modifying
 Plegridy,peginterferon beta-1a,,disease_modifying
-Lemtrada,alemtuzumab,,disease_modifying
-Mavenclad,cladribine,,disease_modifying
-Kesimpta,ofatumumab,,disease_modifying
+Lemtrada,alemtuzumab,6236b0bc-82e9-4447-9a78-f57d94770269,disease_modifying
+Mavenclad,cladribine,9c75e30a-a410-40f1-b653-04d532bd9144,disease_modifying
+Kesimpta,ofatumumab,6a8a3f53-2062-48ff-9dbe-b939df133ca3,disease_modifying
 Ponvory,ponesimod,,disease_modifying
 Zeposia,ozanimod,,disease_modifying
 Mayzent,siponimod,,disease_modifying

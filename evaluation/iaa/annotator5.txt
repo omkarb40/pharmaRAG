@@ -2,12 +2,12 @@ AE-002 | N,N,Y,Y,N,Y | C
 CI-001 | Y,N,Y,N,Y,Y | F 
 DA-006 | Y,N,N,Y,Y,N | A 
 IU-003 | N,N,Y,Y,Y,N | E
-DI-002 | Y,Y N,N,N,Y | B 
-MD-002 | N N,N,Y,Y,N | D
+DI-002 | Y,Y,N,N,N,Y | B 
+MD-002 | N,N,N,Y,Y,N | D
 PT-002 | Y,N,Y,N,N,Y | A 
 SP-006 | Y,N,N,N,Y,Y | D 
 WP-002 | N,N,Y,N,Y,Y | F
-AE-007 | N,N,Y N N Y | C
+AE-007 | N,N,Y,N,N,Y | C
 CI-007 | Y,N,Y,N,Y,N | C 
 DA-005 | N,Y,N,Y,Y,N | D
 IU-001 | N,Y,N,Y,Y,N | D 

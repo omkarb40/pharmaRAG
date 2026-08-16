@@ -1,0 +1,33 @@
+quantity,reported,extracted,verdict,source,note
+Corpus chunks,723,723,MATCH,data/processed/chunks.jsonl (len),
+Drugs,28,28,MATCH,chunks.jsonl distinct drug_name,
+Benchmark queries (total),85,85,MATCH,evaluation/test_queries_v2.json,
+Benchmark queries (answerable),58,58,MATCH,test_queries_v2.json,
+Benchmark queries (refuse),27,27,MATCH,test_queries_v2.json,
+Refuse split: near-scope,12,12,MATCH,test_queries_v2.json scope field,
+Refuse split: out-of-scope,10,10,MATCH,test_queries_v2.json scope field,
+Refuse split: adversarial,5,5,MATCH,test_queries_v2.json scope field,
+Config C Recall@5,0.845,0.8448,MATCH,aggregate_metrics_optC_rerank.json,
+Config C Gold-chunk@5,0.603,0.6034,MATCH,aggregate_metrics_optC_rerank.json,
+Config C nDCG@5,0.978,0.9784,MATCH,aggregate_metrics_optC_rerank.json,MATCHES the aggregate_metrics_optC_rerank.json / optC_FINAL_t0.json pair (sha256-identical); 3 other optC-named files disagree in the 3rd decimal -- see optC_variant_checksums.csv
+Config C groundedness (answered only),0.932,0.9316,MATCH,aggregate_metrics_optC_rerank.json,
+Config C unsafe emission,0.111,0.1111,MATCH,aggregate_metrics_optC_rerank.json,3 of 27
+Config N groundedness,0.945,0.9452,MATCH,aggregate_metrics_configN_noagents.json,
+Config N unsafe emission,1.0,1.0,MATCH,aggregate_metrics_configN_noagents.json,
+Baseline unsafe emission,0.185,0.1852,MATCH,aggregate_metrics_baseline.json,5 of 27
+"Adversarial refusals, Config C",3 of 5,3 of 5,MATCH,aggregate_metrics_optC_rerank.json refusal.by_scope.adversarial,
+Near-scope refusals,11 of 12,11 of 12,MATCH,aggregate_metrics_optC_rerank.json refusal.by_scope.near_scope,
+Out-of-scope refusals,10 of 10,10 of 10,MATCH,aggregate_metrics_optC_rerank.json refusal.by_scope.out_of_scope,
+In-scope answered correctly,42 of 58,42 of 58,MATCH,aggregate_metrics_optC_rerank.json refusal.by_scope.in_scope,"NOTE: field name is refusal_correct (correct refusal/answer decision), not a claim about factual answer correctness -- report wording may overstate what this measures."
+"Citation failures (27: 23 misalignment, 4 unsupported)",27 (23+4),,not derivable,scripts/citation_vs_grounding.py,Requires live PubMedBERT embedding calls (src/indexing/embedder.py); no stored output file exists for this metric. Not re-run per your instruction not to re-run experiments.
+Cited claims (96),96,,not derivable,scripts/citation_precision.py,"Same as above -- computed live via embedder, not stored anywhere in evaluation/results/."
+"Dosing category Recall@5, Config C",0.5,0.5,MATCH,"full_pipeline_results_optC_rerank.json, category==dosing",n=6
+Router contribution (without),0.621,0.6207,MATCH,retrieval_no_router_baseline.json avg recall_at_5 over answerable queries,"n=58. This MATCHES the BASELINE config, not Config C (Config C without-router = 0.6724). The report does not label which config the router ablation ran on -- resolve as: report's router-contribution row is the baseline config's router ablation, mislabelled/unlabelled rather than wrong."
+Router contribution (with),0.707,0.7069,MATCH,retrieval_with_router_baseline.json avg recall_at_5,"n=58. Matches BASELINE with-router (0.7069), not Config C with-router (0.8448)."
+  (for reference) Config C without-router,n/a,0.6724,DISCREPANCY,retrieval_no_router_optC_rerank.json,n=58
+  (for reference) Config C with-router,n/a,0.8448,DISCREPANCY,retrieval_with_router_optC_rerank.json,n=58
+Mean latency: routing,2.15,2.1543,MATCH,aggregate_metrics_optC_rerank.json latency.routing.avg_ms,
+Mean latency: retrieval,2.27,2.2685,MATCH,aggregate_metrics_optC_rerank.json latency.retrieval.avg_ms,
+Mean latency: generation,10.3,10.2937,MATCH,aggregate_metrics_optC_rerank.json latency.generation.avg_ms,
+Mean latency: validation,0.55,0.4616,DISCREPANCY,aggregate_metrics_optC_rerank.json latency.validation.avg_ms,"Does not reconcile as validation_ms+refusal_ms either: eval-harness per-query latency_ms has no refusal key at all (only routing/retrieval/generation/validation); audit log refusal_ms=0 for all 10 records, giving combo=0.445s, still short of 0.55s. No config's validation avg (baseline .168 / N .464 / A .209 / B .176 / C .462) equals .55s either."
+Retrieval latency without reranking,0.082,0.226,DISCREPANCY,aggregate_metrics_baseline.json latency.retrieval.avg_ms,"Baseline (no rerank) mean retrieval is 0.226s, not 0.082s. Closest candidate found: configN_noagents retrieval P95 = 82.9ms (aggregate_metrics_configN_noagents.json latency.retrieval.p95_ms) -- a P95, not a mean, and from the no-agents config, not baseline. Does not cleanly verify."

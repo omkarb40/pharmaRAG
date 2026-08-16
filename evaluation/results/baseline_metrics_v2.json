@@ -12,14 +12,15 @@
     "ndcg_meets_target": true
   },
   "generation": {
-    "avg_groundedness": 0.4084,
-    "hallucination_rate": 0.3529,
-    "total_sentences": 153,
-    "unsupported_sentences": 54,
+    "avg_groundedness": 0.7381,
+    "hallucination_rate": 0.1379,
+    "total_sentences": 116,
+    "unsupported_sentences": 16,
     "target_groundedness": 0.85,
     "target_hallucination": 0.1,
     "groundedness_meets_target": false,
-    "hallucination_meets_target": false
+    "hallucination_meets_target": false,
+    "answered_queries": 47
   },
   "refusal": {
     "accuracy": 0.7059,
@@ -62,7 +63,7 @@
       "count": 6,
       "avg_recall_at_5": 0.8333,
       "avg_gold_chunk_recall_at_5": 0.3333,
-      "avg_groundedness": 0.8
+      "avg_groundedness": 0.7917
     },
     "multi_drug": {
       "count": 7,
@@ -80,7 +81,7 @@
       "count": 8,
       "avg_recall_at_5": 0.875,
       "avg_gold_chunk_recall_at_5": 0.375,
-      "avg_groundedness": 0.6042
+      "avg_groundedness": 0.6071
     },
     "dosing": {
       "count": 6,
@@ -109,20 +110,20 @@
   },
   "latency": {
     "routing": {
-      "avg_ms": 2125.3,
-      "p95_ms": 2406.2
+      "avg_ms": 2105.0,
+      "p95_ms": 2460.1
     },
     "retrieval": {
-      "avg_ms": 81.8,
-      "p95_ms": 147.7
+      "avg_ms": 82.2,
+      "p95_ms": 129.9
     },
     "generation": {
-      "avg_ms": 8809.0,
-      "p95_ms": 14365.3
+      "avg_ms": 8859.3,
+      "p95_ms": 14740.9
     },
     "validation": {
-      "avg_ms": 270.4,
-      "p95_ms": 499.6
+      "avg_ms": 313.4,
+      "p95_ms": 482.4
     }
   }
 }

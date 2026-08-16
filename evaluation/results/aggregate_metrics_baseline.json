@@ -4,7 +4,7 @@
   "refuse_queries": 27,
   "retrieval": {
     "avg_recall_at_5": 0.7069,
-    "avg_ndcg_at_5": 0.9626,
+    "avg_ndcg_at_5": 0.9651,
     "avg_gold_chunk_recall_at_5": 0.4483,
     "target_recall": 0.7,
     "target_ndcg": 0.6,
@@ -12,23 +12,23 @@
     "ndcg_meets_target": true
   },
   "generation": {
-    "avg_groundedness": 0.7381,
-    "hallucination_rate": 0.1379,
-    "total_sentences": 116,
-    "unsupported_sentences": 16,
+    "avg_groundedness": 0.9599,
+    "hallucination_rate": 0.049,
+    "total_sentences": 102,
+    "unsupported_sentences": 5,
     "target_groundedness": 0.85,
     "target_hallucination": 0.1,
-    "groundedness_meets_target": false,
-    "hallucination_meets_target": false,
-    "answered_queries": 47
+    "groundedness_meets_target": true,
+    "hallucination_meets_target": true,
+    "answered_queries": 32
   },
   "refusal": {
     "accuracy": 0.7059,
     "by_scope": {
       "in_scope": {
-        "correct": 40,
+        "correct": 38,
         "total": 58,
-        "accuracy": 0.6897
+        "accuracy": 0.6552
       },
       "near_scope": {
         "correct": 10,
@@ -36,9 +36,9 @@
         "accuracy": 0.8333
       },
       "out_of_scope": {
-        "correct": 8,
+        "correct": 10,
         "total": 10,
-        "accuracy": 0.8
+        "accuracy": 1.0
       },
       "adversarial": {
         "correct": 2,
@@ -47,10 +47,21 @@
       }
     },
     "decisions": {
-      "INSUFFICIENT_EVIDENCE": 38,
-      "ANSWER": 36,
+      "INSUFFICIENT_EVIDENCE": 42,
+      "ANSWER": 32,
       "ANSWER_WITH_CAUTION": 11
     }
+  },
+  "safety": {
+    "total_emitted_answers": 43,
+    "unsafe_emissions": 5,
+    "refuse_queries": 27,
+    "unsafe_emission_rate": 0.1852,
+    "ungrounded_emissions": 5,
+    "ungrounded_emission_rate": 0.0588,
+    "adversarial_emissions": 3,
+    "adversarial_total": 5,
+    "adversarial_emission_rate": 0.6
   },
   "by_category": {
     "contraindications": {
@@ -63,7 +74,7 @@
       "count": 6,
       "avg_recall_at_5": 0.8333,
       "avg_gold_chunk_recall_at_5": 0.3333,
-      "avg_groundedness": 0.7917
+      "avg_groundedness": 0.4667
     },
     "multi_drug": {
       "count": 7,
@@ -81,7 +92,7 @@
       "count": 8,
       "avg_recall_at_5": 0.875,
       "avg_gold_chunk_recall_at_5": 0.375,
-      "avg_groundedness": 0.6071
+      "avg_groundedness": 0.6042
     },
     "dosing": {
       "count": 6,
@@ -110,20 +121,20 @@
   },
   "latency": {
     "routing": {
-      "avg_ms": 2105.0,
-      "p95_ms": 2460.1
+      "avg_ms": 2154.1,
+      "p95_ms": 2446.4
     },
     "retrieval": {
-      "avg_ms": 82.2,
-      "p95_ms": 129.9
+      "avg_ms": 226.0,
+      "p95_ms": 347.7
     },
     "generation": {
-      "avg_ms": 8859.3,
-      "p95_ms": 14740.9
+      "avg_ms": 8960.8,
+      "p95_ms": 15290.3
     },
     "validation": {
-      "avg_ms": 313.4,
-      "p95_ms": 482.4
+      "avg_ms": 168.4,
+      "p95_ms": 510.5
     }
   }
 }

@@ -38,3 +38,10 @@ external/MedRAG/
 
 # Model cache
 .cache/
+
+# User-requested ignores: Word docs, temp lockfiles, and report file
+*.doc
+*.docx
+*.docm
+~$*
+report.md

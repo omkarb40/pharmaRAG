@@ -17,4 +17,4 @@ PT-001 | N,N,Y,N,N,N | C
 SP-001 | Y,N,N,N,N,Y | F
 WP-001 | Y,N,N,N,N,N | A
 AE-003 | N,N,N,Y,N,N | D
-CI-003 | Y,N,Y,Y,N,N | Y
+CI-003 | Y,N,Y,Y,N,N | C

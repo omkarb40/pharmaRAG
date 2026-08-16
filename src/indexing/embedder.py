@@ -44,3 +44,23 @@ class PubMedEmbedder:
             [query],
             normalize_embeddings=True,
         )[0]
+    
+    @staticmethod
+    def build_context_prefix(chunk: dict) -> str:
+        """Option B: context prefix baked into the embedding input only.
+        Uses drug + human-readable section so the vector carries identity."""
+        drug = chunk.get("drug_name", "")
+        section = chunk.get("section_name", "").replace("_", " ")
+        return f"Drug: {drug} | Section: {section}. "
+
+    def embed_chunks_with_context(self, chunks: list[dict],
+                                  batch_size: int = 32) -> np.ndarray:
+        """Embed chunks with a context prefix prepended to each chunk's
+        text FOR THE EMBEDDING ONLY. The stored document text is untouched."""
+        enriched = [self.build_context_prefix(c) + c["text"] for c in chunks]
+        return self.model.encode(
+            enriched,
+            batch_size=batch_size,
+            show_progress_bar=len(enriched) > 50,
+            normalize_embeddings=True,
+        )
