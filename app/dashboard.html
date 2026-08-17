@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PharmaRAG — Monitoring Dashboard</title>
+<style>
+  :root {
+    --bg: #0b0e14; --panel: #131722; --border: #232838;
+    --text: #e6e9f0; --muted: #8b93a7;
+    --green: #34d399; --amber: #fbbf24; --red: #f87171; --blue: #60a5fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  h1 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 28px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 8px; }
+  .card .value { font-size: 28px; font-weight: 600; }
+  .card .sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .status-ok { color: var(--green); }
+  .status-degraded { color: var(--red); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .badge-pass { background: rgba(52,211,153,0.15); color: var(--green); }
+  .badge-fail { background: rgba(248,113,113,0.15); color: var(--red); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; color: var(--muted); font-weight: 500; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  .decision-ANSWER { color: var(--green); }
+  .decision-ANSWER_WITH_CAUTION { color: var(--amber); }
+  .decision-INSUFFICIENT_EVIDENCE { color: var(--red); }
+  .panel-title { font-size: 14px; font-weight: 600; margin: 0 0 12px; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13px; }
+  .bar-track { flex: 1; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 4px; }
+  .empty { color: var(--muted); text-align: center; padding: 40px; }
+</style>
+</head>
+<body>
+  <h1>PharmaRAG Monitoring</h1>
+  <div class="subtitle" id="subtitle">Loading…</div>
+
+  <div id="content"></div>
+
+  <script>
+    async function load() {
+      const [summaryRes, healthRes] = await Promise.all([
+        fetch('/api/monitoring'),
+        fetch('/api/monitoring/health'),
+      ]);
+      const summary = await summaryRes.json();
+      const health = await healthRes.json();
+
+      if (summary.status === 'no_data') {
+        document.getElementById('content').innerHTML =
+          '<div class="empty">No audit logs found yet. Ask some questions through the chat, then reload.</div>';
+        document.getElementById('subtitle').textContent = 'No data';
+        return;
+      }
+
+      document.getElementById('subtitle').textContent =
+        `${summary.total_requests} requests logged — system status: ${health.status.toUpperCase()}`;
+
+      const checks = health.checks || {};
+      const checkRow = (name, c) => `
+        <div class="bar-row">
+          <span style="width:170px">${name}</span>
+          <span class="badge ${c.ok ? 'badge-pass' : 'badge-fail'}">${c.ok ? 'PASS' : 'FAIL'}</span>
+          <span style="color:var(--muted)">value=${c.value}  threshold=${c.threshold}</span>
+        </div>`;
+
+      const decisions = summary.decisions || {};
+      const totalDecisions = Object.values(decisions).reduce((a, b) => a + b, 0) || 1;
+      const decisionBar = (label, count, color) => `
+        <div class="bar-row">
+          <span style="width:170px">${label}</span>
+          <div class="bar-track"><div class="bar-fill" style="width:${(count/totalDecisions*100).toFixed(1)}%;background:${color}"></div></div>
+          <span style="width:60px;text-align:right">${count}</span>
+        </div>`;
+
+      const recentRows = (summary.recent_requests || []).map(r => `
+        <tr>
+          <td>${r.timestamp?.slice(0,19) || ''}</td>
+          <td>${r.query}</td>
+          <td class="decision-${r.decision}">${r.decision}</td>
+          <td>${(r.confidence ?? 0).toFixed(2)}</td>
+          <td>${(r.groundedness ?? 0).toFixed(2)}</td>
+          <td>${Math.round(r.total_ms || 0)}ms</td>
+        </tr>`).join('');
+
+      document.getElementById('content').innerHTML = `
+        <div class="grid">
+          <div class="card">
+            <div class="label">Avg Groundedness</div>
+            <div class="value">${(summary.avg_groundedness*100).toFixed(1)}%</div>
+          </div>
+          <div class="card">
+            <div class="label">Refusal Rate</div>
+            <div class="value">${(summary.refusal_rate*100).toFixed(1)}%</div>
+          </div>
+          <div class="card">
+            <div class="label">Hallucination Rate</div>
+            <div class="value">${(summary.hallucination_rate*100).toFixed(1)}%</div>
+          </div>
+          <div class="card">
+            <div class="label">P95 Latency</div>
+            <div class="value">${Math.round(summary.latency?.total?.p95_ms || 0)}ms</div>
+          </div>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <div class="panel-title">Health checks</div>
+            ${checkRow('Groundedness', checks.groundedness || {ok:false,value:'-',threshold:'-'})}
+            ${checkRow('Hallucination rate', checks.hallucination_rate || {ok:false,value:'-',threshold:'-'})}
+            ${checkRow('P95 latency', checks.p95_latency_ms || {ok:false,value:'-',threshold:'-'})}
+            ${checkRow('Refusal rate', checks.refusal_rate || {ok:false,value:'-',threshold:'-'})}
+          </div>
+          <div class="card">
+            <div class="panel-title">Decision distribution</div>
+            ${decisionBar('ANSWER', decisions.ANSWER || 0, 'var(--green)')}
+            ${decisionBar('ANSWER_WITH_CAUTION', decisions.ANSWER_WITH_CAUTION || 0, 'var(--amber)')}
+            ${decisionBar('INSUFFICIENT_EVIDENCE', decisions.INSUFFICIENT_EVIDENCE || 0, 'var(--red)')}
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <div class="panel-title">Recent requests</div>
+          <table>
+            <thead><tr><th>Time</th><th>Query</th><th>Decision</th><th>Confidence</th><th>Groundedness</th><th>Latency</th></tr></thead>
+            <tbody>${recentRows || '<tr><td colspan="6" class="empty">No requests yet</td></tr>'}</tbody>
+          </table>
+        </div>
+      `;
+    }
+    load();
+  </script>
+</body>
+</html>
