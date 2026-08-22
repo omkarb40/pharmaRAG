@@ -41,3 +41,8 @@ def chat_page():
     """Serve the chat interface."""
     html_path = Path(__file__).parent / "chat.html"
     return HTMLResponse(content=html_path.read_text(), status_code=200)
+
+@app.get("/dashboard", response_class=HTMLResponse)
+def dashboard_page():
+    html_path = Path(__file__).parent / "dashboard.html"
+    return HTMLResponse(content=html_path.read_text(), status_code=200)
