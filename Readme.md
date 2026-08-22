@@ -318,4 +318,24 @@ pharma-rag/
 ├── docker-compose.yml
 └── README.md
 ```
-
+## Key references
+ 
+- Lewis et al. (2020) — *Retrieval-augmented generation for knowledge-intensive NLP tasks*, NeurIPS 33.
+- Asai et al. (2024) — *Self-RAG: Learning to retrieve, generate, and critique through self-reflection*, ICLR.
+- Yan et al. (2024) — *Corrective retrieval augmented generation*, arXiv:2401.15884.
+- Min et al. (2023) — *FActScore*, EMNLP. (Atomic-claim decomposition — the principle behind per-sentence groundedness.)
+- Es et al. (2023) — *RAGAS*, arXiv:2309.15217. · Saad-Falcon et al. (2023) — *ARES*, arXiv:2311.09476.
+- Cormack et al. (2009) — *Reciprocal rank fusion outperforms Condorcet…*, SIGIR.
+- Nishisako et al. (2025) — *Reducing hallucinations and trade-offs in generative AI chatbots for cancer information*, JMIR Cancer 11, e70176. (First paper I read that scored abstention as anything other than a loss.)
+- Koppula et al. (2025) — *AI-powered chatbot for FDA drug labeling information retrieval*, Analytics 4(4), 33.
+- Wang et al. (2026) — *DrugClaw and DrugAudit*, arXiv:2606.01434.
+- Xiong et al. (2024) — *MIRAGE*, arXiv:2402.13178.
+Full reference list in the project report.
+ 
+---
+ 
+## License
+ 
+MIT — see [LICENSE](LICENSE).
+ 
+**Not for clinical use.** This is a research prototype built for a Master's capstone. It is not a medical device, has not been validated for clinical decision-making, and must not be used to inform patient care. Always consult the current FDA label and a qualified healthcare professional.
