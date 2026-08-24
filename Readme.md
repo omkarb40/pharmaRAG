@@ -318,6 +318,14 @@ pharma-rag/
 ├── docker-compose.yml
 └── README.md
 ```
+## What I'd do differently
+ 
+- **Build the benchmark first**, including refusal cases, and let it drive the architecture rather than the reverse. Building the system took weeks; establishing whether it could be trusted took longer than all build phases combined.
+- **Pin document identifiers from the outset** rather than resolving by name.
+- **Instrument retrieval fusion** with a diagnostic reporting how many final candidates each retriever *uniquely* contributed — that would have caught the non-hybrid hybrid in Phase 3 rather than Phase 5.
+- **Reconcile a surprising metric against a hand-inspected sample before adjusting anything.** When groundedness came back at 0.41 my instinct was to lower the validator threshold. That would have produced a number closer to expectation while leaving the actual defect — the denominator — untouched.
+- **Document the reasoning behind constants next to them.** The 0.55 groundedness weight encoded a safety assumption stated nowhere in the code.
+---
 ## Key references
  
 - Lewis et al. (2020) — *Retrieval-augmented generation for knowledge-intensive NLP tasks*, NeurIPS 33.
