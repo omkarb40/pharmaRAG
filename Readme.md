@@ -235,15 +235,49 @@ ollama pull llama3.2:3b
 
 ## 💬 Usage
  
-### Example Queries
+## Example behaviour
  
-**Patient-style:**
-> "Can I take Tecfidera if I have a low white blood cell count?"
+**Answered (well-supported):**
  
-**HCP / Analyst-style:**
-> "Summarize the black box warnings and contraindications for natalizumab, citing the relevant label sections."
-
-### Sample Output
+```
+Q: What are the boxed warnings for natalizumab?
+ 
+Natalizumab carries a boxed warning for progressive multifocal
+leukoencephalopathy (PML), a serious and potentially fatal brain
+infection [1]. Risk factors include the presence of anti-JCV
+antibodies, longer treatment duration, and prior immunosuppressant
+use [2].
+ 
+[1] Tysabri — BOXED WARNING — tysabri_bw_001
+[2] Tysabri — WARNINGS AND PRECAUTIONS — tysabri_wp_012
+ 
+Decision: ANSWER   Groundedness 0.93   Confidence 0.81
+```
+ 
+**Refused (out of scope):**
+ 
+```
+Q: What's the dose of metoprolol for atrial fibrillation?
+ 
+Insufficient evidence. This system covers FDA labels for 28 Multiple
+Sclerosis medications. No supporting evidence for this query was found
+in the corpus.
+ 
+Decision: REFUSE   Confidence 0.19
+```
+ 
+**The failure case this project is about:**
+ 
+```
+Q: What's the paediatric dose of <adult-only MS drug>?
+ 
+[Config C refuses this 3 times in 5. When it doesn't, the answer is
+ fluent, correctly cited, grounded at >0.90 — and clinically unsafe,
+ because the drug is not indicated in that population and the dose
+ does not exist.]
+```
+ 
+---
  
 ```
 📋 Answer:
