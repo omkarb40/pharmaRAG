@@ -163,19 +163,22 @@ Every request generates a structured audit log:
 
 # 🛠 Tech Stack
  
-| Component | Technology |
-|-----------|-----------|
-| **LLM (Primary)** | Gemma 3 12B Instruct via Ollama |
-| **LLM (Fallback)** | Gemma 3 4B Instruct / Llama 3.2 3B |
-| **Embeddings** | Sentence Transformers (all-MiniLM or domain-specific) |
-| **Vector Store** | ChromaDB / FAISS |
-| **Keyword Search** | BM25 (rank-bm25) |
-| **Reranking** | Cross-encoder reranker |
-| **Orchestration** | LangChain / custom pipeline |
-| **Frontend** | Streamlit |
-| **Backend** | FastAPI (optional) |
-| **Monitoring** | Custom logging + JSON audit trail |
-| **Language** | Python 3.10+ |
+ 
+## Tech stack
+ 
+| Component | Choice |
+|---|---|
+| LLM | Gemma 3 12B Instruct via Ollama, temperature 0 |
+| Embeddings | `neuml/pubmedbert-base-embeddings` (768-d) |
+| Vector store | ChromaDB, cosine similarity |
+| Lexical search | BM25 (`rank_bm25`) |
+| Fusion | Weighted RRF, k = 60, 0.6 semantic / 0.4 lexical |
+| Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2`, top-20 → top-5 |
+| Source | FDA DailyMed SPL API, SetID-pinned |
+| UI | Streamlit |
+| Monitoring | JSONL audit log + Streamlit dashboard |
+| Stats | McNemar's test, Fleiss' κ |
+| Language | Python 3.10+ |
  
 ---
  
