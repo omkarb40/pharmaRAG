@@ -378,6 +378,19 @@ pharma-rag/
 Full reference list in the project report.
  
 ---
+
+## Future work
+ 
+Ordered by how directly each follows from a measured failure.
+ 
+1. **Safety-intent classification** — a query-side classifier before or alongside the evidence pipeline, addressing the adversarial gap. Highest value, because it targets the only failure the current architecture cannot address by tuning.
+2. **Query decomposition for multi-entity retrieval** — plus a corresponding entity-coverage metric, since any-match recall will keep reporting success.
+3. **Entailment-based validation** — replacing embedding similarity with an NLI model, addressing negation insensitivity.
+4. **Domain-adapted reranking** — motivated by dosing, the weakest retrieval category at 0.50, where structured numeric content is served poorly by a general passage reranker.
+5. **Citation-aware generation** — constrained decoding or post-generation realignment, eliminating the 23 misalignment failures at source rather than measuring them.
+6. **Second therapeutic area** — the most direct test of whether these findings generalise or are artefacts of MS labels.
+7. **Drift study** — the audit infrastructure supports it; it hasn't been run.
+---
  
 ## License
  
