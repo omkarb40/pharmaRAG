@@ -298,6 +298,35 @@ with hypersensitivity to natalizumab [3].
 ```
  
 ---
+
+## Governance & audit
+ 
+Every request writes a JSONL audit record — **regardless of whether the answer was released**:
+ 
+```json
+{
+  "request_id": "req_a1b2c3",
+  "timestamp": "2026-04-15T10:32:00Z",
+  "query": "What are the boxed warnings for natalizumab?",
+  "routed_section": "boxed_warning",
+  "retrieved_chunks": [
+    {"chunk_id": "tysabri_bw_001", "rerank_score": 0.91},
+    {"chunk_id": "tysabri_wp_012", "rerank_score": 0.87}
+  ],
+  "latency_ms": {"routing": 2150, "retrieval": 2270, "generation": 10300, "validation": 550, "total": 15270},
+  "sentence_groundedness": [0.94, 0.88, 0.91],
+  "response_groundedness": 0.93,
+  "confidence": 0.81,
+  "decision": "answer",
+  "decision_reason": "confidence >= 0.65"
+}
+```
+ 
+The Streamlit monitoring dashboard reads these logs live: query volume, latency percentiles, groundedness distribution, refusal rate and reasons, retrieval score distributions.
+ 
+*No drift experiment was run and no drift-detection claim is made. The infrastructure supports it; it hasn't been used for it.*
+ 
+---
  
 ## 📁 Project Structure
  
