@@ -8,14 +8,19 @@
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
  
-## 🔬 What Is PharmaRAG?
+---
  
-PharmaRAG is a Master's capstone project that builds and evaluates a **RAG-based Drug Label QA system** designed for regulated pharmaceutical use.
+## The headline result
  
-Most RAG systems stop at "it retrieves stuff and generates answers." PharmaRAG addresses the harder question: **how do you know if the answer is trustworthy enough to act on?**
+I built a RAG system over FDA drug labels, then built a control configuration with the safety agents stripped out — expecting it to look worse.
  
-The system answers questions about drug indications, contraindications, warnings, adverse reactions, dosing, and drug interactions using **FDA DailyMed Structured Product Labels (SPL)** as the primary evidence source. Every answer comes with numbered citations, an evidence table, and a confidence decision produced by three agentic safety layers.
+**It was more grounded than the full system (0.945 vs 0.932). It also answered every single question that should have been refused — 27 out of 27**, including a request for a paediatric dose of a drug licensed only in adults. That answer was accurate, correctly cited, and grounded in a real FDA label. It was the most dangerous output the system ever produced.
  
+Groundedness — the metric the RAG literature treats as the proxy for trustworthiness — is **blind to the failure mode that matters most in drug safety**. A system can be maximally grounded and maximally unsafe at the same time, because these are different properties and no amount of the first implies the second.
+ 
+The rest of this project is the evaluation apparatus built to measure the property that actually matters: **does the system decline when it should?**
+ 
+---
 ### The Trust Gap
  
 Standard RAG pipelines retrieve, generate, and respond. There is no layer that asks:
