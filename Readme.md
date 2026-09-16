@@ -30,6 +30,26 @@ Standard RAG pipelines retrieve, generate, and respond. There is no layer that a
 PharmaRAG closes that gap by treating **reliability and governance as first-class concerns** from day one.
  
 ---
+
+
+## Results
+ 
+### Against proposal-stage targets
+ 
+Targets were fixed before any results existed and are reported without adjustment.
+ 
+| Criterion | Target | Achieved | Verdict |
+|---|---|---|---|
+| Recall@5 (label-section retrieval) | ≥ 0.70 | **0.845** | Exceeded |
+| nDCG@5 | ≥ 0.60 | **0.978** | Exceeded |
+| Groundedness (answered queries) | ≥ 0.85 | **0.932** | Met |
+| Hallucination rate | ≤ 0.10 | **0.082** | Met |
+| P95 latency, local | ≤ 6–8 s | **23.7 s** | **Not met** |
+| Refusal correctness | *not specified at proposal* | **0.777** | New metric |
+ 
+Two notes I'd rather state than bury. The latency target was set before cross-encoder reranking existed; mean end-to-end is 15.3 s, dominated by generation, not retrieval. I regard the target as wrongly set rather than the system as having failed it — but it is reported as missed.
+ 
+More significantly: **the proposal contained no target for refusal correctness**, because at proposal stage I hadn't understood that refusal was the central problem. That absence is itself a finding about how easy it is to specify a drug-safety system without specifying the property that makes it safe.
  
 ## ✅ Evaluation Results
  
