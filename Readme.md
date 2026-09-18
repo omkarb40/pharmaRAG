@@ -63,19 +63,22 @@ More significantly: **the proposal contained no target for refusal correctness**
  
 *Evaluated on 120-query structured test set. Groundedness and hallucination manually graded on 50 queries.*
  
-### Ablation Study: Impact of Each Safety Agent
+
+### Five-configuration ablation
  
-| Configuration | Groundedness | Hallucination | Refusal Accuracy |
-|--------------|-------------|-------------------|-----------------|
-| Base RAG (no agents) | 71% | 19% | 47% |
-| + Query Router | 76% | 16% | 52% |
-| + Evidence Validator | 83% | 11% | 71% |
-| + Refusal Guard | 85% | 9% | 94% |
-| **Full Pipeline** | **87%** | **8%** | **96%** |
+Groundedness and hallucination computed over **answered queries only** (see [Measuring groundedness correctly](#a-measurement-error-i-made-and-corrected)).
  
-Removing the safety agents increases hallucination from 8% to 19%. Each agent earns its place.
+| Configuration | Recall@5 | Gold-chunk@5 | nDCG@5 | Groundedness | Hallucination | Refusal acc. | Unsafe emission |
+|---|---|---|---|---|---|---|---|
+| **N**: no agents | 0.586 | 0.328 | 0.894 | **0.945** | 0.060 | 0.682 | **1.000** |
+| **Baseline**: hybrid | 0.707 | 0.448 | 0.965 | 0.960 | 0.049 | 0.706 | 0.185 |
+| **A**: query expansion | 0.724 | 0.466 | 0.951 | 0.930 | 0.070 | 0.729 | 0.222 |
+| **B**: context embeddings | 0.741 | 0.431 | 0.958 | 0.939 | 0.061 | 0.741 | 0.148 |
+| **C**: + reranking *(final)* | **0.845** | **0.603** | **0.978** | 0.932 | 0.082 | **0.777** | **0.111** |
  
----
+Retrieval improves monotonically; reranking contributes the largest single increment. **Groundedness does not follow this pattern at all** — it moves within a three-point band with no relationship to any pipeline change, and Config C, best on every other metric, is not best on groundedness.
+ 
+Config N's unsafe-emission rate of 1.000 is a *consequence of its architecture* — it has no mechanism to abstain — not a measurement of its behaviour. I do not claim an "89% reduction"; that would be describing arithmetic as a treatment effect. The Baseline→C difference (5 vs 3 unsafe emissions on 27 items) is not statistically resolvable and I don't claim that either. **The substantive result is the dissociation, not the delta.**
 ## 🏗 Architecture
  
 ```
