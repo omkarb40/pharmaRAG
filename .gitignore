@@ -1,47 +1,52 @@
-# Python
+# ---- Python ----
 __pycache__/
 *.py[cod]
 *.egg-info/
-dist/
-build/
-.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
 
-# Virtual environment
-venv/
+# ---- Environments ----
 .venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
+venv/
 .env
+*.env
+!.env.example
 
-# Data (keep structure, ignore large files)
-data/raw/*.json
-data/processed/*.jsonl
-data/index/
-
-# Logs
-logs/*.jsonl
-
-# OS
+# ---- OS ----
 .DS_Store
 Thumbs.db
 
-# Embedded external repos
-external/MIRAGE/
-external/MedRAG/
+# ---- Vector stores & built indexes (rebuild with scripts/build_index.py) ----
+chroma_db/
+data/index/
+data/processed/chunk_embeddings.npy
+*.sqlite3
 
-# Model cache
-.cache/
+# ---- Raw source documents (re-fetch with scripts/ingest_dailymed.py) ----
+data/raw/
 
-# User-requested ignores: Word docs, temp lockfiles, and report file
-*.doc
+# ---- Backups & stale artefacts ----
+*_backup_*/
+*backup*/
+demos/data/
+
+# ---- Vendored third-party repos (not used; see Limitations in README) ----
+external/
+
+# ---- Large annotation working files ----
+annotation_worksheet.txt
+worksheet_*.txt
+
+# ---- Source documents kept out of the code repo ----
 *.docx
-*.docm
-~$*
-report.md
+
+# ---- Archived evaluation runs (canonical results are tracked) ----
+evaluation/results/_archive/
+
+# ---- TRACKED ON PURPOSE (do not ignore) ----
+# data/processed/chunks.jsonl     <- the 723-chunk corpus
+# evaluation/test_queries_v2.json <- the 85-query benchmark
+# evaluation/iaa/                 <- inter-annotator agreement packet
+# evaluation/results/*.json       <- canonical run outputs
+# logs/*.jsonl                    <- audit log samples
+# figures/*.png                   <- report figures
