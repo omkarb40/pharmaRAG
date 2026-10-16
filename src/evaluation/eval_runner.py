@@ -241,7 +241,7 @@ def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=N
 def run_full_pipeline_eval(queries, retriever, router, generator, validator,
                            refusal_guard, expand=False, reranker=None,
                            no_agents=False, no_self_refusal=False, no_guard=False,
-                           tag="eval"):
+                           tag="eval", intent_checker=None):
     # Issue #10: every evaluation query is written to the audit log, tagged by run.
     from src.monitoring.logger import AuditLogger
     audit = AuditLogger()
@@ -279,6 +279,11 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
         validation = validator.validate(gen["answer"], chunks)
         validation_ms = (time.time() - t0) * 1000
 
+        # Safety-Intent Check (issue #1): judges the QUESTION. A DECLINE overrides
+        # whatever the guard decides below; retrieval/generation still run so the
+        # retrieval and groundedness metrics stay comparable across configurations.
+        intent = intent_checker.check(query_text) if intent_checker else None
+
         # Agent 3: Refusal Guard (DISABLED in Config N — everything is emitted)
         if not guard_on:
             refusal = {"decision": "ANSWER", "confidence_score": None}
@@ -287,6 +292,13 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
                 refusal = {"decision": "INSUFFICIENT_EVIDENCE", "confidence_score": None}
         else:
             refusal = refusal_guard.evaluate(chunks, validation)
+
+        refusal_source = None
+        if refusal["decision"] == "INSUFFICIENT_EVIDENCE":
+            refusal_source = "llm_self" if "insufficient evidence" in gen["answer"].lower() else "guard"
+        if intent and intent["decision"] == "DECLINE":
+            refusal = {**refusal, "decision": "INSUFFICIENT_EVIDENCE"}
+            refusal_source = refusal_source or "intent_check"
 
         recall = compute_recall_at_k(chunks, query=q)
         ndcg = compute_ndcg_at_k(chunks, query=q)
@@ -341,6 +353,8 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
             "guard_on": guard_on,
             # Refusal attribution: did the LLM itself abstain?
             "llm_self_refused": "insufficient evidence" in gen["answer"].lower(),
+            "refusal_source": refusal_source,   # llm_self | guard | intent_check | None
+            "intent_check": intent,
             "latency_ms": {
                 "routing": round(routing_ms, 1),
                 "retrieval": round(retrieval_ms, 1),
@@ -487,7 +501,9 @@ def aggregate_metrics(results: list[dict]) -> dict:
             "unsafe_emission_rate": unsafe_emission_rate,
             # Who refused? LLM self-abstention vs. guard-only (issue #1)
             "refusals_llm_self": sum(1 for r in results if r.get("confidence_decision") == "INSUFFICIENT_EVIDENCE" and r.get("llm_self_refused")),
-            "refusals_guard_only": sum(1 for r in results if r.get("confidence_decision") == "INSUFFICIENT_EVIDENCE" and not r.get("llm_self_refused")),
+            "refusals_guard_only": sum(1 for r in results if r.get("refusal_source") == "guard"),
+            "refusals_intent_only": sum(1 for r in results if r.get("refusal_source") == "intent_check"),
+            "intent_declines_total": sum(1 for r in results if (r.get("intent_check") or {}).get("decision") == "DECLINE"),
             "ungrounded_emissions": len(ungrounded_emitted),
             "ungrounded_emission_rate": ungrounded_emission_rate,
             "adversarial_emissions": len(adv_emitted),
@@ -546,6 +562,13 @@ def main():
     if NO_SELF_REFUSAL:
         tag += "_noSelfRefusal"
         print("\n  [MODE] generator self-refusal DISABLED (guard still on unless --no-guard)")
+    INTENT = "--intent-check" in _sys.argv
+    intent_checker = None
+    if INTENT:
+        from src.generation.safety_intent import SafetyIntentChecker
+        intent_checker = SafetyIntentChecker()
+        tag += "_intent"
+        print("\n  [MODE] Safety-Intent Check ENABLED")
     if NO_GUARD:
         tag += "_noGuard"
         print("\n  [MODE] Refusal Guard DISABLED (model self-refusal still counts)")
@@ -587,7 +610,8 @@ def main():
     full_results = run_full_pipeline_eval(
         queries, retriever, router, generator, validator, refusal_guard,
         expand=EXPAND, reranker=reranker, no_agents=NOAGENTS,
-        no_self_refusal=NO_SELF_REFUSAL, no_guard=NO_GUARD, tag=tag
+        no_self_refusal=NO_SELF_REFUSAL, no_guard=NO_GUARD, tag=tag,
+        intent_checker=intent_checker
     )
 
     with open(RESULTS_DIR / f"full_pipeline_results_{tag}.json", "w") as f:
