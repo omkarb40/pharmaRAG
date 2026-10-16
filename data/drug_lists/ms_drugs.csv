@@ -1,29 +1,29 @@
-drug_name,generic_name,dailymed_setid,category
-Ocrevus,ocrelizumab,,disease_modifying
-Tysabri,natalizumab,,disease_modifying
-Tecfidera,dimethyl fumarate,,disease_modifying
-Gilenya,fingolimod,,disease_modifying
-Aubagio,teriflunomide,,disease_modifying
-Copaxone,glatiramer acetate,,disease_modifying
-Rebif,interferon beta-1a,,disease_modifying
-Avonex,interferon beta-1a,,disease_modifying
-Betaseron,interferon beta-1b,,disease_modifying
-Plegridy,peginterferon beta-1a,,disease_modifying
-Lemtrada,alemtuzumab,6236b0bc-82e9-4447-9a78-f57d94770269,disease_modifying
-Mavenclad,cladribine,9c75e30a-a410-40f1-b653-04d532bd9144,disease_modifying
-Kesimpta,ofatumumab,6a8a3f53-2062-48ff-9dbe-b939df133ca3,disease_modifying
-Ponvory,ponesimod,,disease_modifying
-Zeposia,ozanimod,,disease_modifying
-Mayzent,siponimod,,disease_modifying
-Vumerity,diroximel fumarate,,disease_modifying
-Bafiertam,monomethyl fumarate,,disease_modifying
-Briumvi,ublituximab,,disease_modifying
-Tyruko,natalizumab-sztn,,biosimilar
-Ampyra,dalfampridine,,symptomatic
-Zanaflex,tizanidine,,symptomatic
-Baclofen,baclofen,,symptomatic
-Gabapentin,gabapentin,,symptomatic
-Modafinil,modafinil,,symptomatic
-Solu-Medrol,methylprednisolone,,acute_relapse
-Acthar Gel,corticotropin,,acute_relapse
-Mitoxantrone,mitoxantrone,,chemotherapy
+drug_name,generic_name,dailymed_setid,category,title_contains
+Ocrevus,ocrelizumab,9da42362-3bb5-4b83-b4bb-b59fd4e55f0d,disease_modifying,OCREVUS
+Tysabri,natalizumab,c5fdde91-1989-4dd2-9129-4f3323ea2962,disease_modifying,TYSABRI
+Tecfidera,dimethyl fumarate,665d7e74-036c-5f68-5b67-ab84b9b49151,disease_modifying,TECFIDERA
+Gilenya,fingolimod,cc9e1c8c-0e2b-44e2-878b-27057f786be9,disease_modifying,GILENYA
+Aubagio,teriflunomide,8c1bc23b-a62b-4172-a603-8b97761514b4,disease_modifying,AUBAGIO
+Copaxone,glatiramer acetate,aa88f583-4f5f-433b-80b4-1f4c9fb28357,disease_modifying,COPAXONE
+Rebif,interferon beta-1a,c6fcb5d2-8fcd-44fa-a838-b84ee5f44f0f,disease_modifying,REBIF
+Avonex,interferon beta-1a,d70a39cc-de15-4c12-a1ec-8063b69ea0e1,disease_modifying,AVONEX
+Betaseron,interferon beta-1b,66311f74-0472-4fa3-848a-06002ca0def5,disease_modifying,BETASERON
+Plegridy,peginterferon beta-1a,08f0ea03-4e6d-195d-aef4-886e32befa95,disease_modifying,PLEGRIDY
+Lemtrada,alemtuzumab,6236b0bc-82e9-4447-9a78-f57d94770269,disease_modifying,LEMTRADA
+Mavenclad,cladribine,9c75e30a-a410-40f1-b653-04d532bd9144,disease_modifying,MAVENCLAD
+Kesimpta,ofatumumab,6a8a3f53-2062-48ff-9dbe-b939df133ca3,disease_modifying,KESIMPTA
+Ponvory,ponesimod,0c025ba8-ba51-272e-e063-6294a90ad120,disease_modifying,PONVORY
+Zeposia,ozanimod,93ce2fab-edfb-4804-8074-963071de51e4,disease_modifying,ZEPOSIA
+Mayzent,siponimod,44492772-5aed-4627-bd85-e8e89f308bb3,disease_modifying,MAYZENT
+Vumerity,diroximel fumarate,2d74414f-6b83-4ea2-9a95-3cecabbce774,disease_modifying,VUMERITY
+Bafiertam,monomethyl fumarate,a161f9d4-70f1-4097-957a-eafb35d3274f,disease_modifying,BAFIERTAM
+Briumvi,ublituximab,3a77cd8c-811b-407c-9140-d0c5c26435c2,disease_modifying,BRIUMVI
+Tyruko,natalizumab-sztn,ef653c36-dd4b-4e71-9d2d-40b8fea24b67,biosimilar,TYRUKO
+Ampyra,dalfampridine,550eb76a-e4a6-4fa1-ad65-c0fd8b0ce783,symptomatic,AMPYRA
+Zanaflex,tizanidine,45de30ce-959f-4e2e-a974-6f90568139c9,symptomatic,TIZANIDINE
+Baclofen,baclofen,2517f71f-f452-1f56-e063-6394a90a6ef1,symptomatic,BACLOFEN
+Gabapentin,gabapentin,14d61caa-17ce-4fa2-90fb-1470f3864be8,symptomatic,GABAPENTIN
+Modafinil,modafinil,1d4c6858-5b2f-f216-e063-6394a90aad5d,symptomatic,MODAFINIL
+Solu-Medrol,methylprednisolone,22046228-2f23-4990-bb26-9b7eec4d40f8,acute_relapse,SOLU-MEDROL
+Acthar Gel,corticotropin,7b48ddec-e815-45f4-9ca0-5c0daaf56f30,acute_relapse,ACTHAR
+Mitoxantrone,mitoxantrone,accf9569-4b57-4e83-a7db-4e890a75d1ba,chemotherapy,MITOXANTRONE

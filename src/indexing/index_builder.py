@@ -33,6 +33,18 @@ class IndexBuilder:
         """Embed all chunks and upsert into ChromaDB.
         If context_embeddings=True (Option B), embeddings include a
         drug/section prefix; the STORED document text stays original."""
+        # Issue #8: upsert into an existing collection kept chunks that no longer
+        # exist in chunks.jsonl (e.g. old Tyruko-as-Tysabri copies). Rebuild from empty.
+        try:
+            self.chroma_client.delete_collection(settings.chroma_collection_name)
+            print("[IndexBuilder] Deleted existing collection (clean rebuild)")
+        except Exception:
+            pass
+        self.collection = self.chroma_client.create_collection(
+            name=settings.chroma_collection_name,
+            metadata={"hnsw:space": "cosine"},
+        )
+
         texts = [c["text"] for c in chunks]          # stored document (original)
         ids = [c["chunk_id"] for c in chunks]
 

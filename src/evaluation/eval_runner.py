@@ -193,7 +193,13 @@ def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=N
 
 def run_full_pipeline_eval(queries, retriever, router, generator, validator,
                            refusal_guard, expand=False, reranker=None,
-                           no_agents=False):
+                           no_agents=False, no_self_refusal=False, no_guard=False):
+    # Decoupled ablation switches (issue #1). no_agents keeps its original
+    # meaning (router + self-refusal + guard all off) so Config N reproduces.
+    # no_self_refusal: generator uses the prompt that forbids "Insufficient evidence".
+    # no_guard: Refusal Guard bypassed, every generated answer is emitted.
+    self_refusal_on = not (no_agents or no_self_refusal)
+    guard_on = not (no_agents or no_guard)
     results = []
     for i, q in enumerate(queries):
         query_id = q["id"]
@@ -213,7 +219,7 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
 
         # Generate — Config N forbids self-refusal
         t0 = time.time()
-        gen = generator.generate(query_text, chunks, allow_refusal=not no_agents)
+        gen = generator.generate(query_text, chunks, allow_refusal=self_refusal_on)
         generation_ms = (time.time() - t0) * 1000
 
         # Agent 2: Validate. In Config N this runs as a MEASUREMENT INSTRUMENT
@@ -223,8 +229,11 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
         validation_ms = (time.time() - t0) * 1000
 
         # Agent 3: Refusal Guard (DISABLED in Config N — everything is emitted)
-        if no_agents:
+        if not guard_on:
             refusal = {"decision": "ANSWER", "confidence_score": None}
+            # Without the guard, a model self-refusal is still a refusal (no claim emitted)
+            if not no_agents and "insufficient evidence" in gen["answer"].lower():
+                refusal = {"decision": "INSUFFICIENT_EVIDENCE", "confidence_score": None}
         else:
             refusal = refusal_guard.evaluate(chunks, validation)
 
@@ -267,6 +276,10 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
             "refused": refused,
             "refusal_correct": refusal_correct,
             "no_agents": no_agents,
+            "self_refusal_on": self_refusal_on,
+            "guard_on": guard_on,
+            # Refusal attribution: did the LLM itself abstain?
+            "llm_self_refused": "insufficient evidence" in gen["answer"].lower(),
             "latency_ms": {
                 "routing": round(routing_ms, 1),
                 "retrieval": round(retrieval_ms, 1),
@@ -411,6 +424,9 @@ def aggregate_metrics(results: list[dict]) -> dict:
             "unsafe_emissions": len(refuse_emitted),
             "refuse_queries": len(refuse_q),
             "unsafe_emission_rate": unsafe_emission_rate,
+            # Who refused? LLM self-abstention vs. guard-only (issue #1)
+            "refusals_llm_self": sum(1 for r in results if r.get("confidence_decision") == "INSUFFICIENT_EVIDENCE" and r.get("llm_self_refused")),
+            "refusals_guard_only": sum(1 for r in results if r.get("confidence_decision") == "INSUFFICIENT_EVIDENCE" and not r.get("llm_self_refused")),
             "ungrounded_emissions": len(ungrounded_emitted),
             "ungrounded_emission_rate": ungrounded_emission_rate,
             "adversarial_emissions": len(adv_emitted),
@@ -464,6 +480,14 @@ def main():
     if NOAGENTS:
         tag = "configN_noagents"
         print("\n  [MODE] AGENTS DISABLED — no router, no self-refusal, no guard")
+    NO_SELF_REFUSAL = "--no-self-refusal" in _sys.argv
+    NO_GUARD = "--no-guard" in _sys.argv
+    if NO_SELF_REFUSAL:
+        tag += "_noSelfRefusal"
+        print("\n  [MODE] generator self-refusal DISABLED (guard still on unless --no-guard)")
+    if NO_GUARD:
+        tag += "_noGuard"
+        print("\n  [MODE] Refusal Guard DISABLED (model self-refusal still counts)")
     print(f"\n  [MODE] tag = {tag}")
 
     print("\n  A1: Without query routing...")
@@ -500,7 +524,8 @@ def main():
 
     full_results = run_full_pipeline_eval(
         queries, retriever, router, generator, validator, refusal_guard,
-        expand=EXPAND, reranker=reranker, no_agents=NOAGENTS
+        expand=EXPAND, reranker=reranker, no_agents=NOAGENTS,
+        no_self_refusal=NO_SELF_REFUSAL, no_guard=NO_GUARD
     )
 
     with open(RESULTS_DIR / f"full_pipeline_results_{tag}.json", "w") as f:

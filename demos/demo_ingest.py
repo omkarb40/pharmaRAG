@@ -37,7 +37,11 @@ SECTION_MAP = {
     "34067-9":  "indications_and_usage",
     "34070-3":  "contraindications",
     "43685-7":  "warnings_and_precautions",
-    "42232-9":  "boxed_warning",
+    # Corpus fix 2026-10-15 (issue #3): 34066-1 is the FDA Boxed Warning code.
+    # 42232-9 is the old-format "Precautions" section (baclofen, methylprednisolone,
+    # corticotropin, mitoxantrone), previously mislabeled as boxed_warning.
+    "34066-1":  "boxed_warning",
+    "42232-9":  "warnings_and_precautions",
     "34084-4":  "adverse_reactions",
     "34068-7":  "dosage_and_administration",
     "34073-7":  "drug_interactions",
@@ -76,8 +80,11 @@ def search_drug(drug_name: str) -> str | None:
 
 
 def download_spl_xml(set_id: str, drug_name: str) -> Path | None:
-    """Download the full SPL XML document for a drug."""
-    out_path = RAW_DIR / f"{drug_name.replace(' ', '_')}.xml"
+    """Download the full SPL XML document for a drug.
+    Files are keyed by BRAND + set_id (issue #4): keying by generic name let
+    Rebif/Avonex and Tysabri/Tyruko overwrite or alias each other."""
+    slug = re.sub(r"[^a-z0-9]+", "_", drug_name.lower()).strip("_")
+    out_path = RAW_DIR / f"{slug}__{set_id}.xml"
 
     if out_path.exists():
         print(f"  → Already downloaded: {out_path.name}")
@@ -107,19 +114,20 @@ def fetch_all_drugs() -> list[dict]:
             category = row["category"]
             pinned_setid = (row.get("dailymed_setid") or "").strip()
 
-            if pinned_setid:
-                print(f"\n[{brand}] Using pinned set_id: {pinned_setid}")
-                set_id = pinned_setid
-            else:
-                print(f"\n[{brand}] Searching for '{name}'...")
-                set_id = search_drug(name)
+            if not pinned_setid:
+                # Issue #4/#5: unpinned generic-name search returned wrong products
+                # (Tyruko for Tysabri, Cortrophin for Acthar). Every row must be pinned.
+                raise SystemExit(f"[{brand}] no dailymed_setid in {DRUG_LIST}; pin it before ingesting.")
+            print(f"\n[{brand}] Using pinned set_id: {pinned_setid}")
+            set_id = pinned_setid
 
             if not set_id:
                 print(f"  ✗ Not found on DailyMed, skipping.")
                 continue
 
-            xml_path = download_spl_xml(set_id, name)
+            xml_path = download_spl_xml(set_id, brand)
             if xml_path:
+                verify_title(xml_path, (row.get("title_contains") or brand).strip(), brand)
                 fetched.append({
                     "drug_name": brand,
                     "generic_name": name,
@@ -131,6 +139,20 @@ def fetch_all_drugs() -> list[dict]:
             time.sleep(1)  # Be polite to the API
 
     return fetched
+
+
+def verify_title(xml_path: Path, must_contain: str, brand: str) -> None:
+    """Provenance gate (issues #4/#5): stop if the downloaded label is not the product we think it is."""
+    root = etree.parse(str(xml_path)).getroot()
+    title_el = root.find("{urn:hl7-org:v3}title")
+    title = " ".join(etree.tostring(title_el, encoding="unicode", method="text").split()) if title_el is not None else ""
+    # Highlights-format labels name the product in "...needed to use X safely...";
+    # check that span only, because biosimilar titles also mention the reference product.
+    m = re.search(r"needed to use (.+?) safely", title, re.I)
+    span = m.group(1) if m else title
+    if must_contain.upper() not in span.upper():
+        raise SystemExit(f"[{brand}] PROVENANCE FAIL: label title does not contain '{must_contain}'.\n  title: {title[:160]}\n  file:  {xml_path}")
+    print(f"  ✓ Title verified ({must_contain}): {title[:90]}")
 
 
 # ──────────────────────────────────────────────
@@ -353,6 +375,16 @@ def main():
         all_chunks.extend(chunk_section(section))
 
     print(f"\n✓ Total chunks: {len(all_chunks)}")
+
+    # Guards (corpus fix 2026-10-15): chunk_id = md5(drug::section::idx), so two
+    # sections of one drug mapping to the same section_name would silently collide.
+    from collections import Counter as _C
+    dup_sec = [k for k, v in _C((s["drug_name"], s["section_name"]) for s in all_sections).items() if v > 1]
+    if dup_sec:
+        raise SystemExit(f"Section-name collision (would overwrite chunk ids): {dup_sec}")
+    dup_ids = [k for k, v in _C(c["chunk_id"] for c in all_chunks).items() if v > 1]
+    if dup_ids:
+        raise SystemExit(f"Duplicate chunk_ids: {dup_ids[:10]}")
 
     # Step 4: Save to JSONL
     print(f"\n💾 STEP 4: Saving to {OUTPUT_FILE}...")
