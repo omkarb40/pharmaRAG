@@ -131,6 +131,7 @@ def fetch_all_drugs() -> list[dict]:
             xml_path = download_spl_xml(set_id, brand)
             if xml_path:
                 verify_title(xml_path, (row.get("title_contains") or brand).strip(), brand)
+                verify_setid(xml_path, set_id, brand)
                 fetched.append({
                     "drug_name": brand,
                     "generic_name": name,
@@ -156,6 +157,15 @@ def verify_title(xml_path: Path, must_contain: str, brand: str) -> None:
     if must_contain.upper() not in span.upper():
         raise SystemExit(f"[{brand}] PROVENANCE FAIL: label title does not contain '{must_contain}'.\n  title: {title[:160]}\n  file:  {xml_path}")
     print(f"  ✓ Title verified ({must_contain}): {title[:90]}")
+
+
+def verify_setid(xml_path: Path, expected: str, brand: str) -> None:
+    """The set_id written into chunks must be the one inside the file the text came from.
+    The old pipeline reused cached files but recorded a fresh search result (9/28 drugs wrong)."""
+    el = etree.parse(str(xml_path)).getroot().find("{urn:hl7-org:v3}setId")
+    actual = el.get("root") if el is not None else None
+    if actual != expected:
+        raise SystemExit(f"[{brand}] SETID FAIL: file contains {actual}, expected {expected}\n  file: {xml_path}")
 
 
 # ──────────────────────────────────────────────
