@@ -11,6 +11,9 @@ What it does:
   6. Saves everything as JSONL (one JSON per line)
 """
 
+from __future__ import annotations  # allows `str | None` hints on Python 3.9
+
+
 import csv
 import json
 import hashlib

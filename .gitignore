@@ -50,3 +50,4 @@ evaluation/results/_archive/
 # evaluation/results/*.json       <- canonical run outputs
 # logs/*.jsonl                    <- audit log samples
 # figures/*.png                   <- report figures
+data/index_pre_corpusfix_*/

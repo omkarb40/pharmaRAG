@@ -3,6 +3,9 @@ Hybrid retrieval: combines BM25 keyword search with ChromaDB vector search.
 Weighted reciprocal rank fusion.
 """
 
+from __future__ import annotations  # allows `str | None` hints on Python 3.9
+
+
 import json
 import pickle
 from pathlib import Path
