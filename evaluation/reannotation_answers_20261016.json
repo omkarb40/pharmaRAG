@@ -1,0 +1,300 @@
+{
+  "AE-006": {
+    "choice": "",
+    "candidates": {
+      "A": "35c8afc335d3",
+      "B": "63330f818773",
+      "C": "311b374ff68b"
+    },
+    "note": ""
+  },
+  "WP-005": {
+    "choice": "",
+    "candidates": {
+      "A": "03b4ce4527bd",
+      "B": "af30f0f2afbb",
+      "C": "b7c71cf92203"
+    },
+    "note": ""
+  },
+  "SP-003": {
+    "choice": "",
+    "candidates": {
+      "A": "36f56553f202",
+      "B": "977285fd2098",
+      "C": "71a9166425dc"
+    },
+    "note": ""
+  },
+  "SP-006": {
+    "choice": "",
+    "candidates": {
+      "A": "2c0a0144df12",
+      "B": "f7097d747cb8",
+      "C": "2d46745647fc"
+    },
+    "note": ""
+  },
+  "PT-006": {
+    "choice": "",
+    "candidates": {
+      "A": "65ec8e58d5e1",
+      "B": "e89057faa937",
+      "C": "c85cc8670fc7"
+    },
+    "note": ""
+  },
+  "CI-001": {
+    "choice": "",
+    "candidates": {
+      "A": "01467d6585fe",
+      "B": "6f6ee168435d",
+      "C": "f5ead356b4a4",
+      "D": "59ed4675b125",
+      "E": "1fd0911a16fb",
+      "F": "71a9166425dc",
+      "G": "b7c71cf92203",
+      "H": "6c082b50694f",
+      "I": "826d818c05d3"
+    },
+    "note": ""
+  },
+  "MD-001": {
+    "choice": "",
+    "candidates": {
+      "A": "250056527e22",
+      "B": "445299813365",
+      "C": "f5ead356b4a4",
+      "D": "59ed4675b125",
+      "E": "1fd0911a16fb",
+      "F": "71a9166425dc",
+      "G": "b7c71cf92203",
+      "H": "6c082b50694f",
+      "I": "826d818c05d3"
+    },
+    "note": ""
+  },
+  "CI-003": {
+    "choice": "",
+    "candidates": {
+      "A": "758f661c7931",
+      "B": "e8eebaaff03e",
+      "C": "25e22f2e4fb5"
+    },
+    "note": ""
+  },
+  "CI-005": {
+    "choice": "",
+    "candidates": {
+      "A": "64f3839386fa",
+      "B": "9e278dfabb0b",
+      "C": "9805a2de2126"
+    },
+    "note": ""
+  },
+  "CI-006": {
+    "choice": "",
+    "candidates": {
+      "A": "25c3964c080d",
+      "B": "5369168c8838",
+      "C": "a45f19bb7817"
+    },
+    "note": ""
+  },
+  "AE-002": {
+    "choice": "",
+    "candidates": {
+      "A": "16ba27731e8f",
+      "B": "da81c145cabe",
+      "C": "01467d6585fe"
+    },
+    "note": ""
+  },
+  "AE-003": {
+    "choice": "",
+    "candidates": {
+      "A": "2c25b162fb2c",
+      "B": "03201e9e5b0b",
+      "C": "72ede922849e"
+    },
+    "note": ""
+  },
+  "WP-002": {
+    "choice": "",
+    "candidates": {
+      "A": "03b4ce4527bd",
+      "B": "af30f0f2afbb",
+      "C": "b7c71cf92203",
+      "D": "59ed4675b125",
+      "E": "1fd0911a16fb",
+      "F": "71a9166425dc",
+      "G": "6c082b50694f",
+      "H": "826d818c05d3"
+    },
+    "note": ""
+  },
+  "WP-003": {
+    "choice": "",
+    "candidates": {
+      "A": "37aac46053e9",
+      "B": "934dcb31d207",
+      "C": "1345508d8a34"
+    },
+    "note": ""
+  },
+  "WP-006": {
+    "choice": "",
+    "candidates": {
+      "A": "73ce7f0f4772",
+      "B": "9fadb7153686",
+      "C": "5eaf24b41b55"
+    },
+    "note": ""
+  },
+  "DA-001": {
+    "choice": "",
+    "candidates": {
+      "A": "fb8fe3c47b58",
+      "B": "03201e9e5b0b",
+      "C": "72ede922849e"
+    },
+    "note": ""
+  },
+  "DA-002": {
+    "choice": "",
+    "candidates": {
+      "A": "f80809775d2b",
+      "B": "55dd689b658f",
+      "C": "d9bddc871cdf"
+    },
+    "note": ""
+  },
+  "DA-004": {
+    "choice": "",
+    "candidates": {
+      "A": "9f2254c44f67",
+      "B": "16b09b5f8eef",
+      "C": "ec6d0d386a8b"
+    },
+    "note": ""
+  },
+  "DI-001": {
+    "choice": "",
+    "candidates": {
+      "A": "c85cc8670fc7",
+      "B": "934dcb31d207",
+      "C": "e89057faa937"
+    },
+    "note": ""
+  },
+  "SP-002": {
+    "choice": "",
+    "candidates": {
+      "A": "ca574a4b6b27",
+      "B": "c7a9bd896ab6",
+      "C": "e8eebaaff03e"
+    },
+    "note": ""
+  },
+  "SP-005": {
+    "choice": "",
+    "candidates": {
+      "A": "d65f1c1e41f1",
+      "B": "4f158aae2c1c",
+      "C": "cec70a409b69"
+    },
+    "note": ""
+  },
+  "IU-002": {
+    "choice": "",
+    "candidates": {
+      "A": "46fd32aae5b7",
+      "B": "8d8b216260aa",
+      "C": "f5ead356b4a4"
+    },
+    "note": ""
+  },
+  "PT-005": {
+    "choice": "",
+    "candidates": {
+      "A": "64f3839386fa",
+      "B": "9e278dfabb0b",
+      "C": "9805a2de2126"
+    },
+    "note": ""
+  },
+  "MD-002": {
+    "choice": "",
+    "candidates": {
+      "A": "c87349f71b0e",
+      "B": "8530fbe8efa0",
+      "C": "72ede922849e"
+    },
+    "note": ""
+  },
+  "MD-005": {
+    "choice": "",
+    "candidates": {
+      "A": "581250a76c67",
+      "B": "f9afbe6cc42b",
+      "C": "e08948ab597a"
+    },
+    "note": ""
+  },
+  "MD-007": {
+    "choice": "",
+    "candidates": {
+      "A": "19ebac0fe3cd",
+      "B": "6aab139c06d4",
+      "C": "8ed7d7154e39",
+      "D": "322240535fac",
+      "E": "957e6faa60ad",
+      "F": "7dea2e82cd48",
+      "G": "bf949f670609"
+    },
+    "note": ""
+  },
+  "CI-004": {
+    "choice": "",
+    "candidates": {
+      "A": "df97eb7ab288",
+      "B": "556e950adfce",
+      "C": "af63f66479bf",
+      "D": "29f65fde987e",
+      "E": "6e31876f5a0a"
+    },
+    "note": ""
+  },
+  "WP-007": {
+    "choice": "",
+    "candidates": {
+      "A": "37209c34da4c",
+      "B": "f9f1316d95fa",
+      "C": "b0188a5d85e8",
+      "D": "bf949f670609"
+    },
+    "note": ""
+  },
+  "SP-001": {
+    "choice": "",
+    "candidates": {
+      "A": "ba10ad28e22e",
+      "B": "556e950adfce",
+      "C": "af63f66479bf",
+      "D": "29f65fde987e",
+      "E": "6e31876f5a0a"
+    },
+    "note": ""
+  },
+  "MD-003": {
+    "choice": "",
+    "candidates": {
+      "A": "df97eb7ab288",
+      "B": "556e950adfce",
+      "C": "af63f66479bf",
+      "D": "29f65fde987e",
+      "E": "6e31876f5a0a"
+    },
+    "note": ""
+  }
+}

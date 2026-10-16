@@ -1,66 +1,155 @@
 {
   "ok": [
-    "CI-001",
     "CI-002",
     "PT-001",
-    "MD-001",
-    "CI-003",
     "CI-004",
-    "CI-005",
-    "CI-006",
     "CI-007",
-    "AE-001",
-    "AE-002",
-    "AE-003",
     "AE-004",
-    "AE-005",
-    "AE-006",
     "AE-007",
     "AE-008",
     "WP-001",
-    "WP-002",
-    "WP-003",
     "WP-004",
-    "WP-005",
-    "WP-006",
     "WP-007",
     "WP-008",
-    "DA-001",
-    "DA-002",
     "DA-003",
-    "DA-004",
     "DA-005",
     "DA-006",
-    "DI-001",
     "DI-002",
-    "DI-003",
     "DI-004",
     "SP-001",
-    "SP-002",
-    "SP-003",
-    "SP-004",
-    "SP-005",
-    "SP-006",
-    "IU-001",
-    "IU-002",
     "IU-003",
     "IU-004",
     "IU-005",
     "IU-006",
-    "PT-002",
     "PT-003",
     "PT-004",
-    "PT-005",
-    "PT-006",
-    "MD-002",
     "MD-003",
     "MD-004",
-    "MD-005",
     "MD-006"
   ],
-  "text_changed_snippet_still_present": [],
-  "moved": [],
+  "text_changed_snippet_still_present": [
+    "AE-001",
+    "AE-005",
+    "AE-006",
+    "WP-005",
+    "DI-003",
+    "SP-003",
+    "SP-004",
+    "SP-006",
+    "IU-001",
+    "PT-006"
+  ],
+  "moved": [
+    {
+      "id": "PT-002",
+      "old": "c87349f71b0e",
+      "candidates": [
+        "8530fbe8efa0",
+        "9c8d93e41a31"
+      ]
+    }
+  ],
   "lost": [
+    {
+      "id": "CI-001",
+      "old": "6f6ee168435d",
+      "candidates": []
+    },
+    {
+      "id": "MD-001",
+      "old": "445299813365",
+      "candidates": []
+    },
+    {
+      "id": "CI-003",
+      "old": "758f661c7931",
+      "candidates": []
+    },
+    {
+      "id": "CI-005",
+      "old": "64f3839386fa",
+      "candidates": []
+    },
+    {
+      "id": "CI-006",
+      "old": "25c3964c080d",
+      "candidates": []
+    },
+    {
+      "id": "AE-002",
+      "old": "da81c145cabe",
+      "candidates": []
+    },
+    {
+      "id": "AE-003",
+      "old": "2c25b162fb2c",
+      "candidates": []
+    },
+    {
+      "id": "WP-002",
+      "old": "af30f0f2afbb",
+      "candidates": []
+    },
+    {
+      "id": "WP-003",
+      "old": "37aac46053e9",
+      "candidates": []
+    },
+    {
+      "id": "WP-006",
+      "old": "73ce7f0f4772",
+      "candidates": []
+    },
+    {
+      "id": "DA-001",
+      "old": "fb8fe3c47b58",
+      "candidates": []
+    },
+    {
+      "id": "DA-002",
+      "old": "55dd689b658f",
+      "candidates": []
+    },
+    {
+      "id": "DA-004",
+      "old": "9f2254c44f67",
+      "candidates": []
+    },
+    {
+      "id": "DI-001",
+      "old": "c85cc8670fc7",
+      "candidates": []
+    },
+    {
+      "id": "SP-002",
+      "old": "ca574a4b6b27",
+      "candidates": []
+    },
+    {
+      "id": "SP-005",
+      "old": "d65f1c1e41f1",
+      "candidates": []
+    },
+    {
+      "id": "IU-002",
+      "old": "8d8b216260aa",
+      "candidates": []
+    },
+    {
+      "id": "PT-005",
+      "old": "64f3839386fa",
+      "candidates": []
+    },
+    {
+      "id": "MD-002",
+      "old": "c87349f71b0e",
+      "candidates": []
+    },
+    {
+      "id": "MD-005",
+      "old": "581250a76c67",
+      "candidates": []
+    },
     {
       "id": "MD-007",
       "old": "bf949f670609",

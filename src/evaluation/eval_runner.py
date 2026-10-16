@@ -29,14 +29,59 @@ from src.retrieval.query_expander import expand_query
 from src.retrieval.reranker import CrossEncoderReranker
 
 
-QUERIES_FILE = Path("evaluation/test_queries_v2.json")
+# Benchmark file: v3 = gold re-annotated for the 2026-10-16 corpus snapshot.
+# Override with --queries <path> (e.g. the July v2 file for the pre-fix reference).
+QUERIES_FILE = Path(sys.argv[sys.argv.index("--queries") + 1]) if "--queries" in sys.argv \
+    else Path("evaluation/test_queries_v3.json")
 RESULTS_DIR = Path("evaluation/results")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def load_test_queries() -> list[dict]:
+    if not QUERIES_FILE.exists():
+        sys.exit(f"{QUERIES_FILE} not found. Finish re-annotation (scripts/apply_reannotation.py) "
+                 f"or pass --queries evaluation/test_queries_v2.json")
     with open(QUERIES_FILE, "r") as f:
-        return json.load(f)
+        data = json.load(f)
+    data = data["queries"] if isinstance(data, dict) else data
+    rewrite = [q["id"] for q in data if q.get("needs_rewrite")]
+    if rewrite:
+        print(f"  [WARN] {len(rewrite)} queries flagged needs_rewrite are EXCLUDED: {rewrite}")
+    return [q for q in data if not q.get("needs_rewrite")]
+
+
+_CORPUS_META = None
+def _corpus_meta() -> list[dict]:
+    """All chunks' metadata, for the ideal ranking in nDCG (issue #6)."""
+    global _CORPUS_META
+    if _CORPUS_META is None:
+        with open(settings.chunks_file) as f:
+            _CORPUS_META = [{"metadata": {k: c.get(k, "") for k in ("drug_name", "generic_name", "section_name")}}
+                            for c in map(json.loads, f)]
+    return _CORPUS_META
+
+
+def write_run_manifest(tag: str) -> None:
+    """Record exactly what produced a results file (corpus, benchmark, code, model, env)."""
+    import hashlib, platform, subprocess
+    sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
+    try:
+        commit = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+        dirty = bool(subprocess.check_output(["git", "status", "--porcelain", "--", "src", "configs", "scripts"], text=True).strip())
+    except Exception:
+        commit, dirty = "unknown", None
+    manifest = {
+        "tag": tag, "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+        "git_commit": commit, "code_dirty": dirty,
+        "chunks_file": str(settings.chunks_file), "chunks_sha256": sha(settings.chunks_file),
+        "queries_file": str(QUERIES_FILE), "queries_sha256": sha(QUERIES_FILE),
+        "llm_model": settings.llm_model, "temperature": settings.llm_temperature, "seed": settings.llm_seed,
+        "rrf_k": settings.rrf_k, "semantic_weight": settings.semantic_weight, "bm25_weight": settings.bm25_weight,
+        "python": platform.python_version(), "argv": sys.argv[1:],
+    }
+    with open(RESULTS_DIR / f"run_manifest_{tag}.json", "w") as f:
+        json.dump(manifest, f, indent=2)
+    print(f"  [manifest] commit {commit[:8]}  code_dirty={dirty}  chunks {manifest['chunks_sha256'][:12]}")
 
 
 # ──────────────────────────────────────────────
@@ -109,7 +154,9 @@ def compute_ndcg_at_k(retrieved_chunks: list[dict], query: dict, k: int = 5) -> 
         return 0
 
     dcg = sum(relevance(c) / math.log2(i + 2) for i, c in enumerate(retrieved_chunks[:k]))
-    ideal = sorted([relevance(c) for c in retrieved_chunks[:k]], reverse=True)
+    # Issue #6: IDCG must come from the best possible ranking over the CORPUS.
+    # It previously re-sorted the retrieved list itself, so nDCG was ~1.0 by construction.
+    ideal = sorted((relevance(c) for c in _corpus_meta()), reverse=True)[:k]
     idcg = sum(r / math.log2(i + 2) for i, r in enumerate(ideal))
     return round(dcg / idcg, 4) if idcg > 0 else 0.0
 
@@ -193,7 +240,11 @@ def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=N
 
 def run_full_pipeline_eval(queries, retriever, router, generator, validator,
                            refusal_guard, expand=False, reranker=None,
-                           no_agents=False, no_self_refusal=False, no_guard=False):
+                           no_agents=False, no_self_refusal=False, no_guard=False,
+                           tag="eval"):
+    # Issue #10: every evaluation query is written to the audit log, tagged by run.
+    from src.monitoring.logger import AuditLogger
+    audit = AuditLogger()
     # Decoupled ablation switches (issue #1). no_agents keeps its original
     # meaning (router + self-refusal + guard all off) so Config N reproduces.
     # no_self_refusal: generator uses the prompt that forbids "Insufficient evidence".
@@ -240,6 +291,16 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
         recall = compute_recall_at_k(chunks, query=q)
         ndcg = compute_ndcg_at_k(chunks, query=q)
         gold_recall = compute_gold_chunk_recall(chunks, query=q)
+
+        try:
+            ctx = audit.create_request_context()
+            ctx["timings"] = {"routing": routing_ms, "retrieval": retrieval_ms,
+                              "generation": generation_ms, "validation": validation_ms}
+            audit.log_request(ctx, query_text, routed, chunks, gen, validation, refusal,
+                              extra={"source": f"eval:{tag}", "query_id": query_id,
+                                     "llm_self_refused": "insufficient evidence" in gen["answer"].lower()})
+        except Exception as e:
+            print(f"    [audit] log failed: {e}")
 
         # Behavior-aware refusal scoring
         expected_behavior = q.get("expected_behavior", "answer")
@@ -489,6 +550,7 @@ def main():
         tag += "_noGuard"
         print("\n  [MODE] Refusal Guard DISABLED (model self-refusal still counts)")
     print(f"\n  [MODE] tag = {tag}")
+    write_run_manifest(tag)
 
     print("\n  A1: Without query routing...")
     retrieval_no_router = run_retrieval_eval(queries, retriever, router=None, expand=EXPAND, reranker=reranker)
@@ -525,7 +587,7 @@ def main():
     full_results = run_full_pipeline_eval(
         queries, retriever, router, generator, validator, refusal_guard,
         expand=EXPAND, reranker=reranker, no_agents=NOAGENTS,
-        no_self_refusal=NO_SELF_REFUSAL, no_guard=NO_GUARD
+        no_self_refusal=NO_SELF_REFUSAL, no_guard=NO_GUARD, tag=tag
     )
 
     with open(RESULTS_DIR / f"full_pipeline_results_{tag}.json", "w") as f:

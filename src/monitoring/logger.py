@@ -7,6 +7,8 @@ Every request gets a complete audit entry that can be analyzed
 for drift detection, quality monitoring, and compliance review.
 """
 
+from __future__ import annotations
+
 import json
 import uuid
 import time
@@ -43,6 +45,7 @@ class AuditLogger:
         generation_result: dict,
         validation_report: dict,
         refusal_decision: dict,
+        extra: dict | None = None,
     ) -> dict:
         """Write a complete audit log entry capturing every pipeline stage."""
         total_time = time.time() - context.pop("_start", time.time())
@@ -100,6 +103,9 @@ class AuditLogger:
                 "total": round(total_time * 1000, 1),
             },
         }
+
+        if extra:
+            entry.update(extra)  # e.g. {"source": "eval:optC_rerank", "query_id": "WP-002"}
 
         if settings.enable_audit_logging:
             with open(self.log_file, "a") as f:

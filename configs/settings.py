@@ -24,6 +24,7 @@ class Settings:
         self.llm_model = "gemma3:12b"
         self.llm_temperature = 0.0 # deterministic generation for reproducible results
         self.llm_max_tokens = 1024
+        self.llm_seed = 42  # fixed Ollama sampling seed (issue #10: determinism was untested)
 
         # === Embeddings ===
         self.embedding_model = "neuml/pubmedbert-base-embeddings"

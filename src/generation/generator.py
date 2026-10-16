@@ -94,6 +94,7 @@ class AnswerGenerator:
                 options={
                     "temperature": settings.llm_temperature,
                     "num_predict": settings.llm_max_tokens,
+                    "seed": settings.llm_seed,
                 },
             )
             answer = response["message"]["content"].strip()
