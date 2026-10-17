@@ -51,3 +51,6 @@ evaluation/results/_archive/
 # logs/*.jsonl                    <- audit log samples
 # figures/*.png                   <- report figures
 data/index_pre_corpusfix_*/
+evaluation/heldout/raw/*.txt
+evaluation/heldout/heldout_pairs.csv
+evaluation/heldout/heldout_v1.json

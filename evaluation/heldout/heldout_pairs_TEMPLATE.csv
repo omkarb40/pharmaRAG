@@ -1,0 +1,2 @@
+pair_id,category,drug,question_answerable,label_section,question_decline,writer,exclude,exclude_reason
+P01,1,ocrelizumab,"<answerable question>",dosage and administration,"<should-decline question>",annotator1,,

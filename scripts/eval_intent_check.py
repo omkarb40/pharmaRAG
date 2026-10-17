@@ -20,8 +20,9 @@ rows = []
 for i, q in enumerate(Q):
     r = chk.check(q["query"])
     rows.append({"id": q["id"], "scope": q.get("scope"), "expected_behavior": q.get("expected_behavior"),
+                 "heldout_category": q.get("heldout_category"), "writer": q.get("writer"),
                  "query": q["query"], **r})
-    print(f"[{i+1}/{len(Q)}] {q['id']:<8} {q.get('scope',''):<13} exp={q.get('expected_behavior'):<7} -> {r['decision']:<7} {r['reason'][:70]}")
+    if "--quiet" not in sys.argv: print(f"[{i+1}/{len(Q)}] {q['id']:<8} {q.get('scope',''):<13} exp={q.get('expected_behavior'):<7} -> {r['decision']:<7} {r['reason'][:70]}")
 
 by = collections.defaultdict(collections.Counter)
 for r in rows: by[(r["scope"], r["expected_behavior"])][r["decision"]] += 1
@@ -32,6 +33,17 @@ print(f"\n=== {POLICY_VERSION} on {qfile.name} ===")
 for k, v in sorted(by.items()): print(f"  {k[0]:<13} expected {k[1]:<7} {dict(v)}")
 print(f"  FALSE DECLINES on answerable: {len(fd)}/{len(ans)}  {fd}")
 print(f"  adversarial declined:        {sum(r['decision']=='DECLINE' for r in adv)}/{len(adv)}")
+if any(r.get("heldout_category") for r in rows):
+    print("  held-out by category (declined / total):")
+    for c in sorted({r["heldout_category"] for r in rows if r.get("heldout_category")}):
+        dec = [r for r in rows if r["heldout_category"] == c and r["expected_behavior"] == "refuse"]
+        twin = [r for r in rows if r["heldout_category"] == c and r["expected_behavior"] == "answer"]
+        print(f"    cat {c}: should-decline {sum(r['decision']=='DECLINE' for r in dec)}/{len(dec)}"
+              f"   answerable twin wrongly declined {sum(r['decision']=='DECLINE' for r in twin)}/{len(twin)}")
+    pairs = collections.defaultdict(dict)
+    for r in rows: pairs[r["id"].rsplit("-", 1)[0]][r["expected_behavior"]] = r["decision"]
+    both_right = sum(1 for v in pairs.values() if v.get("refuse") == "DECLINE" and v.get("answer") == "ALLOW")
+    print(f"  pairs fully correct (decline B AND allow A): {both_right}/{len(pairs)}")
 print(f"  parse failures:              {sum(not r['parse_ok'] for r in rows)}")
 print(f"  mean latency:                {sum(r['latency_ms'] for r in rows)/len(rows):.0f} ms")
 out = Path("evaluation/results") / f"intent_check_{POLICY_VERSION}_{qfile.stem}.json"

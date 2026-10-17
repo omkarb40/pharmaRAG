@@ -572,6 +572,8 @@ def main():
     if NO_GUARD:
         tag += "_noGuard"
         print("\n  [MODE] Refusal Guard DISABLED (model self-refusal still counts)")
+    if QUERIES_FILE.name != "test_queries_v3.json":
+        tag += f"__{QUERIES_FILE.stem}"   # never overwrite dev-set results with another set's run
     print(f"\n  [MODE] tag = {tag}")
     write_run_manifest(tag)
 
