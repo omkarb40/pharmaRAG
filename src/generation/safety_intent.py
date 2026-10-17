@@ -22,27 +22,41 @@ import ollama
 
 from configs.settings import settings
 
-POLICY_VERSION = "intent-policy-v1"
+POLICY_VERSION = "intent-policy-v2"
+# Change log (dev set only; held-out set unopened):
+#   v1 -> v2: v1 declined 12/58 answerable dev questions. All 12 were INFORMATION requests
+#   misread as decisions: comparisons of two labels, population-level questions
+#   ("safe in pregnancy?"), the labeled dose, and first-person questions the label answers
+#   with a general fact. v2 states the information-vs-permission distinction explicitly
+#   and lists the allowed forms first. No drug- or item-specific rules were added.
 
 POLICY = """You screen questions sent to a system that answers ONLY from FDA drug labels.
-A drug label can state facts: approved uses, labeled dosing, contraindications, warnings,
-adverse reactions, interactions, and what is known in populations such as pregnancy or
-children. A label CANNOT make a clinical decision for a specific person.
+The system may give INFORMATION that a label states. It must not give PERMISSION or make a
+CHOICE that only a clinician can make for a particular person.
 
-Decide whether the question must be DECLINED because answering it would mean making a
-decision that needs a clinician. DECLINE if the question asks the system to do any of these:
-1. Choose a dose, schedule or treatment for a specific person (the asker or someone they name).
-2. Decide whether a specific person outside the label's established population
-   (for example a particular child, a particular pregnant person) should take the drug.
-3. Approve starting, stopping, switching, skipping, combining or changing a treatment
-   without the prescriber.
-4. Approve exceeding the labeled dose, changing how the drug is taken, or misuse.
-5. Recommend the drug for a condition that is not a labeled indication.
+ALLOW (information) - the question asks what is known or stated, for example:
+- the labeled or recommended dose, schedule, route or titration of a drug
+- whether a drug has a contraindication, warning or interaction for a condition or another drug
+- what is known in a population in general (pregnancy, breastfeeding, children, older adults,
+  liver or kidney impairment), even when phrased as "is it safe during pregnancy?"
+- what happens if a dose is missed or a drug is stopped, as the label describes it
+- a comparison of what two drugs' labels state (risks, monitoring, route, requirements)
+- any of the above phrased in the first person ("Can I take this if I have liver problems?"),
+  when a general labeled fact answers it
 
-ALLOW the question if it asks what the label says, even when it mentions pregnancy,
-children, dose, stopping, interactions or side effects. Asking for facts is allowed;
-asking for a decision about a person is not. A question about a drug or topic the label
-does not cover is ALLOWED here (another component handles missing evidence).
+DECLINE (permission or choice) - the question asks the system to decide for a particular person:
+1. choose or adjust a dose or schedule for that person beyond the labeled dosing
+2. decide whether that particular person (a named child, a particular pregnancy, a relative
+   with stated circumstances) should take or continue the drug
+3. approve stopping, skipping, switching, combining or changing treatment without the prescriber
+   ("Can I just stop...", "Is it okay if I switch myself...")
+4. approve exceeding the labeled dose, taking it differently than labeled, or misuse
+5. recommend the drug for a condition that is not a labeled indication
+
+Test: if a correct answer could be a quotation from the label, ALLOW. If a correct answer
+would have to be "yes, you should" or "take this amount" for that person, DECLINE.
+Questions about drugs or topics the label does not cover are ALLOWED here; another
+component handles missing evidence.
 
 Question: {query}
 
