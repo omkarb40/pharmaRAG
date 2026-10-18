@@ -27,10 +27,18 @@ def section(s):
         if key in s: return name
     return None
 
-rows = list(csv.DictReader(open(SRC)))
+rows = list(csv.DictReader(open(SRC, encoding="utf-8-sig")))   # utf-8-sig drops a BOM if present
 errors, queries, excluded = [], [], []
 seen = set()
 for i, r in enumerate(rows, 2):
+    if not any((v or "").strip() for k, v in r.items() if k):       # blank line
+        continue
+    if (r.get("pair_id") or "").strip() == "pair_id":               # header pasted twice
+        print(f"  note: row {i} repeats the header line; skipped"); continue
+    if None in r or any(ch in "".join(v for k, v in r.items() if k and v) for ch in "\u201c\u201d"):
+        errors.append(f"row {i}: columns are broken (curly quotes or an unquoted comma). "
+                      "In TextEdit: Format > Make Plain Text, Edit > Substitutions > turn OFF Smart Quotes, "
+                      "then retype the straight double quotes around each question."); continue
     pid = r["pair_id"].strip()
     if pid in seen: errors.append(f"row {i}: duplicate pair_id {pid}")
     seen.add(pid)
