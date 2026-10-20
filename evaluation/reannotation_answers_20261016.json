@@ -1,6 +1,6 @@
 {
   "AE-006": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "35c8afc335d3",
       "B": "63330f818773",
@@ -9,16 +9,16 @@
     "note": ""
   },
   "WP-005": {
-    "choice": "",
+    "choice": "C",
     "candidates": {
       "A": "03b4ce4527bd",
       "B": "af30f0f2afbb",
       "C": "b7c71cf92203"
     },
-    "note": ""
+    "note": "only PML warning is Tyruko boxed_warning; no Tysabri W&P PML chunk offered"
   },
   "SP-003": {
-    "choice": "",
+    "choice": "B",
     "candidates": {
       "A": "36f56553f202",
       "B": "977285fd2098",
@@ -27,16 +27,16 @@
     "note": ""
   },
   "SP-006": {
-    "choice": "",
+    "choice": "C",
     "candidates": {
       "A": "2c0a0144df12",
       "B": "f7097d747cb8",
       "C": "2d46745647fc"
     },
-    "note": ""
+    "note": "renal guidance is brief; full dosing adjustment in D&A 2.3"
   },
   "PT-006": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "65ec8e58d5e1",
       "B": "e89057faa937",
@@ -45,7 +45,7 @@
     "note": ""
   },
   "CI-001": {
-    "choice": "",
+    "choice": "B",
     "candidates": {
       "A": "01467d6585fe",
       "B": "6f6ee168435d",
@@ -60,7 +60,7 @@
     "note": ""
   },
   "MD-001": {
-    "choice": "",
+    "choice": "D",
     "candidates": {
       "A": "250056527e22",
       "B": "445299813365",
@@ -72,10 +72,10 @@
       "H": "6c082b50694f",
       "I": "826d818c05d3"
     },
-    "note": ""
+    "note": "comparison: D answers natalizumab side; ocrelizumab PML warning chunk also needed to fully answer"
   },
   "CI-003": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "758f661c7931",
       "B": "e8eebaaff03e",
@@ -84,7 +84,7 @@
     "note": ""
   },
   "CI-005": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "64f3839386fa",
       "B": "9e278dfabb0b",
@@ -93,7 +93,7 @@
     "note": ""
   },
   "CI-006": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "25c3964c080d",
       "B": "5369168c8838",
@@ -102,7 +102,7 @@
     "note": ""
   },
   "AE-002": {
-    "choice": "",
+    "choice": "B",
     "candidates": {
       "A": "16ba27731e8f",
       "B": "da81c145cabe",
@@ -111,7 +111,7 @@
     "note": ""
   },
   "AE-003": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "2c25b162fb2c",
       "B": "03201e9e5b0b",
@@ -120,7 +120,7 @@
     "note": ""
   },
   "WP-002": {
-    "choice": "",
+    "choice": "D",
     "candidates": {
       "A": "03b4ce4527bd",
       "B": "af30f0f2afbb",
@@ -134,34 +134,34 @@
     "note": ""
   },
   "WP-003": {
-    "choice": "",
+    "choice": "X",
     "candidates": {
       "A": "37aac46053e9",
       "B": "934dcb31d207",
       "C": "1345508d8a34"
     },
-    "note": ""
+    "note": "no candidate contains 5.1 Bradyarrhythmia/AV block; A is W&P summary list, C is QT interactions only"
   },
   "WP-006": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "73ce7f0f4772",
       "B": "9fadb7153686",
       "C": "5eaf24b41b55"
     },
-    "note": ""
+    "note": "macular edema answer split: A has incidence/monitoring, B has uveitis/diabetes risk-factor detail"
   },
   "DA-001": {
-    "choice": "",
+    "choice": "X",
     "candidates": {
       "A": "fb8fe3c47b58",
       "B": "03201e9e5b0b",
       "C": "72ede922849e"
     },
-    "note": ""
+    "note": "no candidate contains the recommended dose; A is D&A pre-treatment assessments (IG/vaccines/LFTs) only"
   },
   "DA-002": {
-    "choice": "",
+    "choice": "B",
     "candidates": {
       "A": "f80809775d2b",
       "B": "55dd689b658f",
@@ -170,7 +170,7 @@
     "note": ""
   },
   "DA-004": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "9f2254c44f67",
       "B": "16b09b5f8eef",
@@ -179,7 +179,7 @@
     "note": ""
   },
   "DI-001": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "c85cc8670fc7",
       "B": "934dcb31d207",
@@ -188,7 +188,7 @@
     "note": ""
   },
   "SP-002": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "ca574a4b6b27",
       "B": "c7a9bd896ab6",
@@ -197,16 +197,16 @@
     "note": ""
   },
   "SP-005": {
-    "choice": "",
+    "choice": "X",
     "candidates": {
       "A": "d65f1c1e41f1",
       "B": "4f158aae2c1c",
       "C": "cec70a409b69"
     },
-    "note": ""
+    "note": "no candidate contains 8.5 Geriatric Use; A is 8.3/8.4 (reproductive/pediatric) only"
   },
   "IU-002": {
-    "choice": "",
+    "choice": "B",
     "candidates": {
       "A": "46fd32aae5b7",
       "B": "8d8b216260aa",
@@ -215,7 +215,7 @@
     "note": ""
   },
   "PT-005": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "64f3839386fa",
       "B": "9e278dfabb0b",
@@ -224,25 +224,25 @@
     "note": ""
   },
   "MD-002": {
-    "choice": "",
+    "choice": "B",
     "candidates": {
       "A": "c87349f71b0e",
       "B": "8530fbe8efa0",
       "C": "72ede922849e"
     },
-    "note": ""
+    "note": "comparison: B gives Ocrevus infusion rate/duration; natalizumab (Tysabri 300 mg over 1 h q4wk) chunk also needed"
   },
   "MD-005": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "581250a76c67",
       "B": "f9afbe6cc42b",
       "C": "e08948ab597a"
     },
-    "note": ""
+    "note": "comparison: A = Copaxone SC injection; B = Rebif (IFN beta-1a) also SC \u2014 both injected; B needed for full comparison"
   },
   "MD-007": {
-    "choice": "",
+    "choice": "D",
     "candidates": {
       "A": "19ebac0fe3cd",
       "B": "6aab139c06d4",
@@ -252,10 +252,10 @@
       "F": "7dea2e82cd48",
       "G": "bf949f670609"
     },
-    "note": ""
+    "note": "comparison: D = Lemtrada malignancy boxed warning; G = Mavenclad malignancy boxed warning; both needed \u2192 answer is yes, both"
   },
   "CI-004": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "df97eb7ab288",
       "B": "556e950adfce",
@@ -263,20 +263,20 @@
       "D": "29f65fde987e",
       "E": "6e31876f5a0a"
     },
-    "note": ""
+    "note": "A = Section 4 contraindication (severe hepatic impairment); D boxed warning also states it with hepatotoxicity monitoring context"
   },
   "WP-007": {
-    "choice": "",
+    "choice": "D",
     "candidates": {
       "A": "37209c34da4c",
       "B": "f9f1316d95fa",
       "C": "b0188a5d85e8",
       "D": "bf949f670609"
     },
-    "note": ""
+    "note": "D = boxed warning (malignancy/teratogenicity); A = Section 5 warnings list (lymphopenia/infections) \u2014 question targets boxed_warning"
   },
   "SP-001": {
-    "choice": "",
+    "choice": "A",
     "candidates": {
       "A": "ba10ad28e22e",
       "B": "556e950adfce",
@@ -287,7 +287,7 @@
     "note": ""
   },
   "MD-003": {
-    "choice": "",
+    "choice": "D",
     "candidates": {
       "A": "df97eb7ab288",
       "B": "556e950adfce",
@@ -295,6 +295,6 @@
       "D": "29f65fde987e",
       "E": "6e31876f5a0a"
     },
-    "note": ""
+    "note": "comparison: D = teriflunomide (Aubagio) boxed warning hepatotoxicity/embryofetal; dimethyl fumarate (Tecfidera) also has a boxed warning but no Tecfidera chunk offered \u2014 needed for full comparison"
   }
 }

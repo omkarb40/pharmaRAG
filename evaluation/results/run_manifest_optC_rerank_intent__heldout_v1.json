@@ -1,0 +1,23 @@
+{
+  "tag": "optC_rerank_intent__heldout_v1",
+  "timestamp": "2026-10-19T11:18:43-0400",
+  "git_commit": "bb390184a67ee2f1689e87255ceed88d84761c4b",
+  "code_dirty": false,
+  "chunks_file": "/Users/omkarbadadale/Documents/MS Data Science/Spring 26/Capstone Project/data/processed/chunks.jsonl",
+  "chunks_sha256": "eac2ca4a4e0bf7af9bb8580e86f3cda824256c96de0a56e81b9dfbc5e3418ccb",
+  "queries_file": "evaluation/heldout/heldout_v1.json",
+  "queries_sha256": "e2869e6e3d1db31f777dcc37dee5d493eff609c920a8da8f6907b9a3e14570bc",
+  "llm_model": "gemma3:12b",
+  "temperature": 0.0,
+  "seed": 42,
+  "rrf_k": 60,
+  "semantic_weight": 0.6,
+  "bm25_weight": 0.4,
+  "python": "3.9.6",
+  "argv": [
+    "--optC",
+    "--intent-check",
+    "--queries",
+    "evaluation/heldout/heldout_v1.json"
+  ]
+}
