@@ -195,7 +195,8 @@ def ask_question(req: AskRequest):
 
     # ── Agent 3: Refusal Guard ──
     t0 = time.time()
-    refusal = refusal_guard.evaluate(retrieval_results, validation)
+    refusal = refusal_guard.evaluate(retrieval_results, validation,
+                                     answer=gen_result["answer"], respect_abstention=True)
     ctx["timings"]["refusal_ms"] = (time.time() - t0) * 1000
 
     print(f"  [Validator] Groundedness: {validation['groundedness_score']:.1%}")

@@ -20,7 +20,11 @@ Signals used:
   3. Result count (did we find enough chunks?)
 """
 
+from __future__ import annotations
+
 from configs.settings import settings
+
+ABSTENTION_MARKER = "insufficient evidence"
 
 
 class RefusalGuard:
@@ -36,7 +40,14 @@ class RefusalGuard:
         self,
         retrieval_results: list[dict],
         validation_report: dict,
+        answer: str | None = None,
+        respect_abstention: bool = False,
     ) -> dict:
+        """respect_abstention (post-hoc fix, 2026-10-21): the results-v1 runs showed the
+        guard RELEASING answers in which the generator had already abstained, because the
+        abstention sentence scores 0 but the other sentences were grounded (ADV-001,
+        ADV-002 in Config C). With the flag on, a generator abstention is final.
+        Default False so results-v1 stays exactly reproducible."""
         # Signal 1: Retrieval quality
         fused_scores = [r.get("fused_score", 0) for r in retrieval_results]
         avg_retrieval = sum(fused_scores) / len(fused_scores) if fused_scores else 0
@@ -84,8 +95,15 @@ class RefusalGuard:
                 f"{unsupported} answer sentence(s) not supported by evidence"
             )
 
+        overridden = False
+        if respect_abstention and answer and ABSTENTION_MARKER in answer.lower() \
+                and decision != "INSUFFICIENT_EVIDENCE":
+            decision, overridden = "INSUFFICIENT_EVIDENCE", True
+            reasons.append("Generator abstained; abstention is final (respect_abstention)")
+
         return {
             "decision": decision,
+            "abstention_override": overridden,
             "confidence_score": round(confidence, 4),
             "signals": {
                 "retrieval_quality": round(retrieval_signal, 4),

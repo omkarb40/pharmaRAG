@@ -241,7 +241,7 @@ def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=N
 def run_full_pipeline_eval(queries, retriever, router, generator, validator,
                            refusal_guard, expand=False, reranker=None,
                            no_agents=False, no_self_refusal=False, no_guard=False,
-                           tag="eval", intent_checker=None):
+                           tag="eval", intent_checker=None, respect_abstention=False):
     # Issue #10: every evaluation query is written to the audit log, tagged by run.
     from src.monitoring.logger import AuditLogger
     audit = AuditLogger()
@@ -291,7 +291,8 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
             if not no_agents and "insufficient evidence" in gen["answer"].lower():
                 refusal = {"decision": "INSUFFICIENT_EVIDENCE", "confidence_score": None}
         else:
-            refusal = refusal_guard.evaluate(chunks, validation)
+            refusal = refusal_guard.evaluate(chunks, validation, answer=gen["answer"],
+                                             respect_abstention=respect_abstention)
 
         refusal_source = None
         if refusal["decision"] == "INSUFFICIENT_EVIDENCE":
@@ -354,6 +355,7 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
             # Refusal attribution: did the LLM itself abstain?
             "llm_self_refused": "insufficient evidence" in gen["answer"].lower(),
             "refusal_source": refusal_source,   # llm_self | guard | intent_check | None
+            "abstention_override": refusal.get("abstention_override", False),
             "intent_check": intent,
             "latency_ms": {
                 "routing": round(routing_ms, 1),
@@ -569,6 +571,10 @@ def main():
         intent_checker = SafetyIntentChecker()
         tag += "_intent"
         print("\n  [MODE] Safety-Intent Check ENABLED")
+    RESPECT = "--respect-abstention" in _sys.argv
+    if RESPECT:
+        tag += "_respectAbstain"
+        print("\n  [MODE] Refusal Guard respects generator abstention (post-hoc fix)")
     if NO_GUARD:
         tag += "_noGuard"
         print("\n  [MODE] Refusal Guard DISABLED (model self-refusal still counts)")
@@ -613,7 +619,7 @@ def main():
         queries, retriever, router, generator, validator, refusal_guard,
         expand=EXPAND, reranker=reranker, no_agents=NOAGENTS,
         no_self_refusal=NO_SELF_REFUSAL, no_guard=NO_GUARD, tag=tag,
-        intent_checker=intent_checker
+        intent_checker=intent_checker, respect_abstention=RESPECT
     )
 
     with open(RESULTS_DIR / f"full_pipeline_results_{tag}.json", "w") as f:
