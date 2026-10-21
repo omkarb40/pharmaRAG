@@ -1,0 +1,20 @@
+{
+  "tag": "optA_expand",
+  "timestamp": "2026-10-21T00:48:12-0400",
+  "git_commit": "899622d25e4adbff060ea79be8fc63f42b7dcfe1",
+  "code_dirty": false,
+  "chunks_file": "/Users/omkarbadadale/Documents/MS Data Science/Spring 26/Capstone Project/data/processed/chunks.jsonl",
+  "chunks_sha256": "eac2ca4a4e0bf7af9bb8580e86f3cda824256c96de0a56e81b9dfbc5e3418ccb",
+  "queries_file": "evaluation/test_queries_v3.json",
+  "queries_sha256": "a2e3234040382e89188408fce6c48e2be7f773c0fb295f37c3488319bb57dd73",
+  "llm_model": "gemma3:12b",
+  "temperature": 0.0,
+  "seed": 42,
+  "rrf_k": 60,
+  "semantic_weight": 0.6,
+  "bm25_weight": 0.4,
+  "python": "3.9.6",
+  "argv": [
+    "--expand"
+  ]
+}
