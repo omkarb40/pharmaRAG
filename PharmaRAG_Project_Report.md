@@ -668,23 +668,23 @@ The project also produced three failures I did not anticipate and which I regard
 
 ## 15. References
 
-> Entries marked ⚠ require verification before final submission.
+> All entries verified against the publisher or arXiv page on 2026-10-21.
 
-1. Amugongo, L. M., et al. Systematic review of retrieval-augmented generation in healthcare. ⚠ **Full citation required.**
-2. Asai, A., Wu, Z., Wang, Y., Sil, A., and Hajishirzi, H. (2024). Self-RAG: Learning to retrieve, generate, and critique through self-reflection. *International Conference on Learning Representations*, 9112 to 9141.
-3. Es, S., et al. (2024). RAGAS: Automated evaluation of retrieval augmented generation. ⚠ **Confirm authors and venue.**
-4. Jin, D., Pan, E., Oufattole, N., Weng, W.-H., Fang, H., and Szolovits, P. (2021). What disease does this patient have? A large-scale open domain question answering dataset from medical exams. *Applied Sciences*, 11(14), 6421.
-5. Jin, Q., Dhingra, B., Liu, Z., Cohen, W., and Lu, X. (2019). PubMedQA: A dataset for biomedical research question answering. *EMNLP-IJCNLP*, 2567 to 2577.
-6. Koppula, M., Madhulika, F., Sreeramoju, N., and Kolimi, P. (2025). AI-powered chatbot for FDA drug labeling information retrieval: OpenAI GPT for grounded question answering. *Analytics*, 4(4), 33.
-7. Lewis, P., Perez, E., Piktus, A., et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems*, 33, 9459 to 9474.
-8. Min, S., Krishna, K., Lyu, X., et al. (2023). FActScore: Fine-grained atomic evaluation of factual precision in long form text generation. *EMNLP*, 12076 to 12100.
-9. Nishisako, S., Higashi, T., and Wakao, F. (2025). Reducing hallucinations and trade-offs in responses in generative AI chatbots for cancer information: Development and evaluation study. *JMIR Cancer*, 11, e70176.
-10. Pal, A., Umapathi, L. K., and Sankarasubbu, M. (2022). MedMCQA: A large-scale multi-subject multi-choice dataset for medical domain question answering. *Conference on Health, Inference, and Learning*, 248 to 260.
-11. Wang, Q., Li, B., Liang, J., Shi, D., Zhang, B., and Song, Q. (2026). DrugClaw and DrugAudit: A primary-source-grounded agent and authority-aware benchmark for drug-information question answering. *arXiv:2606.01434*.
-12. Xiong, G., Jin, Q., Lu, Z., and Zhang, A. (2024). Benchmarking retrieval-augmented generation for medicine. *Findings of the Association for Computational Linguistics: ACL 2024*, 6233 to 6251.
-13. Yan, S.-Q., et al. (2024). Corrective retrieval augmented generation. ⚠ **Confirm authors and venue.**
-14. Self-MedRAG. ⚠ **Full citation required.**
-15. KnowGuard. ⚠ **Full citation required.**
+1. Amugongo, L. M., Mascheroni, P., Brooks, S., Doering, S., and Seidel, J. (2025). Retrieval augmented generation for large language models in healthcare: A systematic review. *PLOS Digital Health*, 4(6), e0000877. https://doi.org/10.1371/journal.pdig.0000877
+2. Asai, A., Wu, Z., Wang, Y., Sil, A., and Hajishirzi, H. (2024). Self-RAG: Learning to retrieve, generate, and critique through self-reflection. *International Conference on Learning Representations (ICLR 2024)*.
+3. Dang, X., Chen, K., Su, X., Noori, A., Arango, I., Vittor, L., Long, X., Du, Y., Zitnik, M., and Heng, P.-A. (2026). KnowGuard: Knowledge-driven abstention for multi-round clinical reasoning. *International Conference on Learning Representations (ICLR 2026)*. arXiv:2509.24816.
+4. Es, S., James, J., Espinosa-Anke, L., and Schockaert, S. (2024). Ragas: Automated evaluation of retrieval augmented generation. *Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations (EACL 2024)*. https://aclanthology.org/2024.eacl-demo.16
+5. Jin, D., Pan, E., Oufattole, N., Weng, W.-H., Fang, H., and Szolovits, P. (2021). What disease does this patient have? A large-scale open domain question answering dataset from medical exams. *Applied Sciences*, 11(14), 6421.
+6. Jin, Q., Dhingra, B., Liu, Z., Cohen, W., and Lu, X. (2019). PubMedQA: A dataset for biomedical research question answering. *EMNLP-IJCNLP 2019*, 2567 to 2577.
+7. Koppula, M., Madhulika, F., Sreeramoju, N., and Kolimi, P. (2025). AI-powered chatbot for FDA drug labeling information retrieval: OpenAI GPT for grounded question answering. *Analytics*, 4(4), 33. https://doi.org/10.3390/analytics4040033
+8. Lewis, P., Perez, E., Piktus, A., et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems*, 33, 9459 to 9474.
+9. Min, S., Krishna, K., Lyu, X., et al. (2023). FActScore: Fine-grained atomic evaluation of factual precision in long form text generation. *EMNLP 2023*, 12076 to 12100.
+10. Nishisako, S., Higashi, T., and Wakao, F. (2025). Reducing hallucinations and trade-offs in responses in generative AI chatbots for cancer information: Development and evaluation study. *JMIR Cancer*, 11, e70176.
+11. Pal, A., Umapathi, L. K., and Sankarasubbu, M. (2022). MedMCQA: A large-scale multi-subject multi-choice dataset for medical domain question answering. *Conference on Health, Inference, and Learning (CHIL)*, PMLR 174, 248 to 260.
+12. Ryan, J., Gumilang, A. I., Wiliam, R., and Suhartono, D. (2026). Self-MedRAG: A self-reflective hybrid retrieval-augmented generation framework for reliable medical question answering. arXiv:2601.04531.
+13. Wang, Q., Li, B., Liang, J., Shi, D., Zhang, B., and Song, Q. (2026). DrugClaw and DrugAudit: A primary-source-grounded agent and authority-aware benchmark for drug-information question answering. arXiv:2606.01434.
+14. Xiong, G., Jin, Q., Lu, Z., and Zhang, A. (2024). Benchmarking retrieval-augmented generation for medicine. *Findings of the Association for Computational Linguistics: ACL 2024*, 6233 to 6251.
+15. Yan, S.-Q., Gu, J.-C., Zhu, Y., and Ling, Z.-H. (2024). Corrective retrieval augmented generation. arXiv:2401.15884.
 
 ---
 

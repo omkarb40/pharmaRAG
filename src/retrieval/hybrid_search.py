@@ -51,14 +51,18 @@ class HybridRetriever:
         print(f"[Retriever] Ready. {self.collection.count()} chunks indexed.")
 
     def _semantic_search(
-        self, query: str, top_k: int, section_filter: str | None = None
+        self, query: str, top_k: int, section_filter: str | None = None,
+        drug_filter: list[str] | None = None,
     ) -> list[dict]:
         """Vector similarity search via ChromaDB."""
         query_embedding = self.embedder.embed_query(query)
 
-        where_filter = None
+        conds = []
         if section_filter:
-            where_filter = {"section_name": section_filter}
+            conds.append({"section_name": section_filter})
+        if drug_filter:
+            conds.append({"drug_name": {"$in": list(drug_filter)}})
+        where_filter = None if not conds else (conds[0] if len(conds) == 1 else {"$and": conds})
 
         results = self.collection.query(
             query_embeddings=[query_embedding.tolist()],
@@ -82,7 +86,8 @@ class HybridRetriever:
             })
         return hits
 
-    def _bm25_search(self, query: str, top_k: int, section_filter: str | None = None) -> list[dict]:
+    def _bm25_search(self, query: str, top_k: int, section_filter: str | None = None,
+                     drug_filter: list[str] | None = None) -> list[dict]:
         """Keyword search via BM25, with optional section filter."""
         import re
 
@@ -91,7 +96,8 @@ class HybridRetriever:
 
         tokenized_query = _tokenize(query)
         scores = self.bm25.get_scores(tokenized_query)
-        top_indices = scores.argsort()[-top_k * 3:][::-1]  # Over-fetch to filter
+        # Over-fetch to filter; with a drug filter scan everything (only ~760 chunks)
+        top_indices = scores.argsort()[::-1] if drug_filter else scores.argsort()[-top_k * 3:][::-1]
 
         hits = []
         for idx in top_indices:
@@ -107,6 +113,8 @@ class HybridRetriever:
                 
             # Apply section filter
             if section_filter and chunk.get("section_name") != section_filter:
+                continue
+            if drug_filter and chunk.get("drug_name") not in drug_filter:
                 continue
 
             hits.append({
@@ -131,6 +139,7 @@ class HybridRetriever:
         top_k: int = settings.top_k_final,
         section_filter: str | None = None,
         mode: str = "hybrid",
+        drug_filter: list[str] | None = None,
     ) -> list[dict]:
         """
         mode="hybrid" : weighted RRF over BM25 + dense (default, unchanged)
@@ -161,8 +170,8 @@ class HybridRetriever:
         if mode != "hybrid":
             raise ValueError(f"unknown retrieval mode: {mode}")
 
-        sem_hits = self._semantic_search(query, fetch_k, section_filter)
-        bm25_hits = self._bm25_search(query, fetch_k, section_filter)
+        sem_hits = self._semantic_search(query, fetch_k, section_filter, drug_filter)
+        bm25_hits = self._bm25_search(query, fetch_k, section_filter, drug_filter)
 
         fused_scores: dict[str, float] = {}
         chunk_data: dict[str, dict] = {}

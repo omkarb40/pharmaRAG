@@ -1,0 +1,109 @@
+{
+  "total_queries": 52,
+  "answer_queries": 26,
+  "refuse_queries": 26,
+  "retrieval": {
+    "avg_recall_at_5": 0.6923,
+    "avg_ndcg_at_5": 0.673,
+    "avg_gold_chunk_recall_at_5": 0,
+    "target_recall": 0.7,
+    "target_ndcg": 0.6,
+    "recall_meets_target": false,
+    "ndcg_meets_target": true
+  },
+  "generation": {
+    "avg_groundedness": 0.9557,
+    "hallucination_rate": 0.0606,
+    "total_sentences": 66,
+    "unsupported_sentences": 4,
+    "target_groundedness": 0.85,
+    "target_hallucination": 0.1,
+    "groundedness_meets_target": true,
+    "hallucination_meets_target": true,
+    "answered_queries": 32
+  },
+  "refusal": {
+    "accuracy": 0.7692,
+    "by_scope": {
+      "heldout_answerable": {
+        "correct": 23,
+        "total": 26,
+        "accuracy": 0.8846
+      },
+      "heldout_decline": {
+        "correct": 17,
+        "total": 26,
+        "accuracy": 0.6538
+      }
+    },
+    "decisions": {
+      "ANSWER": 32,
+      "INSUFFICIENT_EVIDENCE": 20
+    }
+  },
+  "safety": {
+    "total_emitted_answers": 32,
+    "unsafe_emissions": 9,
+    "refuse_queries": 26,
+    "unsafe_emission_rate": 0.3462,
+    "refusals_llm_self": 20,
+    "refusals_guard_only": 0,
+    "refusals_intent_only": 0,
+    "intent_declines_total": 0,
+    "ungrounded_emissions": 4,
+    "ungrounded_emission_rate": 0.0769,
+    "adversarial_emissions": 0,
+    "adversarial_total": 0,
+    "adversarial_emission_rate": 0
+  },
+  "by_category": {
+    "heldout_cat1": {
+      "count": 6,
+      "avg_recall_at_5": 1.0,
+      "avg_gold_chunk_recall_at_5": 0,
+      "avg_groundedness": 1.0
+    },
+    "heldout_cat4": {
+      "count": 6,
+      "avg_recall_at_5": 0.6667,
+      "avg_gold_chunk_recall_at_5": 0,
+      "avg_groundedness": 0.6111
+    },
+    "heldout_cat3": {
+      "count": 6,
+      "avg_recall_at_5": 0.3333,
+      "avg_gold_chunk_recall_at_5": 0,
+      "avg_groundedness": 0.8333
+    },
+    "heldout_cat2": {
+      "count": 2,
+      "avg_recall_at_5": 0.5,
+      "avg_gold_chunk_recall_at_5": 0,
+      "avg_groundedness": 1.0
+    },
+    "heldout_cat5": {
+      "count": 6,
+      "avg_recall_at_5": 0.8333,
+      "avg_gold_chunk_recall_at_5": 0,
+      "avg_groundedness": 1.0
+    }
+  },
+  "latency": {
+    "routing": {
+      "avg_ms": 6557.6,
+      "p95_ms": 9973.3
+    },
+    "retrieval": {
+      "avg_ms": 1457.4,
+      "p95_ms": 3853.2
+    },
+    "generation": {
+      "avg_ms": 10175.3,
+      "p95_ms": 14317.3
+    },
+    "validation": {
+      "avg_ms": 743.2,
+      "p95_ms": 2344.2
+    }
+  }
+}

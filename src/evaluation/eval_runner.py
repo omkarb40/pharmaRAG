@@ -166,7 +166,26 @@ def compute_ndcg_at_k(retrieved_chunks: list[dict], query: dict, k: int = 5) -> 
 # ──────────────────────────────────────────────
 
 def _retrieve_merged(retriever, query_text, section_filter, expand=False,
-                     reranker=None, pool_k=20, final_k=5):
+                     reranker=None, pool_k=20, final_k=5, multi_drug=False):
+    # Fix 2 (post-hoc): for questions naming >=2 drugs, retrieve per drug and share the
+    # final_k slots, so evidence for every named drug can reach the generator.
+    if multi_drug:
+        from src.retrieval.drug_mentions import drug_groups
+        groups = drug_groups(query_text)
+        if len(groups) >= 2:
+            per = [final_k // len(groups) + (1 if i < final_k % len(groups) else 0) for i in range(len(groups))]
+            lists = [_retrieve_one(retriever, query_text, section_filter, expand, reranker, pool_k, n, g)
+                     for g, n in zip(groups, per)]
+            out, seen = [], set()
+            for i in range(max(per)):
+                for lst in lists:
+                    if i < len(lst) and lst[i]["chunk_id"] not in seen:
+                        out.append(lst[i]); seen.add(lst[i]["chunk_id"])
+            return out[:final_k]
+    return _retrieve_one(retriever, query_text, section_filter, expand, reranker, pool_k, final_k, None)
+
+
+def _retrieve_one(retriever, query_text, section_filter, expand, reranker, pool_k, final_k, drug_filter):
     """Section-filtered retrieval merged with unfiltered fallback.
     If reranker is provided (Option C), retrieve a wider pool of size
     pool_k and rerank down to final_k; otherwise return top final_k."""
@@ -174,8 +193,8 @@ def _retrieve_merged(retriever, query_text, section_filter, expand=False,
     k = pool_k if reranker else final_k
 
     if section_filter:
-        filtered = retriever.search(query=search_text, top_k=k, section_filter=section_filter)
-        unfiltered = retriever.search(query=search_text, top_k=k)
+        filtered = retriever.search(query=search_text, top_k=k, section_filter=section_filter, drug_filter=drug_filter)
+        unfiltered = retriever.search(query=search_text, top_k=k, drug_filter=drug_filter)
         seen = set(r["chunk_id"] for r in filtered)
         merged = list(filtered)
         for r in unfiltered:
@@ -184,7 +203,7 @@ def _retrieve_merged(retriever, query_text, section_filter, expand=False,
                 seen.add(r["chunk_id"])
         candidates = merged[:k]
     else:
-        candidates = retriever.search(query=search_text, top_k=k)
+        candidates = retriever.search(query=search_text, top_k=k, drug_filter=drug_filter)
 
     if reranker:
         # Rerank on the ORIGINAL query text (not expanded) — reranker
@@ -193,7 +212,7 @@ def _retrieve_merged(retriever, query_text, section_filter, expand=False,
     return candidates[:final_k]
 
 
-def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=None):
+def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=None, multi_drug=False):
     results = []
     for i, q in enumerate(queries):
         query_id = q["id"]
@@ -207,7 +226,8 @@ def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=N
             section_filter = routed_sections[0] if routed_sections else None
 
         t0 = time.time()
-        chunks = _retrieve_merged(retriever, query_text, section_filter, expand=expand, reranker=reranker)
+        chunks = _retrieve_merged(retriever, query_text, section_filter, expand=expand, reranker=reranker,
+                                  multi_drug=multi_drug)
         retrieval_time = (time.time() - t0) * 1000
 
         recall = compute_recall_at_k(chunks, query=q)
@@ -241,7 +261,8 @@ def run_retrieval_eval(queries, retriever, router=None, expand=False, reranker=N
 def run_full_pipeline_eval(queries, retriever, router, generator, validator,
                            refusal_guard, expand=False, reranker=None,
                            no_agents=False, no_self_refusal=False, no_guard=False,
-                           tag="eval", intent_checker=None, respect_abstention=False):
+                           tag="eval", intent_checker=None, respect_abstention=False,
+                           multi_drug=False):
     # Issue #10: every evaluation query is written to the audit log, tagged by run.
     from src.monitoring.logger import AuditLogger
     audit = AuditLogger()
@@ -265,7 +286,7 @@ def run_full_pipeline_eval(queries, retriever, router, generator, validator,
         t0 = time.time()
         section_filter = None if no_agents else (routed[0] if routed else None)
         chunks = _retrieve_merged(retriever, query_text, section_filter,
-                                  expand=expand, reranker=reranker)
+                                  expand=expand, reranker=reranker, multi_drug=multi_drug)
         retrieval_ms = (time.time() - t0) * 1000
 
         # Generate — Config N forbids self-refusal
@@ -571,6 +592,10 @@ def main():
         intent_checker = SafetyIntentChecker()
         tag += "_intent"
         print("\n  [MODE] Safety-Intent Check ENABLED")
+    MULTI = "--multi-drug" in _sys.argv
+    if MULTI:
+        tag += "_multiDrug"
+        print("\n  [MODE] Per-drug retrieval for multi-drug questions (post-hoc Fix 2)")
     RESPECT = "--respect-abstention" in _sys.argv
     if RESPECT:
         tag += "_respectAbstain"
@@ -584,9 +609,9 @@ def main():
     write_run_manifest(tag)
 
     print("\n  A1: Without query routing...")
-    retrieval_no_router = run_retrieval_eval(queries, retriever, router=None, expand=EXPAND, reranker=reranker)
+    retrieval_no_router = run_retrieval_eval(queries, retriever, router=None, expand=EXPAND, reranker=reranker, multi_drug=MULTI)
     print("\n  A2: With query routing...")
-    retrieval_with_router = run_retrieval_eval(queries, retriever, router=router, expand=EXPAND, reranker=reranker)
+    retrieval_with_router = run_retrieval_eval(queries, retriever, router=router, expand=EXPAND, reranker=reranker, multi_drug=MULTI)
 
     with open(RESULTS_DIR / f"retrieval_no_router_{tag}.json", "w") as f:
         json.dump(retrieval_no_router, f, indent=2)
@@ -619,7 +644,7 @@ def main():
         queries, retriever, router, generator, validator, refusal_guard,
         expand=EXPAND, reranker=reranker, no_agents=NOAGENTS,
         no_self_refusal=NO_SELF_REFUSAL, no_guard=NO_GUARD, tag=tag,
-        intent_checker=intent_checker, respect_abstention=RESPECT
+        intent_checker=intent_checker, respect_abstention=RESPECT, multi_drug=MULTI
     )
 
     with open(RESULTS_DIR / f"full_pipeline_results_{tag}.json", "w") as f:
