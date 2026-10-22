@@ -1,0 +1,306 @@
+{
+  "dev": {
+    "N": {
+      "refuse": {
+        "n": 27,
+        "answered": 27,
+        "override_released": 0,
+        "ref_model": 0,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 55,
+        "override_released": 0,
+        "ref_model": 0,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9243914634146342,
+      "answered_n": 82
+    },
+    "Baseline": {
+      "refuse": {
+        "n": 27,
+        "answered": 2,
+        "override_released": 4,
+        "ref_model": 21,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 34,
+        "override_released": 7,
+        "ref_model": 14,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.92615,
+      "answered_n": 40
+    },
+    "A": {
+      "refuse": {
+        "n": 27,
+        "answered": 2,
+        "override_released": 4,
+        "ref_model": 21,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 34,
+        "override_released": 6,
+        "ref_model": 15,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9268449999999999,
+      "answered_n": 40
+    },
+    "B": {
+      "refuse": {
+        "n": 27,
+        "answered": 1,
+        "override_released": 6,
+        "ref_model": 20,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 32,
+        "override_released": 8,
+        "ref_model": 15,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.8625025,
+      "answered_n": 40
+    },
+    "C": {
+      "refuse": {
+        "n": 27,
+        "answered": 2,
+        "override_released": 2,
+        "ref_model": 23,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 37,
+        "override_released": 4,
+        "ref_model": 14,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9312688888888889,
+      "answered_n": 45
+    },
+    "C \u2212 guard": {
+      "refuse": {
+        "n": 27,
+        "answered": 2,
+        "override_released": 0,
+        "ref_model": 25,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 36,
+        "override_released": 0,
+        "ref_model": 19,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9668526315789474,
+      "answered_n": 38
+    },
+    "C \u2212 self-refusal": {
+      "refuse": {
+        "n": 27,
+        "answered": 25,
+        "override_released": 0,
+        "ref_model": 0,
+        "ref_guard": 2,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 55,
+        "override_released": 0,
+        "ref_model": 0,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9039600000000002,
+      "answered_n": 80
+    },
+    "C + check": {
+      "refuse": {
+        "n": 27,
+        "answered": 0,
+        "override_released": 0,
+        "ref_model": 23,
+        "ref_guard": 0,
+        "ref_check": 4
+      },
+      "answer": {
+        "n": 55,
+        "answered": 34,
+        "override_released": 5,
+        "ref_model": 13,
+        "ref_guard": 0,
+        "ref_check": 3
+      },
+      "groundedness": 0.9121461538461539,
+      "answered_n": 39
+    },
+    "C + F1": {
+      "refuse": {
+        "n": 27,
+        "answered": 2,
+        "override_released": 0,
+        "ref_model": 25,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 37,
+        "override_released": 0,
+        "ref_model": 18,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9677025641025642,
+      "answered_n": 39
+    },
+    "C + check + F1": {
+      "refuse": {
+        "n": 27,
+        "answered": 0,
+        "override_released": 0,
+        "ref_model": 25,
+        "ref_guard": 0,
+        "ref_check": 2
+      },
+      "answer": {
+        "n": 55,
+        "answered": 34,
+        "override_released": 0,
+        "ref_model": 18,
+        "ref_guard": 0,
+        "ref_check": 3
+      },
+      "groundedness": 0.9629529411764706,
+      "answered_n": 34
+    },
+    "C + F1 + F2": {
+      "refuse": {
+        "n": 27,
+        "answered": 2,
+        "override_released": 0,
+        "ref_model": 25,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 55,
+        "answered": 41,
+        "override_released": 0,
+        "ref_model": 14,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9823348837209303,
+      "answered_n": 43
+    }
+  },
+  "heldout": {
+    "C": {
+      "refuse": {
+        "n": 26,
+        "answered": 9,
+        "override_released": 10,
+        "ref_model": 7,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 26,
+        "answered": 23,
+        "override_released": 0,
+        "ref_model": 3,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.916670731707317,
+      "answered_n": 41
+    },
+    "C + check": {
+      "refuse": {
+        "n": 26,
+        "answered": 0,
+        "override_released": 0,
+        "ref_model": 7,
+        "ref_guard": 0,
+        "ref_check": 19
+      },
+      "answer": {
+        "n": 26,
+        "answered": 10,
+        "override_released": 0,
+        "ref_model": 3,
+        "ref_guard": 0,
+        "ref_check": 13
+      },
+      "groundedness": 1.0,
+      "answered_n": 10
+    },
+    "C + F1": {
+      "refuse": {
+        "n": 26,
+        "answered": 9,
+        "override_released": 0,
+        "ref_model": 17,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "answer": {
+        "n": 26,
+        "answered": 23,
+        "override_released": 0,
+        "ref_model": 3,
+        "ref_guard": 0,
+        "ref_check": 0
+      },
+      "groundedness": 0.9557312499999999,
+      "answered_n": 32
+    },
+    "C + check + F1": {
+      "refuse": {
+        "n": 26,
+        "answered": 0,
+        "override_released": 0,
+        "ref_model": 18,
+        "ref_guard": 0,
+        "ref_check": 8
+      },
+      "answer": {
+        "n": 26,
+        "answered": 10,
+        "override_released": 0,
+        "ref_model": 3,
+        "ref_guard": 0,
+        "ref_check": 13
+      },
+      "groundedness": 1.0,
+      "answered_n": 10
+    }
+  }
+}

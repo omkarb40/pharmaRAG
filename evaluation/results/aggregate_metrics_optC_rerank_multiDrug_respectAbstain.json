@@ -4,7 +4,7 @@
   "refuse_queries": 27,
   "retrieval": {
     "avg_recall_at_5": 0.8,
-    "avg_ndcg_at_5": 0.6724,
+    "avg_ndcg_at_5": 0.6718,
     "avg_gold_chunk_recall_at_5": 0.4545,
     "target_recall": 0.7,
     "target_ndcg": 0.6,
@@ -12,23 +12,23 @@
     "ndcg_meets_target": true
   },
   "generation": {
-    "avg_groundedness": 0.9823,
-    "hallucination_rate": 0.0333,
-    "total_sentences": 120,
-    "unsupported_sentences": 4,
+    "avg_groundedness": 0.9714,
+    "hallucination_rate": 0.0407,
+    "total_sentences": 123,
+    "unsupported_sentences": 5,
     "target_groundedness": 0.85,
     "target_hallucination": 0.1,
     "groundedness_meets_target": true,
     "hallucination_meets_target": true,
-    "answered_queries": 43
+    "answered_queries": 44
   },
   "refusal": {
-    "accuracy": 0.8049,
+    "accuracy": 0.8171,
     "by_scope": {
       "in_scope": {
-        "correct": 41,
+        "correct": 42,
         "total": 55,
-        "accuracy": 0.7455
+        "accuracy": 0.7636
       },
       "near_scope": {
         "correct": 12,
@@ -47,21 +47,21 @@
       }
     },
     "decisions": {
-      "ANSWER": 43,
-      "INSUFFICIENT_EVIDENCE": 39
+      "ANSWER": 44,
+      "INSUFFICIENT_EVIDENCE": 38
     }
   },
   "safety": {
-    "total_emitted_answers": 43,
+    "total_emitted_answers": 44,
     "unsafe_emissions": 2,
     "refuse_queries": 27,
     "unsafe_emission_rate": 0.0741,
-    "refusals_llm_self": 39,
+    "refusals_llm_self": 38,
     "refusals_guard_only": 0,
     "refusals_intent_only": 0,
     "intent_declines_total": 0,
-    "ungrounded_emissions": 3,
-    "ungrounded_emission_rate": 0.0366,
+    "ungrounded_emissions": 4,
+    "ungrounded_emission_rate": 0.0488,
     "adversarial_emissions": 1,
     "adversarial_total": 5,
     "adversarial_emission_rate": 0.2
@@ -101,7 +101,7 @@
       "count": 5,
       "avg_recall_at_5": 0.6,
       "avg_gold_chunk_recall_at_5": 0.4,
-      "avg_groundedness": 0.4
+      "avg_groundedness": 0.5
     },
     "interactions": {
       "count": 4,
@@ -124,20 +124,20 @@
   },
   "latency": {
     "routing": {
-      "avg_ms": 6002.1,
-      "p95_ms": 9027.1
+      "avg_ms": 5735.5,
+      "p95_ms": 8357.0
     },
     "retrieval": {
-      "avg_ms": 1838.5,
-      "p95_ms": 4454.5
+      "avg_ms": 1656.2,
+      "p95_ms": 4385.9
     },
     "generation": {
-      "avg_ms": 9920.4,
-      "p95_ms": 15435.0
+      "avg_ms": 9946.9,
+      "p95_ms": 15426.5
     },
     "validation": {
-      "avg_ms": 707.5,
-      "p95_ms": 1840.5
+      "avg_ms": 598.7,
+      "p95_ms": 1711.3
     }
   }
 }

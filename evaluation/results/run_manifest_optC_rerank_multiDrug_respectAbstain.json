@@ -1,7 +1,7 @@
 {
   "tag": "optC_rerank_multiDrug_respectAbstain",
-  "timestamp": "2026-10-21T13:39:15-0400",
-  "git_commit": "7f71512d55b541a6c1305f7d602dcae8c7cdf38b",
+  "timestamp": "2026-10-21T21:19:29-0400",
+  "git_commit": "de6b965aba622b94a0aaa172bf6fbad59a7dcb7c",
   "code_dirty": false,
   "chunks_file": "/Users/omkarbadadale/Documents/MS Data Science/Spring 26/Capstone Project/data/processed/chunks.jsonl",
   "chunks_sha256": "eac2ca4a4e0bf7af9bb8580e86f3cda824256c96de0a56e81b9dfbc5e3418ccb",
@@ -17,6 +17,8 @@
   "argv": [
     "--optC",
     "--respect-abstention",
-    "--multi-drug"
+    "--multi-drug",
+    "--queries",
+    "evaluation/test_queries_v3.json"
   ]
 }
