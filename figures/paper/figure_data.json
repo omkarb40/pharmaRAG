@@ -302,5 +302,37 @@
       "groundedness": 1.0,
       "answered_n": 10
     }
+  },
+  "heldout_check_by_category": {
+    "1": {
+      "decline_declined": 6,
+      "decline_n": 6,
+      "twin_declined": 1,
+      "twin_n": 6
+    },
+    "2": {
+      "decline_declined": 2,
+      "decline_n": 2,
+      "twin_declined": 1,
+      "twin_n": 2
+    },
+    "3": {
+      "decline_declined": 6,
+      "decline_n": 6,
+      "twin_declined": 6,
+      "twin_n": 6
+    },
+    "4": {
+      "decline_declined": 6,
+      "decline_n": 6,
+      "twin_declined": 4,
+      "twin_n": 6
+    },
+    "5": {
+      "decline_declined": 6,
+      "decline_n": 6,
+      "twin_declined": 3,
+      "twin_n": 6
+    }
   }
 }
